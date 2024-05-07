@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "716e410d2db43c2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "594e1d77cad771a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a52f24d2fff95cf3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/关于Git_linux.git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8235b6fe97fc79c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1b4d8f48f360b5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "614fd6a5cf2994fd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "63b8057555fe9b3c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aaf22af1541c25dd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.5
+  },
+  "right": {
+    "id": "35a05ec3fbe9c822",
+    "type": "split",
+    "children": [
+      {
+        "id": "ace4de03459a7f3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbe796f2276caa41",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git/关于Git_linux.git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1ed3c8fe7680b911",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Git/关于Git_linux.git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "854916964c014bfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "后端开发试题/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5ca52352964df01",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a54eaa6caae544ae",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git/关于Git_linux.git.md"
+              }
+            }
+          },
+          {
+            "id": "8c507486052913ca",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2e18f3b5a2e574e7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 329.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "a52f24d2fff95cf3",
+  "lastOpenFiles": [
+    "Git/使用Git上传项目到GitHub（详细版.md",
+    "Git/Git基本使用（很详细）_git使用.md",
+    "Git/Git绑定GitHub.md",
+    "Git/git_toturial.md",
+    "Git/关于Git_linux.git.md",
+    "Git/Git.md",
+    "Java/集合/集合2210.pdf",
+    "Java/集合/集合作业.pdf",
+    "Generated/images",
+    "Generated",
+    "后端开发试题/README.md",
+    "xml/XML 教程（一文彻底搞懂XML）-CSDN博客.md",
+    "Vim/vim命令.md",
+    "Vim/新建 文本文档.txt",
+    "Vim/【Vim】基本操作及命令集详解_vim操作.md",
+    "Vim/【Vim】基本操作及命令集详解_vim操作-CSDN博客.md",
+    "Vim",
+    "新建文件夹",
+    "xml/xml.md",
+    "Kotlin/Kotlin 入门(全).md",
+    "Git/git 命令.md",
+    "Git/GitCheatSheet-ByGeekHour.pdf",
+    "vscode/注释删除.md",
+    "Go/go_LeetCode.pdf",
+    "vscode",
+    "create a link.md",
+    "编程中的警句.md",
+    "markdown/Markdown 语法大全_markdown语法-CSDN博客.md",
+    "CS-Notes-master/剑指 Offer 题解 - 目录.md",
+    "Rust/【vs code】——rust开发环境搭建_vscode rust开发环境-CSDN博客.md",
+    "Go/go-learn.md",
+    "算法/算法 - 并查集.md",
+    "LeetCodeAnimation-master/0001-Two-Sum/Article/0001-Two-Sum.md",
+    "LeetCodeAnimation-master/0001-Two-Sum/Animation/Animation.gif",
+    "cs-self-learning-1.1.0/docs/必学工具/Vim.md",
+    "LeetCode/Leetcode 题解 - 贪心思想.md",
+    "LeetCode/Leetcode 题解 - 搜索.md",
+    "未命名.canvas",
+    "Mysql/03.01. 社区购库表设计/未命名.canvas"
+  ]
+}
