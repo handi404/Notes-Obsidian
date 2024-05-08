@@ -229,7 +229,9 @@ $ git clone git@github.com:MrLiuMY/Data-Structures-and-Algorithms.git
 接着继续输入命令 cd “刚刚下载文件夹”，进入文件夹依次执行下面指令
 
 ```bash
-git add . （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来） git commit -m "提交信息" （注：“提交信息”里面换成你需要，如“first commit”） git push -u origin master （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）
+git add . （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来） 
+git commit -m "提交信息" （注：“提交信息”里面换成你需要，如“first commit”） 
+git push -u origin master （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）
 ```
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/bd201e4db92a4290955d7dd304fd8ec2.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5rip6YCX5q27,size_20,color_FFFFFF,t_70,g_se,x_16)  

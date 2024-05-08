@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/关于Git_linux.git.md",
+                "file": "python/Python数学计算合集.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/关于Git_linux.git.md",
+                "file": "python/Python数学计算合集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/关于Git_linux.git.md",
+                "file": "python/Python数学计算合集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/关于Git_linux.git.md"
+                "file": "python/Python数学计算合集.md"
               }
             }
           },
@@ -177,11 +177,17 @@
   },
   "active": "a52f24d2fff95cf3",
   "lastOpenFiles": [
-    "Git/使用Git上传项目到GitHub（详细版.md",
-    "Git/Git基本使用（很详细）_git使用.md",
-    "Git/Git绑定GitHub.md",
-    "Git/git_toturial.md",
+    "程序.md",
+    "python/Python数学计算合集.md",
+    "python",
     "Git/关于Git_linux.git.md",
+    "Git/git重新配置远程仓库.md",
+    "Git/git重新配置远程仓库_git重新设置远程仓库-CSDN博客.md",
+    "Git/使用Git上传项目到GitHub（详细版.md",
+    "Git/git_toturial.md",
+    "Git/Git绑定GitHub.md",
+    "Git/Git基本使用（很详细）_git使用.md",
+    "Git/git 命令.md",
     "Git/Git.md",
     "Java/集合/集合2210.pdf",
     "Java/集合/集合作业.pdf",
@@ -197,11 +203,9 @@
     "新建文件夹",
     "xml/xml.md",
     "Kotlin/Kotlin 入门(全).md",
-    "Git/git 命令.md",
     "Git/GitCheatSheet-ByGeekHour.pdf",
     "vscode/注释删除.md",
     "Go/go_LeetCode.pdf",
-    "vscode",
     "create a link.md",
     "编程中的警句.md",
     "markdown/Markdown 语法大全_markdown语法-CSDN博客.md",
@@ -209,11 +213,7 @@
     "Rust/【vs code】——rust开发环境搭建_vscode rust开发环境-CSDN博客.md",
     "Go/go-learn.md",
     "算法/算法 - 并查集.md",
-    "LeetCodeAnimation-master/0001-Two-Sum/Article/0001-Two-Sum.md",
     "LeetCodeAnimation-master/0001-Two-Sum/Animation/Animation.gif",
-    "cs-self-learning-1.1.0/docs/必学工具/Vim.md",
-    "LeetCode/Leetcode 题解 - 贪心思想.md",
-    "LeetCode/Leetcode 题解 - 搜索.md",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
   ]
