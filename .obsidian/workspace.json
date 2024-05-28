@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/上传更新文件到github.md",
+                "file": "Git/解决push报错.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/上传更新文件到github.md",
+                "file": "Git/解决push报错.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/上传更新文件到github.md",
+                "file": "Git/解决push报错.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/上传更新文件到github.md"
+                "file": "Git/解决push报错.md"
               }
             }
           },
@@ -185,6 +185,10 @@
   },
   "active": "8f31c6baf8c4f1ff",
   "lastOpenFiles": [
+    "Git/如何克隆一个远程的Git仓库，使得所有分支都能下载？.md",
+    "Git/解决push报错.md",
+    "Git/上传更新文件到github.md",
+    "Git/解决push失败.md",
     "Kotlin/Kotlin 入门(全).md",
     "Go/go-learn.md",
     "LeetCode/Leetcode 题解 - 动态规划.md",
@@ -213,11 +217,7 @@
     "Generated/images",
     "Generated",
     "后端开发试题/README.md",
-    "xml/XML 教程（一文彻底搞懂XML）-CSDN博客.md",
-    "Vim/vim命令.md",
     "Vim/新建 文本文档.txt",
-    "Vim/【Vim】基本操作及命令集详解_vim操作.md",
-    "Vim/【Vim】基本操作及命令集详解_vim操作-CSDN博客.md",
     "Vim",
     "新建文件夹",
     "Git/GitCheatSheet-ByGeekHour.pdf",

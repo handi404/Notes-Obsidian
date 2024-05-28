@@ -64,16 +64,15 @@ ___
 
 ### 1.1 了解Git
 
--   Git是一个免费的、开源的\`**分布式版本控制系统**\`，可以高速处理从小型到大型的各种项目
--   **版本控制：**是一种记录文件内容变化，以便将来查阅特定版本修订情况的系统
--   了解一下：集中式与分布式版本控制工具
-    
+- Git是一个免费的、开源的\`**分布式版本控制系统**\`，可以高速处理从小型到大型的各种项目
+- **版本控制：**是一种记录文件内容变化，以便将来查阅特定版本修订情况的系统
+- 了解一下：集中式与分布式版本控制工具
 
          -- **集中式版本控制工具**：如CVS、\`SVN\`等，都有一个单一的几种管理服务器，保存所有文件的修订版本，而协同工作的人通过客户端连接到这台服务器，从而取出最新的文件或者提交更新。缺点：中央服务器的单点故障；多(程序员)对一(中央服务器)
 
          -- **分布式版本控制工具**：如git,客户端取的不是最新的文件快照，而是把代码仓库完整的镜像下来到本地库(克隆/备份)
 
--   **工作机制：**
+- **工作机制：**
 
 ![](https://img-blog.csdnimg.cn/3d5a2305521b4d30828d5898a31d7dfe.png)
 
@@ -97,11 +96,11 @@ ___
 
 ![](https://img-blog.csdnimg.cn/bf7e4bf305df489eaa02f2cf39cdc423.png)
 
-## 第二章、[Git常用命令](https://so.csdn.net/so/search?q=Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4&spm=1001.2101.3001.7020) 
+## 第二章、[Git常用命令](https://so.csdn.net/so/search?q=Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4&spm=1001.2101.3001.7020)
 
 ### 2.1 常用命令
 
-<table><tbody><tr><td><p>git config --global user.name 用户名</p></td><td><p>设置用户签名</p></td></tr><tr><td><p>git config --global user.email 邮箱</p></td><td><p>设置用户签名</p></td></tr><tr><td><p>git init&nbsp;</p></td><td><p>初始化本地库</p></td></tr><tr><td><p>git status</p></td><td><p>查看本地库状态</p></td></tr><tr><td><p>git add 文件名</p></td><td><p>添加到暂存区</p></td></tr><tr><td><p>git commit-m "日志信息" 文件名</p></td><td><p>提交到本地库</p></td></tr><tr><td><p>git reflog/git log</p></td><td><p>查看历史记录</p></td></tr><tr><td><p>git reset --hard 版本号</p></td><td><p>版本穿梭</p></td></tr></tbody></table>
+<table><tbody><tr><td><p>git config --global user.name 用户名</p></td><td><p>设置用户签名</p></td></tr><tr><td><p>git config --global user.email 邮箱</p></td><td><p>设置用户签名</p></td></tr><tr><td><p>git init </p></td><td><p>初始化本地库</p></td></tr><tr><td><p>git status</p></td><td><p>查看本地库状态</p></td></tr><tr><td><p>git add 文件名</p></td><td><p>添加到暂存区</p></td></tr><tr><td><p>git commit-m "日志信息" 文件名</p></td><td><p>提交到本地库</p></td></tr><tr><td><p>git reflog/git log</p></td><td><p>查看历史记录</p></td></tr><tr><td><p>git reset --hard 版本号</p></td><td><p>版本穿梭</p></td></tr></tbody></table>
 
 ### 2.2 基本操作
 
@@ -113,7 +112,7 @@ ___
 
 ![](https://img-blog.csdnimg.cn/d72fce19b24843f0978937bc441ea70a.png)
 
-#### 2.2.2 设置用户签名 
+#### 2.2.2 设置用户签名
 
 ```bash
 -git config --global user.name 浅风 设置用户签名
@@ -187,8 +186,8 @@ git reset --hard 版本号（查看历史记录时候给的版本号）
 
 #### 2.3.1 分支的好处
 
--    同时并进行多个功能开发，提高了开发效率
--   各个分支再开发过程中，如果某个分支开发失败，不会对其他分支有任何影响，失败的分支删除重新开始即可
+-  同时并进行多个功能开发，提高了开发效率
+- 各个分支再开发过程中，如果某个分支开发失败，不会对其他分支有任何影响，失败的分支删除重新开始即可
 
 #### 2.3.2 分支操作常用命令
 
@@ -280,14 +279,14 @@ git merge 需要合并的分支名 //把指定的分支合并到当前分支上
 
 #### **3、从远程库拉取文件**
 
--   对需要上传的文件内容，右键 --> Git Bush Here 
--   输入初始化命令 git init 回车
+- 对需要上传的文件内容，右键 --> Git Bush Here 
+- 输入初始化命令 git init 回车
 
 ```bash
 git init
 ```
 
--   输入要链接到码云的地址,也就是上面图片需要记住的命令：git remote add origin https://gitee.com/shallow-winds/test.git（与码云链接很重要）
+- 输入要链接到码云的地址,也就是上面图片需要记住的命令：git remote add origin https://gitee.com/shallow-winds/test.git（与码云链接很重要）
 
 ```bash
 git remote add origin https://gitee.com/shallow-winds/test.git
@@ -295,7 +294,7 @@ git remote add origin https://gitee.com/shallow-winds/test.git
 
 ![](https://img-blog.csdnimg.cn/88b58d5eb2b74788b040da00bb38736a.png)
 
--   拉取码云上的所有文件到项目中来，git **pull** origin master
+- 拉取码云上的所有文件到项目中来，git **pull** origin master
 
 ```bash
 git pull origin master
@@ -307,19 +306,19 @@ git pull origin master
 
 #### **4、将文件上传到远程库**
 
--   在命令行中继续输入代码执行 git add . (add空格后有个点别忘了，表示需要将所有的文件提交到暂存区) ：
+- 在命令行中继续输入代码执行 git add . (add空格后有个点别忘了，表示需要将所有的文件提交到暂存区) ：
 
 ```bash
 git add . （这一步是先添加到暂存区）
 ```
 
--   从暂存区添加到远程库，说明自己为什么要上传，方便以后自己查阅 git commit -m “第一次上传”
+- 从暂存区添加到远程库，说明自己为什么要上传，方便以后自己查阅 git commit -m “第一次上传”
 
 ```bash
 git commit -m "第一次上传"
 ```
 
--    提交到码云上面，git **push** origin master
+-  提交到码云上面，git **push** origin master
 
 ```bash
 git push origin (master/创建分支的名字)
