@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "690a6c8c1d89e357",
+        "id": "052e8a8255ad6ef4",
         "type": "tabs",
         "children": [
           {
-            "id": "784c364ee31f5c0e",
+            "id": "3ffa8fe4a480910a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -175,8 +175,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "784c364ee31f5c0e",
+  "active": "3ffa8fe4a480910a",
   "lastOpenFiles": [
+    "Go/从输入读取器读取字符串，直到遇到换行符.md",
+    "VSCode/VSCode 连接远程 GitHub仓库.md",
+    "Go/字符串转换为浮点数.md",
+    "Java/JavaGUI/Java图形可视化插件的使用.md",
     "SQL/SQL 中，DATE 类型的数据.md",
     "SQL/SQL 语法.md",
     "README.md",
@@ -200,10 +204,6 @@
     "Go/go-learn.md",
     "Go/Go语言基本语法.md",
     "Java/isEmpty() 和 == null未命名.md",
-    "Java/Scanner跳行问题.md",
-    "Java/Java IO.md",
-    "Java/集合/Map的值.md",
-    "Kotlin/Kotlin 入门(全).md",
     "GitHub/GitHub入门与实践.pdf",
     "python",
     "Java/集合/集合2210.pdf",
