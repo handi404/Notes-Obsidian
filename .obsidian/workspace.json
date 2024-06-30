@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "68979c0e5f320c6c",
+        "id": "2a50c7643f5d52a9",
         "type": "tabs",
         "children": [
           {
-            "id": "7bec9a07da241401",
+            "id": "b27f7b205e06761e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub/使用GitHub托管静态网页.md",
+                "file": "基于项目的教程的精选列表.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GitHub/使用GitHub托管静态网页.md",
+                "file": "基于项目的教程的精选列表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GitHub/使用GitHub托管静态网页.md",
+                "file": "基于项目的教程的精选列表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GitHub/使用GitHub托管静态网页.md"
+                "file": "基于项目的教程的精选列表.md"
               }
             }
           },
@@ -183,10 +183,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7bec9a07da241401",
+  "active": "b27f7b205e06761e",
   "lastOpenFiles": [
-    "Docker/Docker.md",
+    "Java/多层架构.md",
+    "Java/JDBC/JDBC-day1.pdf",
+    "Java/JavaGUI/Java图形可视化插件的使用.md",
+    "Java/集合/Map的值.md",
+    "Java/集合/集合作业.pdf",
+    "Java/集合/集合2210.pdf",
+    "Java/集合/集合二作业_20240510115511A010.pdf",
+    "Java/Java中Date类以及格式转换.md",
+    "Redis/搞明白Redis - .NET快速开发框架.md",
+    "Go/Go语言基本语法.md",
+    "Rust/Rust 格式化输出_rust format.md",
+    "Rust/Cargo介绍及使用.md",
+    "Rust/使用Cargo创建、编译与运行Rust项目.md",
+    "Rust/【vs code】——rust开发环境搭建_vscode rust开发环境-CSDN博客.md",
     "GitHub/使用GitHub托管静态网页.md",
+    "Docker/Docker.md",
     "LeetCodeAnimation-master/0094-Binary-Tree-Inorder-Traversal/Animation/Animation2.gif",
     "xml/XML 教程（一文彻底搞懂XML）-CSDN博客.md",
     "xml/xml.md",
@@ -198,30 +212,16 @@
     "Go/go-learn.md",
     "Go/Go语言并发详解.md",
     "Go/Golang协程和通道.md",
-    "Go/Go语言基本语法.md",
     "Go/Go语言之interface详解.md",
     "Go/Golang文件操作.md",
     "Golang协程和通道.md",
     "VSCode/VSCode 连接远程 GitHub仓库.md",
-    "Java/JavaGUI/Java图形可视化插件的使用.md",
-    "SQL/SQL 中，DATE 类型的数据.md",
-    "SQL/SQL 语法.md",
-    "README.md",
-    "create a link.md",
-    "Vim/【Vim】基本操作及命令集详解_vim操作.md",
-    "编程中的警句.md",
-    "SQL/SQL.md",
-    "Java/字符串可以为空，但不能为 nil.md",
     "Go/go_LeetCode.pdf",
     "GitHub/GitHub入门与实践.pdf",
     "python",
-    "Java/集合/集合2210.pdf",
-    "Java/集合/集合作业.pdf",
     "Generated/images",
     "Generated",
     "Vim/新建 文本文档.txt",
-    "Vim",
-    "新建文件夹",
     "LeetCodeAnimation-master/0001-Two-Sum/Animation/Animation.gif",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
