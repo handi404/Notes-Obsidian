@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2a50c7643f5d52a9",
+        "id": "20703ce899e39510",
         "type": "tabs",
         "children": [
           {
-            "id": "b27f7b205e06761e",
+            "id": "defe5fbf053da3a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "基于项目的教程的精选列表.md",
+                "file": "JavaScript/JavaScript中forEach的用法.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "基于项目的教程的精选列表.md",
+                "file": "JavaScript/JavaScript中forEach的用法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "基于项目的教程的精选列表.md",
+                "file": "JavaScript/JavaScript中forEach的用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "基于项目的教程的精选列表.md"
+                "file": "JavaScript/JavaScript中forEach的用法.md"
               }
             }
           },
@@ -183,8 +183,28 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b27f7b205e06761e",
+  "active": "defe5fbf053da3a9",
   "lastOpenFiles": [
+    "JavaScript/For Loop and While Loop.md",
+    "JavaScript/JavaScript中forEach的用法.md",
+    "JavaScript/JS中的事件监听.md",
+    "JavaScript/JavaScript函数介绍.md",
+    "JavaScript/Dom 操作.md",
+    "JavaScript/arrays 数组.md",
+    "JavaScript/字符串.md",
+    "JavaScript/关键字 this.md",
+    "JavaScript/if.md",
+    "Rust/Rust 入门教程.md",
+    "Rust/Cargo介绍及使用.md",
+    "Rust/未命名.md",
+    "Kubernetes/Kubernetes_认识 k8s、k8s 架构、核心概念点介绍.md",
+    "xml/XML 教程（一文彻底搞懂XML）-CSDN博客.md",
+    "Vim/【Vim】基本操作及命令集详解_vim操作.md",
+    "SQL/SQL.md",
+    "xml/xml.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "基于项目的教程的精选列表.md",
     "Java/多层架构.md",
     "Java/JDBC/JDBC-day1.pdf",
     "Java/JavaGUI/Java图形可视化插件的使用.md",
@@ -196,26 +216,8 @@
     "Redis/搞明白Redis - .NET快速开发框架.md",
     "Go/Go语言基本语法.md",
     "Rust/Rust 格式化输出_rust format.md",
-    "Rust/Cargo介绍及使用.md",
     "Rust/使用Cargo创建、编译与运行Rust项目.md",
-    "Rust/【vs code】——rust开发环境搭建_vscode rust开发环境-CSDN博客.md",
-    "GitHub/使用GitHub托管静态网页.md",
-    "Docker/Docker.md",
     "LeetCodeAnimation-master/0094-Binary-Tree-Inorder-Traversal/Animation/Animation2.gif",
-    "xml/XML 教程（一文彻底搞懂XML）-CSDN博客.md",
-    "xml/xml.md",
-    "Go/Golang反射.md",
-    "Go/Golang TCP网络编程.md",
-    "Go/Go语言中的函数.md",
-    "Go/从输入读取器读取字符串，直到遇到换行符.md",
-    "Go/字符串转换为浮点数.md",
-    "Go/go-learn.md",
-    "Go/Go语言并发详解.md",
-    "Go/Golang协程和通道.md",
-    "Go/Go语言之interface详解.md",
-    "Go/Golang文件操作.md",
-    "Golang协程和通道.md",
-    "VSCode/VSCode 连接远程 GitHub仓库.md",
     "Go/go_LeetCode.pdf",
     "GitHub/GitHub入门与实践.pdf",
     "python",
@@ -223,7 +225,6 @@
     "Generated",
     "Vim/新建 文本文档.txt",
     "LeetCodeAnimation-master/0001-Two-Sum/Animation/Animation.gif",
-    "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
   ]
 }
