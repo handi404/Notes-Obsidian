@@ -2,6 +2,8 @@
 如何在 javascript 中添加类。 
 使用普通 JavaScript 创建一个待办事项列表类型的应用程序。
 
+---
+
 ```html
 <!DOCTYPE html>
 
