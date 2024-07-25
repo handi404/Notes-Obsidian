@@ -1,6 +1,6 @@
 #### //方法重写=提供从父类继承的方法的新版本 
 #### // 继承的方法必须是：abstract, virtual, or already overriden (抽象、虚拟或已重写)
-#### // 与ToString()一起使用，多态性
+#### // 与ToString()一起使用，多态性[[ToString 方法]]
 
 ---
 

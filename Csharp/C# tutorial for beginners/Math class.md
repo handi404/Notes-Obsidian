@@ -30,7 +30,7 @@ C#中的`Math`类是一个静态类，包含了一系列用于数学运算的方
 - `Math.Abs(double d)`: 计算 `d` 的绝对值。
 - `Math.Ceiling(double a)`: 返回大于或等于指定数值的最小整数。
 - `Math.Floor(double d)`: 返回小于或等于指定数值的最大整数。
-- `Math.Round(double d)`: 将 `d` 四舍五入到最近的整数。
+- `Math.Round(double d)`: 将 `d` 四舍五入到最近的整数。[[Csharp/C# tutorial for beginners/保留小数|保留小数]]
 - `Math.Truncate(double d)`: 返回 `d` 的整数部分。
 
 #### 最大值和最小值
