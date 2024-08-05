@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/概念.md",
+                "file": "Redis/Redis Tutorial for Beginners/堆栈.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/概念.md",
+                "file": "Redis/Redis Tutorial for Beginners/堆栈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/概念.md",
+                "file": "Redis/Redis Tutorial for Beginners/堆栈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/概念.md"
+                "file": "Redis/Redis Tutorial for Beginners/堆栈.md"
               }
             }
           },
@@ -185,6 +185,40 @@
   },
   "active": "9a3daee0f79dd60e",
   "lastOpenFiles": [
+    "Redis/Redis Tutorial for Beginners/管道Pipeline.md",
+    "Redis/Redis Tutorial for Beginners/堆栈.md",
+    "Redis/Redis Tutorial for Beginners/7.Sorted Set有序集合.md",
+    "Redis/Redis Tutorial for Beginners/6.Hash.md",
+    "Redis/Redis Tutorial for Beginners/4.Set集合.md",
+    "Redis/Redis Tutorial for Beginners/5.List列表.md",
+    "Redis/Redis Tutorial for Beginners/3.1命令选项.md",
+    "Redis/Redis Tutorial for Beginners/3.0命令选项CommandOptions.md",
+    "Redis/Redis Tutorial for Beginners/2.基本命令BasicCommands.md",
+    "Godot 4",
+    "Redis/Redis Tutorial for Beginners/1.什么是 Redis.md",
+    "前端/概念.md",
+    "JavaScript/Nodejs/node-crash-course/(10)Get, Post & Delete 请求.md",
+    "Redis/Redis Tutorial for Beginners",
+    "JavaScript/Nodejs/node-crash-course/(9)Mongodb.md",
+    "JavaScript/Nodejs/node-crash-course/Mongoose.md",
+    "JavaScript/Nodejs/node-crash-course/(11)Express Router 和 MVC.md",
+    "JavaScript/Nodejs/node-crash-course/(3)客户端和服务器Clients&Servers.md",
+    "JavaScript/Nodejs/node-crash-course/引入和导出.md",
+    "JavaScript/Nodejs/node-crash-course/Express Router.md",
+    "JavaScript/API/API 调试.md",
+    "JavaScript/Nodejs/node-crash-course/(8)中间件Middleware.md",
+    "JavaScript/Nodejs/node-crash-course/Morgan.md",
+    "JavaScript/Nodejs/node-crash-course/(4)请求和响应Requests&Responses.md",
+    "JavaScript/Nodejs/node-crash-course/req 和 res 对象.md",
+    "JavaScript/Nodejs/node-crash-course/(5)NPM.md",
+    "JavaScript/Nodejs/node-crash-course/Lodash.md",
+    "JavaScript/Nodejs/node-crash-course/(6)Express Apps.md",
+    "Pasted image 20240804093642.png",
+    "Pasted image 20240804093213.png",
+    "JavaScript/Nodejs/node-crash-course",
+    "JavaScript/Nodejs",
+    "MongoDB/MongoDB tutorial for beginners",
+    "MongoDB",
     "Java/image/main.jpg",
     "Java/image",
     "Java/新建文件夹",
@@ -193,44 +227,10 @@
     "Image/20240730_223652.jpg",
     "Image/20240730_222352.jpg",
     "Image/20240722_231737.jpg",
-    "Java/API/api.md",
-    "Go/API/编写API.md",
     "Java/API",
-    "C++/API/编写 API.md",
     "Go/API",
-    "Csharp/API/编写 API.md",
-    "C++/API",
-    "JavaScript/API/编写API.md",
-    "Csharp/API",
-    "JavaScript/JavaScript中forEach的用法.md",
-    "JavaScript/For Loop and While Loop.md",
-    "JavaScript/同步异步/Promise.md",
-    "JavaScript/API/Fetch 调用 API.md",
-    "JavaScript/API/从 API 获取数据.md",
-    "前端/概念.md",
-    "编程的一些概念.md",
-    "命令行的艺术/README-zh.md",
-    "设计模式/设计模式  - 单例.md",
-    "Csharp/计算执行时间.md",
-    "C++/计算执行时间.md",
-    "数据结构与算法/Data Structures and Algorithms/线性搜索.md",
-    "数据结构与算法/Data Structures and Algorithms/深度优先搜索Depth Firth Search.md",
-    "数据结构与算法/Data Structures and Algorithms/快速排序QuickSort.md",
-    "数据结构与算法/Data Structures and Algorithms/邻接列表.md",
-    "数据结构与算法/Data Structures and Algorithms/冒泡排序BubbleSort.md",
-    "数据结构与算法/Data Structures and Algorithms/优先级队列数据结构.md",
-    "C++/C++ tutorial for beginners/有用的数学相关函数.md",
-    "Java/泛型.md",
-    "数据结构与算法/Data Structures and Algorithms/选择排序SelectionSort.md",
     "前端/AJAX/day01-Http协议&Tomcat使用/assets/image-20210812160521912.png",
     "前端/AJAX/day01-Http协议&Tomcat使用/assets/image-20210812160505159.png",
-    "前端/AJAX/day01-Http协议&Tomcat使用/assets/image-20210812160200508.png",
-    "前端/AJAX/day01-Http协议&Tomcat使用/assets/image-20210812160035596.png",
-    "前端/AJAX/day01-Http协议&Tomcat使用/assets/image-20210812155048099.png",
-    "前端/AJAX/day02-Servlet&Idea配置使用/assets",
-    "前端/AJAX/day05-Session&Cookie/assets",
-    "前端/AJAX/day06-axios&Json数据/assets",
-    "前端/AJAX/day03-ServletRequest&ServletResponse/assert",
     "未命名 1.canvas",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
