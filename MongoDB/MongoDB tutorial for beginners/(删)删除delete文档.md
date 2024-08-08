@@ -1,6 +1,5 @@
 
 
-
 ```JSON
 db.students.deleteOne({name:"Larry"})
 db.students.deleteMany({fullTime:false})
