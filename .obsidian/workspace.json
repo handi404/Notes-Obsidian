@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a265a4d71180163a",
+        "id": "cd3d0ea4cf15579b",
         "type": "tabs",
         "children": [
           {
-            "id": "9a3daee0f79dd60e",
+            "id": "2db824daccbdcdbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/JavaFX/JavaFX tutorial for beginners/切换场景（Scene）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07e33476871d2b5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/JavaFX/JavaFX tutorial for beginners/28.mp3 music player.md",
+                "file": "Java/Spring框架/先掌握以下 Java 相关的知识.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JavaFX/JavaFX tutorial for beginners/28.mp3 music player.md",
+                "file": "Java/Spring框架/先掌握以下 Java 相关的知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/JavaFX/JavaFX tutorial for beginners/28.mp3 music player.md",
+                "file": "Java/Spring框架/先掌握以下 Java 相关的知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JavaFX/JavaFX tutorial for beginners/28.mp3 music player.md"
+                "file": "Java/Spring框架/先掌握以下 Java 相关的知识.md"
               }
             }
           },
@@ -196,36 +183,45 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "07e33476871d2b5c",
+  "active": "2db824daccbdcdbd",
   "lastOpenFiles": [
-    "Java/JavaFX/JavaFX tutorial for beginners/27.WebView + 构建 Web 浏览器.md",
+    "Java/Lambda 表达式 Stream API/Stream API 操作.md",
+    "Java/Lambda 表达式 Stream API/Stream API 的具体用法.md",
+    "Java/Lambda 表达式 Stream API/Lambda 表达式.md",
+    "Java/Spring框架/先掌握以下 Java 相关的知识.md",
+    "Java/Lambda 表达式 Stream API/Lambda与箭头函数.md",
+    "Java/Lambda 表达式 Stream API",
+    "Java/注解（Annotation）.md",
+    "Java/JavaFX/JavaFX tutorial for beginners/`@FXML`主要作用.md",
+    "Java/Web/HTTP 协议.md",
+    "JavaScript/Nodejs/node-crash-course/(10)Get, Post & Delete 请求.md",
+    "Java/Maven Gradle 构建工具/Gradle",
+    "Java/Maven Gradle 构建工具",
+    "Java/Spring框架/Spring框架的主要组成部分.md",
+    "Java/Maven Gradle 构建工具/Maven/下载依赖和构建.md",
+    "Java/Maven Gradle 构建工具/Maven/未命名.md",
+    "Java/Maven Gradle 构建工具/Maven/Maven 的基本使用.md",
+    "Java/Java 编译与运行环境/Java 生态系统.md",
+    "Java/Java 编译与运行环境/Java 的编译与运行.md",
+    "Java/Java 编译与运行环境/JDK 和 JRE 主要区别.md",
+    "Java/Java 编译与运行环境/Java 虚拟机（JVM）的基本工作原理.md",
+    "Java/Java 编译与运行环境",
+    "Java/泛型/未命名.md",
+    "Java/泛型/未命名 1.md",
+    "Java/泛型/泛型.md",
+    "Java/集合/集合2210.pdf",
+    "Java/集合/集合二作业.pdf",
+    "Java/嵌套数据结构.md",
+    "Java/泛型/未命名",
+    "Java/泛型",
+    "设计模式/设计模式 - 简单工厂.md",
+    "设计模式/设计模式 - 抽象工厂.md",
+    "Java/IO流/IO流.pdf",
     "Java/JavaFX/JavaFX tutorial for beginners/28.mp3 music player.md",
+    "Java/JavaFX/JavaFX tutorial for beginners/27.WebView + 构建 Web 浏览器.md",
     "Java/JavaFX/JavaFX tutorial for beginners/26.媒体视图MediaView.md",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-13 100921.png",
-    "Java/JavaFX/JavaFX tutorial for beginners/25.动画animations.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/事件监听器.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/24按键事件KeyEvent.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/23.不同窗格Pane.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/22.菜单栏MenuBar.md",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-12 155928.png",
-    "Java/JavaFX/JavaFX tutorial for beginners/21.树视图TreeView.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/20.列表视图ListView.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/19.旋转器Spinner.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/17.滑块Slider.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/18.进度条ProgressBar.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/12.复选框CheckBox.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/14.日期选择器DatePicker.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/15.颜色选择器ColorPicker.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/16.选择框ChoiceBox.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/绑定（Binding）和监听（Listener）机制.md",
-    "Java/字符串可以为空，但不能为 nil.md",
-    "Java/isEmpty() 和 == null.md",
-    "Java/Java 可执行文件 （.jar）.md",
-    "Java/格式化字符串.md",
-    "Java/BigDecimal类.md",
-    "Java/类型转换.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/Initializable 接口.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/旋转方法.md",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 134804.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 132724.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 130810.png",
@@ -235,15 +231,6 @@
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-10 171949.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-10 171541.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image",
-    "Java/JavaFX/JavaFX tutorial for beginners/新建文件夹",
-    "Java/JavaFX/JavaFX tutorial for beginners",
-    "Java/JavaFX",
-    "Java/JUnit单元测试框架",
-    "Java/Spring Boot",
-    "Java/Spring框架/JDBC/教务管理系统/StudentMGR/src/service/impl/TeacherServiceImpl.java",
-    "Java/Spring框架/JDBC/教务管理系统/StudentMGR/src/service/impl/StudentServiceImpl.java",
-    "Java/Spring框架/JDBC/教务管理系统/StudentMGR/src/service/impl/ScoreServiceImpl.java",
-    "Java/Spring框架/JDBC/教务管理系统/StudentMGR/src/service/impl/ManagerServiceImpl.java",
     "未命名 1.canvas",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
