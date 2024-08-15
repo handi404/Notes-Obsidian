@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring框架/先掌握以下 Java 相关的知识.md",
+                "file": "Java/JUnit单元测试框架/测试类的构造方法.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Spring框架/先掌握以下 Java 相关的知识.md",
+                "file": "Java/JUnit单元测试框架/测试类的构造方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Spring框架/先掌握以下 Java 相关的知识.md",
+                "file": "Java/JUnit单元测试框架/测试类的构造方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring框架/先掌握以下 Java 相关的知识.md"
+                "file": "Java/JUnit单元测试框架/测试类的构造方法.md"
               }
             }
           },
@@ -185,10 +185,25 @@
   },
   "active": "2db824daccbdcdbd",
   "lastOpenFiles": [
+    "Java/JUnit单元测试框架/简介.md",
+    "Java/JUnit单元测试框架/测试类的构造方法.md",
+    "Java/JUnit单元测试框架/断言方法（Assertions）.md",
+    "Java/Lambda 表达式 Stream API/Lambda 表达式.md",
+    "Java/JUnit单元测试框架/常用的 JUnit 5 注解.md",
+    "Java/MongoDB/连接池连接 MongoDB.md",
+    "Java/MongoDB/判断增删改是否成功.md",
+    "Java/Maven Gradle 构建工具/Maven/Maven依赖下载到项目目录中.md",
+    "Java/Maven Gradle 构建工具/Maven/Maven 的基本使用.md",
+    "Java/Maven Gradle 构建工具/Maven/下载依赖和构建.md",
+    "LeetCode/fucking-algorithm-master/多语言解法代码/solution_code.md",
+    "LeetCode/fucking-algorithm-master/多语言解法代码/contribution-guide.md",
+    "LeetCode/fucking-algorithm-master/高频面试系列/接雨水.md",
+    "LeetCode/fucking-algorithm-master/技术/密码技术.md",
+    "LeetCode/fucking-algorithm-master/数据结构系列/图.md",
+    "LeetCode/fucking-algorithm-master/算法思维系列/差分技巧.md",
+    "Java/Spring框架/先掌握以下 Java 相关的知识.md",
     "Java/Lambda 表达式 Stream API/Stream API 操作.md",
     "Java/Lambda 表达式 Stream API/Stream API 的具体用法.md",
-    "Java/Lambda 表达式 Stream API/Lambda 表达式.md",
-    "Java/Spring框架/先掌握以下 Java 相关的知识.md",
     "Java/Lambda 表达式 Stream API/Lambda与箭头函数.md",
     "Java/Lambda 表达式 Stream API",
     "Java/注解（Annotation）.md",
@@ -198,28 +213,13 @@
     "Java/Maven Gradle 构建工具/Gradle",
     "Java/Maven Gradle 构建工具",
     "Java/Spring框架/Spring框架的主要组成部分.md",
-    "Java/Maven Gradle 构建工具/Maven/下载依赖和构建.md",
     "Java/Maven Gradle 构建工具/Maven/未命名.md",
-    "Java/Maven Gradle 构建工具/Maven/Maven 的基本使用.md",
-    "Java/Java 编译与运行环境/Java 生态系统.md",
-    "Java/Java 编译与运行环境/Java 的编译与运行.md",
-    "Java/Java 编译与运行环境/JDK 和 JRE 主要区别.md",
-    "Java/Java 编译与运行环境/Java 虚拟机（JVM）的基本工作原理.md",
     "Java/Java 编译与运行环境",
-    "Java/泛型/未命名.md",
-    "Java/泛型/未命名 1.md",
-    "Java/泛型/泛型.md",
     "Java/集合/集合2210.pdf",
     "Java/集合/集合二作业.pdf",
-    "Java/嵌套数据结构.md",
     "Java/泛型/未命名",
     "Java/泛型",
-    "设计模式/设计模式 - 简单工厂.md",
-    "设计模式/设计模式 - 抽象工厂.md",
     "Java/IO流/IO流.pdf",
-    "Java/JavaFX/JavaFX tutorial for beginners/28.mp3 music player.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/27.WebView + 构建 Web 浏览器.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/26.媒体视图MediaView.md",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-13 100921.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-12 155928.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 134804.png",
