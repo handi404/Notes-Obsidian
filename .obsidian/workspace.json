@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cd3d0ea4cf15579b",
+        "id": "673a4b903a11c446",
         "type": "tabs",
         "children": [
           {
-            "id": "2db824daccbdcdbd",
+            "id": "1502ffa4e966ec78",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VSCode/VSCode字体界面美化.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VSCode/VSCode字体界面美化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VSCode/VSCode字体界面美化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "VSCode/VSCode字体界面美化.md"
-              }
+              "state": {}
             }
           },
           {
@@ -183,35 +175,35 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2db824daccbdcdbd",
+  "active": "1502ffa4e966ec78",
   "lastOpenFiles": [
-    "VSCode/vscode 选中多行.md",
-    "VSCode/VSCode字体界面美化.md",
-    "VSCode/必看！VSCode字体界面美化教程-CSDN博客.md",
-    "Java/JUnit单元测试框架/测试类的构造方法.md",
-    "Java/JUnit单元测试框架/简介.md",
-    "Java/JUnit单元测试框架/断言方法（Assertions）.md",
-    "Java/Lambda 表达式 Stream API/Lambda 表达式.md",
-    "Java/JUnit单元测试框架/常用的 JUnit 5 注解.md",
-    "Java/MongoDB/连接池连接 MongoDB.md",
+    "windows关闭窗口最小化.md",
+    "Java/Web/HTTP 协议.md",
+    "Windows && 在Windows中关闭最小化窗口的几种快捷方法_windows关闭窗口最小化-CSDN博客.md",
+    "Java/Web/JSP简介及其与HTML的区别.md",
+    "Java/Spring Boot/Spring Boot 和 Spring 的关系.md",
+    "Java/Spring框架/Spring框架的主要组成部分.md",
+    "Java/Spring框架/先掌握以下 Java 相关的知识.md",
     "Java/MongoDB/判断增删改是否成功.md",
+    "Java/MongoDB/连接池连接 MongoDB_2.md",
+    "Java/MongoDB/连接池连接 MongoDB.md",
+    "Java/MongoDB/连接池概念.md",
+    "Java/MongoDB/多层架构.md",
+    "Java/Lambda 表达式 Stream API/Stream API 的具体用法.md",
+    "Java/Lambda 表达式 Stream API/Stream API 操作.md",
+    "Java/Lambda 表达式 Stream API/Lambda与箭头函数.md",
+    "Java/Lambda 表达式 Stream API/Lambda 表达式.md",
+    "Java/JUnit单元测试框架/断言方法（Assertions）.md",
+    "Java/JUnit单元测试框架/简介.md",
+    "Java/JUnit单元测试框架/常用的 JUnit 5 注解.md",
+    "Java/JUnit单元测试框架/测试类的构造方法.md",
+    "VSCode/VSCode字体界面美化.md",
+    "VSCode/vscode 选中多行.md",
+    "VSCode/必看！VSCode字体界面美化教程-CSDN博客.md",
     "Java/Maven Gradle 构建工具/Maven/Maven依赖下载到项目目录中.md",
     "Java/Maven Gradle 构建工具/Maven/Maven 的基本使用.md",
     "Java/Maven Gradle 构建工具/Maven/下载依赖和构建.md",
-    "LeetCode/fucking-algorithm-master/多语言解法代码/solution_code.md",
-    "LeetCode/fucking-algorithm-master/多语言解法代码/contribution-guide.md",
-    "LeetCode/fucking-algorithm-master/高频面试系列/接雨水.md",
-    "LeetCode/fucking-algorithm-master/技术/密码技术.md",
-    "LeetCode/fucking-algorithm-master/数据结构系列/图.md",
-    "LeetCode/fucking-algorithm-master/算法思维系列/差分技巧.md",
-    "Java/Spring框架/先掌握以下 Java 相关的知识.md",
-    "Java/Lambda 表达式 Stream API/Stream API 操作.md",
-    "Java/Lambda 表达式 Stream API/Stream API 的具体用法.md",
-    "Java/Lambda 表达式 Stream API/Lambda与箭头函数.md",
     "Java/Lambda 表达式 Stream API",
-    "Java/注解（Annotation）.md",
-    "Java/JavaFX/JavaFX tutorial for beginners/`@FXML`主要作用.md",
-    "Java/Web/HTTP 协议.md",
     "Java/Maven Gradle 构建工具/Gradle",
     "Java/Maven Gradle 构建工具",
     "Java/Java 编译与运行环境",
