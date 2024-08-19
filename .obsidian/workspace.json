@@ -11,8 +11,12 @@
             "id": "1502ffa4e966ec78",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/React/React tutorial for beginners/0.初始.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JavaScript/React/React tutorial for beginners/0.初始.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JavaScript/React/React tutorial for beginners/0.初始.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "JavaScript/React/React tutorial for beginners/0.初始.md"
+              }
             }
           },
           {
@@ -177,6 +185,15 @@
   },
   "active": "1502ffa4e966ec78",
   "lastOpenFiles": [
+    "JavaScript/React/React tutorial for beginners/1.CARD(卡片) 组件.md",
+    "JavaScript/React/React tutorial for beginners/0.初始.md",
+    "JavaScript/React/React tutorial for beginners/Vite 项目结构以及每个文件作用.md",
+    "JavaScript/React/React tutorial for beginners/export 和 import.md",
+    "JavaScript/React/React tutorial for beginners/返回多个 JSX 片段.md",
+    "JavaScript/React/React tutorial for beginners/快速创建一个基于 Vite 的前端项目的命令.md",
+    "JavaScript/React/简介.md",
+    "JavaScript/React/React tutorial for beginners",
+    "JavaScript/React",
     "windows关闭窗口最小化.md",
     "Java/Web/HTTP 协议.md",
     "Windows && 在Windows中关闭最小化窗口的几种快捷方法_windows关闭窗口最小化-CSDN博客.md",
@@ -196,13 +213,6 @@
     "Java/JUnit单元测试框架/断言方法（Assertions）.md",
     "Java/JUnit单元测试框架/简介.md",
     "Java/JUnit单元测试框架/常用的 JUnit 5 注解.md",
-    "Java/JUnit单元测试框架/测试类的构造方法.md",
-    "VSCode/VSCode字体界面美化.md",
-    "VSCode/vscode 选中多行.md",
-    "VSCode/必看！VSCode字体界面美化教程-CSDN博客.md",
-    "Java/Maven Gradle 构建工具/Maven/Maven依赖下载到项目目录中.md",
-    "Java/Maven Gradle 构建工具/Maven/Maven 的基本使用.md",
-    "Java/Maven Gradle 构建工具/Maven/下载依赖和构建.md",
     "Java/Lambda 表达式 Stream API",
     "Java/Maven Gradle 构建工具/Gradle",
     "Java/Maven Gradle 构建工具",
@@ -211,7 +221,6 @@
     "Java/集合/集合二作业.pdf",
     "Java/泛型/未命名",
     "Java/泛型",
-    "Java/IO流/IO流.pdf",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-13 100921.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-12 155928.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 134804.png",
@@ -222,7 +231,6 @@
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 091340.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-10 171949.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-10 171541.png",
-    "Java/JavaFX/JavaFX tutorial for beginners/image",
     "未命名 1.canvas",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
