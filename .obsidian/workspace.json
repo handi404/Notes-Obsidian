@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/React tutorial for beginners/0.初始.md",
+                "file": "JavaScript/React/React tutorial for beginners/9.构建 React Color Picker 应用程序.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/React/React tutorial for beginners/0.初始.md",
+                "file": "JavaScript/React/React tutorial for beginners/9.构建 React Color Picker 应用程序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/React/React tutorial for beginners/0.初始.md",
+                "file": "JavaScript/React/React tutorial for beginners/9.构建 React Color Picker 应用程序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/React/React tutorial for beginners/0.初始.md"
+                "file": "JavaScript/React/React tutorial for beginners/9.构建 React Color Picker 应用程序.md"
               }
             }
           },
@@ -185,13 +185,28 @@
   },
   "active": "1502ffa4e966ec78",
   "lastOpenFiles": [
+    "JavaScript/React/React tutorial for beginners/8.React onChange 事件处理程序.md",
+    "JavaScript/React/React tutorial for beginners/9.构建 React Color Picker 应用程序.md",
+    "JavaScript/React/React tutorial for beginners/onChange.md",
+    "JavaScript/React/React tutorial for beginners/7.React useState() hook.md",
+    "JavaScript/React/React tutorial for beginners/useState.md",
+    "JavaScript/React/React tutorial for beginners/6.React Click Event(点击事件).md",
+    "JavaScript/React/React tutorial for beginners/5.在 React 中渲染 LISTS.md",
+    "JavaScript/React/React tutorial for beginners/3.PROPS 解释.md",
+    "JavaScript/React/React tutorial for beginners/4.在 React ❓ 中进行条件渲染.md",
+    "JavaScript/React/React tutorial for beginners/props.md",
+    "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
+    "JavaScript/React/React tutorial for beginners/2.添加 CSS 样式.md",
+    "JavaScript/React/React tutorial for beginners/在 React 中添加 CSS 样式.md",
+    "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
+    "JavaScript/React/React tutorial for beginners/image",
     "JavaScript/React/React tutorial for beginners/1.CARD(卡片) 组件.md",
+    "JavaScript/React/简介.md",
     "JavaScript/React/React tutorial for beginners/0.初始.md",
     "JavaScript/React/React tutorial for beginners/Vite 项目结构以及每个文件作用.md",
     "JavaScript/React/React tutorial for beginners/export 和 import.md",
     "JavaScript/React/React tutorial for beginners/返回多个 JSX 片段.md",
     "JavaScript/React/React tutorial for beginners/快速创建一个基于 Vite 的前端项目的命令.md",
-    "JavaScript/React/简介.md",
     "JavaScript/React/React tutorial for beginners",
     "JavaScript/React",
     "windows关闭窗口最小化.md",
@@ -201,18 +216,6 @@
     "Java/Spring Boot/Spring Boot 和 Spring 的关系.md",
     "Java/Spring框架/Spring框架的主要组成部分.md",
     "Java/Spring框架/先掌握以下 Java 相关的知识.md",
-    "Java/MongoDB/判断增删改是否成功.md",
-    "Java/MongoDB/连接池连接 MongoDB_2.md",
-    "Java/MongoDB/连接池连接 MongoDB.md",
-    "Java/MongoDB/连接池概念.md",
-    "Java/MongoDB/多层架构.md",
-    "Java/Lambda 表达式 Stream API/Stream API 的具体用法.md",
-    "Java/Lambda 表达式 Stream API/Stream API 操作.md",
-    "Java/Lambda 表达式 Stream API/Lambda与箭头函数.md",
-    "Java/Lambda 表达式 Stream API/Lambda 表达式.md",
-    "Java/JUnit单元测试框架/断言方法（Assertions）.md",
-    "Java/JUnit单元测试框架/简介.md",
-    "Java/JUnit单元测试框架/常用的 JUnit 5 注解.md",
     "Java/Lambda 表达式 Stream API",
     "Java/Maven Gradle 构建工具/Gradle",
     "Java/Maven Gradle 构建工具",
@@ -220,7 +223,6 @@
     "Java/集合/集合2210.pdf",
     "Java/集合/集合二作业.pdf",
     "Java/泛型/未命名",
-    "Java/泛型",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-13 100921.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-12 155928.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 134804.png",
@@ -229,8 +231,6 @@
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 130818.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 110956.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 091340.png",
-    "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-10 171949.png",
-    "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-10 171541.png",
     "未命名 1.canvas",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
