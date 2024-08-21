@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/React/React tutorial for beginners/9.构建 React Color Picker 应用程序.md",
+                "file": "JavaScript/React/React tutorial for beginners/15.React useEffect() hook.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/React/React tutorial for beginners/9.构建 React Color Picker 应用程序.md",
+                "file": "JavaScript/React/React tutorial for beginners/15.React useEffect() hook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/React/React tutorial for beginners/9.构建 React Color Picker 应用程序.md",
+                "file": "JavaScript/React/React tutorial for beginners/15.React useEffect() hook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/React/React tutorial for beginners/9.构建 React Color Picker 应用程序.md"
+                "file": "JavaScript/React/React tutorial for beginners/15.React useEffect() hook.md"
               }
             }
           },
@@ -185,18 +185,25 @@
   },
   "active": "1502ffa4e966ec78",
   "lastOpenFiles": [
-    "JavaScript/React/React tutorial for beginners/8.React onChange 事件处理程序.md",
-    "JavaScript/React/React tutorial for beginners/9.构建 React Color Picker 应用程序.md",
-    "JavaScript/React/React tutorial for beginners/onChange.md",
     "JavaScript/React/React tutorial for beginners/7.React useState() hook.md",
-    "JavaScript/React/React tutorial for beginners/useState.md",
-    "JavaScript/React/React tutorial for beginners/6.React Click Event(点击事件).md",
-    "JavaScript/React/React tutorial for beginners/5.在 React 中渲染 LISTS.md",
+    "JavaScript/React/React tutorial for beginners/15.React useEffect() hook.md",
+    "JavaScript/React/React tutorial for beginners/14.构建待办事项列表应用程序.md",
+    "JavaScript/React/React tutorial for beginners/13.更新 ARRAY of OBJECTS 的状态.md",
+    "JavaScript/React/React tutorial for beginners/11.更新 OBJECTS 的状态.md",
+    "JavaScript/React/React tutorial for beginners/12.更新 ARRAYS 的状态.md",
+    "JavaScript/React/React tutorial for beginners/onChange 和 onClick.md",
+    "JavaScript/React/React tutorial for beginners/onChange.md",
+    "JavaScript/React/React tutorial for beginners/10.React updater function.md",
+    "JavaScript/React/React tutorial for beginners/9.构建 React Color Picker 应用程序.md",
+    "JavaScript/React/React tutorial for beginners/8.React onChange 事件处理程序.md",
+    "JavaScript/React/React tutorial for beginners/2.添加 CSS 样式.md",
     "JavaScript/React/React tutorial for beginners/3.PROPS 解释.md",
     "JavaScript/React/React tutorial for beginners/4.在 React ❓ 中进行条件渲染.md",
+    "JavaScript/React/React tutorial for beginners/5.在 React 中渲染 LISTS.md",
+    "JavaScript/React/React tutorial for beginners/6.React Click Event(点击事件).md",
+    "JavaScript/React/React tutorial for beginners/useState.md",
     "JavaScript/React/React tutorial for beginners/props.md",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
-    "JavaScript/React/React tutorial for beginners/2.添加 CSS 样式.md",
     "JavaScript/React/React tutorial for beginners/在 React 中添加 CSS 样式.md",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
     "JavaScript/React/React tutorial for beginners/image",
@@ -209,13 +216,6 @@
     "JavaScript/React/React tutorial for beginners/快速创建一个基于 Vite 的前端项目的命令.md",
     "JavaScript/React/React tutorial for beginners",
     "JavaScript/React",
-    "windows关闭窗口最小化.md",
-    "Java/Web/HTTP 协议.md",
-    "Windows && 在Windows中关闭最小化窗口的几种快捷方法_windows关闭窗口最小化-CSDN博客.md",
-    "Java/Web/JSP简介及其与HTML的区别.md",
-    "Java/Spring Boot/Spring Boot 和 Spring 的关系.md",
-    "Java/Spring框架/Spring框架的主要组成部分.md",
-    "Java/Spring框架/先掌握以下 Java 相关的知识.md",
     "Java/Lambda 表达式 Stream API",
     "Java/Maven Gradle 构建工具/Gradle",
     "Java/Maven Gradle 构建工具",

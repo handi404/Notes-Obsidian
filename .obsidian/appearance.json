@@ -2,5 +2,6 @@
   "accentColor": "",
   "theme": "obsidian",
   "baseFontSize": 17,
-  "cssTheme": "Things"
+  "cssTheme": "Things",
+  "monospaceFontFamily": ""
 }
