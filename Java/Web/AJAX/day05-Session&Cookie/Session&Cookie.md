@@ -80,13 +80,13 @@ public class SetCookieServlet extends HttpServlet {
 
 当浏览器请求对应url后,服务器创建cookie对象并响应 存储在客户端  cookie响应结果如下
 
-![image-20210816100334357](assets/image-20210816100334357.png)
+![image-20210816100334357](image-20210816100334357.png)
 
 
 
 注意:在进行数据传输时会进行流的形式传输,如果数据是中文可能导致乱码问题(所以不建议使用中文作为数据)
 
-![image-20210816100610160](assets/image-20210816100610160.png)
+![image-20210816100610160](image-20210816100610160.png)
 
 
 
@@ -155,7 +155,7 @@ public class GetCookieServlet extends HttpServlet {
 
 当关闭浏览器,再次请求时,cookie就会失效,不会携带cookie数据
 
-![image-20210816103656579](assets/image-20210816103656579.png)
+![image-20210816103656579](image-20210816103656579.png)
 
 ```java
 @WebServlet(name = "SetCookieServlet", value = "/set")
@@ -176,11 +176,11 @@ public class SetCookieServlet extends HttpServlet {
     }
 ```
 
-![image-20210816104412874](assets/image-20210816104412874.png)
+![image-20210816104412874](image-20210816104412874.png)
 
 当关闭浏览器 请求获取cookie地址,由于只设置了username的存活时间,所以password设置为默认浏览器关闭失效,所以重新打开浏览器请求只有username
 
-![image-20210816104521897](assets/image-20210816104521897.png)
+![image-20210816104521897](image-20210816104521897.png)
 
 
 
@@ -203,19 +203,19 @@ public class SetCookieServlet extends HttpServlet {
 
 由于username设置了请求的url为get  所以请求set路径时不会携带cookie
 
-![image-20210816105856294](assets/image-20210816105856294.png)
+![image-20210816105856294](image-20210816105856294.png)
 
 
 
 由于设置了项目名称,所以请求的url前需要书写项目名称,所以uername还是不会携带
 
-![image-20210816110041267](assets/image-20210816110041267.png)
+![image-20210816110041267](image-20210816110041267.png)
 
 
 
 当直接请求服务器地址/get时,就会携带对应的cookie
 
-![image-20210816110140243](assets/image-20210816110140243.png)
+![image-20210816110140243](image-20210816110140243.png)
 
 
 
@@ -363,7 +363,7 @@ public class LastTimeServlet extends HttpServlet {
 
 ## 4.2 原理
 
-![image-20211203101530780](assets/image-20211203101530780.png)
+![image-20211203101530780](image-20211203101530780.png)
 
 session依赖于cookie保存sessionid,当客户端第一次请求服务器端时,服务器端根据需求判断是否需要创建存储会话数据的session对象(请求服务器可能不会直接创建session对象),如果需要创建session对象存储数据,那么在创建后获取创建session对象的id,在响应中添加对应的cookie存储并响应,当客户端再次请求时(没有关闭浏览器拥有sessionid缓存cookie),服务端获取请求携带的coolie数据中的sessionid获取存储对应会话的session对象并进行数据操作
 
