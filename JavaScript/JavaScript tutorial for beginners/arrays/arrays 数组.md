@@ -1,4 +1,4 @@
-
+[[map，filter，reduce方法]]
 
 ```js
 const arrays = ["hello", "oid age", "happen", "see the video"];
