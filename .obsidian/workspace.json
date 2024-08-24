@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git 和 GitHub 初学者教程/6.Commits 提交.md",
+                "file": "Git/Git 和 GitHub 初学者教程/12.Forking (& Contributing) 分叉（和贡献）.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git 和 GitHub 初学者教程/6.Commits 提交.md",
+                "file": "Git/Git 和 GitHub 初学者教程/12.Forking (& Contributing) 分叉（和贡献）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git 和 GitHub 初学者教程/6.Commits 提交.md",
+                "file": "Git/Git 和 GitHub 初学者教程/12.Forking (& Contributing) 分叉（和贡献）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git 和 GitHub 初学者教程/6.Commits 提交.md"
+                "file": "Git/Git 和 GitHub 初学者教程/12.Forking (& Contributing) 分叉（和贡献）.md"
               }
             }
           },
@@ -185,15 +185,21 @@
   },
   "active": "dac9a31df96e71b6",
   "lastOpenFiles": [
-    "Git/Git 和 GitHub 初学者教程/5.Staging files 暂存文件.md",
+    "Git/Git 和 GitHub 初学者教程/11.在 GitHub 上协作.md",
+    "Git/Git 和 GitHub 初学者教程/12.Forking (& Contributing) 分叉（和贡献）.md",
+    "Git/Git 和 GitHub 初学者教程/10.在 GitHub 上设置远程存储库.md",
+    "Git/Git 和 GitHub 初学者教程/9.合并分支并处理冲突.md",
+    "Git/Git 和 GitHub 初学者教程/8.Branches 分支.md",
+    "Git/Git 和 GitHub 初学者教程/7.Undoing Things 撤消事情.md",
     "Git/Git 和 GitHub 初学者教程/6.Commits 提交.md",
-    "Git/Git 和 GitHub 初学者教程/4.创建存储库.md",
     "Git/Git 和 GitHub 初学者教程/3.Git 的工作原理.md",
+    "Git/Git 和 GitHub 初学者教程/2.安装 Git.md",
+    "Git/Git 和 GitHub 初学者教程/1.为什么使用 Git？.md",
+    "Git/Git 和 GitHub 初学者教程/5.Staging files 暂存文件.md",
+    "Git/Git 和 GitHub 初学者教程/4.创建存储库.md",
     "Git/关于Git_linux.git.md",
     "Git/如何退出 git log 和 git commit 状态_退出.md",
     "Git/Git.md",
-    "Git/Git 和 GitHub 初学者教程/2.安装 Git.md",
-    "Git/Git 和 GitHub 初学者教程/1.为什么使用 Git？.md",
     "后端开发试题/README.md",
     "计算机操作系统/计算机操作系统 - 内存管理.md",
     "计算机操作系统/计算机操作系统 - 目录.md",
@@ -206,13 +212,7 @@
     "JavaScript/JavaScript tutorial for beginners/replace()函数.md",
     "JavaScript/JavaScript tutorial for beginners/JS 保留小数方法.md",
     "JavaScript/JavaScript tutorial for beginners/arrays/arrays 数组.md",
-    "JavaScript/JavaScript tutorial for beginners/arrays/打乱数组.md",
-    "JavaScript/JavaScript tutorial for beginners/map，filter，reduce方法.md",
-    "JavaScript/JavaScript tutorial for beginners/Json/Json文件.md",
-    "JavaScript/JavaScript tutorial for beginners/格式化货币.md",
-    "JavaScript/JavaScript tutorial for beginners/函数/JavaScript函数介绍.md",
     "JavaScript/JavaScript tutorial for beginners/函数",
-    "JavaScript/JavaScript tutorial for beginners/if.md",
     "JavaScript/JavaScript tutorial for beginners/arrays",
     "JavaScript/JavaScript tutorial for beginners/循环&遍历",
     "JavaScript/JavaScript tutorial for beginners",
