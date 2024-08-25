@@ -6,6 +6,7 @@
 #### // fetch(url, {options})
 
 ---
+[[URL 参数]]
 
 ```js
 async function fetchData(){
