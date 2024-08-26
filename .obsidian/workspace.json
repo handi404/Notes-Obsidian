@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript tutorial for beginners/JSON/JSON Server/在 JSON Server 中进行搜索.md",
+                "file": "MongoDB/MongoDB tutorial for beginners/安装配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JavaScript tutorial for beginners/JSON/JSON Server/在 JSON Server 中进行搜索.md",
+                "file": "MongoDB/MongoDB tutorial for beginners/安装配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JavaScript tutorial for beginners/JSON/JSON Server/在 JSON Server 中进行搜索.md",
+                "file": "MongoDB/MongoDB tutorial for beginners/安装配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript tutorial for beginners/JSON/JSON Server/在 JSON Server 中进行搜索.md"
+                "file": "MongoDB/MongoDB tutorial for beginners/安装配置.md"
               }
             }
           },
@@ -185,20 +185,25 @@
   },
   "active": "379f9f0a6adb4e92",
   "lastOpenFiles": [
+    "MongoDB/MongoDB tutorial for beginners/索引indexes.md",
+    "MongoDB/MongoDB tutorial for beginners/安装配置.md",
+    "MongoDB/MongoDB tutorial for beginners/MongoDB 数据库结构.md",
+    "MongoDB/MongoDB tutorial for beginners/MongoDB数据库解释.md",
+    "MongoDB/MongoDB tutorial for beginners/社区版和企业版.md",
+    "JavaScript/JSON/JSON Server/详解.md",
+    "JavaScript/JSON/JSON Server/在 JSON Server 中进行搜索.md",
     "JavaScript/JavaScript tutorial for beginners/重定向用户到新页面.md",
-    "JavaScript/JavaScript tutorial for beginners/JSON/JSON Server/在 JSON Server 中进行搜索.md",
-    "JavaScript/JavaScript tutorial for beginners/JSON/JSON Server/从 JSON Server 中删除一个对象.md",
-    "JavaScript/JavaScript tutorial for beginners/JSON/JSON Server/将一个对象写入到 JSON Server.md",
-    "JavaScript/JavaScript tutorial for beginners/JSON/JSON Server/URL 参数.md",
-    "JavaScript/JavaScript tutorial for beginners/JSON/JSON Server/详解.md",
+    "JavaScript/JSON/JSON Server/从 JSON Server 中删除一个对象.md",
+    "JavaScript/JSON/JSON Server/将一个对象写入到 JSON Server.md",
+    "JavaScript/JSON/JSON Server/URL 参数.md",
     "JavaScript/JavaScript tutorial for beginners/同步异步/Async异步_Await等待.md",
     "JavaScript/API/从 API 获取数据.md",
     "JavaScript/API/Fetch 调用 API.md",
     "JavaScript/API/API 调试.md",
     "JavaScript/API/编写API.md",
-    "JavaScript/JavaScript tutorial for beginners/JSON/JSON 文件格式.md",
-    "JavaScript/JavaScript tutorial for beginners/JSON/Json文件.md",
-    "JavaScript/JavaScript tutorial for beginners/JSON/JSON Server",
+    "JavaScript/JSON/JSON 文件格式.md",
+    "JavaScript/JSON/Json文件.md",
+    "JavaScript/JSON/JSON Server",
     "Git/Git 和 GitHub 初学者教程/12.Forking (& Contributing) 分叉（和贡献）.md",
     "Git/Git 和 GitHub 初学者教程/11.在 GitHub 上协作.md",
     "Git/Git 和 GitHub 初学者教程/10.在 GitHub 上设置远程存储库.md",
@@ -207,11 +212,6 @@
     "Git/Git 和 GitHub 初学者教程/7.Undoing Things 撤消事情.md",
     "Git/Git 和 GitHub 初学者教程/6.Commits 提交.md",
     "Git/Git 和 GitHub 初学者教程/3.Git 的工作原理.md",
-    "Git/Git 和 GitHub 初学者教程/2.安装 Git.md",
-    "Git/Git 和 GitHub 初学者教程/1.为什么使用 Git？.md",
-    "Git/Git 和 GitHub 初学者教程/5.Staging files 暂存文件.md",
-    "Git/Git 和 GitHub 初学者教程/4.创建存储库.md",
-    "Git/关于Git_linux.git.md",
     "Git/Git 和 GitHub 初学者教程",
     "JavaScript/JavaScript tutorial for beginners/函数",
     "JavaScript/JavaScript tutorial for beginners/arrays",
