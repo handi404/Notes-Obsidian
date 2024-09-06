@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cac1b7dea76e2388",
+        "id": "4bcd224dbf1da128",
         "type": "tabs",
         "children": [
           {
-            "id": "379f9f0a6adb4e92",
+            "id": "eea18575fe854e3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MongoDB/MongoDB tutorial for beginners/安装配置.md",
+                "file": "计算机组成原理/计算机底层知识——二进制之间的加减乘除运算.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MongoDB/MongoDB tutorial for beginners/安装配置.md",
+                "file": "计算机组成原理/计算机底层知识——二进制之间的加减乘除运算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MongoDB/MongoDB tutorial for beginners/安装配置.md",
+                "file": "计算机组成原理/计算机底层知识——二进制之间的加减乘除运算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MongoDB/MongoDB tutorial for beginners/安装配置.md"
+                "file": "计算机组成原理/计算机底层知识——二进制之间的加减乘除运算.md"
               }
             }
           },
@@ -183,35 +183,37 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "379f9f0a6adb4e92",
+  "active": "eea18575fe854e3d",
   "lastOpenFiles": [
-    "MongoDB/MongoDB tutorial for beginners/索引indexes.md",
+    "计算机组成原理/补码/补码的秘密之六－－补码的生成.md",
+    "计算机组成原理/补码/补码的秘密之五－－无符号数与有符号数.md",
+    "计算机组成原理/补码/补码的秘密之四－－补码的来源和意义.md",
+    "计算机组成原理/补码/补码的秘密之三－－溢出和进位.md",
+    "计算机组成原理/补码/补码的秘密之二－－数值与补码的互换.md",
+    "计算机组成原理/补码/补码的秘密之一－－补码的来源.md",
+    "计算机组成原理/补码/补码的秘密之七－－数值与补码对照.md",
+    "内网穿透/Ngrok.md",
+    "计算机组成原理/计算机底层知识——二进制之间的加减乘除运算.md",
+    "计算机组成原理/补码/补码的秘密之一－－补码的来源_为什么叫补码-CSDN博客.md",
+    "计算机组成原理/补码/补码的秘密之二－－数值与补码的互换_数字与自己的补码 相与-CSDN博客.md",
+    "计算机组成原理/补码",
+    "JavaScript/Nodejs/node-crash-course/Lodash.md",
+    "内网穿透/Ngrok一把手教你内网穿透【建议收藏】-CSDN博客.md",
+    "内网穿透",
+    "JavaScript/Nodejs/node-crash-course/(5)NPM.md",
+    "JavaScript/Nodejs/node-crash-course/(3)客户端和服务器Clients&Servers.md",
+    "JavaScript/Nodejs/node-crash-course/(4)请求和响应Requests&Responses.md",
+    "JavaScript/React/React tutorial for beginners/0.初始.md",
+    "C++/计算执行时间.md",
+    "C++/const关键字：不同位置，不同含义.md",
+    "VSCode/vscode通过ssh连接服务器（吐血总结）_vscode ssh-CSDN博客.md",
+    "ssh/ssh详解–让你彻底学会ssh.md",
     "MongoDB/MongoDB tutorial for beginners/安装配置.md",
+    "MongoDB/MongoDB tutorial for beginners/索引indexes.md",
     "MongoDB/MongoDB tutorial for beginners/MongoDB 数据库结构.md",
     "MongoDB/MongoDB tutorial for beginners/MongoDB数据库解释.md",
     "MongoDB/MongoDB tutorial for beginners/社区版和企业版.md",
-    "JavaScript/JSON/JSON Server/详解.md",
-    "JavaScript/JSON/JSON Server/在 JSON Server 中进行搜索.md",
-    "JavaScript/JavaScript tutorial for beginners/重定向用户到新页面.md",
-    "JavaScript/JSON/JSON Server/从 JSON Server 中删除一个对象.md",
-    "JavaScript/JSON/JSON Server/将一个对象写入到 JSON Server.md",
-    "JavaScript/JSON/JSON Server/URL 参数.md",
-    "JavaScript/JavaScript tutorial for beginners/同步异步/Async异步_Await等待.md",
-    "JavaScript/API/从 API 获取数据.md",
-    "JavaScript/API/Fetch 调用 API.md",
-    "JavaScript/API/API 调试.md",
-    "JavaScript/API/编写API.md",
-    "JavaScript/JSON/JSON 文件格式.md",
-    "JavaScript/JSON/Json文件.md",
     "JavaScript/JSON/JSON Server",
-    "Git/Git 和 GitHub 初学者教程/12.Forking (& Contributing) 分叉（和贡献）.md",
-    "Git/Git 和 GitHub 初学者教程/11.在 GitHub 上协作.md",
-    "Git/Git 和 GitHub 初学者教程/10.在 GitHub 上设置远程存储库.md",
-    "Git/Git 和 GitHub 初学者教程/9.合并分支并处理冲突.md",
-    "Git/Git 和 GitHub 初学者教程/8.Branches 分支.md",
-    "Git/Git 和 GitHub 初学者教程/7.Undoing Things 撤消事情.md",
-    "Git/Git 和 GitHub 初学者教程/6.Commits 提交.md",
-    "Git/Git 和 GitHub 初学者教程/3.Git 的工作原理.md",
     "Git/Git 和 GitHub 初学者教程",
     "JavaScript/JavaScript tutorial for beginners/函数",
     "JavaScript/JavaScript tutorial for beginners/arrays",
@@ -221,8 +223,6 @@
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
     "JavaScript/React/React tutorial for beginners/image",
     "JavaScript/React/React tutorial for beginners",
-    "JavaScript/React",
-    "Java/Lambda 表达式 Stream API",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-13 100921.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-12 155928.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 134804.png",
