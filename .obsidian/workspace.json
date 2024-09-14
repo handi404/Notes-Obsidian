@@ -11,8 +11,12 @@
             "id": "29f56f4c00a1c192",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Java/Lambda 表达式 Stream API/Lambda表达式底层原理.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Web/JavaWeb/不重启tomcat服务直接执行新创建的Servclet，直接更新servlet_tomcat8.md",
+                "file": "Java/Lambda 表达式 Stream API/Lambda表达式底层原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Web/JavaWeb/不重启tomcat服务直接执行新创建的Servclet，直接更新servlet_tomcat8.md",
+                "file": "Java/Lambda 表达式 Stream API/Lambda表达式底层原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Web/JavaWeb/不重启tomcat服务直接执行新创建的Servclet，直接更新servlet_tomcat8.md"
+                "file": "Java/Lambda 表达式 Stream API/Lambda表达式底层原理.md"
               }
             }
           },
@@ -179,8 +183,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "614fd6a5cf2994fd",
+  "active": "29f56f4c00a1c192",
   "lastOpenFiles": [
+    "Java/Lambda 表达式 Stream API/Stream API 操作.md",
+    "Java/Lambda 表达式 Stream API/Lambda表达式底层原理.md",
     "Java/Lambda 表达式 Stream API/Lambda 表达式.md",
     "Java/Web/JavaWeb/不重启tomcat服务直接执行新创建的Servclet，直接更新servlet_tomcat8.md",
     "Java/Web/JavaWeb",
@@ -208,8 +214,6 @@
     "JavaScript/Nodejs/node-crash-course/(4)请求和响应Requests&Responses.md",
     "C++/计算执行时间.md",
     "C++/const关键字：不同位置，不同含义.md",
-    "VSCode/vscode通过ssh连接服务器（吐血总结）_vscode ssh-CSDN博客.md",
-    "ssh/ssh详解–让你彻底学会ssh.md",
     "JavaScript/JSON/JSON Server",
     "Git/Git 和 GitHub 初学者教程",
     "JavaScript/JavaScript tutorial for beginners/函数",
