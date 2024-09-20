@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "be46adfee3effc67",
+        "id": "2f7ae547e7fab607",
         "type": "tabs",
         "children": [
           {
-            "id": "bac124437b3f946e",
+            "id": "89718bb3b6219606",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "基于项目的教程的精选列表.md",
+                "file": "JavaScript/Vue/简介.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "基于项目的教程的精选列表.md",
+                "file": "JavaScript/Vue/简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "基于项目的教程的精选列表.md",
+                "file": "JavaScript/Vue/简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "基于项目的教程的精选列表.md"
+                "file": "JavaScript/Vue/简介.md"
               }
             }
           },
@@ -183,8 +183,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bac124437b3f946e",
+  "active": "89718bb3b6219606",
   "lastOpenFiles": [
+    "JavaScript/React/简介.md",
+    "JavaScript/Vue/简介.md",
+    "JavaScript/JavaScript tutorial for beginners/Dom/Don详解.md",
+    "JavaScript/Vue",
+    "JavaScript/JavaScript tutorial for beginners/Dom/DOM解释.md",
+    "前端/概念.md",
+    "基于项目的教程的精选列表.md",
     "Pasted image 20240804093642.png",
     "Ascll完整码表.md",
     "Windows/常用快捷键大总结.md",
@@ -208,19 +215,13 @@
     "计算机组成原理/补码/补码的秘密之二－－数值与补码的互换.md",
     "计算机组成原理/补码/补码的秘密之一－－补码的来源.md",
     "计算机组成原理/补码/补码的秘密之七－－数值与补码对照.md",
-    "内网穿透/Ngrok.md",
-    "计算机组成原理/补码/补码的秘密之一－－补码的来源_为什么叫补码-CSDN博客.md",
-    "计算机组成原理/补码/补码的秘密之二－－数值与补码的互换_数字与自己的补码 相与-CSDN博客.md",
     "计算机组成原理/补码",
-    "JavaScript/Nodejs/node-crash-course/Lodash.md",
-    "内网穿透/Ngrok一把手教你内网穿透【建议收藏】-CSDN博客.md",
     "内网穿透",
     "JavaScript/JSON/JSON Server",
     "Git/Git 和 GitHub 初学者教程",
     "JavaScript/JavaScript tutorial for beginners/函数",
     "JavaScript/JavaScript tutorial for beginners/arrays",
     "JavaScript/JavaScript tutorial for beginners/循环&遍历",
-    "JavaScript/JavaScript tutorial for beginners",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-13 100921.png",
@@ -230,7 +231,6 @@
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 130810.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 130818.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 110956.png",
-    "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-11 091340.png",
     "未命名 1.canvas",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
