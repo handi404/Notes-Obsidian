@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2f7ae547e7fab607",
+        "id": "ebf4923120e472c2",
         "type": "tabs",
         "children": [
           {
-            "id": "89718bb3b6219606",
+            "id": "8f2f12e0509763d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Vue/简介.md",
+                "file": "JavaScript/JSON/JSON Server/详解.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "39dd6e162fae2f3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/使用 Vue CLI创建新项目.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Vue/简介.md",
+                "file": "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/使用 Vue CLI创建新项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Vue/简介.md",
+                "file": "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/使用 Vue CLI创建新项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Vue/简介.md"
+                "file": "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/使用 Vue CLI创建新项目.md"
               }
             }
           },
@@ -183,45 +196,45 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "89718bb3b6219606",
+  "active": "39dd6e162fae2f3e",
   "lastOpenFiles": [
-    "JavaScript/React/简介.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 2)/6.计算属性.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/使用 Vue CLI创建新项目.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 2)/Vue.js Basics (part 2).md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 2)/5.挑战：切换收藏.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 2)/1.mouse events 鼠标事件.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 2)/4.Dynamic classes 动态类.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 2)/3.属性绑定.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 2)/2.输出列表 （v-for）.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 1)/4.Click events 单击事件.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 1)/3.Data & templates(模板).md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 1)/Vue.js Basics (part 1).md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 1)/5.条件呈现 2.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 1)/5.条件呈现.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 1)/2.Creating a Vue app.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 1)/1.How to use Vue (CDN).md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 2)",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 1)",
+    "JavaScript/Vue/Vue 3 新特性.md",
+    "Java/Web/JavaWeb/servletConfig servletContext.md",
+    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners",
+    "JavaScript/JSON/JSON Server/详解.md",
+    "Windows/windows关闭窗口最小化.md",
+    "Ascll完整码表.md",
+    "Pasted image 20240804093642.png",
+    "编程的一些概念.md",
     "JavaScript/Vue/简介.md",
+    "JavaScript/React/简介.md",
     "JavaScript/JavaScript tutorial for beginners/Dom/Don详解.md",
     "JavaScript/Vue",
     "JavaScript/JavaScript tutorial for beginners/Dom/DOM解释.md",
     "前端/概念.md",
-    "基于项目的教程的精选列表.md",
-    "Pasted image 20240804093642.png",
-    "Ascll完整码表.md",
-    "Windows/常用快捷键大总结.md",
     "Windows",
-    "Windows/windows关闭窗口最小化.md",
-    "Java/Web/JavaWeb/servletConfig servletContext.md",
-    "Java/Lambda 表达式 Stream API/Lambda表达式底层原理.md",
-    "Java/Lambda 表达式 Stream API/Stream API 操作.md",
-    "Java/Lambda 表达式 Stream API/Lambda 表达式.md",
-    "Java/Web/JavaWeb/不重启tomcat服务直接执行新创建的Servclet，直接更新servlet_tomcat8.md",
     "Java/Web/JavaWeb",
-    "JavaScript/React/React tutorial for beginners/0.初始.md",
-    "JavaScript/JSON/JSON Server/将一个对象写入到 JSON Server.md",
-    "JavaScript/JSON/JSON Server/详解.md",
-    "GitHub/使用GitHub托管静态网页.md",
-    "计算机组成原理/计算机底层知识——二进制之间的加减乘除运算.md",
-    "计算机组成原理/补码/补码的秘密之六－－补码的生成.md",
-    "计算机组成原理/补码/补码的秘密之五－－无符号数与有符号数.md",
-    "计算机组成原理/补码/补码的秘密之四－－补码的来源和意义.md",
-    "计算机组成原理/补码/补码的秘密之三－－溢出和进位.md",
-    "计算机组成原理/补码/补码的秘密之二－－数值与补码的互换.md",
-    "计算机组成原理/补码/补码的秘密之一－－补码的来源.md",
-    "计算机组成原理/补码/补码的秘密之七－－数值与补码对照.md",
     "计算机组成原理/补码",
     "内网穿透",
     "JavaScript/JSON/JSON Server",
-    "Git/Git 和 GitHub 初学者教程",
-    "JavaScript/JavaScript tutorial for beginners/函数",
-    "JavaScript/JavaScript tutorial for beginners/arrays",
-    "JavaScript/JavaScript tutorial for beginners/循环&遍历",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-13 100921.png",
