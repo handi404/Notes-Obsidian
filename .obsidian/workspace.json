@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8b53f04a83c49e7e",
+        "id": "9a56d021be8ceb82",
         "type": "tabs",
         "children": [
           {
-            "id": "3e9ca54de89c482a",
+            "id": "502928afeecf4174",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/妙用随机数.md",
+                "file": "JavaScript/Bunjs/创建新的项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/妙用随机数.md",
+                "file": "JavaScript/Bunjs/创建新的项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/妙用随机数.md",
+                "file": "JavaScript/Bunjs/创建新的项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/妙用随机数.md"
+                "file": "JavaScript/Bunjs/创建新的项目.md"
               }
             }
           },
@@ -183,45 +183,45 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3e9ca54de89c482a",
+  "active": "502928afeecf4174",
   "lastOpenFiles": [
-    "C++/值传递，指针传递，引用传递.md",
+    "JavaScript/Bunjs/常用的 Bun.js 命令操作.md",
+    "JavaScript/Bunjs/创建新的项目.md",
+    "JavaScript/Bunjs/简介.md",
+    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/JS 对象.md",
+    "JavaScript/Bunjs/bun 换源 国内阿里源 npmmirror 加速下载.md",
+    "JavaScript/Bunjs/Windows系统下使用Bun：Vue或React项目的Yarn与Npm替代方案.md",
+    "JavaScript/Bunjs",
+    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/class类.md",
+    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/extends 继承.md",
+    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/对象数组.md",
+    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/构造函数.md",
+    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/嵌套对象.md",
+    "JavaScript/JavaScript tutorial for beginners/循环&遍历/JavaScript中forEach的用法.md",
+    "JavaScript/JavaScript tutorial for beginners/Arrays && 集合/arrays 数组.md",
+    "JavaScript/JavaScript tutorial for beginners/Arrays && 集合/打乱数组.md",
+    "JavaScript/JavaScript tutorial for beginners/Arrays && 集合/Set 和 Map集合.md",
+    "JavaScript/JavaScript tutorial for beginners/一些常用内置函数.md",
+    "JavaScript/JavaScript tutorial for beginners/replace()函数.md",
+    "JavaScript/JavaScript tutorial for beginners/map，filter，reduce方法.md",
+    "JavaScript/JavaScript tutorial for beginners/Arrays && 集合/SORTING 排序.md",
+    "JavaScript/JavaScript tutorial for beginners/函数/JavaScript函数介绍.md",
+    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/get 和 set.md",
+    "JavaScript/JavaScript tutorial for beginners/重组.md",
+    "JavaScript/Nodejs/npx、npm、cnpm、pnpm区别.md",
     "JavaScript/妙用随机数.md",
+    "C++/值传递，指针传递，引用传递.md",
     "Cloudflare",
     "Java/JAVASE，JAVAEE，JAVAME.md",
-    "JavaScript/JavaScript tutorial for beginners/数字字面量（Number Literal）.md",
-    "JavaScript/Nodejs/Vite.md",
-    "JavaScript/Nodejs/npx、npm、cnpm、pnpm区别.md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 2)/5.插槽（Slots）.md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 2)/未命名.md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 2)/传递对象数组.md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 2)/4.事件修饰符（Event Modifiers）.md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 2)/3.Emitting custom events.md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 2)/2.Props.md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/3-0.Template refs.md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 2)/1.范围(Scoped) CSS 和 全局 CSS.md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/4.多个组件（Multiple Components）.md",
     "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 2)",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/3-1.Template refs.md",
-    "JavaScript/Vue/Vue 3 新特性/script 和 script setup区别.md",
     "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/未命名",
-    "JavaScript/Vue/Vue 3 新特性/script setup.md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/2.Vue 文件三核心.md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/1.使用 Vue CLI创建新项目.md",
-    "JavaScript/Vue/Vue 3 新特性/Vue 3 新特性.md",
     "JavaScript/Vue/Vue 3 新特性",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/未命名.md",
-    "JavaScript/JSON/JSON Server/详解.md",
-    "JavaScript/React/React tutorial for beginners/0.初始.md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 1)/1.How to use Vue (CDN).md",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 2)/6.计算属性.md",
     "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)",
     "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 2)",
     "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 1)",
     "JavaScript/Vue/Vue JS 3 Tutorial for Beginners",
     "Pasted image 20240804093642.png",
     "JavaScript/Vue",
-    "Windows",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
     "Java/JavaFX/JavaFX tutorial for beginners/image/屏幕截图 2024-08-13 100921.png",

@@ -1,43 +1,33 @@
 [[map，filter，reduce方法]]
 
+[[一些常用内置函数]]
+
 ```js
 const arrays = ["hello", "oid age", "happen", "see the video"];
-
   
 console.log(arrays);
 
-  
 console.log(arrays.length);
 
-  
 arrays.push("new"); //从尾部添加元素
 
 console.log(arrays);
-
-  
 
 arrays.unshift("new"); //从头部添加元素
 
 console.log(arrays);
 
-  
-
 arrays.pop(); //从尾部删除元素
 
 console.log(arrays);
-
-  
 
 arrays.shift(); //从头部删除元素
 
 console.log(arrays);
 
-  
-
 console.log(arrays.indexOf("happen")); //查找元素
 
   
-
 const index = arrays.indexOf("happen");
 
 console.log(arrays[index]);
