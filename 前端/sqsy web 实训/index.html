@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			/* 1.消除内外边距 */
+			*{
+				padding:0;
+				margin:0;
+			}
+			/* 2.背景颜色为黑色 */
+			body{
+				background-color:black;
+			}
+			/* 3.ul */
+			ul{
+				height:200px;
+				width:400px;
+				margin:100px auto;
+				position:relative;
+			}
+			/* 4.li */
+			li{
+				list-style:none;
+				width:50px;
+				height:150px;
+				position:absolute;
+				border-radius:50%;
+				bottom:0;
+				left:174px;
+				/* 设置旋转点  */
+				transform-origin:bottom;
+				opacity:0.7;
+				/* 过渡 */
+				transition:2s;
+			}
+			/* 5.设置每一个li的颜色 */
+			li:nth-child(1){
+				background-color:gold;
+				z-index:1;
+			}
+			li:nth-child(2){
+				background-color:red;
+			}
+			li:nth-child(3){
+				background-color:orange;
+			}
+			li:nth-child(4){
+				background-color:yellow;
+			}
+			li:nth-child(5){
+				background-color:green;
+			}
+			li:nth-child(6){
+				background-color:cyan;
+			}
+			li:nth-child(7){
+				background-color:purple;
+			}
+			li:nth-child(8){
+				background-color:pink;
+			}
+			li:nth-child(9){
+				background-color:blue;
+			}
+			li:nth-child(10){
+				background-color:white;
+			}
+			li:nth-child(11){
+				background-color:brown;
+			}
+			li:nth-child(12){
+				background-color:lightgray;
+			}
+			li:nth-child(13){
+				background-color:skyblue;
+			}
+			/* 鼠标进入 ul框 */
+			ul:hover li:nth-child(2){
+				transform:rotate(15deg);
+			}
+			ul:hover li:nth-child(3){
+				transform:rotate(30deg);
+			}
+			ul:hover li:nth-child(4){
+				transform:rotate(45deg);
+			}
+			ul:hover li:nth-child(5){
+				transform:rotate(60deg);
+			}
+			ul:hover li:nth-child(6){
+				transform:rotate(75deg);
+			}
+			ul:hover li:nth-child(7){
+				transform:rotate(90deg);
+			}
+			ul:hover li:nth-child(8){
+				transform:rotate(-15deg);
+			}
+			ul:hover li:nth-child(9){
+				transform:rotate(-30deg);
+			}
+			ul:hover li:nth-child(10){
+				transform:rotate(-45deg);
+			}
+			ul:hover li:nth-child(11){
+				transform:rotate(-60deg);
+			}
+			ul:hover li:nth-child(12){
+				transform:rotate(-75deg);
+			}
+			ul:hover li:nth-child(13){
+				transform:rotate(-90deg);
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 花瓣 -->
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		
+	</body>
+</html>

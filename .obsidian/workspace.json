@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "326c1289ed26d927",
+        "id": "e99698fb1236d798",
         "type": "tabs",
         "children": [
           {
-            "id": "5354bb122bfbcdd7",
+            "id": "67699ceebc59cf4d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Java/Lambda 表达式 Stream API/常用的Lambda表达式案例解析.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "常用的Lambda表达式案例解析"
             }
           }
         ]
@@ -199,21 +203,31 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5354bb122bfbcdd7",
+  "active": "67699ceebc59cf4d",
   "lastOpenFiles": [
+    "Java/Lambda 表达式 Stream API/常用的Lambda表达式案例解析.md",
+    "前端/sqsy web 实训/第十章 响应式布局.pdf",
+    "前端/sqsy web 实训/第八章 弹性盒子.pdf",
+    "前端/sqsy web 实训/第九章  网格布局.pdf",
+    "前端/sqsy web 实训/text11-23.html",
+    "前端/sqsy web 实训/index.html",
+    "前端/sqsy web 实训/excersice02.html",
+    "前端/sqsy web 实训/excersice01.html",
+    "前端/sqsy web 实训",
+    "前端/web 实训/第十章 响应式布局.pdf",
+    "前端/web 实训/第八章 弹性盒子.pdf",
+    "JavaScript/JavaScript tutorial for beginners/JavaScript 高级/未命名.md",
     "JavaScript/JavaScript tutorial for beginners/if.md",
     "JavaScript/JavaScript tutorial for beginners/字符串与正则表达式/正则表达式.md",
     "JavaScript/JavaScript tutorial for beginners/字符串与正则表达式/字符串常用的操作方法.md",
     "JavaScript/JavaScript tutorial for beginners/字符串与正则表达式/字符串.md",
     "JavaScript/JavaScript tutorial for beginners/格式化货币.md",
     "JavaScript/Bunjs/创建新的项目.md",
-    "JavaScript/JavaScript tutorial for beginners/字符串与正则表达式",
     "JavaScript/Bunjs/常用的 Bun.js 命令操作.md",
     "JavaScript/Bunjs/简介.md",
     "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/JS 对象.md",
     "JavaScript/Bunjs/bun 换源 国内阿里源 npmmirror 加速下载.md",
     "JavaScript/Bunjs/Windows系统下使用Bun：Vue或React项目的Yarn与Npm替代方案.md",
-    "JavaScript/Bunjs",
     "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/class类.md",
     "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/extends 继承.md",
     "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/对象数组.md",
@@ -227,16 +241,6 @@
     "JavaScript/JavaScript tutorial for beginners/replace()函数.md",
     "JavaScript/JavaScript tutorial for beginners/map，filter，reduce方法.md",
     "JavaScript/JavaScript tutorial for beginners/Arrays && 集合/SORTING 排序.md",
-    "JavaScript/JavaScript tutorial for beginners/函数/JavaScript函数介绍.md",
-    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/get 和 set.md",
-    "Cloudflare",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 2)",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/未命名",
-    "JavaScript/Vue/Vue 3 新特性",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 2)",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners/Vue.js Basics (part 1)",
-    "JavaScript/Vue/Vue JS 3 Tutorial for Beginners",
     "Pasted image 20240804093642.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>练习1-子元素居中</title>
+		<style>
+			*{
+				padding:0;
+				margin:0;
+			}
+			body{
+				display:flex;
+				flex-direction:row;
+				justify-content:space-evenly;
+				/* 侧轴设置对齐方式时，要设置侧轴的属性值 */
+				align-items:center;
+				/* 浏览器高度的百分比  vh */
+				height:100vh;
+			}
+			#box{
+				height:300px;
+				width:300px;
+				background-color:red;
+				/* 设置flex */
+				display:flex;
+				/* 主轴方向 */
+				flex-direction:row;
+				/* 设置主轴对齐方式 */
+				justify-content:center;
+				/* 侧轴对齐方式 */
+				align-items:center;
+			}
+			#one{
+				height:200px;
+				width:200px;
+				background-color:blue;
+				/* 设置flex */
+				display:flex;
+				/* 主轴方向 */
+				flex-direction:row;
+				/* 设置主轴对齐方式 */
+				justify-content:center;
+				/* 侧轴对齐方式 */
+				align-items:center;
+			}
+			#one div{
+				height:100px;
+				width:100px;
+				background-color:green;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<div id="one">
+				<div></div>
+			</div>
+		</div>
+	</body>
+</html>

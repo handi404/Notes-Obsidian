@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100vh;
+      }
+      #box {
+        width: 335px;
+        height: 450px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 110px 115px 110px;
+        grid-template-rows: 110px 110px 110px 110px;
+        grid-template-areas:
+          "a b b"
+          "c b b"
+          "d d e"
+          "f g g";
+      }
+      #box > div {
+        color: black;
+        text-align: center;
+        margin: 5px;
+        font-size: 14px;
+      }
+      h2,
+      p {
+        width: 99px;
+        height: 35px;
+        padding-left: 0;
+      }
+      p {
+        height: 40px;
+        line-height: 40px;
+        font-size: 13px;
+      }
+      .asd {
+        width: 213px;
+      }
+      h4 {
+        color: #4a4a4a;
+        padding-left: 7px;
+      }
+      p1 {
+        padding-left: 260px;
+      }
+      p1 span {
+        width: 10px;
+        height: 20px;
+        border: 1px solid #e9e9e9;
+      }
+      #box > div:nth-child(1) {
+        background-image: linear-gradient(180deg, #1770e7 20%, #33aaf5);
+        grid-area: a;
+      }
+      #box > div:nth-child(2) {
+        background-image: linear-gradient(180deg, #1770e7 20%, #33aaf5);
+        grid-area: b;
+      }
+      #box > div:nth-child(3) {
+        background-image: linear-gradient(180deg, #f3355d 20%, #fc5f9c);
+        grid-area: c;
+      }
+      #box > div:nth-child(4) {
+        background-image: linear-gradient(180deg, #1770e7 20%, #33aaf5);
+        grid-area: d;
+      }
+      #box > div:nth-child(5) {
+        background-image: linear-gradient(180deg, #1770e7 20%, #33aaf5);
+        grid-area: e;
+      }
+      #box > div:nth-child(6) {
+        background-image: linear-gradient(180deg, #d26400 20%, #e6a418);
+        grid-area: f;
+      }
+      #box > div:nth-child(7) {
+        background-image: linear-gradient(180deg, #d26400 20%, #e6a418);
+        grid-area: g;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="one">
+      <h4>热门榜单</h4>
+      <div id="box">
+        <div>
+          <h2>热门更新</h2>
+          <p>中国风</p>
+        </div>
+        <div>
+          <h2>热门更新</h2>
+          <p class="asd">中国古都，神采飞扬</p>
+        </div>
+        <div>
+          <h2>热门更新</h2>
+          <p>美丽中国</p>
+        </div>
+        <div>
+          <h2>热门更新</h2>
+          <p class="asd">最美地区评比</p>
+        </div>
+        <div>
+          <h2>热门更新</h2>
+          <p>旅游那些事</p>
+        </div>
+        <div>
+          <h2>热门更新</h2>
+          <p>地区特色</p>
+        </div>
+        <div>
+          <h2>热门更新</h2>
+          <p class="asd">地区文化</p>
+        </div>
+        <p1
+          >1&nbsp;&nbsp;<span>&nbsp;2&nbsp;</span>&nbsp;&nbsp;<span
+            >&nbsp;3&nbsp;</span
+          ></p1
+        >
+      </div>
+    </div>
+  </body>
+</html>
