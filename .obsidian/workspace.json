@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e99698fb1236d798",
+        "id": "b3beb8789d94bd66",
         "type": "tabs",
         "children": [
           {
-            "id": "67699ceebc59cf4d",
+            "id": "4c2a075f42352a4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Lambda 表达式 Stream API/常用的Lambda表达式案例解析.md",
+                "file": "JavaScript/JavaScript tutorial for beginners/ES6 模块/探讨模块化中的导入导出.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "常用的Lambda表达式案例解析"
+              "title": "探讨模块化中的导入导出"
             }
           }
         ]
@@ -203,8 +203,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "67699ceebc59cf4d",
+  "active": "4c2a075f42352a4b",
   "lastOpenFiles": [
+    "JavaScript/JavaScript tutorial for beginners/ES6 模块/导入和导出合并.md",
+    "JavaScript/JavaScript tutorial for beginners/ES6 模块/探讨模块化中的导入导出.md",
+    "JavaScript/JavaScript tutorial for beginners/ES6 模块/模块化开发.md",
+    "JavaScript/JavaScript tutorial for beginners/ES6 模块/ES6 模块.md",
+    "JavaScript/JavaScript tutorial for beginners/ES6 模块",
+    "JavaScript/JavaScript tutorial for beginners/JavaScript 高级/高级.md",
+    "JavaScript/Nodejs/pnpm中常用命令.md",
+    "JavaScript/Nodejs/npm中常用命令.md",
+    "JavaScript/Nodejs/npx、npm、cnpm、pnpm区别.md",
+    "VSCode/Cursor/无限续杯 Cursor - 0x5E.md",
     "Java/Lambda 表达式 Stream API/常用的Lambda表达式案例解析.md",
     "前端/sqsy web 实训/第十章 响应式布局.pdf",
     "前端/sqsy web 实训/第八章 弹性盒子.pdf",
@@ -215,8 +225,6 @@
     "前端/sqsy web 实训/excersice01.html",
     "前端/sqsy web 实训",
     "前端/web 实训/第十章 响应式布局.pdf",
-    "前端/web 实训/第八章 弹性盒子.pdf",
-    "JavaScript/JavaScript tutorial for beginners/JavaScript 高级/未命名.md",
     "JavaScript/JavaScript tutorial for beginners/if.md",
     "JavaScript/JavaScript tutorial for beginners/字符串与正则表达式/正则表达式.md",
     "JavaScript/JavaScript tutorial for beginners/字符串与正则表达式/字符串常用的操作方法.md",
@@ -233,14 +241,6 @@
     "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/对象数组.md",
     "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/构造函数.md",
     "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/嵌套对象.md",
-    "JavaScript/JavaScript tutorial for beginners/循环&遍历/JavaScript中forEach的用法.md",
-    "JavaScript/JavaScript tutorial for beginners/Arrays && 集合/arrays 数组.md",
-    "JavaScript/JavaScript tutorial for beginners/Arrays && 集合/打乱数组.md",
-    "JavaScript/JavaScript tutorial for beginners/Arrays && 集合/Set 和 Map集合.md",
-    "JavaScript/JavaScript tutorial for beginners/一些常用内置函数.md",
-    "JavaScript/JavaScript tutorial for beginners/replace()函数.md",
-    "JavaScript/JavaScript tutorial for beginners/map，filter，reduce方法.md",
-    "JavaScript/JavaScript tutorial for beginners/Arrays && 集合/SORTING 排序.md",
     "Pasted image 20240804093642.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
