@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b3beb8789d94bd66",
+        "id": "c5e6f3b63f69801e",
         "type": "tabs",
         "children": [
           {
-            "id": "4c2a075f42352a4b",
+            "id": "e23f3cef217b2166",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/JavaScript tutorial for beginners/ES6 模块/探讨模块化中的导入导出.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "探讨模块化中的导入导出"
+              "title": "新标签页"
             }
           }
         ]
@@ -77,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 284.5
   },
   "right": {
     "id": "35a05ec3fbe9c822",
@@ -190,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5,
+    "width": 256.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -203,10 +199,32 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4c2a075f42352a4b",
+  "active": "e23f3cef217b2166",
   "lastOpenFiles": [
-    "JavaScript/JavaScript tutorial for beginners/ES6 模块/导入和导出合并.md",
+    "Java/位运算实现权限组合.md",
+    "JavaScript/零宽字符.md",
+    "JavaScript/JavaScript tutorial for beginners/Dom/DOM 文档对象模型.pdf",
+    "JavaScript/JavaScript tutorial for beginners/Dom/DOM 文档对象模型.md",
+    "JavaScript/JavaScript tutorial for beginners/Dom/添加更改 HTML.md",
+    "JavaScript/JavaScript tutorial for beginners/Dom/鼠标事件.md",
+    "JavaScript/JavaScript tutorial for beginners/Dom/按键事件.md",
+    "JavaScript/JavaScript tutorial for beginners/Dom/DOM解释.md",
+    "JavaScript/JavaScript tutorial for beginners/Dom/NodeList.md",
+    "JavaScript/JavaScript tutorial for beginners/Dom/DOM 导航.md",
+    "JavaScript/JavaScript tutorial for beginners/Dom/Dom 操作.md",
+    "编程/程序员平常用什么系统做开发？.md",
+    "编程/编程的一些概念.md",
+    "编程",
+    "设计模式/设计模式  - 单例.md",
+    "GitHub/GitHub入门与实践.pdf",
+    "数据结构与算法/hello-algo-1.0.0-zh-c.pdf",
+    "内网穿透/Ngrok.md",
+    "VSCode/Cursor/无限续杯 Cursor - 0x5E.pdf",
+    "VSCode/Cursor/无限续杯 Cursor - 0x5E.md",
+    "VSCode/VSCode字体界面美化.md",
+    "JavaScript/Nodejs/npm yarn和pnpm设置镜像源.md",
     "JavaScript/JavaScript tutorial for beginners/ES6 模块/探讨模块化中的导入导出.md",
+    "JavaScript/JavaScript tutorial for beginners/ES6 模块/导入和导出合并.md",
     "JavaScript/JavaScript tutorial for beginners/ES6 模块/模块化开发.md",
     "JavaScript/JavaScript tutorial for beginners/ES6 模块/ES6 模块.md",
     "JavaScript/JavaScript tutorial for beginners/ES6 模块",
@@ -214,33 +232,11 @@
     "JavaScript/Nodejs/pnpm中常用命令.md",
     "JavaScript/Nodejs/npm中常用命令.md",
     "JavaScript/Nodejs/npx、npm、cnpm、pnpm区别.md",
-    "VSCode/Cursor/无限续杯 Cursor - 0x5E.md",
     "Java/Lambda 表达式 Stream API/常用的Lambda表达式案例解析.md",
     "前端/sqsy web 实训/第十章 响应式布局.pdf",
     "前端/sqsy web 实训/第八章 弹性盒子.pdf",
     "前端/sqsy web 实训/第九章  网格布局.pdf",
     "前端/sqsy web 实训/text11-23.html",
-    "前端/sqsy web 实训/index.html",
-    "前端/sqsy web 实训/excersice02.html",
-    "前端/sqsy web 实训/excersice01.html",
-    "前端/sqsy web 实训",
-    "前端/web 实训/第十章 响应式布局.pdf",
-    "JavaScript/JavaScript tutorial for beginners/if.md",
-    "JavaScript/JavaScript tutorial for beginners/字符串与正则表达式/正则表达式.md",
-    "JavaScript/JavaScript tutorial for beginners/字符串与正则表达式/字符串常用的操作方法.md",
-    "JavaScript/JavaScript tutorial for beginners/字符串与正则表达式/字符串.md",
-    "JavaScript/JavaScript tutorial for beginners/格式化货币.md",
-    "JavaScript/Bunjs/创建新的项目.md",
-    "JavaScript/Bunjs/常用的 Bun.js 命令操作.md",
-    "JavaScript/Bunjs/简介.md",
-    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/JS 对象.md",
-    "JavaScript/Bunjs/bun 换源 国内阿里源 npmmirror 加速下载.md",
-    "JavaScript/Bunjs/Windows系统下使用Bun：Vue或React项目的Yarn与Npm替代方案.md",
-    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/class类.md",
-    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/extends 继承.md",
-    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/对象数组.md",
-    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/构造函数.md",
-    "JavaScript/JavaScript tutorial for beginners/OBJECTS(对象)/嵌套对象.md",
     "Pasted image 20240804093642.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
