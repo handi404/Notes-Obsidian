@@ -9,6 +9,8 @@
 #### // replace (oldClass, newClass)    替换（旧类，新类）
 #### // contains ()    包含()
 
+[[js的classList]]
+
 ---
 
 ```js
