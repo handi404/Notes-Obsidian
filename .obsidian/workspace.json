@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6b4c5cbb4c7f3792",
+        "id": "15ce6ed913fba91c",
         "type": "tabs",
         "children": [
           {
-            "id": "28f1c57c8b5cb170",
+            "id": "0af5f3e7f7f8201e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript (ES6) code snippets.md",
+                "file": "Java/Spring框架/Java Web框架篇之Spring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript (ES6) code snippets"
+              "title": "Java Web框架篇之Spring"
             }
           }
         ]
@@ -203,11 +203,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "28f1c57c8b5cb170",
+  "active": "0af5f3e7f7f8201e",
   "lastOpenFiles": [
+    "Java/Spring框架/先掌握以下 Java 相关的知识.md",
+    "Java/Spring Boot/用 VS Code 开发 Spring Boot.md",
+    "Java/Spring框架/Java Web框架篇之Spring.md",
+    "Java/Spring Boot/用 VS Code 开发 Spring Boot.pdf",
+    "JavaScript (ES6) code snippets.md",
+    "Java/Spring Boot/Github 项目学习 Spring Boot.md",
+    "Java/Java 8 新特性/JDK8介绍_熟练使用jdk8.md",
+    "Java/Java 8 新特性",
+    "Java/Maven Gradle 构建工具/Maven/maven下载、安装与配置详细教程.md",
+    "Java/Maven Gradle 构建工具/Maven/未命名.md",
+    "Java/Maven Gradle 构建工具/Maven/Maven 的基本使用.md",
     "Simple React Snippets.md",
     "Vue VSCode Snippets.md",
-    "JavaScript (ES6) code snippets.md",
     "JavaScript/JavaScript tutorial for beginners/Dom/js的classList.md",
     "JavaScript/JavaScript tutorial for beginners/Dom/classList.md",
     "JavaScript/JavaScript tutorial for beginners/Style对象与Form对象/元素添加 CSS 样式.md",
@@ -223,24 +233,14 @@
     "JavaScript/JavaScript tutorial for beginners/事件处理/鼠标事件.md",
     "JavaScript/JavaScript tutorial for beginners/事件处理/按键事件.md",
     "JavaScript/JavaScript tutorial for beginners/事件处理/JS中的事件监听.md",
-    "JavaScript/JavaScript tutorial for beginners/Style对象与Form对象/Form对象.md",
     "JavaScript/JavaScript tutorial for beginners/事件处理",
-    "JavaScript/JavaScript tutorial for beginners/Style对象与Form对象/Style对象.md",
     "JavaScript/JavaScript tutorial for beginners/Style对象与Form对象",
-    "生涯发展报告.md",
-    "VSCode/VScode预定义代码加快开发速度.md",
-    "Java/位运算实现权限组合.md",
-    "JavaScript/零宽字符.md",
     "JavaScript/JavaScript tutorial for beginners/Dom/DOM 文档对象模型.pdf",
-    "JavaScript/JavaScript tutorial for beginners/Dom/DOM 文档对象模型.md",
-    "JavaScript/JavaScript tutorial for beginners/Dom/添加更改 HTML.md",
     "编程",
     "GitHub/GitHub入门与实践.pdf",
     "数据结构与算法/hello-algo-1.0.0-zh-c.pdf",
     "VSCode/Cursor/无限续杯 Cursor - 0x5E.pdf",
     "JavaScript/JavaScript tutorial for beginners/ES6 模块",
-    "前端/sqsy web 实训/第十章 响应式布局.pdf",
-    "前端/sqsy web 实训/第八章 弹性盒子.pdf",
     "Pasted image 20240804093642.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
