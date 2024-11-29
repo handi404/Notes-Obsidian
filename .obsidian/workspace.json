@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9b78af7da97d818b",
+        "id": "d05b7c8cdeb9e27e",
         "type": "tabs",
         "children": [
           {
-            "id": "0fa9ce8988a6fed8",
+            "id": "bdf4c7ed668fec43",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Java/Lombok/Lombok介绍、使用、神奇操作、以及工作中遇到的一些坑.pdf"
+                "file": "IDEA/IDEA新UI新手调教篇.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Lombok介绍、使用、神奇操作、以及工作中遇到的一些坑"
+              "icon": "lucide-file",
+              "title": "IDEA新UI新手调教篇"
             }
           }
         ],
@@ -149,9 +151,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Java/JDBC/Mybatis/mybatis详细教程.pdf"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "mybatis详细教程 的大纲"
             }
           },
           {
@@ -202,44 +206,43 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0fa9ce8988a6fed8",
+  "active": "bdf4c7ed668fec43",
   "lastOpenFiles": [
+    "IDEA/IDEA新UI新手调教篇.pdf",
+    "IDEA/IDEA新UI新手调教篇.md",
+    "IDEA/IntellijIDEA中的quick技巧.md",
+    "VSCode/让VSCode更好用的设置前端开发角度.md",
+    "VSCode/让VSCode更好用的设置前端开发角度.pdf",
+    "IDEA/IDEA做HTTP接口测试.md",
+    "IDEA/IntellijIDEA中的quick技巧真的挺快的.md",
+    "IDEA/IDEA做HTTP接口测试.pdf",
+    "IDEA/都2024了还在用Postman做HTTP接口测试吗.md",
+    "IDEA/IDEA中web项目c3p0-config.xml文件的配置及存放目录.md",
+    "IDEA/IDEA新UI新手调教篇看完还不会的过来捶我.md",
+    "Java/JDBC/Mybatis/mybatis详细教程.pdf",
+    "IDEA",
+    "Java/JDBC/Mybatis/mybatis详细教程.md",
+    "README.md",
+    "Java/泛型/未命名 1.md",
+    "Java/泛型/未命名.md",
+    "Java/Spring Boot/Springboot项目启动后自动打开浏览器访问.md",
+    "数据结构与算法/Data Structures and Algorithms/二叉搜索树Binary Search Tree.md",
+    "Java/Spring Boot/用 VS Code 开发 Spring Boot.md",
+    "Java/Maven Gradle 构建工具/Maven/下载依赖和构建.md",
+    "Java/Spring Boot/spring-boot之前端连接（jsp）环境vscode.md",
+    "Java/Lombok/Lombok 的安装与使用.md",
+    "Java/Lombok/Lombok介绍、使用、神奇操作、以及工作中遇到的一些坑.pdf",
     "Java/JDBC/JdbcTemplate/Spring之JdbcTemplate（详细介绍JdbcTemplate的应用).pdf",
     "Cloudflare/免费域名注册 & Cloudflare 域名解析 & Ngnix端口转发.pdf",
     "Cloudflare/免费域名注册 & Cloudflare 域名解析 & Ngnix端口转发.md",
     "Java/Lombok/Lombok介绍、使用、神奇操作、以及工作中遇到的一些坑.md",
     "未命名",
-    "Java/Lombok/Lombok 的安装与使用.md",
     "Java/JDBC/JdbcTemplate/Spring之JdbcTemplate（详细介绍JdbcTemplate的应用).md",
     "Java/Lombok",
     "Java/JDBC/JdbcTemplate/详解 JdbcTemplate(Spring中的CRUD).md",
     "Java/JDBC/C3P0/Spring c3p0配置详解.md",
     "Java/泛型/泛型.md",
-    "Java/JDBC/JdbcTemplate/详解 JdbcTemplate(Spring中的CRUD).pdf",
-    "Java/JDBC/JdbcTemplate",
-    "Java/JDBC/新建文件夹",
-    "Java/JDBC/C3P0",
-    "Java/泛型/未命名 1.md",
-    "Java/泛型/未命名.md",
     "Java/Spring Boot/Spring Boot 和 Spring 的关系.md",
-    "Java/Spring Boot/SpringBoot中各个层级结构详解.md",
-    "Java/多层架构.md",
-    "Java/Web/AJAX/day02-Servlet&Idea配置使用/Servlet.md",
-    "Java/Web/AJAX/day07-Listener&Filter/Listener&Filter.md",
-    "Java/Spring框架/Spring&Spring MVC&Spring Boot三者之间的区别与联系.md",
-    "Java/Spring框架/Java Web框架篇之Spring.md",
-    "Java/Spring框架/Spring框架的主要组成部分.md",
-    "Java/Spring Boot/IDEA创建SpringBoot项目教程.md",
-    "Java/Spring Boot/较完整的SpringBoot项目的目录结构.md",
-    "Java/NotNull、NotEmpty、NotBlank的区别.md",
-    "JavaScript/JSON/JSON Server/详解.md",
-    "Java/面试官说说NotNullNotEmptyNotBlank的区.md",
-    "Java/Spring Boot/用 VS Code 开发 Spring Boot.md",
-    "Java/Maven Gradle 构建工具/Maven/maven下载、安装与配置详细教程.md",
-    "Java/Spring框架/先掌握以下 Java 相关的知识.md",
-    "Java/Spring Boot/用 VS Code 开发 Spring Boot.pdf",
-    "Java/Java 8 新特性",
-    "JavaScript/JavaScript tutorial for beginners/事件处理",
     "Pasted image 20240804093642.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
