@@ -241,8 +241,6 @@ public class RegServlet extends HttpServlet {
 * ```javascript
   var person = {}
   ```
-
-
 json本质是字符串,后台可以通过字符串拼接的形式进行json字符串的创建并返回,但是由于json的key必须为字符串(""包裹)所以需要使用转义符\进行标注
 
 

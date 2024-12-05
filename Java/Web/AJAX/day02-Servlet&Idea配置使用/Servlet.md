@@ -413,7 +413,7 @@ public class MyServlet extends HttpServlet {
       	</init-param>
     ```
 
-*  Enumeration<E>getInitParameterNames() //获取所有初始化参数名
+*  Enumeration`<E>`getInitParameterNames() //获取所有初始化参数名
 
 
 
