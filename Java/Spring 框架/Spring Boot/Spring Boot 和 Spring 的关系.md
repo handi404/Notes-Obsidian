@@ -36,7 +36,3 @@
 - **简化配置：** 当不想花费大量时间在配置上时，Spring Boot 是一个不错的选择。
 
 **总结来说，Spring Boot 是 Spring 的一个进化，它让 Spring 的使用变得更加简单和高效。**
-
-**想了解更多关于 Spring Boot 和 Spring 的区别，可以参考以下文章：**
-
-- **百度智能云：** [https://cloud.baidu.com/article/2921642](https://cloud.baidu.com/article/2921642)

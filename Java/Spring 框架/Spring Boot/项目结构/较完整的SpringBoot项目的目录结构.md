@@ -144,5 +144,3 @@ public class UserServiceImpl implements UserService {
 http://localhost:8080/user/1
 
 ![7ac9f6c0e9e4ddc228fda31c498f249a.png](https://i-blog.csdnimg.cn/blog_migrate/20b9b2ae7989eceb7c281fa0153d8ade.jpeg)
-
-今天分享到此，希望对你有所帮助。
