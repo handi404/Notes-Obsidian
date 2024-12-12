@@ -3,5 +3,7 @@
   "calendar",
   "remember-cursor-position",
   "obsidian-plugin-toc",
-  "easy-typing-obsidian"
+  "easy-typing-obsidian",
+  "vscode-editor",
+  "code-styler"
 ]
