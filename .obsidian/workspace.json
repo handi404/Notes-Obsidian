@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a229733029818ca8",
+        "id": "e7c7e876789c0237",
         "type": "tabs",
         "children": [
           {
-            "id": "b8b68c4c24cb4fb7",
+            "id": "9f84d388e64a868e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JQuery/概述.md",
+                "file": "LLMs/编程/模型搭配.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "概述"
+              "title": "模型搭配"
             }
           }
         ],
@@ -207,15 +207,17 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "b8b68c4c24cb4fb7",
+  "active": "9f84d388e64a868e",
   "lastOpenFiles": [
+    "LLMs/编程/模型搭配.md",
+    "LLMs/编程",
+    "JavaScript/JQuery/概述.md",
     "JavaScript/JQuery/基本语法.md",
     "JavaScript/JQuery/结构化学习.md",
     "JavaScript/JQuery/事件.md",
     "JavaScript/JQuery/动画.md",
     "JavaScript/JQuery/特殊语法 2.md",
     "JavaScript/JQuery/特殊语法 1.md",
-    "JavaScript/JQuery/概述.md",
     "JavaScript/等号运算符的运算和转换规则.md",
     "JavaScript/Form表单使用onsubmit但return false后仍然提交？.md",
     "JavaScript/异步请求实现局部更新/什么是同步请求和异步请求？.md",
@@ -243,14 +245,12 @@
     "Java/MongoDB/连接池连接 MongoDB.md",
     "Java/MongoDB/连接池概念.md",
     "TypeScript/tsc问题.md",
-    "README.md",
     "JavaScript/HTTP 请求",
     "Java/Spring 框架/Spring MVC/注解",
     "Java/Spring 框架/Spring MVC",
     "Java/Spring 框架/RESTful API",
     "Java/Spring 框架/HTTP",
     "Java/Spring Boot/项目结构/较完整的SpringBoot项目的目录结构.pdf",
-    "Java/Spring Boot/vscode",
     "Java/Web/AJAX/day06-axios&Json数据/assets/image-20211203101653128.png",
     "Pasted image 20240804093642.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
