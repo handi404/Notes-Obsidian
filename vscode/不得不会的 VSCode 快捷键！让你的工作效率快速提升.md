@@ -4,48 +4,180 @@
 
 #### **1、通用快捷键**
 
-<table><tbody><tr><td><p><span>通用快捷键</span></p></td><td><p><span>作用</span></p></td><td><p><span>中文释义</span></p></td></tr><tr><td><p><code><span>Ctrl+Shift+P</span></code></p><p><code><span>F1</span></code></p></td><td><p><span>Show Command Palette</span></p></td><td><p><span>展示全局命令面板</span></p></td></tr><tr><td><p><code><span>Ctrl + P</span></code></p></td><td><p><span>Quick Open, Go to File…</span></p></td><td><p><span>快速打开最近打开的文件</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + N</span></code></p></td><td><p><span>New window/instance</span></p></td><td><p><span>打开新的编辑器窗口</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + W</span></code></p></td><td><p><span>Close window/instance</span></p></td><td><p><span>关闭编辑器</span></p></td></tr><tr><td><p><code><span>Ctrl +,</span></code></p></td><td><p><span>User Settings</span></p></td><td><p><span>用户设置项</span></p></td></tr><tr><td><p><code><span>Ctrl+K Ctrl+S</span></code></p></td><td><p><span>Keyboard Shortcuts</span></p></td><td><p><span>快捷键设置</span></p></td></tr></tbody></table>
-
+|                            |                         |             |
+| -------------------------- | ----------------------- | ----------- |
+| 通用快捷键                      | 作用                      | 中文释义        |
+| `Ctrl+Shift+P`<br><br>`F1` | Show Command Palette    | 展示全局命令面板    |
+| `Ctrl + P`                 | Quick Open, Go to File… | 快速打开最近打开的文件 |
+| `Ctrl + Shift + N`         | New window/instance     | 打开新的编辑器窗口   |
+| `Ctrl + Shift + W`         | Close window/instance   | 关闭编辑器       |
+| `Ctrl +,`                  | User Settings           | 用户设置项       |
+| `Ctrl+K Ctrl+S`            | Keyboard Shortcuts      | 快捷键设置       |
 #### **2、基础编辑快捷键**
 
-<table><tbody><tr><td><p><span>基础编辑</span></p></td><td><p><span>作用</span></p></td><td><p><span>中文释义</span></p></td></tr><tr><td><p><code><span>Ctrl + X</span></code></p></td><td><p><span>Cut line (empty selection)</span></p></td><td><p><span>剪切</span></p></td></tr><tr><td><p><code><span>Ctrl + C</span></code></p></td><td><p><span>Copy line (empty selection)</span></p></td><td><p><span>复制</span></p></td></tr><tr><td><p><code><span>Alt + ↑ / ↓</span></code></p></td><td><p><span>Move line up/down</span></p></td><td><p><span>移动行上下</span></p></td></tr><tr><td><p><code><span>Shift + Alt + ↓ / ↑</span></code></p></td><td><p><span>Copy line up/down</span></p></td><td><p><span>在当前行上下复制当前行</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + K</span></code></p></td><td><p><span>Delete line</span></p></td><td><p><span>删除行</span></p></td></tr><tr><td><p><code><span>Ctrl + Enter</span></code></p></td><td><p><span>Insert line below</span></p></td><td><p><span>在当前行下插入新的一行</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + Enter</span></code></p></td><td><p><span>Insert line above</span></p></td><td><p><span>在当前行上插入新的一行</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + |</span></code></p></td><td><p><span>Jump to matching bracket</span></p></td><td><p><span>匹配花括号的闭合处，跳转</span></p></td></tr><tr><td><p><code><span>Ctrl + ] / [</span></code></p></td><td><p><span>Indent/outdent line</span></p></td><td><p><span>行缩进</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + Enter</span></code></p></td><td><p><span>Insert line above</span></p></td><td><p><span>在当前行上插入新的一行</span></p></td></tr><tr><td><p><code><span>Home / End</span></code></p></td><td><p><span>Go to beginning/end of line</span></p></td><td><p><span>光标跳转到 行头/行尾</span></p></td></tr><tr><td><p><code><span>Ctrl + Home / End</span></code></p></td><td><p><span>Go to beginning/end of file</span></p></td><td><p><span>跳转到 页头/页尾</span></p></td></tr><tr><td><p><code><span>Ctrl+ ↑ / ↓</span></code></p></td><td><p><span>Scroll line up/down</span></p></td><td><p><span>行视图上下偏移</span></p></td></tr><tr><td><p><code><span>Alt+ PgUp / PgDown</span></code></p></td><td><p><span>Scroll page up/down</span></p></td><td><p><span>屏视图上下偏移</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + ] / [</span></code></p></td><td><p><span>Unfold/Fold (uncollapse) region</span></p></td><td><p><span>折叠/展开 区域代码</span></p></td></tr><tr><td><p><code><span>Ctrl+K Ctrl+[</span></code></p></td><td><p><span>Fold (collapse) all subregions</span></p></td><td><p><span>折叠所有子区域代码</span></p></td></tr><tr><td><p><code><span>Ctrl+K Ctrl+]</span></code></p></td><td><p><span>Unfold (uncollapse) all subregions</span></p></td><td><p><span>展开所有折叠的子区域代码</span></p></td></tr><tr><td><p><code><span>Ctrl+K Ctrl+0</span></code></p></td><td><p><span>Fold (collapse) all regions</span></p></td><td><p><span>折叠所有区域代码</span></p></td></tr><tr><td><p><code><span>Ctrl+K Ctrl+J</span></code></p></td><td><p><span>Unfold (uncollapse) all regions</span></p></td><td><p><span>展开所有折叠区域代码</span></p></td></tr><tr><td><p><code><span>Ctrl+K Ctrl+C</span></code></p></td><td><p><span>Add line comment</span></p></td><td><p><span>添加行注释</span></p></td></tr><tr><td><p><code><span>Ctrl+K Ctrl+U</span></code></p></td><td><p><span>Remove line comment</span></p></td><td><p><span>删除行注释</span></p></td></tr><tr><td><p><code><span>Ctrl + /</span></code></p></td><td><p><span>Toggle line comment</span></p></td><td><p><span>添加关闭行注释</span></p></td></tr><tr><td><p><code><span>Shift + Alt + A</span></code></p></td><td><p><span>Toggle block comment</span></p></td><td><p><span>块区域注释</span></p></td></tr><tr><td><p><code><span>Alt + Z</span></code></p></td><td><p><span>Toggle word wrap</span></p></td><td><p><span>添加关闭词汇包含</span></p></td></tr></tbody></table>
-
+|                        |                                    |              |
+| ---------------------- | ---------------------------------- | ------------ |
+| 基础编辑                   | 作用                                 | 中文释义         |
+| `Ctrl + X`             | Cut line (empty selection)         | 剪切           |
+| `Ctrl + C`             | Copy line (empty selection)        | 复制           |
+| `Alt + ↑ / ↓`          | Move line up/down                  | 移动行上下        |
+| `Shift + Alt + ↓ / ↑`  | Copy line up/down                  | 在当前行上下复制当前行  |
+| `Ctrl + Shift + K`     | Delete line                        | 删除行          |
+| `Ctrl + Enter`         | Insert line below                  | 在当前行下插入新的一行  |
+| `Ctrl + Shift + Enter` | Insert line above                  | 在当前行上插入新的一行  |
+| `Ctrl + Shift + \|`    | Jump to matching bracket           | 匹配花括号的闭合处，跳转 |
+| `Ctrl + ] / [`         | Indent/outdent line                | 行缩进          |
+| `Ctrl + Shift + Enter` | Insert line above                  | 在当前行上插入新的一行  |
+| `Home / End`           | Go to beginning/end of line        | 光标跳转到 行头/行尾  |
+| `Ctrl + Home / End`    | Go to beginning/end of file        | 跳转到 页头/页尾    |
+| `Ctrl+ ↑ / ↓`          | Scroll line up/down                | 行视图上下偏移      |
+| `Alt+ PgUp / PgDown`   | Scroll page up/down                | 屏视图上下偏移      |
+| `Ctrl + Shift + ] / [` | Unfold/Fold (uncollapse) region    | 折叠/展开 区域代码   |
+| `Ctrl+K Ctrl+[`        | Fold (collapse) all subregions     | 折叠所有子区域代码    |
+| `Ctrl+K Ctrl+]`        | Unfold (uncollapse) all subregions | 展开所有折叠的子区域代码 |
+| `Ctrl+K Ctrl+0`        | Fold (collapse) all regions        | 折叠所有区域代码     |
+| `Ctrl+K Ctrl+J`        | Unfold (uncollapse) all regions    | 展开所有折叠区域代码   |
+| `Ctrl+K Ctrl+C`        | Add line comment                   | 添加行注释        |
+| `Ctrl+K Ctrl+U`        | Remove line comment                | 删除行注释        |
+| `Ctrl + /`             | Toggle line comment                | 添加关闭行注释      |
+| `Shift + Alt + A`      | Toggle block comment               | 块区域注释        |
+| `Alt + Z`              | Toggle word wrap                   | 添加关闭词汇包含     |
 #### **3、导航快捷键**
 
-<table><tbody><tr><td><p><span>导航</span></p></td><td><p><span>作用</span></p></td><td><p><span>中文释义</span></p></td></tr><tr><td><p><code><span>Ctrl + T</span></code></p></td><td><p><span>Show all Symbols</span></p></td><td><p><span>列出所有符号</span></p></td></tr><tr><td><p><code><span>Ctrl + G</span></code></p></td><td><p><span>Go to Line…</span></p></td><td><p><span>跳转行</span></p></td></tr><tr><td><p><code><span>Ctrl + P</span></code></p></td><td><p><span>Go to File…</span></p></td><td><p><span>跳转文件</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + O</span></code></p></td><td><p><span>Go to Symbol…</span></p></td><td><p><span>跳转到符号处</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + M</span></code></p></td><td><p><span>Show Problems panel</span></p></td><td><p><span>打开问题展示面板</span></p></td></tr><tr><td><p><code><span>F8</span></code></p></td><td><p><span>Go to next error or warning</span></p></td><td><p><span>跳转到下一个错误或者警告</span></p></td></tr><tr><td><p><code><span>Shift + F8</span></code></p></td><td><p><span>Go to previous error or warning</span></p></td><td><p><span>跳转到上一个错误或者警告</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + Tab</span></code></p></td><td><p><span>Navigate editor group history</span></p></td><td><p><span>切换到最近打开的文件</span></p></td></tr><tr><td><p><code><span>Alt+ ← / →</span></code></p></td><td><p><span>Go back / forward</span></p></td><td><p><span>向后、向前</span></p></td></tr><tr><td><p><code><span>Ctrl + M</span></code></p></td><td><p><span>Toggle Tab moves focus</span></p></td><td><p><span>进入用Tab来移动焦点</span></p></td></tr></tbody></table>
-
+|                      |                                 |              |
+| -------------------- | ------------------------------- | ------------ |
+| 导航                   | 作用                              | 中文释义         |
+| `Ctrl + T`           | Show all Symbols                | 列出所有符号       |
+| `Ctrl + G`           | Go to Line…                     | 跳转行          |
+| `Ctrl + P`           | Go to File…                     | 跳转文件         |
+| `Ctrl + Shift + O`   | Go to Symbol…                   | 跳转到符号处       |
+| `Ctrl + Shift + M`   | Show Problems panel             | 打开问题展示面板     |
+| `F8`                 | Go to next error or warning     | 跳转到下一个错误或者警告 |
+| `Shift + F8`         | Go to previous error or warning | 跳转到上一个错误或者警告 |
+| `Ctrl + Shift + Tab` | Navigate editor group history   | 切换到最近打开的文件   |
+| `Alt+ ← / →`         | Go back / forward               | 向后、向前        |
+| `Ctrl + M`           | Toggle Tab moves focus          | 进入用Tab来移动焦点  |
 #### **4、查询与替换快捷键**
 
-<table><tbody><tr><td><p><span>查询与替换</span></p></td><td><p><span>作用</span></p></td><td><p><span>中文释义</span></p></td></tr><tr><td><p><code><span>Ctrl + F</span></code></p></td><td><p><span>Find</span></p></td><td><p><span>查询</span></p></td></tr><tr><td><p><code><span>Ctrl + H</span></code></p></td><td><p><span>Replace</span></p></td><td><p><span>替换</span></p></td></tr><tr><td><p><code><span>F3 / Shift + F3</span></code></p></td><td><p><span>Find next/previous</span></p></td><td><p><span>查询 下一个/上一个</span></p></td></tr><tr><td><p><code><span>Alt + Enter</span></code></p></td><td><p><span>Select all occurences of Find match</span></p></td><td><p><span>选中所有出现在查询中的</span></p></td></tr><tr><td><p><code><span>Ctrl + D</span></code></p></td><td><p><span>Add selection to next Find match</span></p></td><td><p><span>匹配当前选中的词汇或者行，再次选中-可操作</span></p></td></tr><tr><td><p><code><span>Ctrl+K Ctrl+D</span></code></p></td><td><p><span>Move last selection to next Find match</span></p></td><td><p><span>移动当前选择到下个匹配选择的位置(光标选定)</span></p></td></tr><tr><td><p><code><span>Alt + C / R / W</span></code></p></td><td><p><span>Toggle case-sensitive / regex / whole word</span></p></td><td><br></td></tr></tbody></table>
-
+|                   |                                            |                        |
+| ----------------- | ------------------------------------------ | ---------------------- |
+|                   |                                            |                        |
+| 查询与替换             | 作用                                         | 中文释义                   |
+| `Ctrl + F`        | Find                                       | 查询                     |
+| `Ctrl + H`        | Replace                                    | 替换                     |
+| `F3 / Shift + F3` | Find next/previous                         | 查询 下一个/上一个             |
+| `Alt + Enter`     | Select all occurences of Find match        | 选中所有出现在查询中的            |
+| `Ctrl + D`        | Add selection to next Find match           | 匹配当前选中的词汇或者行，再次选中-可操作  |
+| `Ctrl+K Ctrl+D`   | Move last selection to next Find match     | 移动当前选择到下个匹配选择的位置(光标选定) |
+| `Alt + C / R / W` | Toggle case-sensitive / regex / whole word |                        |
 #### **5、多行光标操作与选择快捷键**
 
-<table><tbody><tr><td><p><span>多行光标操作与选择</span></p></td><td><p><span>作用</span></p></td><td><p><span>中文释义</span></p></td></tr><tr><td><p><code><span>Alt + Click</span></code></p></td><td><p><span>Insert cursor</span></p></td><td><p><span>插入光标-支持多个</span></p></td></tr><tr><td><p><code><span>Ctrl+Alt+ ↑ / ↓</span></code></p></td><td><p><span>Insert cursor above / below</span></p></td><td><p><span>上下插入光标-支持多个</span></p></td></tr><tr><td><p><code><span>Ctrl + U</span></code></p></td><td><p><span>Undo last cursor operation</span></p></td><td><p><span>撤销最后一次光标操作</span></p></td></tr><tr><td><p><code><span>Shift + Alt + I</span></code></p></td><td><p><span>Insert cursor at end of each line selected</span></p></td><td><p><span>插入光标到选中范围内所有行结束符</span></p></td></tr><tr><td><p><code><span>Ctrl + I</span></code></p></td><td><p><span>Select current line</span></p></td><td><p><span>选中当前行</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + L</span></code></p></td><td><p><span>Select all occurrences of current selection</span></p></td><td><p><span>选择所有出现在当前选中的行-操作</span></p></td></tr><tr><td><p><code><span>Ctrl + F2</span></code></p></td><td><p><span>Select all occurrences of current word</span></p></td><td><p><span>选择所有出现在当前选中的词汇-操作</span></p></td></tr><tr><td><p><code><span>Shift + Alt + →</span></code></p></td><td><p><span>Expand selection</span></p></td><td><p><span>从光标处扩展选中全行</span></p></td></tr><tr><td><p><code><span>Shift + Alt + ←</span></code></p></td><td><p><span>Shrink selection</span></p></td><td><p><span>收缩选择区域</span></p></td></tr><tr><td><p><code><span>Shift + Alt + (drag mouse)</span></code></p></td><td><p><span>Column (box) selection</span></p></td><td><p><span>鼠标拖动区域，同时在多个行结束符插入光标</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + Alt + (arrow key)</span></code></p></td><td><p><span>Column (box) selection</span></p></td><td><p><span>也是插入多行光标的[方向键控制]</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + Alt + PgUp/PgDown</span></code></p></td><td><p><span>Column (box) selection page up/down</span></p></td><td><p><span>也是插入多行光标的[整屏生效]</span></p></td></tr></tbody></table>
-
+|                                    |                                             |                      |
+| ---------------------------------- | ------------------------------------------- | -------------------- |
+| 多行光标操作与选择                          | 作用                                          | 中文释义                 |
+| `Alt + Click`                      | Insert cursor                               | 插入光标-支持多个            |
+| `Ctrl+Alt+ ↑ / ↓`                  | Insert cursor above / below                 | 上下插入光标-支持多个          |
+| `Ctrl + U`                         | Undo last cursor operation                  | 撤销最后一次光标操作           |
+| `Shift + Alt + I`                  | Insert cursor at end of each line selected  | 插入光标到选中范围内所有行结束符     |
+| `Ctrl + I`                         | Select current line                         | 选中当前行                |
+| `Ctrl + Shift + L`                 | Select all occurrences of current selection | 选择所有出现在当前选中的行-操作     |
+| `Ctrl + F2`                        | Select all occurrences of current word      | 选择所有出现在当前选中的词汇-操作    |
+| `Shift + Alt + →`                  | Expand selection                            | 从光标处扩展选中全行           |
+| `Shift + Alt + ←`                  | Shrink selection                            | 收缩选择区域               |
+| `Shift + Alt + (drag mouse)`       | Column (box) selection                      | 鼠标拖动区域，同时在多个行结束符插入光标 |
+| `Ctrl + Shift + Alt + (arrow key)` | Column (box) selection                      | 也是插入多行光标的[方向键控制]     |
+| `Ctrl + Shift + Alt + PgUp/PgDown` | Column (box) selection page up/down         | 也是插入多行光标的[整屏生效]      |
 #### **6、丰富的语言操作快捷键**
 
-<table><tbody><tr><td><p><span>丰富的语言操作</span></p></td><td><p><span>作用</span></p></td><td><p><span>中文释义</span></p></td></tr><tr><td><p><code><span>Ctrl + Space</span></code></p></td><td><p><span>Trigger suggestion</span></p></td><td><p><span>输入建议[智能提示]</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + Space</span></code></p></td><td><p><span>Trigger parameter hints</span></p></td><td><p><span>参数提示</span></p></td></tr><tr><td><p><code><span>Shift + Alt + F</span></code></p></td><td><p><span>Format document</span></p></td><td><p><span>格式化代码</span></p></td></tr><tr><td><p><code><span>Ctrl + K Ctrl + F</span></code></p></td><td><p><span>Format selection</span></p></td><td><p><span>格式化选中部分的代码</span></p></td></tr><tr><td><p><code><span>F12</span></code></p></td><td><p><span>Go to Definition</span></p></td><td><p><span>跳转到定义处</span></p></td></tr><tr><td><p><code><span>Alt + F12</span></code></p></td><td><p><span>Peek Definition</span></p></td><td><p><span>代码片段显示定义</span></p></td></tr><tr><td><p><code><span>Ctrl + K F12</span></code></p></td><td><p><span>Open Definition to the side</span></p></td><td><p><span>在其他窗口打开定义处</span></p></td></tr><tr><td><p><code><span>Ctrl + .</span></code></p></td><td><p><span>Quick Fix</span></p></td><td><p><span>快速修复部分可以修复的语法错误</span></p></td></tr><tr><td><p><code><span>Shift + F12</span></code></p></td><td><p><span>Show References</span></p></td><td><p><span>显示所有引用</span></p></td></tr><tr><td><p><code><span>F2</span></code></p></td><td><p><span>Rename Symbol</span></p></td><td><p><span>重命名符号</span></p></td></tr><tr><td><p><code><span>Ctrl+K Ctrl+X</span></code></p></td><td><p><span>Trim trailing whitespace</span></p></td><td><p><span>移除空白字符</span></p></td></tr><tr><td><p><code><span>Ctrl + K M</span></code></p></td><td><p><span>Change file language</span></p></td><td><p><span>更改页面文档格式</span></p></td></tr></tbody></table>
-
+|                        |                             |                 |
+| ---------------------- | --------------------------- | --------------- |
+| 丰富的语言操作                | 作用                          | 中文释义            |
+| `Ctrl + Space`         | Trigger suggestion          | 输入建议[智能提示]      |
+| `Ctrl + Shift + Space` | Trigger parameter hints     | 参数提示            |
+| `Shift + Alt + F`      | Format document             | 格式化代码           |
+| `Ctrl + K Ctrl + F`    | Format selection            | 格式化选中部分的代码      |
+| `F12`                  | Go to Definition            | 跳转到定义处          |
+| `Alt + F12`            | Peek Definition             | 代码片段显示定义        |
+| `Ctrl + K F12`         | Open Definition to the side | 在其他窗口打开定义处      |
+| `Ctrl + .`             | Quick Fix                   | 快速修复部分可以修复的语法错误 |
+| `Shift + F12`          | Show References             | 显示所有引用          |
+| `F2`                   | Rename Symbol               | 重命名符号           |
+| `Ctrl+K Ctrl+X`        | Trim trailing whitespace    | 移除空白字符          |
+| `Ctrl + K M`           | Change file language        | 更改页面文档格式        |
 #### **7、编辑器管理快捷键**
 
-<table><tbody><tr><td><p><span>编辑器/窗口管理</span></p></td><td><p><span>作用</span></p></td><td><p><span>中文释义</span></p></td></tr><tr><td><p><code><span>Ctrl + F4</span></code></p><p><code><span>Ctrl + W</span></code></p></td><td><p><span>Close editor</span></p></td><td><p><span>关闭编辑器</span></p></td></tr><tr><td><p><code><span>Ctrl + k F</span></code></p></td><td><p><span>Close folder</span></p></td><td><p><span>关闭当前打开的文件夹</span></p></td></tr><tr><td><p><code><span>Ctrl + |</span></code></p></td><td><p><span>Split editor</span></p></td><td><p><span>切割编辑窗口</span></p></td></tr><tr><td><p><code><span>Ctrl+ 1 / 2 / 3</span></code></p></td><td><p><span>ocus into 1 st , 2 nd or 3 rd editor group</span></p></td><td><p><span>切换焦点在不同的切割窗口</span></p></td></tr><tr><td><p><code><span>Ctrl+K Ctrl+ ←/→</span></code></p></td><td><p><span>Focus into previous/next editor group</span></p></td><td><p><span>切换焦点在不同的切割窗口</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + PgUp/PgDown</span></code></p></td><td><p><span>Move editor left/right</span></p></td><td><p><span>切换标签页的位置</span></p></td></tr><tr><td><p><code><span>Ctrl+K ← / →</span></code></p></td><td><p><span>Move active editor group</span></p></td><td><p><span>切割窗口位置调换</span></p></td></tr></tbody></table>
-
+|                               |                                            |              |
+| ----------------------------- | ------------------------------------------ | ------------ |
+| 编辑器/窗口管理                      | 作用                                         | 中文释义         |
+| `Ctrl + F4`<br><br>`Ctrl + W` | Close editor                               | 关闭编辑器        |
+| `Ctrl + k F`                  | Close folder                               | 关闭当前打开的文件夹   |
+| `Ctrl + \|`                   | Split editor                               | 切割编辑窗口       |
+| `Ctrl+ 1 / 2 / 3`             | ocus into 1 st , 2 nd or 3 rd editor group | 切换焦点在不同的切割窗口 |
+| `Ctrl+K Ctrl+ ←/→`            | Focus into previous/next editor group      | 切换焦点在不同的切割窗口 |
+| `Ctrl + Shift + PgUp/PgDown`  | Move editor left/right                     | 切换标签页的位置     |
+| `Ctrl+K ← / →`                | Move active editor group                   | 切割窗口位置调换     |
 #### **8、文件管理快捷键**
 
-<table><tbody><tr><td><p><span>文件管理</span></p></td><td><p><span>作用</span></p></td><td><p><span>中文释义</span></p></td></tr><tr><td><p><code><span>Ctrl + N</span></code></p></td><td><p><span>New File</span></p></td><td><p><span>新建文件</span></p></td></tr><tr><td><p><code><span>Ctrl + O</span></code></p></td><td><p><span>Open File…</span></p></td><td><p><span>打开文件</span></p></td></tr><tr><td><p><code><span>Ctrl + S</span></code></p></td><td><p><span>Save</span></p></td><td><p><span>保存文件</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + S</span></code></p></td><td><p><span>Save As…</span></p></td><td><p><span>另存为</span></p></td></tr><tr><td><p><code><span>Ctrl + K S</span></code></p></td><td><p><span>Save All</span></p></td><td><p><span>保存所有当前已经打开的文件</span></p></td></tr><tr><td><p><code><span>Ctrl + F4</span></code></p></td><td><p><span>Close</span></p></td><td><p><span>关闭当前编辑窗口</span></p></td></tr><tr><td><p><code><span>Ctrl + K Ctrl + W</span></code></p></td><td><p><span>Close All</span></p></td><td><p><span>关闭所有编辑窗口</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + T</span></code></p></td><td><p><span>Reopen closed editor</span></p></td><td><p><span>撤销最近关闭的一个文件编辑窗口</span></p></td></tr><tr><td><p><code><span>Ctrl + K Enter</span></code></p></td><td><p><span>Keep preview mode editor open</span></p></td><td><p><span>保持开启</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + Tab</span></code></p></td><td><p><span>Open previous</span></p></td><td><p><span>调出最近打开的文件列表，重复按会切换</span></p></td></tr><tr><td><p><code><span>Ctrl + Tab</span></code></p></td><td><p><span>Open next</span></p></td><td><p><span>与上面一致，顺序不一致</span></p></td></tr><tr><td><p><code><span>Ctrl + K P</span></code></p></td><td><p><span>Copy path of active file</span></p></td><td><p><span>复制当前打开文件的存放路径</span></p></td></tr><tr><td><p><code><span>Ctrl + K R</span></code></p></td><td><p><span>Reveal active file in Explorer</span></p></td><td><p><span>打开当前编辑文件存放位置【文件管理器】</span></p></td></tr><tr><td><p><code><span>Ctrl + K O</span></code></p></td><td><p><span>Show active file in new window/instance</span></p></td><td><p><span>在新的编辑器中打开当前编辑的文件</span></p></td></tr></tbody></table>
-
+|                      |                                         |                     |
+| -------------------- | --------------------------------------- | ------------------- |
+| 文件管理                 | 作用                                      | 中文释义                |
+| `Ctrl + N`           | New File                                | 新建文件                |
+| `Ctrl + O`           | Open File…                              | 打开文件                |
+| `Ctrl + S`           | Save                                    | 保存文件                |
+| `Ctrl + Shift + S`   | Save As…                                | 另存为                 |
+| `Ctrl + K S`         | Save All                                | 保存所有当前已经打开的文件       |
+| `Ctrl + F4`          | Close                                   | 关闭当前编辑窗口            |
+| `Ctrl + K Ctrl + W`  | Close All                               | 关闭所有编辑窗口            |
+| `Ctrl + Shift + T`   | Reopen closed editor                    | 撤销最近关闭的一个文件编辑窗口     |
+| `Ctrl + K Enter`     | Keep preview mode editor open           | 保持开启                |
+| `Ctrl + Shift + Tab` | Open previous                           | 调出最近打开的文件列表，重复按会切换  |
+| `Ctrl + Tab`         | Open next                               | 与上面一致，顺序不一致         |
+| `Ctrl + K P`         | Copy path of active file                | 复制当前打开文件的存放路径       |
+| `Ctrl + K R`         | Reveal active file in Explorer          | 打开当前编辑文件存放位置【文件管理器】 |
+| `Ctrl + K O`         | Show active file in new window/instance | 在新的编辑器中打开当前编辑的文件    |
 #### **9、显示快捷键**
 
-<table><tbody><tr><td><p><span>显示</span></p></td><td><p><span>作用</span></p></td><td><p><span>中文释义</span></p></td></tr><tr><td><p><code><span>F11</span></code></p></td><td><p><span>Toggle full screen</span></p></td><td><p><span>切换全屏模式</span></p></td></tr><tr><td><p><code><span>Shift + Alt + 1</span></code></p></td><td><p><span>Toggle editor layout (horizontal/vertical)</span></p></td><td><p><span>切换编辑布局【目前无效】</span></p></td></tr><tr><td><p><code><span>Ctrl + =/-</span></code></p></td><td><p><span>Zoom in/out</span></p></td><td><p><span>放大 / 缩小</span></p></td></tr><tr><td><p><code><span>Ctrl + B</span></code></p></td><td><p><span>Toggle Sidebar visibility</span></p></td><td><p><span>侧边栏显示隐藏</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + E</span></code></p></td><td><p><span>Show Explorer / Toggle focus</span></p></td><td><p><span>资源视图和编辑视图的焦点切换</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + F</span></code></p></td><td><p><span>Show Search</span></p></td><td><p><span>打开全局搜索</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + G</span></code></p></td><td><p><span>Show Source Control</span></p></td><td><p><span>打开Git可视管理</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + D</span></code></p></td><td><p><span>Show Debug</span></p></td><td><p><span>打开DeBug面板</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + X</span></code></p></td><td><p><span>Show Extensions</span></p></td><td><p><span>打开插件市场面板</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + H</span></code></p></td><td><p><span>Replace in files</span></p></td><td><p><span>在当前文件替换查询替换</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + J</span></code></p></td><td><p><span>Toggle Search details</span></p></td><td><p><span>开启详细查询</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + U</span></code></p></td><td><p><span>Show Output panel</span></p></td><td><br></td></tr><tr><td><p><code><span>Ctrl + Shift + V</span></code></p></td><td><p><span>Open Markdown preview</span></p></td><td><p><span>预览Markdown文件【编译后】</span></p></td></tr><tr><td><p><code><span>Ctrl + K v</span></code></p></td><td><p><span>Open Markdown preview to the side</span></p></td><td><p><span>在边栏打开渲染后的视图【新建】</span></p></td></tr><tr><td><p><code><span>Ctrl+K Z</span></code></p></td><td><p><span>Zen Mode (Esc Esc to exit)</span></p></td><td><p><span>禅模式</span></p></td></tr></tbody></table>
-
+|                    |                                            |                   |
+| ------------------ | ------------------------------------------ | ----------------- |
+| 显示                 | 作用                                         | 中文释义              |
+| `F11`              | Toggle full screen                         | 切换全屏模式            |
+| `Shift + Alt + 1`  | Toggle editor layout (horizontal/vertical) | 切换编辑布局【目前无效】      |
+| `Ctrl + =/-`       | Zoom in/out                                | 放大 / 缩小           |
+| `Ctrl + B`         | Toggle Sidebar visibility                  | 侧边栏显示隐藏           |
+| `Ctrl + Shift + E` | Show Explorer / Toggle focus               | 资源视图和编辑视图的焦点切换    |
+| `Ctrl + Shift + F` | Show Search                                | 打开全局搜索            |
+| `Ctrl + Shift + G` | Show Source Control                        | 打开Git可视管理         |
+| `Ctrl + Shift + D` | Show Debug                                 | 打开DeBug面板         |
+| `Ctrl + Shift + X` | Show Extensions                            | 打开插件市场面板          |
+| `Ctrl + Shift + H` | Replace in files                           | 在当前文件替换查询替换       |
+| `Ctrl + Shift + J` | Toggle Search details                      | 开启详细查询            |
+| `Ctrl + Shift + U` | Show Output panel                          |                   |
+| `Ctrl + Shift + V` | Open Markdown preview                      | 预览Markdown文件【编译后】 |
+| `Ctrl + K v`       | Open Markdown preview to the side          | 在边栏打开渲染后的视图【新建】   |
+| `Ctrl+K Z`         | Zen Mode (Esc Esc to exit)                 | 禅模式               |
 #### **10、调试快捷键**
 
-<table><tbody><tr><td><p><span>调试</span></p></td><td><p><span>作用</span></p></td><td><p><span>中文释义</span></p></td></tr><tr><td><p><code><span>F9</span></code></p></td><td><p><span>Toggle breakpoint</span></p></td><td><p><span>添加解除断点</span></p></td></tr><tr><td><p><code><span>F5</span></code></p></td><td><p><span>Start/Continue</span></p></td><td><p><span>启动调试、继续</span></p></td></tr><tr><td><p><code><span>Shift + F5</span></code></p></td><td><p><span>Stop</span></p></td><td><p><span>结束调试</span></p></td></tr><tr><td><p><code><span>F11 / Shift + F11</span></code></p></td><td><p><span>Step into/out</span></p></td><td><p><span>单步进入 / 单步跳出</span></p></td></tr><tr><td><p><code><span>F10</span></code></p></td><td><p><span>Step over</span></p></td><td><p><span>单步跳过</span></p></td></tr><tr><td><p><code><span>Ctrl + K Ctrl + I</span></code></p></td><td><p><span>Show hover</span></p></td><td><p><span>显示悬浮</span></p></td></tr></tbody></table>
-
+|                     |                   |             |
+| ------------------- | ----------------- | ----------- |
+| 调试                  | 作用                | 中文释义        |
+| `F9`                | Toggle breakpoint | 添加解除断点      |
+| `F5`                | Start/Continue    | 启动调试、继续     |
+| `Shift + F5`        | Stop              | 结束调试        |
+| `F11 / Shift + F11` | Step into/out     | 单步进入 / 单步跳出 |
+| `F10`               | Step over         | 单步跳过        |
+| `Ctrl + K Ctrl + I` | Show hover        | 显示悬浮        |
 #### **11、终端集成快捷键**
 
-<table><tbody><tr><td><p><span>终端集成</span></p></td><td><p><span>作用</span></p></td><td><p><span>中文释义</span></p></td></tr><tr><td><p><code><span>Ctrl + \</span></code></p></td><td><p><span>Show integrated terminal</span></p></td><td><p><span>打开集成终端</span></p></td></tr><tr><td><p><code><span>Ctrl + Shift + \</span></code></p></td><td><p><span>Create new terminal</span></p></td><td><p><span>创建一个新的终端</span></p></td></tr><tr><td><p><code><span>Ctrl + C</span></code></p></td><td><p><span>Copy selection</span></p></td><td><p><span>复制所选</span></p></td></tr><tr><td><p><code><span>Ctrl + V</span></code></p></td><td><p><span>Paste into active terminal</span></p></td><td><p><span>复制到当前激活的终端</span></p></td></tr><tr><td><p><code><span>Ctrl+ ↑ / ↓</span></code></p></td><td><p><span>Scroll up/down</span></p></td><td><p><span>按行进行上下翻</span></p></td></tr><tr><td><p><code><span>Shift+PgUp / PgDn</span></code></p></td><td><p><span>Scroll page up/down</span></p></td><td><p><span>页面上下翻屏</span></p></td></tr><tr><td><p><code><span>Ctrl+Home / End</span></code></p></td><td><p><span>Scroll to top/bottom</span></p></td><td><p><span>滚动到页面头部或尾部</span></p></td></tr></tbody></table>
-
+|                     |                            |            |
+| ------------------- | -------------------------- | ---------- |
+| 终端集成                | 作用                         | 中文释义       |
+| `Ctrl + \`          | Show integrated terminal   | 打开集成终端     |
+| `Ctrl + Shift + \`  | Create new terminal        | 创建一个新的终端   |
+| `Ctrl + C`          | Copy selection             | 复制所选       |
+| `Ctrl + V`          | Paste into active terminal | 复制到当前激活的终端 |
+| `Ctrl+ ↑ / ↓`       | Scroll up/down             | 按行进行上下翻    |
+| `Shift+PgUp / PgDn` | Scroll page up/down        | 页面上下翻屏     |
+| `Ctrl+Home / End`   | Scroll to top/bottom       | 滚动到页面头部或尾部 |
 ## **二、快捷键自定义设置**
 
 以上为 VSCode 默认的快捷键设置，如果哪个快捷键不符合我日常的使用习惯，我们可以自定义设置成我们习惯的按键组合。如下为设置步骤
