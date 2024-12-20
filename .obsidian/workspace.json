@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "73a80c63d03bda89",
+        "id": "fa8024dfcf43462a",
         "type": "tabs",
         "children": [
           {
-            "id": "aabfeef3bcf86850",
+            "id": "4713f9cd15499b1a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/PowerShell/StarShip.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "StarShip"
+              "title": "新标签页"
             }
           }
         ],
@@ -152,10 +148,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VSCode/不得不会的 VSCode 快捷键！让你的工作效率快速提升.md"
+                "file": "GitHub/github copilot学生认证.md"
               },
               "icon": "lucide-list",
-              "title": "不得不会的 VSCode 快捷键！让你的工作效率快速提升 的大纲"
+              "title": "github copilot学生认证 的大纲"
             }
           },
           {
@@ -207,8 +203,31 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "aabfeef3bcf86850",
+  "active": "614fd6a5cf2994fd",
   "lastOpenFiles": [
+    "前端/CSS/探索 CSS、Sass 和 SCSS：区别与应用.md",
+    "前端/CSS/元素消失技巧.md",
+    "JavaScript/Vercel/简介.md",
+    "JavaScript/Supabase/简介.md",
+    "前端/CSS/Tailwind CSS/简介.md",
+    "前端/概念.md",
+    "前端/CSS",
+    "Windows/Scoop/Windows包管理器Scoop的安装与配置.md",
+    "前端/CSS/Tailwind CSS",
+    "JavaScript/Vercel/Next.js",
+    "JavaScript/Supabase",
+    "JavaScript/Vercel",
+    "Windows/Scoop/Scoop.md",
+    "Windows/Scoop",
+    "JavaScript/Nodejs/npm中常用命令.md",
+    "JavaScript/Nodejs/Vite.md",
+    "GitHub/github copilot学生认证.md",
+    "LLMs/深入探讨Al prompt engineering.md",
+    "VSCode/Cursor/Cursor Agent到底是什么意思.md",
+    "JavaScript/Angular/创建项目.md",
+    "JavaScript/Angular/ng.md",
+    "JavaScript/Angular",
+    "LLMs/问答.md",
     "Windows/PowerShell/StarShip.md",
     "Windows/PowerShell",
     "VSCode/好用的10个vscode快捷键方法.md",
@@ -221,36 +240,13 @@
     "JavaScript/JQuery/事件.md",
     "JavaScript/JQuery/动画.md",
     "JavaScript/JQuery/特殊语法 2.md",
-    "JavaScript/JQuery/特殊语法 1.md",
-    "JavaScript/等号运算符的运算和转换规则.md",
-    "JavaScript/Form表单使用onsubmit但return false后仍然提交？.md",
-    "JavaScript/异步请求实现局部更新/什么是同步请求和异步请求？.md",
-    "Java/注解（Annotation）.md",
     "Java/JDBC/教务管理系统/lib/JdbcUtils.java",
-    "Java/JDBC/教务管理系统/StudentMGR/src/dao/ClassesDao.java",
-    "Simple React Snippets.md",
-    "Java/JDBC/教务管理系统/StudentMGR/src/utils/ScannerUtils.java",
-    "Java/类型转换.md",
-    "Java/NotNull、NotEmpty、NotBlank的区别.md",
-    "Java/Java 容器.md",
-    "Java/Java 虚拟机.md",
-    "Java/格式化字符串.md",
-    "Java/多层架构.md",
-    "JavaScript/HTTP 请求/http 请求格式.md",
-    "JavaScript/HTTP 请求/涉及概念.md",
-    "JavaScript/HTTP 请求/HTTP 请求库.md",
-    "IDEA/IDEA做HTTP接口测试.md",
     "Image/屏幕截图 2024-08-06 095916.png",
     "Image/1728709897244.jpeg",
     "Image/20240429_134709.jpg",
     "Image/20240527_141016.jpg",
     "Image/文件共享/微信图片_20231218084945.png",
     "Image/文件共享/微信图片_20231218084931.png",
-    "JavaScript/HTTP 请求",
-    "Java/Spring 框架/Spring MVC/注解",
-    "Java/Spring 框架/Spring MVC",
-    "Java/Spring 框架/RESTful API",
-    "Java/Spring 框架/HTTP",
     "Java/Web/AJAX/day06-axios&Json数据/assets/image-20211203101653128.png",
     "Pasted image 20240804093642.png",
     "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
