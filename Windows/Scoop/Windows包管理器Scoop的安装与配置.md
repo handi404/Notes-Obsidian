@@ -32,7 +32,8 @@ irm get.scoop.sh | iex
 如果你想自定义Scoop及其全局应用程序的安装位置，可以使用如下命令：
 
 ```powershell
-irm get.scoop.sh -outfile 'install.ps1'.\install.ps1 -ScoopDir '你想把scoop安装到那个目录' -ScoopGlobalDir 'Scoop未来安装全局软件的目录' -NoProxy
+irm get.scoop.sh -outfile 'install.ps1'
+.\install.ps1 -ScoopDir '你想把scoop安装到那个目录' -ScoopGlobalDir 'Scoop未来安装全局软件的目录' -NoProxy
 ```
 
 对于需要管理员权限安装到系统范围的情况，使用以下命令：

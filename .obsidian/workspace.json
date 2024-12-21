@@ -11,10 +11,14 @@
             "id": "4713f9cd15499b1a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Scoop/Windows包管理器Scoop的安装与配置.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Windows包管理器Scoop的安装与配置"
             }
           }
         ],
@@ -203,8 +207,9 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "614fd6a5cf2994fd",
+  "active": "4713f9cd15499b1a",
   "lastOpenFiles": [
+    "Windows/Scoop/Scoop.md",
     "前端/CSS/探索 CSS、Sass 和 SCSS：区别与应用.md",
     "前端/CSS/元素消失技巧.md",
     "JavaScript/Vercel/简介.md",
@@ -217,7 +222,6 @@
     "JavaScript/Vercel/Next.js",
     "JavaScript/Supabase",
     "JavaScript/Vercel",
-    "Windows/Scoop/Scoop.md",
     "Windows/Scoop",
     "JavaScript/Nodejs/npm中常用命令.md",
     "JavaScript/Nodejs/Vite.md",
