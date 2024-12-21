@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fa8024dfcf43462a",
+        "id": "874d03e44d354159",
         "type": "tabs",
         "children": [
           {
-            "id": "4713f9cd15499b1a",
+            "id": "2e1ed1dee54bc252",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Scoop/Windows包管理器Scoop的安装与配置.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Windows包管理器Scoop的安装与配置"
+              "title": "新标签页"
             }
           }
         ],
@@ -207,8 +203,12 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "4713f9cd15499b1a",
+  "active": "614fd6a5cf2994fd",
   "lastOpenFiles": [
+    "Windows/Scoop/Windows包管理器Scoop的安装与配置.md",
+    "JavaScript/FrameworkAndLibrary",
+    "JavaScript/运行时环境/Deno",
+    "JavaScript/运行时环境",
     "Windows/Scoop/Scoop.md",
     "前端/CSS/探索 CSS、Sass 和 SCSS：区别与应用.md",
     "前端/CSS/元素消失技巧.md",
@@ -217,34 +217,29 @@
     "前端/CSS/Tailwind CSS/简介.md",
     "前端/概念.md",
     "前端/CSS",
-    "Windows/Scoop/Windows包管理器Scoop的安装与配置.md",
     "前端/CSS/Tailwind CSS",
     "JavaScript/Vercel/Next.js",
     "JavaScript/Supabase",
     "JavaScript/Vercel",
     "Windows/Scoop",
-    "JavaScript/Nodejs/npm中常用命令.md",
-    "JavaScript/Nodejs/Vite.md",
+    "JavaScript/运行时环境/Nodejs/npm中常用命令.md",
+    "JavaScript/运行时环境/Nodejs/Vite.md",
     "GitHub/github copilot学生认证.md",
     "LLMs/深入探讨Al prompt engineering.md",
     "VSCode/Cursor/Cursor Agent到底是什么意思.md",
-    "JavaScript/Angular/创建项目.md",
-    "JavaScript/Angular/ng.md",
-    "JavaScript/Angular",
+    "JavaScript/FrameworkAndLibrary/Angular/创建项目.md",
+    "JavaScript/FrameworkAndLibrary/Angular/ng.md",
+    "JavaScript/FrameworkAndLibrary/Angular",
     "LLMs/问答.md",
     "Windows/PowerShell/StarShip.md",
-    "Windows/PowerShell",
     "VSCode/好用的10个vscode快捷键方法.md",
     "VSCode/VSCode 连接远程 GitHub仓库.md",
     "LLMs/编程/模型搭配.md",
-    "LLMs/编程",
-    "JavaScript/JQuery/概述.md",
-    "JavaScript/JQuery/基本语法.md",
-    "JavaScript/JQuery/结构化学习.md",
-    "JavaScript/JQuery/事件.md",
-    "JavaScript/JQuery/动画.md",
-    "JavaScript/JQuery/特殊语法 2.md",
-    "Java/JDBC/教务管理系统/lib/JdbcUtils.java",
+    "JavaScript/FrameworkAndLibrary/JQuery/概述.md",
+    "JavaScript/FrameworkAndLibrary/JQuery/基本语法.md",
+    "JavaScript/FrameworkAndLibrary/JQuery/结构化学习.md",
+    "JavaScript/FrameworkAndLibrary/JQuery/事件.md",
+    "JavaScript/FrameworkAndLibrary/JQuery/动画.md",
     "Image/屏幕截图 2024-08-06 095916.png",
     "Image/1728709897244.jpeg",
     "Image/20240429_134709.jpg",
@@ -253,8 +248,8 @@
     "Image/文件共享/微信图片_20231218084931.png",
     "Java/Web/AJAX/day06-axios&Json数据/assets/image-20211203101653128.png",
     "Pasted image 20240804093642.png",
-    "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
-    "JavaScript/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
+    "JavaScript/FrameworkAndLibrary/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
+    "JavaScript/FrameworkAndLibrary/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
     "未命名 1.canvas",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
