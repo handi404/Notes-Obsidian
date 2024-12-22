@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "874d03e44d354159",
+        "id": "101d24fa235eaf8e",
         "type": "tabs",
         "children": [
           {
-            "id": "2e1ed1dee54bc252",
+            "id": "b3a3ba6cc80bd8fd",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -90,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JavaScript/构建工具/Vite/简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "简介 的反向链接列表"
             }
           },
           {
@@ -108,38 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JavaScript/构建工具/Vite/简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
-            }
-          },
-          {
-            "id": "854916964c014bfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端开发试题/README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "a5ca52352964df01",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
+              "title": "简介 的出链列表"
             }
           },
           {
@@ -148,44 +123,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GitHub/github copilot学生认证.md"
+                "file": "JavaScript/构建工具/Vite/简介.md"
               },
               "icon": "lucide-list",
-              "title": "github copilot学生认证 的大纲"
-            }
-          },
-          {
-            "id": "8c507486052913ca",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "2e18f3b5a2e574e7",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "d11a4a5560a5e819",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "title": "简介 的大纲"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -205,12 +150,24 @@
   },
   "active": "614fd6a5cf2994fd",
   "lastOpenFiles": [
+    "JavaScript/构建工具/Webpack",
+    "JavaScript/构建工具/Vite/自动生成路由.md",
+    "JavaScript/构建工具/Vite/简介.md",
+    "JavaScript/JavaScript tutorial for beginners/函数/为什么需要箭头函数.md",
+    "JavaScript/构建工具/Vite",
+    "JavaScript/构建工具",
+    "JavaScript/JavaScript tutorial for beginners/函数/二义性.md",
+    "后端开发试题/README.md",
+    "JavaScript/JavaScript tutorial for beginners/函数/函数签名.md",
+    "前端/CSS/initial, unset, revert.md",
+    "前端/CSS/Sass/sass中的继承.md",
+    "前端/CSS/Sass/探索 CSS、Sass 和 SCSS：区别与应用.md",
+    "前端/CSS/Sass",
     "Windows/Scoop/Windows包管理器Scoop的安装与配置.md",
     "JavaScript/FrameworkAndLibrary",
     "JavaScript/运行时环境/Deno",
     "JavaScript/运行时环境",
     "Windows/Scoop/Scoop.md",
-    "前端/CSS/探索 CSS、Sass 和 SCSS：区别与应用.md",
     "前端/CSS/元素消失技巧.md",
     "JavaScript/Vercel/简介.md",
     "JavaScript/Supabase/简介.md",
@@ -220,8 +177,6 @@
     "前端/CSS/Tailwind CSS",
     "JavaScript/Vercel/Next.js",
     "JavaScript/Supabase",
-    "JavaScript/Vercel",
-    "Windows/Scoop",
     "JavaScript/运行时环境/Nodejs/npm中常用命令.md",
     "JavaScript/运行时环境/Nodejs/Vite.md",
     "GitHub/github copilot学生认证.md",
@@ -229,17 +184,8 @@
     "VSCode/Cursor/Cursor Agent到底是什么意思.md",
     "JavaScript/FrameworkAndLibrary/Angular/创建项目.md",
     "JavaScript/FrameworkAndLibrary/Angular/ng.md",
-    "JavaScript/FrameworkAndLibrary/Angular",
     "LLMs/问答.md",
     "Windows/PowerShell/StarShip.md",
-    "VSCode/好用的10个vscode快捷键方法.md",
-    "VSCode/VSCode 连接远程 GitHub仓库.md",
-    "LLMs/编程/模型搭配.md",
-    "JavaScript/FrameworkAndLibrary/JQuery/概述.md",
-    "JavaScript/FrameworkAndLibrary/JQuery/基本语法.md",
-    "JavaScript/FrameworkAndLibrary/JQuery/结构化学习.md",
-    "JavaScript/FrameworkAndLibrary/JQuery/事件.md",
-    "JavaScript/FrameworkAndLibrary/JQuery/动画.md",
     "Image/屏幕截图 2024-08-06 095916.png",
     "Image/1728709897244.jpeg",
     "Image/20240429_134709.jpg",
