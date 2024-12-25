@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "101d24fa235eaf8e",
+        "id": "ab73d0aa5dc7ae75",
         "type": "tabs",
         "children": [
           {
-            "id": "b3a3ba6cc80bd8fd",
+            "id": "1580155181f16e14",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Kotlin/高阶的开发领域.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "高阶的开发领域"
             }
           }
         ],
@@ -128,6 +132,29 @@
               "icon": "lucide-list",
               "title": "简介 的大纲"
             }
+          },
+          {
+            "id": "90098ee320fcc991",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "b828632bc84f0932",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 2
@@ -148,44 +175,47 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "614fd6a5cf2994fd",
+  "active": "1580155181f16e14",
   "lastOpenFiles": [
+    "Kotlin/Kotlin 基础/学习规划.md",
+    "Kotlin/高阶的开发领域.md",
+    "Kotlin/Kotlin 基础/进阶特性/综合复习与小项目练习.md",
+    "Kotlin/Kotlin 基础/进阶特性/函数式编程思想.md",
+    "Kotlin/Kotlin 基础/进阶特性/枚举类和密封类.md",
+    "Kotlin/Kotlin 基础/进阶特性/泛型和类型系统.md",
+    "Kotlin/Kotlin 基础/进阶特性/协程基础（launch, async, await）.md",
+    "Kotlin/Kotlin 基础/进阶特性/数据类和解构声明.md",
+    "Kotlin/Kotlin 基础/进阶特性/扩展函数和扩展属性.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/Lambda 表达式与高阶函数.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/空安全（Nullable）与 Elvis 操作符.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/集合（List、Set、Map）.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/类与对象、构造函数.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/函数与参数.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/条件语句和循环.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/变量与数据类型.md",
+    "Kotlin/Spring 框架",
+    "Kotlin/Kotlin 基础/环境搭建",
+    "Kotlin/Kotlin 基础/进阶特性",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法",
+    "Kotlin/Kotlin 基础",
+    "JavaScript/运行时环境/Nodejs/node-crash-course/(5)NPM.md",
+    "JavaScript/运行时环境/Nodejs/node-crash-course/(4)请求和响应Requests&Responses.md",
+    "JavaScript/运行时环境/Nodejs/node-crash-course/(3)客户端和服务器Clients&Servers.md",
+    "Java/Web/JavaWeb/upload/更改Tomcat的docBase.md",
+    "Java/Web/JavaWeb/upload/4de55c38-cde0-4c14-86ea-b4a849e45c5f.png",
+    "Java/Web/JavaWeb/upload/获取项目的根路径.md",
+    "Java/Web/JavaWeb/upload/存放位置.md",
+    "Java/Web/JavaWeb/upload/lmvr22_1920x1080.png",
+    "Java/Web/JavaWeb/upload/IDEA问题.md",
+    "Java/Web/JavaWeb/upload/7a3be663-2ba3-4aa4-8a05-84995ec019c7.png",
+    "Java/Web/JavaWeb/upload",
+    "Java/List 连接.md",
+    "Java/嵌套数据结构.md",
+    "VSCode/让VSCode更好用的设置前端开发角度.md",
     "JavaScript/构建工具/Webpack",
-    "JavaScript/构建工具/Vite/自动生成路由.md",
-    "JavaScript/构建工具/Vite/简介.md",
-    "JavaScript/JavaScript tutorial for beginners/函数/为什么需要箭头函数.md",
     "JavaScript/构建工具/Vite",
     "JavaScript/构建工具",
-    "JavaScript/JavaScript tutorial for beginners/函数/二义性.md",
-    "后端开发试题/README.md",
-    "JavaScript/JavaScript tutorial for beginners/函数/函数签名.md",
-    "前端/CSS/initial, unset, revert.md",
-    "前端/CSS/Sass/sass中的继承.md",
-    "前端/CSS/Sass/探索 CSS、Sass 和 SCSS：区别与应用.md",
     "前端/CSS/Sass",
-    "Windows/Scoop/Windows包管理器Scoop的安装与配置.md",
-    "JavaScript/FrameworkAndLibrary",
-    "JavaScript/运行时环境/Deno",
-    "JavaScript/运行时环境",
-    "Windows/Scoop/Scoop.md",
-    "前端/CSS/元素消失技巧.md",
-    "JavaScript/Vercel/简介.md",
-    "JavaScript/Supabase/简介.md",
-    "前端/CSS/Tailwind CSS/简介.md",
-    "前端/概念.md",
-    "前端/CSS",
-    "前端/CSS/Tailwind CSS",
-    "JavaScript/Vercel/Next.js",
-    "JavaScript/Supabase",
-    "JavaScript/运行时环境/Nodejs/npm中常用命令.md",
-    "JavaScript/运行时环境/Nodejs/Vite.md",
-    "GitHub/github copilot学生认证.md",
-    "LLMs/深入探讨Al prompt engineering.md",
-    "VSCode/Cursor/Cursor Agent到底是什么意思.md",
-    "JavaScript/FrameworkAndLibrary/Angular/创建项目.md",
-    "JavaScript/FrameworkAndLibrary/Angular/ng.md",
-    "LLMs/问答.md",
-    "Windows/PowerShell/StarShip.md",
     "Image/屏幕截图 2024-08-06 095916.png",
     "Image/1728709897244.jpeg",
     "Image/20240429_134709.jpg",
@@ -193,9 +223,6 @@
     "Image/文件共享/微信图片_20231218084945.png",
     "Image/文件共享/微信图片_20231218084931.png",
     "Java/Web/AJAX/day06-axios&Json数据/assets/image-20211203101653128.png",
-    "Pasted image 20240804093642.png",
-    "JavaScript/FrameworkAndLibrary/React/React tutorial for beginners/image/屏幕截图 2024-08-20 162049.png",
-    "JavaScript/FrameworkAndLibrary/React/React tutorial for beginners/image/屏幕截图 2024-08-20 160123.png",
     "未命名 1.canvas",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"

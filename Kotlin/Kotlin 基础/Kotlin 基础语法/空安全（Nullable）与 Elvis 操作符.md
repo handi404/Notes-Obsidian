@@ -1,0 +1,227 @@
+### **Kotlin 的空安全（Nullable）与 Elvis 操作符详解**
+
+---
+
+Kotlin 提供了强大的 **空安全机制**，有效防止 Java 中常见的 `NullPointerException`（简称 NPE）问题。通过 Kotlin 的类型系统，空值问题在编译阶段即可发现。
+
+---
+
+## **1. 可空类型（Nullable）**
+
+在 Kotlin 中，默认情况下所有类型都 **不可为 null**。如果需要某个变量可以为 `null`，需要显式声明其为 **可空类型**。
+
+### **1.1 定义可空类型**
+
+通过在类型后面添加 **`?`** 标识符，声明一个变量可为空。
+
+```kotlin
+val name: String = "Alice"  // 不可为空
+val nullableName: String? = null  // 可为空
+```
+
+#### **示例：访问可空变量**
+
+```kotlin
+fun main() {
+    val name: String? = "Alice"
+    println(name)  // 输出: Alice
+
+    val nullName: String? = null
+    println(nullName)  // 输出: null
+}
+```
+
+---
+
+## **2. 安全调用操作符（`?.`）**
+
+如果直接访问可空变量的属性或方法，会编译报错。为了安全地访问，可空变量需要使用 **安全调用操作符（`?.`）**。
+
+```kotlin
+val nullableName: String? = "Alice"
+println(nullableName?.length)  // 如果 nullableName 为 null，返回 null，否则返回其长度
+```
+
+#### **示例：安全调用**
+
+```kotlin
+fun main() {
+    val name: String? = "Alice"
+    println(name?.uppercase())  // 输出: ALICE
+
+    val nullName: String? = null
+    println(nullName?.uppercase())  // 输出: null
+}
+```
+
+---
+
+## **3. Elvis 操作符（`?:`）**
+
+Elvis 操作符用于在可空变量为 `null` 时提供默认值。其语法是 `value ?: defaultValue`。
+
+### **3.1 使用 Elvis 操作符提供默认值**
+
+```kotlin
+val nullableName: String? = null
+val name = nullableName ?: "Unknown"  // 如果 nullableName 为 null，则使用 "Unknown"
+println(name)  // 输出: Unknown
+```
+
+#### **示例：结合安全调用与 Elvis 操作符**
+
+```kotlin
+fun main() {
+    val nullableName: String? = null
+    println(nullableName?.length ?: "No name provided")  
+    // 输出: No name provided
+}
+```
+
+---
+
+## **4. 非空断言操作符（`!!`）**
+
+在某些情况下，如果开发者明确知道某个可空变量不会为 `null`，可以使用 **非空断言操作符（`!!`）** 强制将可空类型转换为非空类型。如果断言失败（即变量为 `null`），会抛出 `KotlinNullPointerException`。
+
+```kotlin
+val nullableName: String? = null
+println(nullableName!!.length)  // 抛出异常: KotlinNullPointerException
+```
+
+#### **注意：谨慎使用 `!!`，否则容易引发运行时异常！**
+
+---
+
+## **5. 可空类型的常用操作**
+
+Kotlin 提供了很多便利的函数和操作符来处理可空类型。
+
+### **5.1 使用 `let` 函数**
+
+`let` 函数用于在变量不为 `null` 时执行某些操作。
+
+```kotlin
+val nullableName: String? = "Alice"
+nullableName?.let {
+    println("The name is $it")  // 输出: The name is Alice
+}
+
+val nullName: String? = null
+nullName?.let {
+    println("This will not print")
+}
+```
+
+### **5.2 使用 `safe cast`**
+
+使用 `as?` 进行安全类型转换，如果转换失败返回 `null`。
+
+```kotlin
+val obj: Any = "Hello"
+val str: String? = obj as? String  // 成功转换为 String
+println(str)  // 输出: Hello
+
+val number: Int? = obj as? Int  // 转换失败，返回 null
+println(number)  // 输出: null
+```
+
+### **5.3 使用 `if` 判断空值**
+
+可以通过 `if` 显式检查变量是否为空。
+
+```kotlin
+val nullableName: String? = null
+
+if (nullableName != null) {
+    println(nullableName.uppercase())
+} else {
+    println("Name is null")  // 输出: Name is null
+}
+```
+
+---
+
+## **6. 可空类型的链式操作**
+
+利用安全调用操作符和 Elvis 操作符，可以实现链式操作。
+
+```kotlin
+fun main() {
+    val person: Person? = Person("Alice", null)
+
+    val streetName = person?.address?.streetName ?: "No street provided"
+    println(streetName)  // 输出: No street provided
+}
+
+data class Address(val streetName: String)
+data class Person(val name: String, val address: Address?)
+```
+
+---
+
+## **7. 把可空类型转换为非空类型**
+
+有时，我们需要将可空类型转换为非空类型，可以通过以下几种方法实现：
+
+### **7.1 使用 `Elvis 操作符` 提供默认值**
+
+```kotlin
+val nullableName: String? = null
+val name: String = nullableName ?: "Default Name"
+println(name)  // 输出: Default Name
+```
+
+### **7.2 显式抛出异常**
+
+通过 `throw` 在 Elvis 操作符中抛出自定义异常。
+
+```kotlin
+val nullableName: String? = null
+val name: String = nullableName ?: throw IllegalArgumentException("Name cannot be null")
+```
+
+---
+
+## **8. 空安全与集合**
+
+Kotlin 的集合操作也可以很好地处理空值。
+
+### **8.1 过滤掉空值**
+
+使用 `filterNotNull` 过滤掉集合中的空值。
+
+```kotlin
+val names: List<String?> = listOf("Alice", null, "Bob", null, "Charlie")
+val filteredNames = names.filterNotNull()
+println(filteredNames)  // 输出: [Alice, Bob, Charlie]
+```
+
+### **8.2 映射与过滤结合**
+
+在处理集合时，可以使用 `map` 和 `filterNotNull` 一起操作。
+
+```kotlin
+val numbers: List<Int?> = listOf(1, null, 3, null, 5)
+val doubledNumbers = numbers.map { it?.times(2) }.filterNotNull()
+println(doubledNumbers)  // 输出: [2, 6, 10]
+```
+
+---
+
+## **9. 练习题**
+
+1. 定义一个可空的 `String?`，实现以下操作：
+    
+    - 如果不为空，则输出其长度。
+    - 如果为空，则输出 "值为空"。
+2. 创建一个包含可空值的列表，过滤掉 `null` 值后输出非空列表。
+    
+3. 编写一个函数，接收一个可空的地址对象，返回街道名称；如果为空，则返回默认值 "Unknown Street"。
+    
+4. 编写一个函数，接收一个 `Any` 类型参数，安全地将其转换为 `Int?`，并返回转换结果。
+    
+5. 给定一个用户对象 `User?`，实现链式操作检查其邮箱地址是否为 `null`，如果为空则返回 "No Email"。
+    
+
+完成后随时可以讨论！ 😊

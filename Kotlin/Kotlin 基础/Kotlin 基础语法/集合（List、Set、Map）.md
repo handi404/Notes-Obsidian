@@ -1,0 +1,238 @@
+### **Kotlin 集合详解：List、Set 和 Map**
+
+---
+
+Kotlin 提供了丰富的集合框架，分为 **只读集合** 和 **可变集合** 两种类型：
+
+- **只读集合**：集合内容不可修改。
+- **可变集合**：集合内容可动态添加、修改和删除。
+
+---
+
+## **1. List（列表）**
+
+### **1.1 List 的定义**
+
+`List` 是有序的集合，可以通过索引访问元素。
+
+- **只读 List** 使用 `listOf` 创建。
+- **可变 List** 使用 `mutableListOf` 创建。
+
+#### **示例：只读 List**
+
+```kotlin
+val fruits = listOf("Apple", "Banana", "Cherry")
+
+fun main() {
+    println(fruits[0])  // 输出: Apple
+    println(fruits.size)  // 输出: 3
+}
+```
+
+#### **示例：可变 List**
+
+```kotlin
+val fruits = mutableListOf("Apple", "Banana", "Cherry")
+
+fun main() {
+    fruits.add("Date")  // 添加元素
+    fruits.remove("Banana")  // 删除元素
+    fruits[0] = "Apricot"  // 修改元素
+    println(fruits)  // 输出: [Apricot, Cherry, Date]
+}
+```
+
+---
+
+### **1.2 常用操作**
+
+|操作|示例代码|说明|
+|---|---|---|
+|遍历|`fruits.forEach { println(it) }`|遍历所有元素|
+|过滤|`val filtered = fruits.filter { it.startsWith("A") }`|过滤条件为以 "A" 开头的元素|
+|映射|`val mapped = fruits.map { it.uppercase() }`|将所有元素转为大写|
+|查找元素|`val found = fruits.find { it == "Cherry" }`|查找第一个满足条件的元素|
+|排序|`val sorted = fruits.sorted()`|对列表进行升序排序|
+
+#### **示例：结合操作**
+
+```kotlin
+val fruits = listOf("Apple", "Banana", "Cherry", "Date")
+
+fun main() {
+    val filtered = fruits.filter { it.startsWith("B") }  // 过滤以 "B" 开头的元素
+    val mapped = filtered.map { it.uppercase() }         // 转换为大写
+    println(mapped)  // 输出: [BANANA]
+}
+```
+
+---
+
+## **2. Set（集合）**
+
+### **2.1 Set 的定义**
+
+`Set` 是无序、不可重复的集合。
+
+- **只读 Set** 使用 `setOf` 创建。
+- **可变 Set** 使用 `mutableSetOf` 创建。
+
+#### **示例：只读 Set**
+
+```kotlin
+val numbers = setOf(1, 2, 3, 3, 4)
+
+fun main() {
+    println(numbers)  // 输出: [1, 2, 3, 4]（去重）
+}
+```
+
+#### **示例：可变 Set**
+
+```kotlin
+val numbers = mutableSetOf(1, 2, 3)
+
+fun main() {
+    numbers.add(4)  // 添加元素
+    numbers.remove(2)  // 删除元素
+    println(numbers)  // 输出: [1, 3, 4]
+}
+```
+
+---
+
+### **2.2 常用操作**
+
+|操作|示例代码|说明|
+|---|---|---|
+|检查是否包含元素|`numbers.contains(3)`|检查集合是否包含某个元素|
+|交集|`val intersection = setA intersect setB`|两个集合的交集|
+|并集|`val union = setA union setB`|两个集合的并集|
+|差集|`val difference = setA subtract setB`|从集合 A 中移除集合 B 的元素|
+
+#### **示例：集合操作**
+
+```kotlin
+val setA = setOf(1, 2, 3)
+val setB = setOf(3, 4, 5)
+
+fun main() {
+    println(setA intersect setB)  // 输出: [3]（交集）
+    println(setA union setB)      // 输出: [1, 2, 3, 4, 5]（并集）
+    println(setA subtract setB)   // 输出: [1, 2]（差集）
+}
+```
+
+---
+
+## **3. Map（映射）**
+
+### **3.1 Map 的定义**
+
+`Map` 是键值对的集合，键唯一，值可以重复。
+
+- **只读 Map** 使用 `mapOf` 创建。
+- **可变 Map** 使用 `mutableMapOf` 创建。
+
+#### **示例：只读 Map**
+
+```kotlin
+val capitals = mapOf("USA" to "Washington", "UK" to "London", "India" to "New Delhi")
+
+fun main() {
+    println(capitals["USA"])  // 输出: Washington
+    println(capitals.keys)    // 输出: [USA, UK, India]
+    println(capitals.values)  // 输出: [Washington, London, New Delhi]
+}
+```
+
+#### **示例：可变 Map**
+
+```kotlin
+val capitals = mutableMapOf("USA" to "Washington", "UK" to "London")
+
+fun main() {
+    capitals["India"] = "New Delhi"  // 添加键值对
+    capitals["UK"] = "Edinburgh"    // 修改值
+    capitals.remove("USA")          // 删除键值对
+    println(capitals)               // 输出: {UK=Edinburgh, India=New Delhi}
+}
+```
+
+---
+
+### **3.2 常用操作**
+
+|操作|示例代码|说明|
+|---|---|---|
+|获取值|`capitals["UK"]`|通过键获取值|
+|遍历键值对|`capitals.forEach { (key, value) -> ... }`|遍历 Map 的键和值|
+|检查键或值|`capitals.containsKey("USA")`|检查是否包含某个键或值|
+|默认值获取|`capitals.getOrDefault("France", "Unknown")`|获取键对应的值，不存在返回默认值|
+
+#### **示例：遍历键值对**
+
+```kotlin
+val capitals = mapOf("USA" to "Washington", "UK" to "London", "India" to "New Delhi")
+
+fun main() {
+    capitals.forEach { (key, value) ->
+        println("The capital of $key is $value")
+    }
+    // 输出:
+    // The capital of USA is Washington
+    // The capital of UK is London
+    // The capital of India is New Delhi
+}
+```
+
+---
+
+### **4. 集合的转换与操作**
+
+#### **4.1 转换集合类型**
+
+集合可以通过函数互相转换，例如 `toList`、`toSet`、`toMap`。
+
+```kotlin
+fun main() {
+    val numbers = listOf(1, 2, 2, 3)
+    val uniqueNumbers = numbers.toSet()  // 转换为 Set 去重
+    println(uniqueNumbers)  // 输出: [1, 2, 3]
+
+    val backToList = uniqueNumbers.toList()  // 转换回 List
+    println(backToList)  // 输出: [1, 2, 3]
+}
+```
+
+#### **4.2 合并与分组**
+
+- **合并**：使用 `plus` 合并集合。
+- **分组**：使用 `groupBy` 根据条件分组。
+
+```kotlin
+fun main() {
+    // 合并
+    val listA = listOf(1, 2, 3)
+    val listB = listOf(4, 5)
+    val combined = listA + listB
+    println(combined)  // 输出: [1, 2, 3, 4, 5]
+
+    // 分组
+    val names = listOf("Alice", "Bob", "Anna", "Brian")
+    val grouped = names.groupBy { it.first() }  // 按首字母分组
+    println(grouped)  // 输出: {A=[Alice, Anna], B=[Bob, Brian]}
+}
+```
+
+---
+
+### **5. 练习题**
+
+1. 创建一个 `List`，存储 1 到 10 的数字，分别筛选出奇数和偶数。
+2. 使用 `Set` 存储学生的名字，防止重复输入，并输出学生名单。
+3. 创建一个 `Map` 存储国家和对应的首都，并实现根据用户输入查询首都的功能。
+4. 将一个包含重复元素的 `List` 转换为 `Set`，然后再按升序排序后返回新的 `List`。
+5. 编写一个程序，将包含名字的 `List` 按首字母分组。
+
+完成后随时可以与我讨论，进一步探索 Kotlin 集合的更多用法！ 😊
