@@ -25,7 +25,7 @@ __ _ _ _ _
 修改位置，View | Appearance | Compact Mode。
 
 
-![[8409d478d749a794b0108e1171917b8f_MD5.gif]]
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G7QIhdahIOXybGdibX4yIuZ2l4AjVGEBLjicFfdibfw41ibLkYyUtOL0cB2VicIDaUCjnVnrxvc9cr4IlWFf86c9otA/640?wx_fmt=gif)
 
 __  
 
@@ -39,7 +39,7 @@ __
 
 这个只适合 win 用户和 linux 用户，mac 没有这个问题。
 
-![[55839f1272c45ed4de97bed7df2766d6_MD5.gif]]
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G7QIhdahIOXybGdibX4yIuZ2l4AjVGEBLD5yqiaI6DuE67nuPQibhsPnncFic1Jn7K902PMKzygfqiaia4ia0rpXXsvug/640?wx_fmt=gif)
 
 第三个，主工具栏中消失的操作按钮
 
@@ -49,7 +49,7 @@ __
 
 要把消失的按钮加回来，很简单，右击主工具栏空白处，选择Add to Main Toolbar，选择语言显示的按钮。
 
-![[9ef5ada0c72b37692508dcb42e4de093_MD5.gif]]
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G7QIhdahIOXybGdibX4yIuZ2l4AjVGEBL6UwibdTTtWrgSYcXkFiccjh6m8Rul3iauDj0q0Q1dic6hmrwvLtvsa4mWg/640?wx_fmt=gif)
 
 第四个，导航栏去哪里了
 
@@ -57,7 +57,7 @@ __
 
 回到顶部的方式， _View | Appearance | Navigation Bar，选择_ _Top。_
 
-![[d898dd51ced27f4783f3e6caa200f34b_MD5.gif]]
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G7QIhdahIOXybGdibX4yIuZ2l4AjVGEBLaxkNQPO1iblOa9D9cS0Juviap0fttVHymOs1832dP7tGr20z97ToYSVg/640?wx_fmt=gif)
 
 第五个，工具窗口的名字消失了
 
@@ -67,7 +67,7 @@ __
 
 要把名字显示出来，直接右击左边的空白处，选择 _Show Tool Window Names。_
 
-![[d62a64bb6e6b45cda9cf176ca4da95b2_MD5.gif]]
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G7QIhdahIOXybGdibX4yIuZ2l4AjVGEBL2AbxU5eibicA7km1ianlq77pm67Sb2dGU7LsbvLqVx6A96hicaWd0ia22Mg/640?wx_fmt=gif)
 
 比如工具左边几个万年不变的工具窗口 Project，Git 等。
 
@@ -85,7 +85,7 @@ header icons。
 Settings | Editor | General | Code Folding  ,  勾选  Always  ** ** next to the
 ** ** Show code folding arrows.
 
-![[62d7ee935d28ccf5a6fe95fb87b55046_MD5.gif]]
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G7QIhdahIOXybGdibX4yIuZ2l4AjVGEBLj908icTxFtOLktyYzKdGNyHoQyokhOJPicno7VQWov2jOs9yM4fH3CBg/640?wx_fmt=gif)
 
 第七个，点击行号选择行
 
@@ -93,7 +93,7 @@ Settings | Editor | General | Code Folding  ,  勾选  Always  ** ** next to the
 
 要切换到以前的模式可以右击禁用， _Appearance | Breakpoints Over Line Numbers。_
 
-![[56fc6aa6f02c87bafc379751da836d8c_MD5.gif]]
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G7QIhdahIOXybGdibX4yIuZ2l4AjVGEBLBp46ecrGRn6uhdH4AfMuxyP0QZXibUQiaibosV4ibFnGIrSW3ZCK5yM4yw/640?wx_fmt=gif)
 
 第八个，debug 中的计算表达式去哪了
 
@@ -101,7 +101,7 @@ Settings | Editor | General | Code Folding  ,  勾选  Always  ** ** next to the
 
 我们右击 debug 窗口，选择Add Actions…，英文后面跟着的就是三个点。然后选择需要添加的功能。
 
-![[c23b4189dffe66f502cad87d27c0594b_MD5.gif]]
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/G7QIhdahIOXybGdibX4yIuZ2l4AjVGEBLcG53B6sh2JYUBicEF2nfpBQxZB5MUo9sFQ0I7oG01qkuxjQ3eOLdUMQ/640?wx_fmt=gif)
 
 针对三个点，，无论是横着的三个点还是竖起来的三个点，这里也有一个规律，点击三个点就可以看到更不常用的功能。
 
