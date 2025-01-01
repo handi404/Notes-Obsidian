@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "35201023e27a3fa5",
+        "id": "a38854f551f159af",
         "type": "tabs",
         "children": [
           {
-            "id": "9152763033b8b505",
+            "id": "c63cea85db4d7a96",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kotlin/官方文档/文档.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "文档"
+              "title": "新标签页"
             }
           }
         ],
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin/Kotlin 基础/Kotlin 基础语法/随机数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "随机数 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin/Kotlin 基础/Kotlin 基础语法/6.空安全（Nullable）与 Elvis 操作符.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "6.空安全（Nullable）与 Elvis 操作符 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -126,34 +120,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git/代码状态回退.md"
-              },
-              "icon": "lucide-list",
-              "title": "代码状态回退 的大纲"
-            }
-          },
-          {
-            "id": "791f6dbae92940eb",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "920d9e52e8568801",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           }
         ],
@@ -161,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,39 +143,45 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "9152763033b8b505",
+  "active": "a54eaa6caae544ae",
   "lastOpenFiles": [
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/5.集合/1.集合（List、Set、Map）.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/2.控制流程/2.异常.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/7.Lambda 表达式与高阶函数.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/1.类型/数据类型之间的关系.md",
+    "Kotlin/官方文档/概念.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/类型转换和数据转换.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/改变对象的类型（视图）与对象的值（内容）.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/6.空安全（Nullable）与 Elvis 操作符/类型转换.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/6.空安全（Nullable）与 Elvis 操作符/1.空安全（Nullable）与 Elvis 操作符.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/6.空安全（Nullable）与 Elvis 操作符",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/4.类与对象/1.类与对象、构造函数.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/3.函数/1.函数与参数.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/2.控制流程/1.条件语句和循环.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/1.类型/1.变量与数据类型.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/5.集合",
     "Kotlin/官方文档/概述.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/4.类与对象/抽象类和接口.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/4.类与对象",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/3.函数",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/2.控制流程",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/1.类型",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/8.相等性.md",
     "Kotlin/官方文档/文档.md",
-    "Kotlin/官方文档/编译器与插件.md",
-    "Kotlin/官方文档/平台.md",
-    "Kotlin/官方文档/官方库.md",
-    "Kotlin/官方文档/官方中文文档.md",
     "Kotlin/官方文档/基础.md",
+    "Kotlin/Kotlin 基础/进阶特性/3.协程基础（launch, async, await）.md",
+    "Kotlin/Kotlin 基础/进阶特性/2.数据类和解构声明.md",
+    "Kotlin/Kotlin 基础/进阶特性/解构声明注意事项(含普通类).md",
+    "IDEA/IntellijIDEA中的quick技巧.md",
+    "IDEA/IDEA新UI新手调教篇.md",
+    "IDEA/IDEA 新 UI 新手调教篇，看完还不会的过来捶我.md",
+    "前端/CSS/元素宽度适应内容.md",
+    "Kotlin/Kotlin 基础/进阶特性/1.扩展函数和扩展属性.md",
     "Kotlin/官方文档/Kotlin 的新特性",
     "Kotlin/官方文档",
-    "Kotlin/官方文档/标准库.md",
-    "Kotlin/编译器与插件.md",
-    "Kotlin/官方文档/工具.md",
-    "Kotlin/官方文档/概念.md",
-    "基于项目的教程的精选列表.md",
-    "复选框样式.md",
-    "未命名.md",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",
     "Pasted image 20240804093642.png",
-    "Ascll完整码表.md",
-    "生涯发展报告.md",
-    "Git/代码状态回退.md",
-    "Git/关于Git_linux.git.md",
-    "Git/解决push报错.md",
-    "Git/如何克隆一个远程的Git仓库，使得所有分支都能下载？.md",
-    "Git/如何退出 git log 和 git commit 状态_退出.md",
-    "Git/上传更新文件到github.md",
-    "Git/使用Git上传项目到GitHub（详细版.md",
-    "Git/git 命令.md",
-    "Git/git_toturial.md",
-    "Git/Git绑定GitHub.md",
     "d898dd51ced27f4783f3e6caa200f34b_MD5.gif",
     "d62a64bb6e6b45cda9cf176ca4da95b2_MD5.gif",
     "c23b4189dffe66f502cad87d27c0594b_MD5.gif",
@@ -217,12 +191,6 @@
     "56fc6aa6f02c87bafc379751da836d8c_MD5.gif",
     "命令行的艺术",
     "GitHub/GitHub入门与实践.pdf",
-    "Kotlin/Spring 框架",
-    "Kotlin/Kotlin 基础/环境搭建",
-    "Kotlin/Kotlin 基础/进阶特性",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法",
-    "Kotlin/Kotlin 基础",
-    "Java/Web/JavaWeb/upload",
     "未命名 1.canvas",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
