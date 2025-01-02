@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a38854f551f159af",
+        "id": "ab3cf08432de4300",
         "type": "tabs",
         "children": [
           {
-            "id": "c63cea85db4d7a96",
+            "id": "64881d4c5694e66f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -108,11 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Kotlin/Kotlin 基础/进阶特性/3.异步程序设计/3.协程基础（launch, async, await）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "3.协程基础（launch, async, await） 的出链列表"
             }
           },
           {
@@ -124,13 +125,36 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "0ff8f375ae9e9a48",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "72c829f5404f3699",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,40 +167,42 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "a54eaa6caae544ae",
+  "active": "64881d4c5694e66f",
   "lastOpenFiles": [
+    "Kotlin/Kotlin 基础/进阶特性/5.枚举类和密封类.md",
+    "Kotlin/Kotlin 基础/进阶特性/枚举值的属性和枚举类构造函数.md",
+    "Kotlin/Kotlin 基础/进阶特性/密封类的子类类型.md",
+    "Kotlin/Kotlin 基础/进阶特性/3.异步程序设计/3.协程基础（launch, async, await）.md",
+    "Kotlin/Kotlin 基础/进阶特性/4.泛型和类型系统.md",
+    "Kotlin/临时性依赖需求.md",
+    "Kotlin/Kotlin 脚本中使用第三方库.md",
+    "Kotlin/官方文档/文档.md",
+    "Kotlin/官方文档/编译器与插件.md",
+    "Kotlin/高阶的开发领域.md",
+    "Kotlin/编译器与插件.md",
+    "Kotlin/Gradle 构建工具/常用命令.md",
+    "Kotlin/Gradle 构建工具/详解.md",
+    "Kotlin/Gradle 构建工具/核心构建脚本文件.md",
+    "Kotlin/Gradle 构建工具",
+    "Kotlin/Kotlin 基础/进阶特性/3.异步程序设计/引入协程依赖库.md",
+    "Kotlin/官方文档/概念.md",
+    "Kotlin/Kotlin 基础/进阶特性/3.异步程序设计",
+    "Kotlin/Kotlin 基础/进阶特性/3.异步程序设计/普通函数 vs 挂起函数.md",
+    "Kotlin/官方文档/概述.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/5.集合/1.集合（List、Set、Map）.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/2.控制流程/2.异常.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/7.Lambda 表达式与高阶函数.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/1.类型/数据类型之间的关系.md",
-    "Kotlin/官方文档/概念.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/类型转换和数据转换.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/改变对象的类型（视图）与对象的值（内容）.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/6.空安全（Nullable）与 Elvis 操作符/类型转换.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/6.空安全（Nullable）与 Elvis 操作符/1.空安全（Nullable）与 Elvis 操作符.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/6.空安全（Nullable）与 Elvis 操作符",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/4.类与对象/1.类与对象、构造函数.md",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/3.函数/1.函数与参数.md",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/2.控制流程/1.条件语句和循环.md",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/1.类型/1.变量与数据类型.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/5.集合",
-    "Kotlin/官方文档/概述.md",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/4.类与对象/抽象类和接口.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/4.类与对象",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/3.函数",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/2.控制流程",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/1.类型",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/8.相等性.md",
-    "Kotlin/官方文档/文档.md",
-    "Kotlin/官方文档/基础.md",
-    "Kotlin/Kotlin 基础/进阶特性/3.协程基础（launch, async, await）.md",
-    "Kotlin/Kotlin 基础/进阶特性/2.数据类和解构声明.md",
-    "Kotlin/Kotlin 基础/进阶特性/解构声明注意事项(含普通类).md",
-    "IDEA/IntellijIDEA中的quick技巧.md",
-    "IDEA/IDEA新UI新手调教篇.md",
-    "IDEA/IDEA 新 UI 新手调教篇，看完还不会的过来捶我.md",
-    "前端/CSS/元素宽度适应内容.md",
-    "Kotlin/Kotlin 基础/进阶特性/1.扩展函数和扩展属性.md",
     "Kotlin/官方文档/Kotlin 的新特性",
     "Kotlin/官方文档",
     "屏幕截图 2024-07-13 155458.png",
@@ -189,8 +215,6 @@
     "8409d478d749a794b0108e1171917b8f_MD5.gif",
     "62d7ee935d28ccf5a6fe95fb87b55046_MD5.gif",
     "56fc6aa6f02c87bafc379751da836d8c_MD5.gif",
-    "命令行的艺术",
-    "GitHub/GitHub入门与实践.pdf",
     "未命名 1.canvas",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
