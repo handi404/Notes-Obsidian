@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "764f695d8b076e71",
+        "id": "191ed0a6b9f221a6",
         "type": "tabs",
         "children": [
           {
-            "id": "50842cdb9fd8624d",
+            "id": "a35744ea62868603",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Kotlin 基础/Kotlin 基础语法/8.this 表达式.md",
+                "file": "Kotlin/Kotlin 进阶/高阶的开发领域.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8.this 表达式"
+              "title": "高阶的开发领域"
             }
           }
         ],
@@ -127,10 +127,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kotlin/Kotlin 基础/Kotlin 基础语法/8.this 表达式.md"
+                "file": "Kotlin/Kotlin 进阶/高阶的开发领域.md"
               },
               "icon": "lucide-list",
-              "title": "8.this 表达式 的大纲"
+              "title": "高阶的开发领域 的大纲"
             }
           },
           {
@@ -175,17 +175,26 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "50842cdb9fd8624d",
+  "active": "a35744ea62868603",
   "lastOpenFiles": [
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/3.函数/1.函数与参数.md",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/3.函数/3.内联函数.md",
     "Kotlin/Kotlin 基础/高阶开发.md",
+    "Kotlin/嵌套数据结构.md",
+    "Csharp/嵌套数据结构.md",
+    "Kotlin/Kotlin 基础/进阶特性/6.操作符重载.md",
+    "Kotlin/Kotlin 基础/进阶特性/操作符重载的适用.md",
+    "Kotlin/Kotlin 基础/进阶特性/0.综合复习与小项目练习.md",
+    "Kotlin/Kotlin 基础/进阶特性/7.函数式编程思想.md",
     "Kotlin/官方文档/概念.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/4.类与对象/1.类与对象、构造函数.md",
+    "Kotlin/官方文档/平台.md",
+    "Kotlin/官方文档/文档.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/3.函数/3.内联函数.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/8.this 表达式.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/3.函数/1.函数与参数.md",
     "Kotlin/Kotlin 基础/学习规划.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/3.函数/2.Lambda 表达式与高阶函数.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/10.反射.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/9.注解.md",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/8.this 表达式.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/7.相等性.md",
     "Kotlin/Kotlin 进阶/高阶的开发领域.md",
     "Kotlin/Kotlin 基础/环境搭建/环境.md",
@@ -194,18 +203,9 @@
     "Kotlin/Kotlin 进阶/文件 IO",
     "Java/IO流/IO流.pdf",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/标准输入输出.md",
-    "Kotlin/Kotlin 基础/进阶特性/7.综合复习与小项目练习.md",
-    "Kotlin/Kotlin 基础/进阶特性/6.函数式编程思想.md",
     "Kotlin/Kotlin 基础/进阶特性/惰性操作.md",
-    "Kotlin/官方文档/文档.md",
     "Kotlin/官方文档/编译器与插件.md",
     "Kotlin/官方文档/官方库.md",
-    "Kotlin/官方文档/标准库.md",
-    "Kotlin/官方文档/平台.md",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/5.集合/集合操作的函数式工具.md",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/5.集合/比 reduce 更灵活的 fold.md",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/5.集合/1.集合（List、Set、Map）.md",
-    "Kotlin/Kotlin 基础/进阶特性/5.枚举类和密封类.md",
     "Kotlin/Gradle 构建工具",
     "Kotlin/Kotlin 基础/进阶特性/3.异步程序设计",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/6.空安全（Nullable）与 Elvis 操作符",
