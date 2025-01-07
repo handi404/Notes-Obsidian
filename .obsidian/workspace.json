@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "827913d4ea48a364",
+        "id": "2c7f5c5f6a62c873",
         "type": "tabs",
         "children": [
           {
-            "id": "ea099f63ea81f949",
+            "id": "041afb8ac3de84d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/数据库/Exposed/transaction/transaction.md",
+                "file": "GitHub/Codespaces/介绍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "transaction"
+              "title": "介绍"
             }
           }
         ],
@@ -126,11 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Kotlin/数据库/Exposed/transaction/transaction.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "transaction 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -152,8 +150,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ],
@@ -175,14 +173,19 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "ea099f63ea81f949",
+  "active": "041afb8ac3de84d8",
   "lastOpenFiles": [
+    "GitHub/Codespaces/初步教程.md",
+    "GitHub/Codespaces/介绍.md",
+    "Kotlin/数据库/推荐 HikariCP 连接池.md",
+    "GitHub/Codespaces",
+    "Kotlin/Kotlin 基础/进阶特性/6.操作符重载.md",
+    "Kotlin/数据库/Exposed/transaction/transaction.md",
     "Kotlin/数据库/Exposed/transaction/常用的方法.md",
     "Kotlin/数据库/Exposed/transaction/修改表的操作.md",
     "Kotlin/数据库/Exposed/transaction/各种情况的返回值.md",
     "Kotlin/数据库/Exposed/Exposed 和三层架构.md",
     "Kotlin/数据库/Exposed/transaction",
-    "Kotlin/数据库/Exposed/transaction/transaction.md",
     "Kotlin/数据库/数据库连接池.md",
     "Kotlin/数据库/Exposed/HikariCP + Exposed.md",
     "Kotlin/数据库/Exposed/详解及使用.md",
@@ -190,7 +193,6 @@
     "Kotlin/数据库/Exposed/与表结构对应的实体类.md",
     "Kotlin/数据库/Exposed",
     "Kotlin/数据库/主要的数据库连接和操作方式.md",
-    "Kotlin/数据库/推荐 HikariCP 连接池.md",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/4.类与对象/抽象类和接口.md",
     "Kotlin/官方文档/平台.md",
     "Kotlin/数据库",
@@ -201,18 +203,14 @@
     "Kotlin/Kotlin 基础/高阶开发.md",
     "Kotlin/嵌套数据结构.md",
     "Csharp/嵌套数据结构.md",
-    "Kotlin/Kotlin 基础/进阶特性/6.操作符重载.md",
     "Kotlin/Kotlin 基础/进阶特性/操作符重载的适用.md",
     "Kotlin/Kotlin 基础/进阶特性/0.综合复习与小项目练习.md",
-    "Kotlin/Kotlin 基础/进阶特性/7.函数式编程思想.md",
-    "Kotlin/官方文档/概念.md",
     "Kotlin/Kotlin 进阶",
     "Kotlin/Kotlin 进阶/文件 IO",
     "Java/IO流/IO流.pdf",
     "Kotlin/Gradle 构建工具",
     "Kotlin/Kotlin 基础/进阶特性/3.异步程序设计",
     "Kotlin/Kotlin 基础/Kotlin 基础语法/6.空安全（Nullable）与 Elvis 操作符",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/5.集合",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",
     "Pasted image 20240804093642.png",
