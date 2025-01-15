@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "487b574a460a3c8b",
+        "id": "796d2ac0e9952fb4",
         "type": "tabs",
         "children": [
           {
-            "id": "bd66efbbdee7b45d",
+            "id": "2414f49673963c82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Vue/Vue Router/未命名.md",
+                "file": "JavaScript/FrameworkAndLibrary/Vue/Composition API/学习步骤和关键点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "学习步骤和关键点"
             }
           }
         ],
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin/Kotlin 基础/进阶特性/6.函数式编程思想.md",
+                "file": "JavaScript/FrameworkAndLibrary/Vue/Composition API/学习步骤和关键点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "6.函数式编程思想 的反向链接列表"
+              "title": "学习步骤和关键点 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin/Kotlin 基础/进阶特性/3.异步程序设计/3.协程基础（launch, async, await）.md",
+                "file": "JavaScript/FrameworkAndLibrary/Vue/Composition API/学习步骤和关键点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "3.协程基础（launch, async, await） 的出链列表"
+              "title": "学习步骤和关键点 的出链列表"
             }
           },
           {
@@ -127,10 +127,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Vue/Vue Router/未命名.md"
+                "file": "JavaScript/FrameworkAndLibrary/Vue/Composition API/学习步骤和关键点.md"
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "学习步骤和关键点 的大纲"
             }
           },
           {
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -175,10 +175,21 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "bd66efbbdee7b45d",
+  "active": "2414f49673963c82",
   "lastOpenFiles": [
-    "VSCode/让VSCode更好用的设置前端开发角度.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Fetching Data/Fetching Data.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Composition API/学习步骤和关键点.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Fetching Data/从视图组件内部获取外部数据.md",
     "JavaScript/FrameworkAndLibrary/Vue/Vue Router/未命名.md",
+    "json-server.md",
+    "JavaScript/JSON/JSON 文件格式.md",
+    "JavaScript/JSON/JSON Server/详解.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue Router/程序化导航.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue Router/重定向与 404 错误处理.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue Router/路由参数.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue Router/路由器链接.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue Router/核心文件和代码实现逻辑.md",
+    "VSCode/让VSCode更好用的设置前端开发角度.md",
     "JavaScript/FrameworkAndLibrary/Vue/Vue Router/官方文档.md",
     "JavaScript/FrameworkAndLibrary/Vue/表单与输入/SignupForm.md",
     "JavaScript/FrameworkAndLibrary/Vue/表单与输入/表单提交 (submit).md",
@@ -193,18 +204,7 @@
     "JavaScript/FrameworkAndLibrary/Vue/事件",
     "JavaScript/FrameworkAndLibrary/Vue/简介.md",
     "JavaScript/FrameworkAndLibrary/Vue/模板语法：插值、指令.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/2.Vue 文件三核心.md",
     "JavaScript/FrameworkAndLibrary/Vue/指令",
-    "JavaScript/FrameworkAndLibrary/Vue/未命名.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/3-0.Template refs.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/1.使用 Vue CLI创建新项目.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Vue JS 3 Tutorial for Beginners/Vue CLI (part 1)/未命名.md",
-    "Java/Spring 框架/RESTful API/后端实现.md",
-    "Java/Spring 框架/RESTful API/幂等性.md",
-    "Java/Spring 框架/Spring Boot/讨论传统的分层架构中较为重要的层.md",
-    "Java/Spring 框架/Spring Boot/Springboot项目启动后自动打开浏览器访问.md",
-    "Java/Spring 框架/Spring Boot/IDEA创建SpringBoot项目教程.md",
-    "Java/Spring 框架/Spring Boot/学习路径.md",
     "JavaScript/FrameworkAndLibrary/Vue/Vue 基础知识",
     "JavaScript/FrameworkAndLibrary/Vue/Composition API",
     "JavaScript/FrameworkAndLibrary/Vue/Fetching Data",
