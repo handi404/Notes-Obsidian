@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.3 在 setup 中 Fetch data.md",
+                "file": "JavaScript/Supabase/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.3 在 setup 中 Fetch data"
+              "title": "未命名"
             }
           }
         ],
@@ -127,10 +127,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.3 在 setup 中 Fetch data.md"
+                "file": "JavaScript/Supabase/未命名.md"
               },
               "icon": "lucide-list",
-              "title": "2.3 在 setup 中 Fetch data 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -177,10 +177,13 @@
   },
   "active": "3cbf2164ae6d76dc",
   "lastOpenFiles": [
+    "JavaScript/Supabase/什么是 Supabase ？.md",
+    "JavaScript/Supabase/简介.md",
+    "JavaScript/Supabase/未命名.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.3 在 setup 中 Fetch data.md",
     "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.4 composables functions.md",
     "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.1 Options API 的缺点.md",
     "JavaScript/FrameworkAndLibrary/Vue/Composition API/未命名.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.3 在 setup 中 Fetch data.md",
     "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.2 setup 中的生命周期钩子.md",
     "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.1 在 setup 中使用 props.md",
     "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.7 watch & watchEffect.md",
@@ -200,9 +203,6 @@
     "未命名思维导图.md",
     "Ascll完整码表.md",
     "JavaScript/FrameworkAndLibrary/Vue/表单与输入/表单提交 (submit).md",
-    "JavaScript/零宽字符.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Fetching Data/从视图组件内部获取外部数据.md",
-    "json-server.md",
     "JavaScript/FrameworkAndLibrary/Vue/事件",
     "JavaScript/FrameworkAndLibrary/Vue/指令",
     "JavaScript/FrameworkAndLibrary/Vue/Vue 基础知识",
