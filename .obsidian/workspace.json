@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Supabase/基础.md",
+                "file": "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.4 composables functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "基础"
+              "title": "2.4 composables functions"
             }
           }
         ],
@@ -127,10 +127,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Supabase/基础.md"
+                "file": "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.4 composables functions.md"
               },
               "icon": "lucide-list",
-              "title": "基础 的大纲"
+              "title": "2.4 composables functions 的大纲"
             }
           },
           {
@@ -161,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,14 +176,24 @@
   },
   "active": "f7b2098147468ea0",
   "lastOpenFiles": [
-    "JavaScript/FrameworkAndLibrary/Vue/事件/事件绑定.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Composition API/setup() 函数默认接收参数.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.2 Composition API 基础.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.1 Options API 的缺点.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.1 emit 事件.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Composition API/setup(props, { emit }) 解释.md",
+    "JavaScript/FrameworkAndLibrary/Vue/子组件向父组件传递数据.md",
+    "JavaScript/FrameworkAndLibrary/Vue/未命名.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Composition API/学习步骤和关键点.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.1 在 setup 中使用 props.md",
     "JavaScript/Supabase/基础.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.7 watch & watchEffect.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.6 Computed values.md",
+    "JavaScript/FrameworkAndLibrary/Vue/事件/事件绑定.md",
     "JavaScript/FrameworkAndLibrary/Vue/Vue Router/路由参数.md",
     "JavaScript/FrameworkAndLibrary/Vue/Vue Router/路由器链接.md",
     "JavaScript/FrameworkAndLibrary/Vue/表单与输入/表单提交 (submit).md",
     "JavaScript/FrameworkAndLibrary/Vue/Vue Router/在 JavaScript 代码中进行页面跳转.md",
     "JavaScript/FrameworkAndLibrary/Vue/带有v-for的标签本身会循环.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.1 在 setup 中使用 props.md",
     "Windows/Scoop/Scoop.md",
     "JavaScript/FrameworkAndLibrary/Vue/Vue Router/官方文档.md",
     "JavaScript/FrameworkAndLibrary/Vue/Vue Router/核心文件和代码实现逻辑.md",
@@ -193,16 +202,6 @@
     "JavaScript/Supabase/简介.md",
     "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.3 在 setup 中 Fetch data.md",
     "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.4 composables functions.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.1 Options API 的缺点.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Composition API/未命名.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.2 setup 中的生命周期钩子.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.7 watch & watchEffect.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.6 Computed values.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.5 Refs vs Reactive.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.4 使用 refs 进行响应式.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.3 模板引用 ref 与 dom 元素关联.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Composition API/1.2 Composition API 基础.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Composition API/学习步骤和关键点.md",
     "JavaScript/FrameworkAndLibrary/Vue/事件",
     "JavaScript/FrameworkAndLibrary/Vue/指令",
     "JavaScript/FrameworkAndLibrary/Vue/Vue 基础知识",
