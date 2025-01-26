@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ca47c8440385b557",
+        "id": "c52d76c1b6e0fd5c",
         "type": "tabs",
         "children": [
           {
-            "id": "07728b18a23ca574",
+            "id": "5db22665c48df117",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Supabase/简介.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "简介"
+              "title": "新标签页"
             }
           }
         ],
@@ -127,10 +123,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Supabase/简介.md"
+                "file": "JavaScript/FrameworkAndLibrary/Pinia/基础.md"
               },
               "icon": "lucide-list",
-              "title": "简介 的大纲"
+              "title": "基础 的大纲"
             }
           },
           {
@@ -174,12 +170,12 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "07728b18a23ca574",
+  "active": "614fd6a5cf2994fd",
   "lastOpenFiles": [
-    "JavaScript/Supabase/什么是 Supabase ？.md",
-    "JavaScript/Supabase/简介.md",
-    "JavaScript/FrameworkAndLibrary/Pinia/基础.md",
     "JavaScript/FrameworkAndLibrary/Pinia/什么是 Pinia？为什么要用.md",
+    "JavaScript/FrameworkAndLibrary/Pinia/基础.md",
+    "JavaScript/Supabase/简介.md",
+    "JavaScript/Supabase/什么是 Supabase ？.md",
     "JavaScript/Supabase/基础.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/基础.md",
     "JavaScript/FrameworkAndLibrary/Pinia",
