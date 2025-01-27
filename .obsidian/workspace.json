@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c52d76c1b6e0fd5c",
+        "id": "e7694793f5900791",
         "type": "tabs",
         "children": [
           {
-            "id": "5db22665c48df117",
+            "id": "1845431dafba7f82",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/基础.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "基础"
             }
           }
         ],
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 275.5
   },
   "right": {
     "id": "35a05ec3fbe9c822",
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Vue/Composition API/学习步骤和关键点.md",
+                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "学习步骤和关键点 的反向链接列表"
+              "title": "基础 的反向链接列表"
             }
           },
           {
@@ -123,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Pinia/基础.md"
+                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/基础.md"
               },
               "icon": "lucide-list",
               "title": "基础 的大纲"
@@ -170,14 +174,21 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "614fd6a5cf2994fd",
+  "active": "1845431dafba7f82",
   "lastOpenFiles": [
+    "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/简介.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/基础.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/基础.md",
+    "JavaScript/API/REST API/基础（node.js Express 和 mongoDB）.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/什么是 Nuxt,为什么要用.md",
+    "JavaScript/FrameworkAndLibrary/Vue/未命名.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/动态路由（路由参数）.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Metadata & useHead.md",
     "JavaScript/FrameworkAndLibrary/Pinia/什么是 Pinia？为什么要用.md",
     "JavaScript/FrameworkAndLibrary/Pinia/基础.md",
     "JavaScript/Supabase/简介.md",
     "JavaScript/Supabase/什么是 Supabase ？.md",
     "JavaScript/Supabase/基础.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/基础.md",
     "JavaScript/FrameworkAndLibrary/Pinia",
     "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)",
     "JavaScript/FrameworkAndLibrary/Nuxt/自定义错误页面.md",
@@ -185,7 +196,6 @@
     "JavaScript/FrameworkAndLibrary/Nuxt/数据获取（Fetching Data）.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Layout（布局）.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/NuxtLink.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/动态路由（路由参数）.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/添加页面.md",
     "Git/git推送代码到main分支.md",
     "Git/如何退出 git log 和 git commit 状态_退出.md",
@@ -194,12 +204,6 @@
     "Git/如何克隆一个远程的Git仓库，使得所有分支都能下载？.md",
     "Git/上传更新文件到github.md",
     "Git/git重新配置远程仓库.md",
-    "Git/Git绑定GitHub.md",
-    "Git/Git 和 GitHub 初学者教程/8.Branches 分支.md",
-    "Git/git_toturial.md",
-    "Git/git 命令.md",
-    "Git/Git 切换和删除远程仓库.md",
-    "JavaScript/FrameworkAndLibrary/Vue/标签的属性中使用变量.md",
     "JavaScript/API/GraphQL",
     "JavaScript/API/REST API",
     "JavaScript/FrameworkAndLibrary/Nuxt",
