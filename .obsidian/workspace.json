@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1845431dafba7f82",
+            "id": "1612ea8133bdcc93",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -174,18 +174,18 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "1845431dafba7f82",
+  "active": "1612ea8133bdcc93",
   "lastOpenFiles": [
-    "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/简介.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/基础.md",
+    "JavaScript/FrameworkAndLibrary/Pinia/基础.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/基础.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/基础.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/简介.md",
     "JavaScript/API/REST API/基础（node.js Express 和 mongoDB）.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/什么是 Nuxt,为什么要用.md",
     "JavaScript/FrameworkAndLibrary/Vue/未命名.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/动态路由（路由参数）.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Metadata & useHead.md",
     "JavaScript/FrameworkAndLibrary/Pinia/什么是 Pinia？为什么要用.md",
-    "JavaScript/FrameworkAndLibrary/Pinia/基础.md",
     "JavaScript/Supabase/简介.md",
     "JavaScript/Supabase/什么是 Supabase ？.md",
     "JavaScript/Supabase/基础.md",
