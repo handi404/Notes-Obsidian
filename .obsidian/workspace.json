@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/基础.md",
+                "file": "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore/基础.md",
                 "mode": "source",
                 "source": false
               },
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/基础.md"
+                "file": "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore/基础.md"
               },
               "icon": "lucide-list",
               "title": "基础 的大纲"
@@ -176,9 +176,11 @@
   },
   "active": "1612ea8133bdcc93",
   "lastOpenFiles": [
-    "JavaScript/FrameworkAndLibrary/Pinia/基础.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/基础.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/基础.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore/基础.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/基础.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore",
+    "JavaScript/FrameworkAndLibrary/Pinia/基础.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/简介.md",
     "JavaScript/API/REST API/基础（node.js Express 和 mongoDB）.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/什么是 Nuxt,为什么要用.md",
@@ -203,7 +205,6 @@
     "Git/关于Git_linux.git.md",
     "Git/如何克隆一个远程的Git仓库，使得所有分支都能下载？.md",
     "Git/上传更新文件到github.md",
-    "Git/git重新配置远程仓库.md",
     "JavaScript/API/GraphQL",
     "JavaScript/API/REST API",
     "JavaScript/FrameworkAndLibrary/Nuxt",
@@ -211,7 +212,6 @@
     "JavaScript/FrameworkAndLibrary/Vue/指令",
     "JavaScript/FrameworkAndLibrary/Vue/Vue 基础知识",
     "JavaScript/FrameworkAndLibrary/Vue/Composition API",
-    "JavaScript/FrameworkAndLibrary/Vue/Fetching Data",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",
     "Pasted image 20240804093642.png",
