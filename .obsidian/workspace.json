@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/基础.md",
+                "file": "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore/基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,13 +174,13 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "1612ea8133bdcc93",
+  "active": "a54eaa6caae544ae",
   "lastOpenFiles": [
-    "JavaScript/FrameworkAndLibrary/Nuxt/基础.md",
+    "JavaScript/FrameworkAndLibrary/Pinia/基础.md",
     "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore/基础.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/基础.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/基础.md",
     "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore",
-    "JavaScript/FrameworkAndLibrary/Pinia/基础.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/简介.md",
     "JavaScript/API/REST API/基础（node.js Express 和 mongoDB）.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/什么是 Nuxt,为什么要用.md",
