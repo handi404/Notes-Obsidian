@@ -235,3 +235,164 @@ public class DownloadController {
 想要把它发回给客户，现在的问题是，在我们完成这段旅程之前，我们如何获得照片，这是我们第一次将学习 spring 中的依赖注入，依赖注入是什么意思？
 ### Dependency Injection(依赖注入)
 [[Dependency Injection 依赖注入]]
+
+### 下载图片
+在 Photo 中添加 contentType 属性：`private String contentType`，后对 PostMapping 进行完善：
+```java
+@PostMapping("/photos")  
+public Photo create(@RequestPart("data") MultipartFile file) throws IOException {  
+    return photosService.save(file.getOriginalFilename(),file.getContentType(), file.getBytes());  
+}
+```
+之后完善 download：
+```java
+@GetMapping("/download/{id}")
+    public ResponseEntity<byte[]> download(@PathVariable String id) {
+        Photo photo = photosService.get(id);
+        if (photo == null) throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+        byte[] data = photo.getData();
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.valueOf(photo.getContentType()));
+        ContentDisposition build = ContentDisposition
+                .builder("attachment")
+                .filename(photo.getFileName())
+                .build();
+        headers.setContentDisposition(build);
+        return new ResponseEntity<>(data, headers, HttpStatus.OK);
+    }
+```
+之后在 upload 上传图片后得到 id，可通过 id 到 download 下载图片。
+### 推荐的项目结构
+目前这些类都位于一个文件夹或一个包中，我希望重构项目。
+引入几个包，例如，有很多不同的，有 web package，service package，model package。
+现在可以做的是，将 Controllers 移动到 web package 中，将实体类移动到 model 中，将 services 移动到 service 中。
+
+### H2 Database - Intro
+开始使用真正的数据库前，现在查看 PhotosService 时，可以看到它有一个 map，它将你的照片存储在内存中，在一个普通的哈希映射中，我们想要访问一个数据库一
+我们添加了一个 h2 数据库，有趣的是，h2 数据库只是一个java 库，一旦你编辑了你的项目，spring boot 就会自动启动它，就会有一个内存数据库，你看不到任何文件或其他东西，但实际上可以像使用postgres、mysql、oracle、microsoft sql server 一样使用它。默认情况下它只在内存中可用，但也可以告诉 h2 或 spring 将数据库内容保存到文件中，这样就可以实际看到它，并且知道有些东西正在被保存。
+这样做的方式是在 `application.properties` 中属性有一个新的属性 `datasource.url`，你需要告诉springboot在哪里保存你的数据库文件：
+```properties
+spring.datasource.url=jdbc:h2:file:~/springboot;AUTO_SERVER=TRUE;
+```
+启动项目后就能在根目录找到，然后可以复制到任何服务器，有效地重复使用它。
+
+### 创建数据库模式
+让我们想想如何把照片存储在数据库中，这意味着需要有一些表。spring boot有各种各样的方法，例如当你启动 springboot 时，它会检查数据库中是否已经有一些表，若没有会根据选项创建。
+进入资源文件夹，创建一个新文件，schema.sql：
+```sql
+create table if not exists photos (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    file_name varchar(255),
+    content_type varchar(255),
+    data binary large object
+);
+```
+现在再次需要知道最后一个属性，用于我们的项目，它被称为 `spring.sql.init.mode` 等于 always，即希望总是在我们启动时执行模式 sql。
+重新运行应用程序，然后我们收到一条错误消息，另一条消息是创建表格不存在的 photos，似乎存在预期标识符的问题。收到了两条消息，说 sql dialect is not configured，实际上可以告诉 intellij 我的文件是一个 h2 文件 sql dialect。
+希望能够访问数据库，你可以在 idea 中内置非常好的数据库访问，实际上 h2 数据库带有一个**web 界面**，通过添加新属性 `spring.h2.console.enabled=true` 来启用它。
+先将 sql 文件名改为 bacschema(**备份模式**，这样 spring 就不会执行此文件)，重新启动进入 `/h2-console` 页面，就是 h2 数据库的 web 页面：JDBC URL 改为与 spring.datasource.url 一致，没有用户名密码删除即可。
+
+### Spring Data JDBC
+关于数据库最简单的入门方式，正如一开始提到的，spring data jdbc是 jdbc 是将数据库语句从 java 发送到数据库的低级 api，而 spring data 可以说是 jdbc api 的一个小型舒适包装器。
+快速入门 springdata 创建 `repository存储库`。所谓的 repository，我们只需创建一个类，我们将在 repository 包中调用该类。
+在 repository 包中创建 PhotosRepository 接口，它**扩展一个来自 spring data 的已经存在的接口，称为 `CrudRepository`**，CrudRepository 为你提供了大量的方法，比如 find delete save into database 中。显然可以编写自己的sql语句，但现在只想开始使用 CrudRepository 并获得基本的最终按id查找，更新语句的工作。
+```java 
+public interface PhotosRepository extends CrudRepository<Integer, Photo> {  
+}
+```
+快速了解，简而言之，当spring启动时扫描 repository 发现有 CrudRepository，它会为你生成那些sql语句，这样你的数据库调用就可以工作了，这是一部分；第二部分是标记注解，我们需要做的是将我们的 java 类映射到我们的数据库表：
+```java  
+//h2 默认将每个表转换为大写
+@Table("PHOTOS")  
+public class Photo {  
+    @Id    
+    private Integer id;  
+    @NotEmpty  
+    private String fileName;  
+  
+    private String contentType;  
+  
+    @JsonIgnore  
+    private byte[] data;  
+ //...
+}
+```
+然后是更改我们的 PhotosService：
+```java
+@Service  
+public class PhotosService {  
+    private final PhotosRepository photosRepository;  
+  
+    public PhotosService(PhotosRepository photosRepository) {  
+        this.photosRepository = photosRepository;  
+    }  
+  
+    public Iterable<Photo> getPhotos() {  
+        return photosRepository.findAll();  
+    }  
+    public Photo get(Integer id) {  
+        return photosRepository.findById(id).orElse(null);  
+    }  
+  
+    public void remove(Integer id) {  
+        photosRepository.deleteById(id);  
+    }  
+  
+    public Photo save(String fileName,String contentType, byte[] data) {  
+        Photo photo = new Photo();  
+        photo.setFileName(fileName);  
+        photo.setContentType(contentType);  
+        photo.setData(data);  
+        photosRepository.save(photo);  
+        return photo;  
+    }  
+}
+```
+更改 PhotosController：
+```java
+@RestController  
+public class PhotosController {  
+    private final PhotosService photosService;  
+  
+    public PhotosController(PhotosService photosService) {  
+        this.photosService = photosService;  
+    }  
+  
+    @GetMapping("/")  
+    public String hello() {  
+        return "hello world";  
+    }  
+  
+    @GetMapping("/photos")  
+    public Iterable<Photo> get(){  
+        return photosService.getPhotos();  
+    }  
+  
+    @GetMapping("/photos/{id}")  
+    public Photo get(@PathVariable Integer id){  
+        Photo photo = photosService.get(id);  
+        if (photo == null) throw new ResponseStatusException(HttpStatus.NOT_FOUND);  
+        return photo;  
+    }  
+  
+    @DeleteMapping("/photos/{id}")  
+    public void delete(@PathVariable Integer id){  
+        photosService.remove(id);  
+    }  
+  
+    @PostMapping("/photos")  
+    public Photo create(@RequestPart("data") MultipartFile file) throws IOException {  
+        return photosService.save(file.getOriginalFilename(),file.getContentType(), file.getBytes());  
+    }  
+}
+```
+
+快速总结一下，在部署应用程序之前，我们忽略了很多东西，我们必须确保我们有验证，必须确保我们清理了我们的数据，必须确保正确地限制我们的数据。
+
+### 打包与部署
+部署是什么意思，现在打开一个终端窗口，事实上，如果使用的是 intellij，也可以使用快捷方式，而不是打开终端窗口，用右侧 maven 工具箱窗口。如果你不使用intellij，只是想看看它在命令行中完成的操作，输入 `./mvnw clean package`，记住在项目 maven clean package 的最开始，请确保你的 java home 环境变量设置为与你构建项目时使用的 java 版本完全相同。
+构建成功，现在如果进入 target 文件夹，这是一个标准的 maven构建文件夹，进去后，你会看到你有一个几个字节的 jar 文件。可以简单地把这个 jar 文件放到服务器上，放到任何我想要的地方，然后运行它，这就是部署。
+如何运行这个文件，`java -jar jar文件` 只需这一句，然后你的应用程序启动，它现在**没有在 ide 中启动，只是在终端窗口中。再次打开浏览器时，可以看到应用程序，看看 photos，它们仍然在数据库中，因为我正在我文件系统上的主目录中访问同一个数据库。**
+
+### 结束与下一步
+我们没有涵盖大量主题，例如测试与测试有关的一切，进一步的数据库访问等等。
