@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fc3e0c1727c2a353",
+        "id": "c4ae36092268e844",
         "type": "tabs",
         "children": [
           {
-            "id": "86b5c4d88773f627",
+            "id": "be346424d5223c5e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Kotlin/Spring 框架/Spring Boot/Spring Boot & Kotlin.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Spring Boot & Kotlin"
             }
           }
         ],
@@ -124,12 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Kotlin/Spring 框架/Spring Boot/Spring Boot & Kotlin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Spring Boot & Kotlin 的大纲"
             }
           },
           {
@@ -173,8 +178,20 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "86b5c4d88773f627",
+  "active": "be346424d5223c5e",
   "lastOpenFiles": [
+    "Java/Spring 框架/Spring Boot/Google Photos.md",
+    "Kotlin/Spring 框架/Spring Boot/Spring Boot & Kotlin.md",
+    "IDEA/IDEA做HTTP接口测试.md",
+    "Kotlin/Kotlin 基础/Kotlin 基础语法/3.函数/1.函数与参数.md",
+    "Kotlin/官方文档/文档.md",
+    "Kotlin/官方文档/平台.md",
+    "Kotlin/官方文档/基础.md",
+    "Kotlin/官方文档/官方库.md",
+    "Kotlin/官方文档/工具.md",
+    "Kotlin/官方文档/编译器与插件.md",
+    "Kotlin/Gradle 构建工具/常用命令.md",
+    "Kotlin/Spring 框架/Spring Boot",
     "Java/Spring 框架/Java Web框架篇之Spring.md",
     "Java/Spring 框架/Spring Boot/Dependency Injection 依赖注入.md",
     "Java/Spring 框架/Spring Boot/JPA/自动实现查询方法.md",
@@ -188,29 +205,17 @@
     "Java/Spring 框架/Spring Boot/JPA",
     "Kotlin/数据库/Exposed/HikariCP + Exposed.md",
     "Java/Spring 框架/Spring框架的主要组成部分.md",
-    "Java/Spring 框架/Spring Boot/Google Photos.md",
     "Windows/小狼毫/简约皮肤.md",
     "Windows/小狼毫",
     "Java/Spring 框架/Spring Boot/未命名 1.md",
     "Java/Spring 框架/Spring Boot/四大注解.md",
-    "Java/Spring 框架/Spring MVC/注解/常用注解.md",
-    "IDEA/IntellijIDEA中的quick技巧.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore/基础.md",
-    "JavaScript/FrameworkAndLibrary/Pinia/基础.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/基础.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/基础.md",
     "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/简介.md",
-    "JavaScript/API/REST API/基础（node.js Express 和 mongoDB）.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/什么是 Nuxt,为什么要用.md",
-    "JavaScript/FrameworkAndLibrary/Vue/未命名.md",
     "JavaScript/FrameworkAndLibrary/Pinia",
     "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)",
     "JavaScript/API/GraphQL",
     "JavaScript/API/REST API",
     "JavaScript/FrameworkAndLibrary/Nuxt",
     "JavaScript/FrameworkAndLibrary/Vue/事件",
-    "JavaScript/FrameworkAndLibrary/Vue/指令",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",
     "Pasted image 20240804093642.png",

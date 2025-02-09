@@ -291,6 +291,13 @@ create table if not exists photos (
 重新运行应用程序，然后我们收到一条错误消息，另一条消息是创建表格不存在的 photos，似乎存在预期标识符的问题。收到了两条消息，说 sql dialect is not configured，实际上可以告诉 intellij 我的文件是一个 h2 文件 sql dialect。
 希望能够访问数据库，你可以在 idea 中内置非常好的数据库访问，实际上 h2 数据库带有一个**web 界面**，通过添加新属性 `spring.h2.console.enabled=true` 来启用它。
 先将 sql 文件名改为 bacschema(**备份模式**，这样 spring 就不会执行此文件)，重新启动进入 `/h2-console` 页面，就是 h2 数据库的 web 页面：JDBC URL 改为与 spring.datasource.url 一致，没有用户名密码删除即可。
+```properties
+spring.servlet.multipart.max-file-size=100MB
+spring.servlet.multipart.max-request-size=100MB
+spring.datasource.url=jdbc:h2:file:~/springboot;AUTO_SERVER=TRUE;
+spring.sql.init.mode=always
+spring.h2.console.enabled=true
+```
 
 ### Spring Data JDBC
 关于数据库最简单的入门方式，正如一开始提到的，spring data jdbc是 jdbc 是将数据库语句从 java 发送到数据库的低级 api，而 spring data 可以说是 jdbc api 的一个小型舒适包装器。
