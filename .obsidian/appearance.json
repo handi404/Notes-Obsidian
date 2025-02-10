@@ -1,7 +1,9 @@
 {
   "accentColor": "",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "baseFontSize": 17,
   "cssTheme": "Things",
-  "monospaceFontFamily": "JetBrains Mono"
+  "monospaceFontFamily": "JetBrains Mono",
+  "interfaceFontFamily": "Cascadia Code",
+  "textFontFamily": "HarmonyOS Sans SC"
 }
