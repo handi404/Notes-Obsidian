@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cbef2b91371ff696",
+            "id": "4ed0fe3c5e4e0f2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Gradle 构建工具/Gradle 教程.md",
+                "file": "Kotlin/Gradle 构建工具/build.gradle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gradle 教程"
-            }
-          },
-          {
-            "id": "2b20ddf69d3df102",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kotlin/Gradle 构建工具/常用命令.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "常用命令"
+              "title": "build.gradle"
             }
           }
         ],
@@ -179,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,14 +178,21 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "cbef2b91371ff696",
+  "active": "614fd6a5cf2994fd",
   "lastOpenFiles": [
-    "Kotlin/Gradle 构建工具/常用命令.md",
+    "Kotlin/Gradle 构建工具/gradle init.md",
     "Kotlin/Gradle 构建工具/Gradle 教程.md",
+    "Kotlin/Gradle 构建工具/build.gradle.md",
+    "Kotlin/Gradle 构建工具/多模块项目/主要用于以下类型的项目.md",
+    "Kotlin/Gradle 构建工具/多模块项目/多层次模块结构.md",
+    "Kotlin/Gradle 构建工具/多模块项目/配置多模块.md",
+    "Kotlin/Gradle 构建工具/多模块项目/子项目以及依赖关系.md",
+    "Kotlin/Gradle 构建工具/多模块项目",
+    "Kotlin/Gradle 构建工具/常用命令.md",
+    "Kotlin/Gradle 构建工具/核心构建脚本文件.md",
     "VSCode/VSCode字体界面美化.md",
     "VSCode/让VSCode更好用的设置前端开发角度.md",
     "Kotlin/Gradle 构建工具/详解.md",
-    "Kotlin/Gradle 构建工具/核心构建脚本文件.md",
     "Kotlin/Spring 框架/Spring Boot/Spring Boot & Kotlin.md",
     "Java/Spring 框架/Spring Boot/Google Photos.md",
     "IDEA/IDEA做HTTP接口测试.md",
@@ -216,12 +208,6 @@
     "Java/Spring 框架/Spring Boot/Dependency Injection 依赖注入.md",
     "Java/Spring 框架/Spring Boot/JPA/自动实现查询方法.md",
     "Java/Spring 框架/Spring Boot/Springboot项目启动后自动打开浏览器访问.md",
-    "Java/Spring 框架/Spring Boot/spring-boot之前端连接（jsp）环境vscode.md",
-    "Java/Spring 框架/Spring Boot/JPA/复杂的多表查询.md",
-    "Java/Spring 框架/Spring Boot/JPA/示例2.md",
-    "Java/Spring 框架/Spring Boot/JPA/Hibernate & JPA.md",
-    "Java/Spring 框架/Spring Boot/JPA/示例.md",
-    "Kotlin/数据库/推荐 HikariCP 连接池.md",
     "Java/Spring 框架/Spring Boot/JPA",
     "Windows/小狼毫",
     "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore",
@@ -230,7 +216,6 @@
     "JavaScript/API/GraphQL",
     "JavaScript/API/REST API",
     "JavaScript/FrameworkAndLibrary/Nuxt",
-    "JavaScript/FrameworkAndLibrary/Vue/事件",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",
     "Pasted image 20240804093642.png",
