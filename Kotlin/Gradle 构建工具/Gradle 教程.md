@@ -117,4 +117,4 @@ test {
 从头开始创建一个全新的 gradle 项目，而无需从某个已经启用了 maven 包装的地方克隆它，要做到这一点，你需要在你的机器上安装 gradle，然后你可以转到机器上的任何目录，只需调用 `gradle init` 命令。
 ### Gradle Init
 [[gradle init]]
-创建一个新的子文件夹 mygradleproject，进入此文件夹，运行 `gradle init`，很可能是使用第二个 application，这是一个有多个子模块的应用程序，然后它会提示你说，你想使用哪个语言，然后询问使用哪种 DSL（领域特定语言）来编写构建脚本，建议使用 Kotlin，尽管外面有无数个项目，特别是你的工作场所很可能在 Groovy 中。
+创建一个新的子文件夹 mygradleproject，进入此文件夹，运行 `gradle init`，很可能是使用第二个 application，这是一个有多个子模块的应用程序，然后使用哪个语言，然后选择多模块开发(yes: Application and library project)，然后询问使用哪种 DSL（领域特定语言）来编写构建脚本，建议使用 Kotlin，尽管外面有无数个项目，特别是你的工作场所很可能在 Groovy 中，然后使用新的 API 和行为生成 build(Generate build using new APIs and behavior)。
