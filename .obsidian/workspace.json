@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "432f7957528954a8",
+        "id": "93f6645d659d5967",
         "type": "tabs",
         "children": [
           {
-            "id": "7b5a84a116f65183",
+            "id": "18ca082a04d32f6e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Layout（布局）.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Layout（布局）"
+              "title": "新标签页"
             }
           }
         ],
@@ -128,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Layout（布局）.md",
+                "file": "Java/Spring/Spring Cloud/分布式和微服务.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Layout（布局） 的大纲"
+              "title": "分布式和微服务 的大纲"
             }
           },
           {
@@ -178,8 +174,25 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "7b5a84a116f65183",
+  "active": "614fd6a5cf2994fd",
   "lastOpenFiles": [
+    "Java/Spring/Spring Cloud/介绍.md",
+    "Java/Spring/Spring Cloud/分布式和微服务.md",
+    "Java/Spring/Spring Cloud",
+    "MongoDB/MongoDB tutorial for beginners/MongoDB数据库解释.md",
+    "MongoDB/MongoDB tutorial for beginners/MongoDB 数据库结构.md",
+    "MongoDB/MongoDB tutorial for beginners/(增)插入insert文档documents.md",
+    "MongoDB/MongoDB tutorial for beginners/(删)删除delete文档.md",
+    "MongoDB/MongoDB tutorial for beginners/(改)更新update文档.md",
+    "MongoDB/MongoDB tutorial for beginners/(查)查找find文档.md",
+    "MongoDB/MongoDB tutorial for beginners/安装配置.md",
+    "MongoDB/MongoDB tutorial for beginners/逻辑运算符.md",
+    "MongoDB/MongoDB tutorial for beginners/数据类型.md",
+    "MongoDB/MongoDB tutorial for beginners/索引indexes.md",
+    "MongoDB/MongoDB tutorial for beginners/比较运算符.md",
+    "MongoDB/MongoDB tutorial for beginners/社区版和企业版.md",
+    "Git/Git 切换和删除远程仓库.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Layout（布局）.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/NuxtLink.md",
     "Git/代码状态回退.md",
     "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore/基础.md",
@@ -190,32 +203,15 @@
     "Kotlin/Gradle 构建工具/build.gradle.md",
     "Kotlin/Gradle 构建工具/多模块项目/主要用于以下类型的项目.md",
     "Kotlin/Gradle 构建工具/多模块项目/多层次模块结构.md",
-    "Kotlin/Gradle 构建工具/多模块项目/配置多模块.md",
-    "Kotlin/Gradle 构建工具/多模块项目/子项目以及依赖关系.md",
     "Kotlin/Gradle 构建工具/多模块项目",
-    "Kotlin/Gradle 构建工具/常用命令.md",
-    "Kotlin/Gradle 构建工具/核心构建脚本文件.md",
-    "VSCode/VSCode字体界面美化.md",
-    "VSCode/让VSCode更好用的设置前端开发角度.md",
-    "Kotlin/Gradle 构建工具/详解.md",
-    "Kotlin/Spring 框架/Spring Boot/Spring Boot & Kotlin.md",
-    "Java/Spring 框架/Spring Boot/Google Photos.md",
-    "IDEA/IDEA做HTTP接口测试.md",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/3.函数/1.函数与参数.md",
-    "Kotlin/官方文档/文档.md",
-    "Kotlin/官方文档/平台.md",
-    "Kotlin/官方文档/基础.md",
-    "Kotlin/官方文档/官方库.md",
-    "Kotlin/官方文档/工具.md",
     "Kotlin/Spring 框架/Spring Boot",
-    "Java/Spring 框架/Spring Boot/JPA",
+    "Java/Spring/Spring Boot/JPA",
     "Windows/小狼毫",
     "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore",
     "JavaScript/FrameworkAndLibrary/Pinia",
     "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)",
     "JavaScript/API/GraphQL",
     "JavaScript/API/REST API",
-    "JavaScript/FrameworkAndLibrary/Nuxt",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",
     "Pasted image 20240804093642.png",
