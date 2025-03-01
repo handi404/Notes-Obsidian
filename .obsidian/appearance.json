@@ -4,6 +4,6 @@
   "baseFontSize": 17,
   "cssTheme": "Things",
   "monospaceFontFamily": "JetBrains Mono",
-  "interfaceFontFamily": "Cascadia Code",
-  "textFontFamily": "HarmonyOS Sans SC"
+  "interfaceFontFamily": "Cascadia Code,HarmonyOS Sans SC",
+  "textFontFamily": "HarmonyOS Sans SC,Consolas"
 }
