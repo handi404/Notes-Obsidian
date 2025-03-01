@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Spring 框架/Spring Boot/taskApp 中不懂注解.md",
+                "file": "Kotlin/Spring 框架/Spring Boot/Test（基于taskApp）/Service class 单元测试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "taskApp 中不懂注解"
+              "title": "Service class 单元测试"
+            }
+          },
+          {
+            "id": "9e6b91b09ca1e6a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
         ],
@@ -79,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 287.5
   },
   "right": {
     "id": "35a05ec3fbe9c822",
@@ -128,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kotlin/Spring 框架/Spring Boot/taskApp 中不懂注解.md",
+                "file": "Kotlin/Spring 框架/Spring Boot/Test（基于taskApp）/Service class 单元测试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "taskApp 中不懂注解 的大纲"
+              "title": "Service class 单元测试 的大纲"
             }
           },
           {
@@ -178,8 +192,26 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "614fd6a5cf2994fd",
+  "active": "f39a5e5b48b3cc9a",
   "lastOpenFiles": [
+    "Kotlin/Spring 框架/Spring Boot/Test（基于taskApp）/对 repository 进行单元测试.md",
+    "Kotlin/Spring 框架/Spring Boot/Test（基于taskApp）/Service class 单元测试.md",
+    "Kotlin/Spring 框架/Spring Boot/Test（基于taskApp）/所需依赖.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/1.构建服务.md",
+    "Kotlin/Spring 框架/Spring Boot/Test（基于taskApp）",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/未命名.md",
+    "Java/Class/Class 类型.md",
+    "Java/新特性/Java 17（LTS）/Java 17 新特性.md",
+    "Java/Class",
+    "Java/新特性/Java 11（LTS）/Java 11 新特性.md",
+    "Java/新特性/Java 11（LTS）",
+    "Java/新特性/Java 17（LTS）",
+    "Java/新特性/Java 9（Non-LTS）.md",
+    "Java/新特性/Java 10（Non-LTS）.md",
+    "Java/新特性/Java 12（Non-LTS）.md",
+    "Java/新特性",
+    "Kotlin/Spring 框架/Spring Boot/taskApp 中不懂注解.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例",
     "Java/Spring/Spring Boot/MyBatis/文档/mybatis学习使用.md",
     "Java/Spring/Spring Boot/MyBatis/文档/Typora.20250219-120043-261.log",
     "Java/Spring/Spring Boot/MyBatis/文档/03MyBatis注解开发.md",
@@ -187,7 +219,6 @@
     "Java/Spring/Spring Boot/MyBatis/文档/01Mybatis简单介绍、快速搭建、核心配置文件书写.md",
     "Java/Spring/Spring Boot/MyBatis/文档",
     "Kotlin/Spring 框架/Spring Boot/taskAPP Supabase Postgresql 配置.md",
-    "Kotlin/Spring 框架/Spring Boot/taskApp 中不懂注解.md",
     "Kotlin/Spring 框架/Spring Boot/application.yml 转 application.properties.md",
     "Kotlin/Spring 框架/Spring Boot/CORS 配置.md",
     "Kotlin/Spring 框架/Spring Boot/代码问题.md",
@@ -197,25 +228,8 @@
     "JavaScript/JavaScript tutorial/JavaScript 高级/高级.md",
     "JavaScript/JavaScript tutorial/ES6 模块/探讨模块化中的导入导出.md",
     "JavaScript/JavaScript tutorial/ES6 模块/ES6 模块.md",
-    "JavaScript/如何构建一个现代化的前端开发工作流.md",
-    "JavaScript/等号运算符的运算和转换规则.md",
-    "Kotlin/Spring 框架/Spring Boot/数据传输对象.md",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/8.this 表达式.md",
-    "Kotlin/Spring 框架/Spring Boot/基础方法/动态更新对象的字段.md",
-    "Kotlin/Spring 框架/Spring Boot/基础方法/遍历对象的属性.md",
-    "Kotlin/Spring 框架/Spring Boot/基础方法/自定义运行时异常.md",
     "Kotlin/Spring 框架/Spring Boot/基础方法",
-    "Kotlin/Spring 框架/Spring Boot/基础方法/服务类中的辅助方法.md",
-    "Kotlin/Kotlin 基础/Kotlin 基础语法/10.反射.md",
-    "Kotlin/Spring 框架/Spring Boot/Spring Boot & Kotlin.md",
-    "Kotlin/Spring 框架/Spring Boot/依赖注入.md",
     "Java/Spring/Spring Cloud",
-    "Kotlin/Gradle 构建工具/多模块项目",
-    "Kotlin/Spring 框架/Spring Boot",
-    "Java/Spring/Spring Boot/JPA",
-    "Windows/小狼毫",
-    "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore",
-    "JavaScript/FrameworkAndLibrary/Pinia",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",
     "Pasted image 20240804093642.png",
