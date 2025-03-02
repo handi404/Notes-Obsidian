@@ -42,3 +42,88 @@ class TaskServiceTest {
 
 }
 ```
+
+为从 entity 映射到 DTO 的 task 编写了单元测试，以及当 service class 中发生无效请求异常时。
+```kotlin
+@Test
+    fun `when task is created then check for the task properties`() {
+        //Given
+        task.description = createRequest.description
+        task.isTaskOpen = createRequest.isTaskOpen
+        task.priority = createRequest.priority
+        //When
+        every { mockRepository.save(any()) } returns task
+        val actualTaskDto: TaskDto = objectUnderTest.createTask(createRequest)
+        //Then
+        assertThat(task.description).isEqualTo(actualTaskDto.description)
+        assertThat(task.isTaskOpen).isEqualTo(actualTaskDto.isTaskOpen)
+        assertThat(task.priority).isEqualTo(actualTaskDto.priority)
+    }
+
+    @Test
+    fun `when task description already exists then check bad request exception`() {
+        //Given
+        //When
+        every { mockRepository.doesDescriptionExist(any()) } returns true
+        val exception = assertThrows<BadRequestException> { objectUnderTest.createTask(createRequest) }
+        //Then
+        assertThat(exception.message).isEqualTo("There is already a task with the description: ${createRequest.description}")
+        verify { mockRepository.save(any()) wasNot  called }
+    }
+```
+
+### 在单元测试中捕获参数
+使用了 MockK 库中的 slot()函数来捕获一个参数，并编写了更多的单元测试。
+```kotlin
+	@Test
+    fun `when task by id is called then except a task not found exception`() {
+        //Given
+        //When
+        every { mockRepository.existsById(any()) } returns false
+        val exception: TaskNotFoundException = assertThrows { objectUnderTest.findTaskById(taskId) }
+        //Then
+        assertThat(exception.message).isEqualTo("Task with the ID: $taskId does not exist!")
+    }
+
+    @Test
+    fun `when all open tasks are fetched check the property is task open is true`() {
+        //Given
+        task.isTaskOpen = true
+        val expectedTasks = listOf(task)
+        //When
+        every { mockRepository.queryAllOpenTasks() } returns expectedTasks.toMutableList()
+        val actualTasks:List<TaskDto> = objectUnderTest.getAllOpenTasks()
+        //Then
+        assertThat(actualTasks[0].isTaskOpen).isEqualTo(expectedTasks[0].isTaskOpen)
+    }
+
+    @Test
+    fun `when all open tasks are fetched check the property is task open is false`() {
+        //Given
+        task.isTaskOpen = false
+        val expectedTasks = listOf(task)
+        //When
+        every { mockRepository.queryAllClosedTasks() } returns expectedTasks.toMutableList()
+        val actualTasks:List<TaskDto> = objectUnderTest.getAllClosedTasks()
+        //Then
+        assertThat(actualTasks[0].isTaskOpen).isEqualTo(expectedTasks[0].isTaskOpen)
+    }
+
+    @Test
+    fun `when save task is called then check if argument could be captured`() {
+        val taskSlot = slot<Task>()
+        task.description = createRequest.description
+        task.isTaskOpen = createRequest.isTaskOpen
+        task.isReminderSet = createRequest.isReminderSet
+        task.priority = createRequest.priority
+
+        every { mockRepository.save(capture(taskSlot)) } returns task
+        val actualTaskDto: TaskDto = objectUnderTest.createTask(createRequest)
+
+        verify { mockRepository.save(capture(taskSlot)) }
+        assertThat(taskSlot.captured.description).isEqualTo(actualTaskDto.description)
+        assertThat(taskSlot.captured.isReminderSet).isEqualTo(actualTaskDto.isReminderSet)
+        assertThat(taskSlot.captured.isTaskOpen).isEqualTo(actualTaskDto.isTaskOpen)
+        assertThat(taskSlot.captured.priority).isEqualTo(actualTaskDto.priority)
+    }
+```
