@@ -127,3 +127,77 @@ class TaskServiceTest {
         assertThat(taskSlot.captured.priority).isEqualTo(actualTaskDto.priority)
     }
 ```
+
+完成 service 所需的所有单元测试的编写。
+```kotlin
+	@Test
+    fun `when get task by id is called then check for a specific description`() {
+        //Given
+        task.description = "play game"
+        //When
+        every { mockRepository.existsById(any()) } returns true
+        every { mockRepository.findTaskById(any()) } returns task
+        val actualTaskDto: TaskDto = objectUnderTest.findTaskById(taskId)
+        //Then
+        assertThat(actualTaskDto.description).isEqualTo(task.description)
+    }
+
+    @Test
+    fun `when get task by id is called then check if argument could be captured`() {
+        val taskIdSlot = slot<Long>()
+
+        every { mockRepository.existsById(any()) } returns true
+        every { mockRepository.findTaskById(capture(taskIdSlot)) } returns task
+        objectUnderTest.findTaskById(taskId)
+
+        verify { mockRepository.findTaskById(capture(taskIdSlot)) }
+        assertThat(taskIdSlot.captured).isEqualTo(taskId)
+    }
+
+    @Test
+    fun `when delete task is called then check the response message`() {
+        every { mockRepository.existsById(any()) } returns true
+        val actualMessage: String = objectUnderTest.deleteTask(taskId)
+
+        assertThat(actualMessage).isEqualTo("Task with the ID: $taskId has been deleted.")
+    }
+
+    @Test
+    fun `when delete task is called then check if argument could be captured`() {
+        val taskIdSlot = slot<Long>()
+
+        every { mockRepository.existsById(any()) } returns true
+        every { mockRepository.deleteById(capture(taskIdSlot)) } returns Unit
+        objectUnderTest.deleteTask(taskId)
+
+        verify { mockRepository.deleteById(capture(taskIdSlot)) }
+        assertThat(taskIdSlot.captured).isEqualTo(taskId)
+    }
+
+    @Test
+    fun `when update task is called then check for the request properties`() {
+        task.description = "Go to Sawarma restaurant"
+        task.isReminderSet = false
+        task.isTaskOpen = true
+        task.priority = Priority.MEDIUM
+
+        val request = TaskUpdateRequest(
+            task.description,
+            task.isReminderSet,
+            task.isTaskOpen,
+            task.priority
+        )
+
+        every { mockRepository.existsById(any()) } returns true
+        every { mockRepository.findTaskById(any()) } returns task
+        every { mockRepository.save(any()) } returns task
+        val actualTaskDto: TaskDto = objectUnderTest.updateTask(taskId, request)
+
+        assertThat(actualTaskDto.id).isEqualTo(task.id)
+        assertThat(actualTaskDto.description).isEqualTo(task.description)
+        assertThat(actualTaskDto.isReminderSet).isEqualTo(task.isReminderSet)
+        assertThat(actualTaskDto.isTaskOpen).isEqualTo(task.isTaskOpen)
+        assertThat(actualTaskDto.priority).isEqualTo(task.priority)
+        assertThat(actualTaskDto.createdOn).isEqualTo(task.createdOn)
+    }
+```
