@@ -2,7 +2,8 @@
 @Entity  
 @Table(name = "task", uniqueConstraints = [UniqueConstraint(name = "uk_task_description", columnNames = ["description"])])  
 class Task {  
-    @Id    @GeneratedValue(generator = "task_sequence", strategy = GenerationType.SEQUENCE)  
+    @Id    
+    @GeneratedValue(generator = "task_sequence", strategy = GenerationType.SEQUENCE)  
     @SequenceGenerator(name = "task_sequence", sequenceName = "task_sequence", allocationSize = 1)  
     val id: Long = 0  
     @NotBlank  
@@ -18,7 +19,8 @@ class Task {
     @Column(name = "created_on", nullable = false)  
     val createdOn: LocalDateTime = LocalDateTime.now()  
   
-    @NotNull    @Enumerated(EnumType.STRING)  
+    @NotNull    
+    @Enumerated(EnumType.STRING)  
     var priority: Priority = Priority.LOW  
 }
 ```
