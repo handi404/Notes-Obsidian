@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3c21d4e432718659",
+        "id": "28a95463993e0d0c",
         "type": "tabs",
         "children": [
           {
-            "id": "ac918e31b0ff19b7",
+            "id": "99fea3e6274231df",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "LLMs/MCP/MCP 终极指南.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "MCP 终极指南"
             }
           }
         ],
@@ -124,12 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "LLMs/MCP/MCP 终极指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "MCP 终极指南 的大纲"
             }
           },
           {
@@ -173,8 +178,12 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "ac918e31b0ff19b7",
+  "active": "99fea3e6274231df",
   "lastOpenFiles": [
+    "LLMs/MCP/MCP 入门指南.md",
+    "LLMs/编程/前端/前端自给自足UI设计稿（Claude AI 版本）.md",
+    "LLMs/编程/前端/UI 设计提示词.md",
+    "JavaScript/FrameworkAndLibrary/Vue/生命周期.md",
     "Java/Spring/Spring Boot/MyBatis/mybatis-rg1.md",
     "Java/Spring/Spring Boot/MyBatis/mybatis详细教程.md",
     "Java/Spring/Spring Boot/Hibernate & JPA/唯一标识符.md",
@@ -198,10 +207,6 @@
     "MongoDB/MongoDB tutorial for beginners/(改)更新update文档.md",
     "MongoDB/MongoDB tutorial for beginners/逻辑运算符.md",
     "MongoDB/MongoDB tutorial for beginners/排序和限制sort and limit.md",
-    "MongoDB/MongoDB tutorial for beginners/(查)查找find文档.md",
-    "MongoDB/MongoDB tutorial for beginners/(删)删除delete文档.md",
-    "MongoDB/MongoDB tutorial for beginners/MongoDB数据库解释.md",
-    "MongoDB/MongoDB tutorial for beginners/MongoDB 数据库结构.md",
     "Java/Spring/Spring Boot/controller",
     "Java/Spring/Spring Boot/repository",
     "Java/Spring/Spring Boot/service",
