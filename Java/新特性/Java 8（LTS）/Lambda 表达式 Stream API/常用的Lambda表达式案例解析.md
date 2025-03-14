@@ -9,7 +9,6 @@ __ _ _ _ _
 ## 1\. 集合遍历： ` forEach ` 方法
 
   *   *   *   *   *   *   *   * 
-
 ```java
 public void testForEach(){
     List<String> list = new ArrayList<String>() {{
@@ -26,7 +25,6 @@ public void testForEach(){
 将操作后的对象转化为新的对象：
 
   *   *   *   *   *   *   *   *   *   * 
-
 ```java
 public void testCollect(){
     List<String> list = new ArrayList<String>() {{
@@ -45,7 +43,6 @@ public void testCollect(){
 ` filter ` 用于过滤不满足条件的元素：
 
   *   *   *   *   *   *   *   *   *   *   * 
-
 ```java
 public void testFilter() {
     List<String> list = new ArrayList<String>() {{
@@ -64,7 +61,6 @@ public void testFilter() {
 ` map ` 方法可以对流中的元素进行转换：
 
   *   *   *   *   *   *   *   *   *   * 
-
 ```java
 public void testMap() {
     List<String> list = new ArrayList<String>() {{
@@ -83,7 +79,6 @@ public void testMap() {
 ` mapToInt ` 返回 ` int ` 类型的流：
 
   *   *   *   *   *   *   *   *   *   *   *   *   *   *   * 
-
 ```java
 public void testMapToInt() {
     List<String> list = new ArrayList<String>() {{
@@ -107,7 +102,6 @@ public void testMapToInt() {
 ` distinct ` 方法可以对流中的元素进行去重：
 
   *   *   *   *   *   *   *   *   *   *   * 
-
 ```java
 public void testDistinct() {
     List<String> list = new ArrayList<String>() {{
@@ -126,8 +120,7 @@ public void testDistinct() {
 
 ` sorted ` 提供自然排序和自定义排序：
 
-  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   * 
-
+  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *  
 ```java
 public void testSorted() {
     List<String> list = new ArrayList<String>() {{
@@ -152,7 +145,6 @@ public void testSorted() {
 ` groupingBy ` 可以对流进行分组：
 
   *   *   *   *   *   *   *   *   * 
-
 ```java
 public void testGroupBy() {
     List<String> list = new ArrayList<String>() {{
@@ -170,7 +162,6 @@ public void testGroupBy() {
 ` findFirst ` 方法返回第一个满足条件的元素：
 
   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   * 
-
 ```java
 public void testFindFirst() {
     List<String> list = new ArrayList<String>() {{
@@ -202,7 +193,6 @@ public void testFindFirst() {
 ` reduce ` 方法可以对流中的元素进行累加或叠加：
 
   *   *   *   *   *   *   *   *   *   *   *   *   *   *   * 
-
 ```java
 public void testReduce() {
     List<String> list = new ArrayList<String>() {{
@@ -226,7 +216,6 @@ public void testReduce() {
 ` peek ` 方法允许在流处理过程中插入额外的操作，如日志记录：
 
   *   *   *   *   *   *   *   *   *   *   * 
-
 ```java
 public void testPeek() {
     List<String> list = new ArrayList<String>() {{
@@ -245,7 +234,6 @@ public void testPeek() {
 ` limit ` 方法限制流的输出数量：
 
   *   *   *   *   *   *   *   *   *   *   * 
-
 ```java
 public void testLimit() {
     List<String> list = new ArrayList<String>() {{
@@ -265,7 +253,6 @@ public void testLimit() {
 ` max ` 和 ` min ` 方法用于获取流中的最大值或最小值：
 
   *   *   *   *   *   *   *   *   *   *   *   *   *   * 
-
 ```java
 public void testMaxMin() {
     List<String> list = new ArrayList<String>() {{

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ebf737c46532a19b",
+        "id": "889f28f173d0a757",
         "type": "tabs",
         "children": [
           {
-            "id": "be043580bc31035a",
+            "id": "5d5e85f6e445afae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/2.服务间通信.md",
+                "file": "Java/新特性/Java 8（LTS）/Lambda 表达式 Stream API/作用与使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.服务间通信"
+              "title": "作用与使用"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/2.服务间通信.md",
+                "file": "Java/新特性/Java 8（LTS）/Lambda 表达式 Stream API/作用与使用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.服务间通信 的大纲"
+              "title": "作用与使用 的大纲"
             }
           },
           {
@@ -178,38 +178,38 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "be043580bc31035a",
+  "active": "5d5e85f6e445afae",
   "lastOpenFiles": [
+    "Java/新特性/Java 8（LTS）/方法引用.md",
+    "Java/新特性/Java 8（LTS）/Lambda 表达式 Stream API/作用与使用.md",
+    "Java/新特性/Java 8（LTS）/Lambda 表达式 Stream API/Lambda与箭头函数.md",
+    "Java/新特性/Java 8（LTS）/Lambda 表达式 Stream API/Lambda表达式底层原理.md",
+    "Java/新特性/Java 8（LTS）/Lambda 表达式 Stream API/常用的Lambda表达式案例解析.md",
+    "Java/新特性/Java 8（LTS）/Lambda 表达式 Stream API/Lambda 表达式.md",
+    "Git/name.md",
+    "Git/git 推送代码到main分支.md",
+    "Git/Git基本使用（很详细）_git使用.md",
+    "Git/Git 绑定GitHub.md",
+    "Git/git 重新配置远程仓库.md",
+    "Git/解决push报错.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/3.Service Discovery.md",
+    "Git/退出 git log 和 git commit 状态.md",
+    "Git/如何克隆一个远程的Git仓库，使得所有分支都能下载？.md",
+    "Git/修改 pushed commit message.md",
+    "Vim/基础操作.md",
+    "Vim/【Vim】基本操作及命令集详解_vim操作.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/未命名.md",
+    "Java/Spring/Spring Boot/MyBatis/mybatis-rg1.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/2.服务间通信.md",
+    "Java/新特性/Java 8（LTS）/Stream API/Stream API 的具体用法.md",
+    "Java/新特性/Java 8（LTS）/Stream API/Stream API 操作.md",
+    "Java/新特性/Java 8（LTS）/Stream API/Java Stream API.md",
     "Java/Spring/@Bean.md",
     "Java/Spring/@Configuration.md",
-    "Java/Spring/Java Web框架篇之Spring.md",
-    "Java/Spring/先掌握以下 Java 相关的知识.md",
-    "Java/Spring/Spring Boot/四大注解.md",
-    "Java/Spring/Spring Boot/Optional.md",
-    "Java/Spring/Spring Boot/Validation.md",
-    "Java/Spring/Spring Boot/final.md",
-    "Java/关键修饰符/final.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/2.服务间通信.md",
     "Java/关键修饰符",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/未命名.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 3/简介.md",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 3",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2",
-    "IDEA/IDEA做HTTP接口测试.md",
-    "IDEA/IDEA 新 UI 新手调教篇，看完还不会的过来捶我.md",
     "IDEA/IDEA做HTTP接口测试.pdf",
-    "Java/Spring/Spring Boot/Lombok/Lombok 的安装与使用.md",
-    "Java/Spring/Spring Boot/Lombok/@Log4j2.md",
-    "Java/Spring/Spring Boot/Lombok/@Slf4j.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/1.构建服务.md",
-    "Java/Spring/Spring Boot/service/@Transactional.md",
-    "Java/Spring/Spring Boot/service/Entity to Dto.md",
-    "Java/Class/record.md",
-    "Java/Class/Class 类型.md",
-    "Java/Spring/Spring Boot/Hibernate & JPA/自动实现查询方法.md",
-    "Kotlin/Spring 框架/Spring Boot/Test（基于taskApp）/Testcontainers.md",
-    "Java/Spring/Spring Boot/Lombok/@Builder.md",
-    "LLMs/MCP/MCP 终极指南.md",
     "Pasted image 20250301210420.png",
     "Java/Spring/Spring Boot/controller",
     "Java/Spring/Spring Boot/repository",

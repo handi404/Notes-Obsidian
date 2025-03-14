@@ -1,10 +1,5 @@
 #### 文章目录
 
--   -   [一、\`git log\` 的退出](https://blog.csdn.net/m0_46278037/article/details/119628828#git_log__1)
-    -   [二、\`git commit\` 的退出](https://blog.csdn.net/m0_46278037/article/details/119628828#git_commit__15)
-    -   -   [1 、保存并退出：](https://blog.csdn.net/m0_46278037/article/details/119628828#1__22)
-        -   [2 、不保存退出：](https://blog.csdn.net/m0_46278037/article/details/119628828#2__27)
-
 ### 一、`git log` 的退出
 
 -   当`commit`（提交）比较多，`git log` 的内容在一页显示不完整，满屏放不下的时候，就会显示冒号。
