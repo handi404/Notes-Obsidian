@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "524e880265d70738",
+        "id": "e0605545f1e9e7ea",
         "type": "tabs",
         "children": [
           {
-            "id": "984d5568384a8a75",
+            "id": "bc65a80ba724195a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/4.API 网关.md",
+                "file": "JSON、XML、YAML/YAML 和 YML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.API 网关"
-            }
-          },
-          {
-            "id": "c78efd227414834e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/未命名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
+              "title": "YAML 和 YML"
             }
           }
         ],
@@ -93,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 308.5
   },
   "right": {
     "id": "35a05ec3fbe9c822",
@@ -109,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin/Gradle 构建工具/Gradle 教程.md",
+                "file": "JSON、XML、YAML/YAML 和 YML.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Gradle 教程 的反向链接列表"
+              "title": "YAML 和 YML 的反向链接列表"
             }
           },
           {
@@ -142,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/4.API 网关.md",
+                "file": "JSON、XML、YAML/YAML 和 YML.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "4.API 网关 的大纲"
+              "title": "YAML 和 YML 的大纲"
             }
           },
           {
@@ -174,8 +160,7 @@
               "title": "插件不再活动"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,34 +177,36 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "984d5568384a8a75",
+  "active": "bc65a80ba724195a",
   "lastOpenFiles": [
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/未命名.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/4.API 网关.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/3.Service Discovery.md",
-    "Java/Spring/Spring Boot/Optional.md",
-    "Java/新特性/Java 11（LTS）/Java 11 新特性.md",
-    "Java/新特性/Java 10（Non-LTS）.md",
-    "Java/新特性/Java 12（Non-LTS）.md",
-    "Java/新特性/Java 17（LTS）/Java 17 新特性.md",
-    "Java/新特性/Java 8（LTS）/Lambda 表达式 Stream API/作用与使用.md",
-    "Java/新特性/Java 8（LTS）/方法引用.md",
-    "Java/新特性/Java 8（LTS）/Lambda 表达式 Stream API/Lambda与箭头函数.md",
-    "Java/新特性/Java 8（LTS）/Lambda 表达式 Stream API/Lambda表达式底层原理.md",
-    "Java/新特性/Java 8（LTS）/Lambda 表达式 Stream API/常用的Lambda表达式案例解析.md",
-    "Java/新特性/Java 8（LTS）/Lambda 表达式 Stream API/Lambda 表达式.md",
-    "Git/name.md",
-    "Git/git 推送代码到main分支.md",
-    "Git/Git基本使用（很详细）_git使用.md",
-    "Git/Git 绑定GitHub.md",
-    "Git/git 重新配置远程仓库.md",
-    "Git/解决push报错.md",
-    "Git/退出 git log 和 git commit 状态.md",
-    "Git/如何克隆一个远程的Git仓库，使得所有分支都能下载？.md",
-    "Git/修改 pushed commit message.md",
-    "Vim/基础操作.md",
-    "Vim/【Vim】基本操作及命令集详解_vim操作.md",
-    "Java/Spring/Spring Boot/MyBatis/mybatis-rg1.md",
+    "Docker/Docker Crash Course/11.0Docker Compose.md",
+    "JSON、XML、YAML/YAML 和 YML.md",
+    "Docker/Docker Crash Course/YAML 文件.md",
+    "JSON、XML、YAML/JSON.md",
+    "JSON、XML、YAML/YAML.md",
+    "JSON、XML、YAML/XML.md",
+    "Java/Spring/Spring Cloud/Keycloak OAuth 2/未命名.md",
+    "xml/XML 教程（一文彻底搞懂XML）-CSDN博客.md",
+    "xml/xml.md",
+    "SQL/SQL 中，DATE 类型的数据.md",
+    "SQL/SQL 语法.md",
+    "SQL/SQL.md",
+    "SQL/SQL 速查表.md",
+    "SQL/SQL 练习.md",
+    "Docker/容器在启动时执行的指令.md",
+    "Docker/Docker Crash Course/7.启动和停止容器.md",
+    "Docker/Docker Crash Course/Docker.md",
+    "Docker/Docker Crash Course/3.Images镜像 & Containers容器.md",
+    "Docker/Docker Crash Course/4.Parent Images & Docker Hub.md",
+    "Docker/Docker Crash Course/5.Dockerfile.md",
+    "Docker/Docker Crash Course/6.dockerignore.md",
+    "Java/Spring/Spring Cloud/Keycloak OAuth 2/Spring Boot 3 Keycloak OAuth 2.md",
+    "Java/Spring/Spring Boot/Hibernate & JPA/实体类常用注解的分类和解析.md",
+    "Java/Spring/Spring Boot/Hibernate & JPA/示例.md",
+    "Java/Spring/Spring Boot/Hibernate & JPA/Hibernate & JPA.md",
+    "Java/Spring/Spring Boot/Hibernate & JPA/自动实现查询方法.md",
+    "Java/Spring/Spring Cloud/Keycloak/Spring Security Oauth2",
+    "Java/Spring/Spring Cloud/Keycloak OAuth 2",
     "Java/关键修饰符",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 3",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2",
@@ -229,8 +216,6 @@
     "Java/Spring/Spring Boot/repository",
     "Java/Spring/Spring Boot/service",
     "Kotlin/Spring 框架/Spring Boot/Test（基于taskApp）",
-    "Java/Class",
-    "Java/新特性/Java 11（LTS）",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",
     "Pasted image 20240804093642.png",

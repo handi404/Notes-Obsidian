@@ -3,7 +3,7 @@
   "theme": "moonstone",
   "baseFontSize": 17,
   "cssTheme": "Things",
-  "monospaceFontFamily": "JetBrains Mono",
-  "interfaceFontFamily": "Cascadia Code,HarmonyOS Sans SC",
-  "textFontFamily": "HarmonyOS Sans SC,Consolas"
+  "monospaceFontFamily": "GoMono Nerd Font",
+  "interfaceFontFamily": "CaskaydiaCove Nerd Font,Maple Mono NF CN,FiraCode Nerd Font,HarmonyOS Sans SC",
+  "textFontFamily": "HONOR Sans CN,HarmonyOS Sans SC"
 }
