@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/5.安全性(Security).md",
+                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/6.OpenAPI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.安全性(Security)"
+              "title": "6.OpenAPI"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/5.安全性(Security).md",
+                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/6.OpenAPI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5.安全性(Security) 的大纲"
+              "title": "6.OpenAPI 的大纲"
             }
           },
           {
@@ -180,6 +180,30 @@
   },
   "active": "ef352625cb64747e",
   "lastOpenFiles": [
+    "Java/Spring/Spring-rg1/spring-rg1.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/6.OpenAPI.md",
+    "Java/Spring/Spring-rg1/文档/Spring学习使用.md",
+    "Java/Spring/Spring-rg1/文档/03SpringAOP简介、AOP配置开发、AOP注解开发.md",
+    "Java/Spring/Spring-rg1/资料/Spring2.5-中文参考手册.chm",
+    "Java/Spring/Spring-rg1/文档/05Spring与Mybatis整合.md",
+    "Java/Spring/Spring-rg1/文档/04Spring JdbcTemplate的基本使用以及Spring事务.md",
+    "Java/Spring/Spring-rg1/文档/02Spring配置数据源、SpringIOC_DI注解开发.md",
+    "Java/Spring/Spring-rg1/文档/01Spring的简单介绍、SpringIOC_DI.md",
+    "Java/Spring/Spring-rg1/资料",
+    "Java/Spring/Spring-rg1/文档",
+    "Java/Spring/Spring-rg1",
+    "Java/Spring/04Spring/文档/Spring学习使用.md",
+    "Java/Spring/04Spring/文档/05Spring与Mybatis整合.md",
+    "Java/Spring/04Spring/文档/04Spring JdbcTemplate的基本使用以及Spring事务.md",
+    "Java/Spring/04Spring/文档/03SpringAOP简介、AOP配置开发、AOP注解开发.md",
+    "Java/Spring/04Spring/文档/02Spring配置数据源、SpringIOC_DI注解开发.md",
+    "Java/Spring/04Spring/文档/01Spring的简单介绍、SpringIOC_DI.md",
+    "Java/Spring/04Spring/资料/Spring2.5-中文参考手册.chm",
+    "Java/Spring/04Spring/文档",
+    "Java/Spring/04Spring/资料",
+    "Java/Spring/04Spring",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/5.安全性(Security).md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/未命名.md",
     "Java/Spring/Spring Boot/Hibernate & JPA/方法命名约定.md",
     "Java/Spring/Spring Boot/Hibernate & JPA/动态 SQL.md",
     "Java/Spring/Spring Boot/Hibernate & JPA/复杂的多表查询.md",
@@ -187,36 +211,12 @@
     "Java/Spring/Spring Boot/Hibernate & JPA/示例2.md",
     "Java/Spring/Spring Boot/Hibernate & JPA/示例.md",
     "Java/Spring/Spring Boot/Hibernate & JPA/完整技术实现方案.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/5.安全性(Security).md",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2/4.API 网关.md",
     "Java/Spring/Spring Cloud/Keycloak OAuth 2/Spring Boot 3 Keycloak OAuth 2.md",
     "Java/Spring/Spring Cloud/Keycloak OAuth 2/未命名.md",
-    "Java/Spring/Spring Cloud/Keycloak OAuth 2/客户端凭证流程.md",
-    "Docker/Docker Crash Course/11.3简单例子讲解.md",
-    "JSON、XML、YAML/YAML 和 YML.md",
-    "Docker/Docker Crash Course/11.0Docker Compose.md",
-    "Docker/Docker Crash Course/YAML 文件.md",
-    "JSON、XML、YAML/JSON.md",
-    "JSON、XML、YAML/YAML.md",
-    "JSON、XML、YAML/XML.md",
-    "xml/XML 教程（一文彻底搞懂XML）-CSDN博客.md",
-    "xml/xml.md",
-    "SQL/SQL 中，DATE 类型的数据.md",
-    "SQL/SQL 语法.md",
-    "SQL/SQL.md",
-    "SQL/SQL 速查表.md",
-    "SQL/SQL 练习.md",
     "Java/Spring/Spring Cloud/Keycloak/Spring Security Oauth2",
     "Java/Spring/Spring Cloud/Keycloak OAuth 2",
-    "Java/关键修饰符",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 3",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目示例/Spring Boot 2",
-    "IDEA/IDEA做HTTP接口测试.pdf",
     "Pasted image 20250301210420.png",
-    "Java/Spring/Spring Boot/controller",
-    "Java/Spring/Spring Boot/repository",
-    "Java/Spring/Spring Boot/service",
-    "Kotlin/Spring 框架/Spring Boot/Test（基于taskApp）",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",
     "Pasted image 20240804093642.png",
