@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9e76154f9dc5bd17",
+        "id": "aa7c5040e32edef9",
         "type": "tabs",
         "children": [
           {
-            "id": "fb24640066180709",
+            "id": "80dc375aae72d3f4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/基础.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "基础"
             }
           }
         ],
@@ -91,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Spring/Spring Cloud/Keycloak OAuth 2/Spring Boot 3 Keycloak OAuth 2.md",
+                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/基础.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Spring Boot 3 Keycloak OAuth 2 的反向链接列表"
+              "title": "基础 的反向链接列表"
             }
           },
           {
@@ -110,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin/Gradle 构建工具/Gradle 教程.md",
+                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Gradle 教程 的出链列表"
+              "title": "基础 的出链列表"
             }
           },
           {
@@ -124,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Boot/Redis/Spring Boot using Redis.md",
+                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Spring Boot using Redis 的大纲"
+              "title": "基础 的大纲"
             }
           },
           {
@@ -174,44 +178,44 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "614fd6a5cf2994fd",
+  "active": "80dc375aae72d3f4",
   "lastOpenFiles": [
-    "Java/Spring/Spring Boot/Redis/未命名.md",
-    "Java/Spring/Spring Boot/Redis/Spring Boot using Redis.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Composition API/2.1 在 setup 中使用 props.md",
+    "JavaScript/FrameworkAndLibrary/Vue/生命周期.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt & Pinia with Firestore/基础.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Metadata & useHead.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/emit.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/Router Middleware(路由中间件)/简介.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/Router Middleware(路由中间件)/基础.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/Router Middleware(路由中间件)",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/自定义错误页面.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/项目文件结构.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/添加页面.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/数据获取（Fetching Data）.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/什么是 Nuxt,为什么要用.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/可复用组件（Components）.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/基础.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/服务端 API 路由.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/动态路由（路由参数）.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/插件 (Plugins).md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/props.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/NuxtLink.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/Metadata & useHead.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/Layout（布局）.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/NuxtLink.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/props.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/插件 (Plugins).md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/未命名.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Router Middleware(路由中间件)/简介.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3",
     "Java/Spring/Spring Boot/Redis",
-    "Java/Spring/Spring Boot/项目结构/SpringBoot中各个层级结构详解.md",
     "Java/Spring/Spring Boot/项目结构/较完整的SpringBoot项目的目录结构.pdf",
-    "Java/Spring/Spring原始注解与配置类注解.md",
-    "Java/Spring/Spring-rg1/文档/02Spring配置数据源、SpringIOC_DI注解开发.md",
-    "示例：配置 Alibaba 的 druid 数据源.md",
-    "Java/Spring/Spring-rg1/文档/03SpringAOP简介、AOP配置开发、AOP注解开发.md",
-    "Java/Spring/Spring-rg1/文档/Spring学习使用.md",
-    "Java/Spring/Spring-rg1/文档/05Spring与Mybatis整合.md",
-    "Java/Spring/Spring-rg1/文档/04Spring JdbcTemplate的基本使用以及Spring事务.md",
-    "Java/Spring/@Bean.md",
-    "Java/Spring/@Configuration.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/8.使用 Angular 前端.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/6.在网关中聚合 REST API.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/7.Resilience4J-断路器.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/1.构建服务.md",
-    "Docker/Docker 入门案例.md",
     "Docker/DockerXMind.pdf",
-    "Docker/将 Docker 镜像发布到 DockerHub.md",
-    "Docker/未命名 1.md",
-    "Docker/Docker 命令.md",
-    "Docker/Docker Compose.md",
-    "Docker/Docker Layers（镜像层）.md",
-    "Docker/Dockerfile.md",
-    "Docker/学习规划.md",
-    "JSON、XML、YAML/YAML.md",
     "Docker/DockerCheatSheet-ByGeekHour.pdf",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 2",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程",
     "Java/Spring/Spring-rg1/资料/Spring2.5-中文参考手册.chm",
-    "Java/Spring/Spring-rg1/资料",
-    "Java/Spring/Spring-rg1/文档",
     "Pasted image 20250301210420.png",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",
