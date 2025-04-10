@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d6b9cd2ccc17d06c",
+        "id": "7ee15265a4dfcda5",
         "type": "tabs",
         "children": [
           {
-            "id": "39f009cf32179440",
+            "id": "eb80f6a4d3fe5046",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TypeScript/Classes（类）/抽象类 (Abstract Classes).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "抽象类 (Abstract Classes)"
+              "title": "新标签页"
             }
           }
         ],
@@ -128,13 +124,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/Classes（类）/抽象类 (Abstract Classes).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "抽象类 (Abstract Classes) 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -178,10 +173,19 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "39f009cf32179440",
+  "active": "eb80f6a4d3fe5046",
   "lastOpenFiles": [
-    "TypeScript/Classes（类）/未命名.md",
+    "TypeScript/TypeScrip快速入门.md",
+    "TypeScript/TypeScript 与 Vue.js 的集成.md",
+    "TypeScript/Enums.md",
+    "TypeScript/Sets.md",
+    "TypeScript/用于 Web 的 TypeScript/获取数据 (Fetching Data).md",
+    "TypeScript/用于 Web 的 TypeScript/未命名.md",
+    "TypeScript/用于 Web 的 TypeScript/模块系统 (Module System).md",
+    "TypeScript/Generics（泛型）/泛型 (Generics).md",
+    "TypeScript/Generics（泛型）/未命名.md",
     "TypeScript/Classes（类）/抽象类 (Abstract Classes).md",
+    "TypeScript/Classes（类）/未命名.md",
     "TypeScript/Classes（类）/类实现接口.md",
     "TypeScript/Classes（类）/继承 (Inheritance).md",
     "TypeScript/Classes（类）/类作为类型 (Classes as Types).md",
@@ -194,22 +198,13 @@
     "TypeScript/接口和类型别名/可重用接口 (Reusable Interfaces).md",
     "TypeScript/基础/未命名.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/props.md",
-    "TypeScript/Sets.md",
     "TypeScript/基础/12.Type Guards（类型保护）.md",
     "TypeScript/基础/11.Union Types（联合类型）.md",
     "TypeScript/基础/10.Type Aliases（类型别名）.md",
-    "TypeScript/基础/9.Interface（接口）.md",
-    "TypeScript/TypeScrip快速入门.md",
-    "TypeScript/Enums.md",
-    "TypeScript/用于 Web 的 TypeScript/未命名.md",
-    "TypeScript/Generics（泛型）/未命名.md",
     "TypeScript/用于 Web 的 TypeScript",
     "TypeScript/Generics（泛型）",
     "TypeScript/Classes（类）",
     "TypeScript/接口和类型别名",
-    "TypeScript/基础/5.数组和对象字面量.md",
-    "TypeScript/基础/8.Tuple（元组）.md",
-    "TypeScript/基础/7.Any Type（任意类型）.md",
     "TypeScript/基础",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/Router Middleware(路由中间件)",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3",
