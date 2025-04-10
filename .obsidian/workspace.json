@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aa7c5040e32edef9",
+        "id": "d6b9cd2ccc17d06c",
         "type": "tabs",
         "children": [
           {
-            "id": "80dc375aae72d3f4",
+            "id": "39f009cf32179440",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/基础/未命名.md",
+                "file": "TypeScript/接口和类型别名/扩展类型别名 (Extending Type Aliases).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "扩展类型别名 (Extending Type Aliases)"
             }
           }
         ],
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 305.5
   },
   "right": {
     "id": "35a05ec3fbe9c822",
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/基础/未命名.md",
+                "file": "TypeScript/接口和类型别名/扩展类型别名 (Extending Type Aliases).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "扩展类型别名 (Extending Type Aliases) 的大纲"
             }
           },
           {
@@ -178,17 +178,22 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "80dc375aae72d3f4",
+  "active": "39f009cf32179440",
   "lastOpenFiles": [
+    "TypeScript/接口和类型别名/未命名.md",
+    "TypeScript/接口和类型别名/扩展类型别名 (Extending Type Aliases).md",
+    "TypeScript/接口和类型别名/扩展接口 (Extending Interfaces).md",
+    "TypeScript/接口和类型别名/函数签名 (Function Signatures).md",
+    "TypeScript/接口和类型别名/可重用接口 (Reusable Interfaces).md",
+    "TypeScript/基础/未命名.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/props.md",
+    "TypeScript/Sets.md",
     "TypeScript/基础/12.Type Guards（类型保护）.md",
     "TypeScript/基础/11.Union Types（联合类型）.md",
     "TypeScript/基础/10.Type Aliases（类型别名）.md",
-    "TypeScript/基础/未命名.md",
     "TypeScript/基础/9.Interface（接口）.md",
-    "TypeScript/接口和类型别名/未命名.md",
     "TypeScript/TypeScrip快速入门.md",
     "TypeScript/Enums.md",
-    "TypeScript/Sets.md",
     "TypeScript/用于 Web 的 TypeScript/未命名.md",
     "TypeScript/Generics（泛型）/未命名.md",
     "TypeScript/用于 Web 的 TypeScript",
@@ -204,12 +209,7 @@
     "TypeScript/基础/4.使用 tsconfig 改善工作流程.md",
     "TypeScript/基础/2.安装和编译.md",
     "TypeScript/基础/1.TypeScript 的好处.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/props.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/NuxtLink.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/Metadata & useHead.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/Layout（布局）.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/emit.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/自定义错误页面.md",
     "TypeScript/基础",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/Router Middleware(路由中间件)",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3",
