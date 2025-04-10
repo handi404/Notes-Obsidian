@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/接口和类型别名/扩展类型别名 (Extending Type Aliases).md",
+                "file": "TypeScript/Classes（类）/抽象类 (Abstract Classes).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "扩展类型别名 (Extending Type Aliases)"
+              "title": "抽象类 (Abstract Classes)"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/接口和类型别名/扩展类型别名 (Extending Type Aliases).md",
+                "file": "TypeScript/Classes（类）/抽象类 (Abstract Classes).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "扩展类型别名 (Extending Type Aliases) 的大纲"
+              "title": "抽象类 (Abstract Classes) 的大纲"
             }
           },
           {
@@ -180,8 +180,15 @@
   },
   "active": "39f009cf32179440",
   "lastOpenFiles": [
-    "TypeScript/接口和类型别名/未命名.md",
+    "TypeScript/Classes（类）/未命名.md",
+    "TypeScript/Classes（类）/抽象类 (Abstract Classes).md",
+    "TypeScript/Classes（类）/类实现接口.md",
+    "TypeScript/Classes（类）/继承 (Inheritance).md",
+    "TypeScript/Classes（类）/类作为类型 (Classes as Types).md",
+    "TypeScript/Classes（类）/访问修饰符 (Access Modifiers).md",
+    "TypeScript/Classes（类）/类.md",
     "TypeScript/接口和类型别名/扩展类型别名 (Extending Type Aliases).md",
+    "TypeScript/接口和类型别名/未命名.md",
     "TypeScript/接口和类型别名/扩展接口 (Extending Interfaces).md",
     "TypeScript/接口和类型别名/函数签名 (Function Signatures).md",
     "TypeScript/接口和类型别名/可重用接口 (Reusable Interfaces).md",
@@ -197,19 +204,12 @@
     "TypeScript/用于 Web 的 TypeScript/未命名.md",
     "TypeScript/Generics（泛型）/未命名.md",
     "TypeScript/用于 Web 的 TypeScript",
-    "TypeScript/Classes（类）/未命名.md",
     "TypeScript/Generics（泛型）",
     "TypeScript/Classes（类）",
     "TypeScript/接口和类型别名",
     "TypeScript/基础/5.数组和对象字面量.md",
     "TypeScript/基础/8.Tuple（元组）.md",
     "TypeScript/基础/7.Any Type（任意类型）.md",
-    "TypeScript/基础/6.Function（函数）.md",
-    "TypeScript/基础/3.Type Basics（类型基础）.md",
-    "TypeScript/基础/4.使用 tsconfig 改善工作流程.md",
-    "TypeScript/基础/2.安装和编译.md",
-    "TypeScript/基础/1.TypeScript 的好处.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/NuxtLink.md",
     "TypeScript/基础",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/Router Middleware(路由中间件)",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3",
