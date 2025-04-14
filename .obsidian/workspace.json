@@ -11,10 +11,14 @@
             "id": "eb80f6a4d3fe5046",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/配置 HTTP 客户端属性.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "配置 HTTP 客户端属性"
             }
           }
         ],
@@ -91,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/基础.md",
+                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/配置 HTTP 客户端属性.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "基础 的反向链接列表"
+              "title": "配置 HTTP 客户端属性 的反向链接列表"
             }
           },
           {
@@ -110,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/基础.md",
+                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/配置 HTTP 客户端属性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "基础 的出链列表"
+              "title": "配置 HTTP 客户端属性 的出链列表"
             }
           },
           {
@@ -124,12 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/配置 HTTP 客户端属性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "配置 HTTP 客户端属性 的大纲"
             }
           },
           {
@@ -156,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -175,6 +180,19 @@
   },
   "active": "eb80f6a4d3fe5046",
   "lastOpenFiles": [
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/8.使用 Angular 前端.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/配置 HTTP 客户端属性.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/7.Resilience4J-断路器.md",
+    "Java/Spring/Spring Boot/CORS 配置.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/1.构建服务.md",
+    "Java/Spring/Spring Cloud/Keycloak OAuth 2/Spring Boot 3 Keycloak OAuth 2.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/2.服务间通信.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/4.使用 Keycloak 保护 API 网关.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/6.在网关中聚合 REST API.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/5.OpenAPI.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/3.API 网关.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/未命名.md",
     "TypeScript/TypeScrip快速入门.md",
     "TypeScript/TypeScript 与 Vue.js 的集成.md",
     "TypeScript/Enums.md",
@@ -188,19 +206,6 @@
     "TypeScript/Classes（类）/未命名.md",
     "TypeScript/Classes（类）/类实现接口.md",
     "TypeScript/Classes（类）/继承 (Inheritance).md",
-    "TypeScript/Classes（类）/类作为类型 (Classes as Types).md",
-    "TypeScript/Classes（类）/访问修饰符 (Access Modifiers).md",
-    "TypeScript/Classes（类）/类.md",
-    "TypeScript/接口和类型别名/扩展类型别名 (Extending Type Aliases).md",
-    "TypeScript/接口和类型别名/未命名.md",
-    "TypeScript/接口和类型别名/扩展接口 (Extending Interfaces).md",
-    "TypeScript/接口和类型别名/函数签名 (Function Signatures).md",
-    "TypeScript/接口和类型别名/可重用接口 (Reusable Interfaces).md",
-    "TypeScript/基础/未命名.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/props.md",
-    "TypeScript/基础/12.Type Guards（类型保护）.md",
-    "TypeScript/基础/11.Union Types（联合类型）.md",
-    "TypeScript/基础/10.Type Aliases（类型别名）.md",
     "TypeScript/用于 Web 的 TypeScript",
     "TypeScript/Generics（泛型）",
     "TypeScript/Classes（类）",
