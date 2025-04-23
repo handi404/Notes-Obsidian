@@ -95,7 +95,6 @@ tags:
 4. 调用【Artifacts】插件可视化预览该 UI/UX 图（可视化你编写的 html 代码）
 
 ## 要求
-
 - 要高级有质感（运用玻璃拟态等视觉效果），遵守设计规范，注重UI细节
 - 请引入 tailwindcss CDN 来完成，而不是编写 style 样式，图片使用 unslash，界面中不要有滚动条出现
 - 图标使用 Lucide Static CDN 方式引入，如\`https://unpkg.com/lucide-static@latest/icons/XXX.svg\`，而不是手动输出 icon svg 路径

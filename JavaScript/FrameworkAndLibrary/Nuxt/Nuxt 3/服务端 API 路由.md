@@ -292,3 +292,194 @@ export default defineEventHandler((event) => {
 *   **团队分离**：如果前后端由完全不同的团队开发和部署，分离的代码库可能更清晰。
 
 总而言之，Nuxt 的服务端 API 路由是其全栈能力的重要体现，极大地简化了许多 Web 应用的开发流程。
+
+
+# 获取数据
+在 Nuxt 3（基于 Nitro）的项目中，向服务端 API 路由传递数据和在服务端接收数据，主要有以下几种方式：
+
+---
+
+## 一、通过 URL 查询参数（GET 请求）
+
+### 客户端发送
+
+```js
+// 1️⃣ 直接用浏览器地址栏或 `<a>` 标签：
+//    GET /api/user?id=123&role=admin
+
+// 2️⃣ 在组件或组合式 API 中使用 $fetch 或 useFetch
+const { data, error } = await $fetch('/api/user', {
+  method: 'GET',
+  params: { 
+    id: 123,
+    role: 'admin'
+  }
+})
+// 或者
+const { data: user, error } = await useFetch('/api/user', {
+  params: { id: 123, role: 'admin' }
+})
+```
+
+### 服务端接收
+
+在 `server/api/user.get.ts`（或 `.js`）中：
+
+```ts
+import { defineEventHandler, getQuery } from 'h3'
+
+export default defineEventHandler(async (event) => {
+  // 拿到所有查询参数
+  const query = getQuery(event)
+  // 等价于：
+  // const { id, role } = query
+
+  return {
+    message: '查询参数接收成功',
+    received: query
+  }
+})
+```
+
+---
+
+## 二、通过请求体（POST/PUT/DELETE 等）
+
+### 客户端发送
+
+```js
+// 使用 $fetch 发送 POST
+const payload = { username: 'alice', age: 30 }
+
+const response = await $fetch('/api/user', {
+  method: 'POST',
+  body: payload
+})
+
+// 或者用 useFetch
+const { data, error } = await useFetch('/api/user', {
+  method: 'POST',
+  body: payload
+})
+```
+
+### 服务端接收
+
+在 `server/api/user.post.ts`（或 `.js`）中：
+
+```ts
+import { defineEventHandler, readBody } from 'h3'
+
+export default defineEventHandler(async (event) => {
+  // 读取并解析 JSON 请求体
+  const body = await readBody(event)
+  // body 现在就是 { username: 'alice', age: 30 }
+
+  return {
+    message: '请求体接收成功',
+    received: body
+  }
+})
+```
+
+> 💡 **注意**
+> 
+> - `readBody(event)` 内部会根据 `Content-Type` 自动解析 JSON、FormData、文本等。
+>     
+> - 如果要处理大文件上传，可以使用 `useMultipartFormData(event)`。
+>     
+
+---
+
+## 三、动态路由参数
+
+### 客户端发送
+
+假设你在 `server/api/post/[id].get.ts` 中定义了动态路由：
+
+```js
+// 请求：GET /api/post/42
+const { data } = await $fetch('/api/post/42')
+```
+
+### 服务端接收
+
+```ts
+import { defineEventHandler } from 'h3'
+
+export default defineEventHandler(async (event) => {
+  // event.context.params 存放所有动态路由参数
+  const { id } = event.context.params as { id: string }
+  // id === '42'
+
+  return { id, title: `这是第 ${id} 篇文章` }
+})
+```
+
+---
+
+## 四、综合示例
+
+假设我们想创建一个“发表评论”接口，需要同时传 URL 参数（帖子 ID）和请求体（评论内容）：
+
+```bash
+# 客户端最终会发出这样的请求：
+# POST /api/post/42/comment?notify=true
+# body: { author: 'bob', text: '很棒的文章！' }
+```
+
+### 客户端
+
+```js
+const postId = 42
+const { data } = await $fetch(`/api/post/${postId}/comment`, {
+  method: 'POST',
+  params: { notify: true },
+  body: { author: 'bob', text: '很棒的文章！' }
+})
+```
+
+### 服务端：`server/api/post/[id]/comment.post.ts`
+
+```ts
+import { defineEventHandler, getQuery, readBody } from 'h3'
+
+export default defineEventHandler(async (event) => {
+  // 动态路由参数
+  const { id } = event.context.params as { id: string }
+
+  // URL 查询参数
+  const { notify } = getQuery(event) as { notify?: string }
+  const shouldNotify = notify === 'true'
+
+  // 请求体
+  const { author, text } = await readBody<{ author: string, text: string }>(event)
+
+  // —— 在这里处理业务逻辑，比如存数据库、发通知等 ——  
+  // 如果 shouldNotify 为 true，就给帖子作者发推送……
+
+  return {
+    success: true,
+    postId: id,
+    comment: { author, text },
+    notified: shouldNotify
+  }
+})
+```
+
+---
+
+## 小结
+
+1. **GET 参数** 👉 `getQuery(event)`
+    
+2. **POST/PUT/DELETE 请求体** 👉 `readBody(event)`
+    
+3. **动态路由** 👉 `event.context.params`
+    
+4. 客户端常用：
+    
+    - `await $fetch('/api/xxx', { method, params, body })`
+        
+    - 或组合式 API `useFetch('/api/xxx', { params, body })`
+        
