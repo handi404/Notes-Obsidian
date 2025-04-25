@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "63ce8ff32feff544",
+        "id": "590582788fa4b5a0",
         "type": "tabs",
         "children": [
           {
-            "id": "80f1bc965b83bedb",
+            "id": "b58c5aa1620abc88",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/动态插槽.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "动态插槽"
+              "title": "新标签页"
             }
           }
         ],
@@ -128,13 +124,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/动态插槽.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "动态插槽 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -178,10 +173,12 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "80f1bc965b83bedb",
+  "active": "b58c5aa1620abc88",
   "lastOpenFiles": [
-    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/动态插槽名.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/一些内置 API.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/配置环境变量.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/动态插槽.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/动态插槽名.md",
     "JavaScript/FrameworkAndLibrary/Vue/Vue 3/Composition API/1.7 watch & watchEffect.md",
     "TypeScript/基础/未命名.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/Keycloak 联邦 GitHub.md",
@@ -204,8 +201,6 @@
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/自定义错误页面.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/基础.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/NuxtAuthHandler.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/props -Typescript.md",
-    "TypeScript/原始类型及其对应的包装对象.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/服务器端",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/服务间通信",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth",
