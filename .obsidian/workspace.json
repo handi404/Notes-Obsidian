@@ -11,10 +11,14 @@
             "id": "b58c5aa1620abc88",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI/useToast Vue Composable.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "useToast Vue Composable"
             }
           }
         ],
@@ -124,12 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI/useToast Vue Composable.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "useToast Vue Composable 的大纲"
             }
           },
           {
@@ -175,6 +180,12 @@
   },
   "active": "b58c5aa1620abc88",
   "lastOpenFiles": [
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI/Table.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI/Form.md",
+    "JavaScript/FrameworkAndLibrary/Vue/表单与输入/表单提交 (submit).md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI/useToast Vue Composable.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI/Toast 通知.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/emit.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/一些内置 API.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/配置环境变量.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/动态插槽.md",
@@ -195,12 +206,6 @@
     "LLMs/编程/前端/宝藏提示词将你的任何内容生成网页.md",
     "LLMs/编程/前端/前端自给自足UI设计稿（Claude AI 版本）.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/可复用组件（Components）.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/自定义 Session data.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/数据获取（Fetching Data）.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/emit.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/自定义错误页面.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/基础.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/NuxtAuthHandler.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/服务器端",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/服务间通信",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth",

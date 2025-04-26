@@ -1,0 +1,1 @@
+https://ui.nuxt.com/components/form#input-events
