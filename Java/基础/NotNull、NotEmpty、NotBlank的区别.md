@@ -32,19 +32,18 @@ NotEmpty字面意思不为空，注意不是不为null。
 
 **String  str!=null  且  str 不等于 ""**
 
-**List  list !\= null 且  list.size 不等于0**
+**List  list != null 且  list.size 不等于0**
 
 用于：String、List、Map等。  
 
 ## NotBlank
 
-NotBlank则作用在字符串。String上，不能为空串或空白(空格或制表符)字符串。
+NotBlank则作用在字符串 String 上，不能为空串或空白(空格或制表符)字符串。
 
 **String  str!=null**  
 
 **且  str 不等于 ""**
 
-**且 str 不等于 "     "**
+**且 str 不等于 " "**
 
 用于：字符串String。  
-

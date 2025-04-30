@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "590582788fa4b5a0",
+        "id": "97ffcb7bd9645657",
         "type": "tabs",
         "children": [
           {
-            "id": "b58c5aa1620abc88",
+            "id": "97918eccb0161dd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI/useToast Vue Composable.md",
+                "file": "Java/基础/关键修饰符/详解.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "useToast Vue Composable"
+              "title": "详解"
+            }
+          },
+          {
+            "id": "5f5d53e6fcacda61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/基础/Reflection（反射机制）/详解.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "详解"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -128,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI/useToast Vue Composable.md",
+                "file": "Java/基础/Reflection（反射机制）/详解.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "useToast Vue Composable 的大纲"
+              "title": "详解 的大纲"
             }
           },
           {
@@ -178,44 +193,44 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "b58c5aa1620abc88",
+  "active": "5f5d53e6fcacda61",
   "lastOpenFiles": [
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI/Table.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI/Form.md",
-    "JavaScript/FrameworkAndLibrary/Vue/表单与输入/表单提交 (submit).md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI/useToast Vue Composable.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI/Toast 通知.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/emit.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/一些内置 API.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/配置环境变量.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/动态插槽.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/动态插槽名.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/Composition API/1.7 watch & watchEffect.md",
-    "TypeScript/基础/未命名.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/Keycloak 联邦 GitHub.md",
-    "VSCode/让VSCode更好用的设置前端开发角度.md",
-    "Java/Spring/Spring Boot/MyBatis/mybatis-rg1.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/4.使用 Keycloak 保护 API 网关.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/拿到 Keycloak 下发的 access token.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/服务端 API 路由.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Pinia/状态管理.md",
-    "MongoDB/MongoDB tutorial for beginners/MongoDB 数据库结构.md",
-    "LLMs/编程/前端/UI 设计提示词.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/NuxtAuth-GitHub.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/服务器端/JWT Access.md",
-    "LLMs/编程/前端/宝藏提示词将你的任何内容生成网页.md",
-    "LLMs/编程/前端/前端自给自足UI设计稿（Claude AI 版本）.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/可复用组件（Components）.md",
+    "Java/基础/关键修饰符/详解.md",
+    "Java/基础/Reflection（反射机制）/详解.md",
+    "Java/基础/NotNull、NotEmpty、NotBlank的区别.md",
+    "Java/基础/Java中Date类以及格式转换.md",
+    "Java/基础/处理字符串的类.md",
+    "Java/基础/isEmpty() 和 == null.md",
+    "Java/基础/格式化字符串.md",
+    "Java/基础/Scanner跳行问题.md",
+    "Java/基础/List 连接.md",
+    "Java/基础/字符串可以为空，但不能为 nil.md",
+    "Java/基础/注解（Annotation）.md",
+    "Java/基础/嵌套数据结构.md",
+    "Java/基础/类型转换.md",
+    "Java/基础/计算执行时间.md",
+    "Java/基础/Java 基础.md",
+    "Java/基础/Java 并发.md",
+    "Java/Java 可执行文件 （.jar）.md",
+    "Java/基础/Java 容器.md",
+    "Java/基础/Java 虚拟机.md",
+    "Java/基础/Java IO.md",
+    "Java/基础",
+    "Java/Java 编译与运行环境/Java 的编译与运行.md",
+    "Java/Java 编译与运行环境/Java 生态系统.md",
+    "Java/Java 编译与运行环境/Java 虚拟机（JVM）的基本工作原理.md",
+    "Java/基础/关键修饰符/final.md",
+    "Java/多层架构.md",
+    "Java/基础/Class/BigDecimal类.md",
+    "Java/基础/Reflection（反射机制）",
+    "Java/Spring/Spring Boot/Stripe",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt and Stripe",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/服务器端",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/服务间通信",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth",
     "JavaScript/FrameworkAndLibrary/Nuxt/Pinia",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 4",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Content",
-    "JavaScript/FrameworkAndLibrary/Vue/Vue 3",
-    "TypeScript/用于 Web 的 TypeScript",
     "Pasted image 20250301210420.png",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",

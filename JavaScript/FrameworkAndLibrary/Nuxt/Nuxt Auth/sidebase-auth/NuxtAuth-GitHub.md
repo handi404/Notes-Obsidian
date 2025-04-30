@@ -26,6 +26,7 @@ import { NuxtAuthHandler } from '#auth'
 import GithubProvider from 'next-auth/providers/github'
 
 export default NuxtAuthHandler({
+  //secret: AUTH_SECRET,
   providers: [
     // @ts-expect-error您需要在此处使用.default，以便在SSR期间工作。可以在某个时候通过Vite固定
     GithubProvider.default({
@@ -35,7 +36,10 @@ export default NuxtAuthHandler({
   ],
 })
 ```
-这是我们将要使用的端点，providers 引入了我们的提供程序，这是一个包含所有特定提供程序的数组。可以看到 GithubProvider 是从 [next-auth](https://next-auth.js.org/v3/configuration/providers) 引入的。
+这是我们将要使用的端点：
+- secret 是必须自己生成的密钥，密钥是一个随机字符串，用于哈希令牌和加密 cookie 并生成加密密钥，它实际上对于开发来说不是必需的，但它是部署所必需的。
+  终端命令生成：`openssl rand -base64 32` （需使用 git bash 或 linux 终端）
+- providers 引入了我们的提供程序，这是一个包含所有特定提供程序的数组。可以看到 GithubProvider 是从 [next-auth](https://next-auth.js.org/v3/configuration/providers) 引入的。
 我们将使用 [GitHub](https://next-auth.js.org/v3/providers/github)，因为它们既好用又简单。它建议我们做的是，我们需要的是客户端 ID 和 clientSecret（客户端密钥）。
 从哪里获取这些呢？
 进入 https://github.com/settings/developers
@@ -60,6 +64,7 @@ import GithubProvider from "next-auth/providers/github";
 const runtimeConfig = useRuntimeConfig();
 
 export default NuxtAuthHandler({
+  secret: runtimeConfig.AUTH_SECRET,
   providers: [
     // @ts-expect-error您需要在此处使用.default，以便在SSR期间工作。可以在某个时候通过Vite固定
     GithubProvider.default({
@@ -73,6 +78,7 @@ export default NuxtAuthHandler({
 ```
 还没有准备好投入生产，事实上应将 id 和密钥放置在 `.env` 文件中
 ```
+AUTH_SECRET=sQcLXSWFabDxD34t1MoGDEFDxw3owXS9ls9dRIwB2dY=
 GITHUB_CLIENT_ID=Ov23liZXwcXlyuGoyRzd
 GITHUB_CLIENT_SECRET=35c7966b3d3938dc170152a6cc291331baccbdf1
 ```
@@ -82,6 +88,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-04-16",
   modules: ["@sidebase/nuxt-auth"],
   runtimeConfig: {
+    AUTH_SECRET: process.env.AUTH_SECRET,
     GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET,
     public: {
       GITHUB_CLIENT_ID: process.env.GITHUB_CLIENT_ID,
