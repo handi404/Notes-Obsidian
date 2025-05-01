@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "720cada7047414b0",
+        "id": "53a0d02d0bf50d71",
         "type": "tabs",
         "children": [
           {
-            "id": "e4111f259a91b95c",
+            "id": "dd4a5d1a73a74535",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TypeScript/Promise.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Promise"
             }
           }
         ],
@@ -124,12 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "TypeScript/Promise.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Promise 的大纲"
             }
           },
           {
@@ -173,15 +178,22 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "614fd6a5cf2994fd",
+  "active": "dd4a5d1a73a74535",
   "lastOpenFiles": [
+    "TypeScript/解构（Destructuring）.md",
+    "TypeScript/Promise.md",
+    "TypeScript/基础/未命名.md",
+    "TypeScript/Classes（类）/类.md",
+    "TypeScript/Classes（类）/抽象类 (Abstract Classes).md",
+    "JavaScript/解构.md",
+    "Java/基础/Reflection（反射机制）/详解.md",
+    "Java/基础/Reflection（反射机制）/发展历程.md",
     "Java/新特性/Java 8（LTS）/Stream API/高级收集器（Collectors）.md",
     "Java/新特性/Java 8（LTS）/Stream API/Stream API基础.md",
     "Java/新特性/Java 8（LTS）/Stream API/Stream API 操作.md",
     "计算机网络/localhost，127.0.0.1和0.0.0.0的区别.md",
     "LLMs/MCP/MCP 和函数调用.md",
     "Java/基础/关键修饰符/详解.md",
-    "Java/基础/Reflection（反射机制）/详解.md",
     "Java/基础/NotNull、NotEmpty、NotBlank的区别.md",
     "Java/基础/Java中Date类以及格式转换.md",
     "Java/基础/处理字符串的类.md",
@@ -194,14 +206,7 @@
     "Java/基础/嵌套数据结构.md",
     "Java/基础/类型转换.md",
     "Java/基础/计算执行时间.md",
-    "Java/基础/Java 基础.md",
-    "Java/基础/Java 并发.md",
-    "Java/Java 可执行文件 （.jar）.md",
-    "Java/基础/Java 容器.md",
-    "Java/基础/Java 虚拟机.md",
-    "Java/基础/Java IO.md",
     "Java/基础",
-    "Java/Java 编译与运行环境/Java 的编译与运行.md",
     "Java/基础/Reflection（反射机制）",
     "Java/Spring/Spring Boot/Stripe",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt and Stripe",
