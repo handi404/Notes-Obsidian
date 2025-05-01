@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/Promise.md",
+                "file": "Kafka/Kafka基本原理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Promise"
+              "title": "Kafka基本原理"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/Promise.md",
+                "file": "Kafka/Kafka基本原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Promise 的大纲"
+              "title": "Kafka基本原理 的大纲"
             }
           },
           {
@@ -180,8 +180,12 @@
   },
   "active": "dd4a5d1a73a74535",
   "lastOpenFiles": [
-    "TypeScript/解构（Destructuring）.md",
+    "Pasted image 20250501162434.png",
     "TypeScript/Promise.md",
+    "Kafka/Kafka基本原理.md",
+    "Kafka",
+    "新建文件夹",
+    "TypeScript/解构（Destructuring）.md",
     "TypeScript/基础/未命名.md",
     "TypeScript/Classes（类）/类.md",
     "TypeScript/Classes（类）/抽象类 (Abstract Classes).md",
@@ -204,8 +208,6 @@
     "Java/基础/字符串可以为空，但不能为 nil.md",
     "Java/基础/注解（Annotation）.md",
     "Java/基础/嵌套数据结构.md",
-    "Java/基础/类型转换.md",
-    "Java/基础/计算执行时间.md",
     "Java/基础",
     "Java/基础/Reflection（反射机制）",
     "Java/Spring/Spring Boot/Stripe",
@@ -214,8 +216,6 @@
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/服务间通信",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Pinia",
     "Pasted image 20250301210420.png",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",
