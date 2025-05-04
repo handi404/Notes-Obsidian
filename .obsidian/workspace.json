@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kafka/Kafka基本原理.md",
+                "file": "Java/设计模式（Design Patterns）/建造者模式（Builder Pattern）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kafka基本原理"
+              "title": "建造者模式（Builder Pattern）"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kafka/Kafka基本原理.md",
+                "file": "Java/设计模式（Design Patterns）/建造者模式（Builder Pattern）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Kafka基本原理 的大纲"
+              "title": "建造者模式（Builder Pattern） 的大纲"
             }
           },
           {
@@ -180,9 +180,23 @@
   },
   "active": "dd4a5d1a73a74535",
   "lastOpenFiles": [
+    "Java/Spring/Spring Boot/Stripe/未命名.md",
+    "Java/设计模式（Design Patterns）/建造者模式（Builder Pattern）.md",
+    "Java/设计模式（Design Patterns）",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/6.在网关中聚合 REST API.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/Composition API/1.2 Composition API 基础.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/Composition API/1.1 Options API 的缺点.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/4.使用 Keycloak 保护 API 网关.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/3.API 网关.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 2/4.API 网关.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 2/3.Service Discovery.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/7.Resilience4J-断路器.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/5.OpenAPI.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/2.服务间通信.md",
+    "Kafka/Kafka基本原理.md",
+    "前端/渲染技术.md",
     "Pasted image 20250501162434.png",
     "TypeScript/Promise.md",
-    "Kafka/Kafka基本原理.md",
     "Kafka",
     "新建文件夹",
     "TypeScript/解构（Destructuring）.md",
@@ -196,18 +210,6 @@
     "Java/新特性/Java 8（LTS）/Stream API/Stream API基础.md",
     "Java/新特性/Java 8（LTS）/Stream API/Stream API 操作.md",
     "计算机网络/localhost，127.0.0.1和0.0.0.0的区别.md",
-    "LLMs/MCP/MCP 和函数调用.md",
-    "Java/基础/关键修饰符/详解.md",
-    "Java/基础/NotNull、NotEmpty、NotBlank的区别.md",
-    "Java/基础/Java中Date类以及格式转换.md",
-    "Java/基础/处理字符串的类.md",
-    "Java/基础/isEmpty() 和 == null.md",
-    "Java/基础/格式化字符串.md",
-    "Java/基础/Scanner跳行问题.md",
-    "Java/基础/List 连接.md",
-    "Java/基础/字符串可以为空，但不能为 nil.md",
-    "Java/基础/注解（Annotation）.md",
-    "Java/基础/嵌套数据结构.md",
     "Java/基础",
     "Java/基础/Reflection（反射机制）",
     "Java/Spring/Spring Boot/Stripe",
@@ -215,7 +217,6 @@
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/服务器端",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/服务间通信",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt UI",
     "Pasted image 20250301210420.png",
     "屏幕截图 2024-07-13 155458.png",
     "屏幕截图 2024-07-13 162527.png",
@@ -225,7 +226,6 @@
     "c23b4189dffe66f502cad87d27c0594b_MD5.gif",
     "55839f1272c45ed4de97bed7df2766d6_MD5.gif",
     "8409d478d749a794b0108e1171917b8f_MD5.gif",
-    "62d7ee935d28ccf5a6fe95fb87b55046_MD5.gif",
     "未命名 1.canvas",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
