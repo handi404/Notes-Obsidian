@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/设计模式（Design Patterns）/建造者模式（Builder Pattern）.md",
+                "file": "Java/设计模式（Design Patterns）/创建型、结构型和行为型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "建造者模式（Builder Pattern）"
+              "title": "创建型、结构型和行为型"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/设计模式（Design Patterns）/建造者模式（Builder Pattern）.md",
+                "file": "Java/设计模式（Design Patterns）/创建型、结构型和行为型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "建造者模式（Builder Pattern） 的大纲"
+              "title": "创建型、结构型和行为型 的大纲"
             }
           },
           {
@@ -180,8 +180,9 @@
   },
   "active": "dd4a5d1a73a74535",
   "lastOpenFiles": [
-    "Java/Spring/Spring Boot/Stripe/未命名.md",
     "Java/设计模式（Design Patterns）/建造者模式（Builder Pattern）.md",
+    "Java/设计模式（Design Patterns）/创建型、结构型和行为型.md",
+    "Java/Spring/Spring Boot/Stripe/未命名.md",
     "Java/设计模式（Design Patterns）",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/6.在网关中聚合 REST API.md",
     "JavaScript/FrameworkAndLibrary/Vue/Vue 3/Composition API/1.2 Composition API 基础.md",
@@ -209,7 +210,6 @@
     "Java/新特性/Java 8（LTS）/Stream API/高级收集器（Collectors）.md",
     "Java/新特性/Java 8（LTS）/Stream API/Stream API基础.md",
     "Java/新特性/Java 8（LTS）/Stream API/Stream API 操作.md",
-    "计算机网络/localhost，127.0.0.1和0.0.0.0的区别.md",
     "Java/基础",
     "Java/基础/Reflection（反射机制）",
     "Java/Spring/Spring Boot/Stripe",
