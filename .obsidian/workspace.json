@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring/Spring Boot/Keycloak OAuth 2/刷新令牌（refresh token）.md",
+                "file": "Java/基础/泛型/泛型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "刷新令牌（refresh token）"
+              "title": "泛型"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Boot/Keycloak OAuth 2/刷新令牌（refresh token）.md",
+                "file": "Java/基础/泛型/泛型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "刷新令牌（refresh token） 的大纲"
+              "title": "泛型 的大纲"
             }
           },
           {
@@ -180,9 +180,11 @@
   },
   "active": "dd4a5d1a73a74535",
   "lastOpenFiles": [
+    "Java/Spring/Spring Boot/Keycloak OAuth 2/刷新令牌（refresh token）.md",
+    "Java/基础/泛型/详解.md",
+    "Java/基础/泛型/泛型.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/PKCE 授权代码流演示.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/Keycloak 简介.md",
-    "Java/Spring/Spring Boot/Keycloak OAuth 2/刷新令牌（refresh token）.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/Keycloak 服务搭建与启动.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/Spring Boot 3 Keycloak OAuth 2.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/PKCE 授权代码流.md",
@@ -205,8 +207,6 @@
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/3.API 网关.md",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 2/4.API 网关.md",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 2/3.Service Discovery.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/7.Resilience4J-断路器.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/5.OpenAPI.md",
     "Pasted image 20250501162434.png",
     "Kafka",
     "新建文件夹",
