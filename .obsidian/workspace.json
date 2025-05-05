@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring/Spring Boot/Keycloak OAuth 2/Spring Boot 3 Keycloak OAuth 2.md",
+                "file": "Java/Spring/Spring Boot/Keycloak OAuth 2/刷新令牌（refresh token）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spring Boot 3 Keycloak OAuth 2"
+              "title": "刷新令牌（refresh token）"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Boot/Keycloak OAuth 2/Spring Boot 3 Keycloak OAuth 2.md",
+                "file": "Java/Spring/Spring Boot/Keycloak OAuth 2/刷新令牌（refresh token）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Spring Boot 3 Keycloak OAuth 2 的大纲"
+              "title": "刷新令牌（refresh token） 的大纲"
             }
           },
           {
@@ -178,16 +178,17 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "614fd6a5cf2994fd",
+  "active": "dd4a5d1a73a74535",
   "lastOpenFiles": [
     "Java/Spring/Spring Boot/Keycloak OAuth 2/PKCE 授权代码流演示.md",
+    "Java/Spring/Spring Boot/Keycloak OAuth 2/Keycloak 简介.md",
+    "Java/Spring/Spring Boot/Keycloak OAuth 2/刷新令牌（refresh token）.md",
+    "Java/Spring/Spring Boot/Keycloak OAuth 2/Keycloak 服务搭建与启动.md",
+    "Java/Spring/Spring Boot/Keycloak OAuth 2/Spring Boot 3 Keycloak OAuth 2.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/PKCE 授权代码流.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/OIDC.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/OAuth 2.0 核心术语.md",
-    "Java/Spring/Spring Boot/Keycloak OAuth 2/Keycloak 简介.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/客户端凭证流程.md",
-    "Java/Spring/Spring Boot/Keycloak OAuth 2/Keycloak 服务搭建与启动.md",
-    "Java/Spring/Spring Boot/Keycloak OAuth 2/Spring Boot 3 Keycloak OAuth 2.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt and Stripe/集成 Stripe.md",
     "Java/Spring/Spring Cloud/Keycloak OAuth 2/未命名.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt and Stripe/Secret Key 和 Publishable Key.md",
@@ -206,7 +207,6 @@
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 2/3.Service Discovery.md",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/7.Resilience4J-断路器.md",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/5.OpenAPI.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/2.服务间通信.md",
     "Pasted image 20250501162434.png",
     "Kafka",
     "新建文件夹",
