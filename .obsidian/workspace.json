@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "53a0d02d0bf50d71",
+        "id": "f406f406942713dc",
         "type": "tabs",
         "children": [
           {
-            "id": "dd4a5d1a73a74535",
+            "id": "2cd6e533c09ff78e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/基础/泛型/泛型.md",
+                "file": "Java/Spring/事务配置与事务注解.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "泛型"
+              "title": "事务配置与事务注解"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/基础/泛型/泛型.md",
+                "file": "Java/Spring/事务配置与事务注解.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "泛型 的大纲"
+              "title": "事务配置与事务注解 的大纲"
             }
           },
           {
@@ -178,11 +178,18 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "dd4a5d1a73a74535",
+  "active": "2cd6e533c09ff78e",
   "lastOpenFiles": [
+    "Java/Spring/Spring-rg1/文档/04Spring JdbcTemplate的基本使用以及Spring事务.md",
+    "Java/Spring/事务配置与事务注解.md",
+    "Java/Spring/Spring原始注解与配置类注解.md",
+    "Java/Spring/Java Web框架篇之Spring.md",
+    "Java/Spring/@Configuration and @Bean.md",
+    "Java/Spring/@Bean.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/refresh token.md",
+    "Java/基础/泛型/泛型.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/刷新令牌（refresh token）.md",
     "Java/基础/泛型/详解.md",
-    "Java/基础/泛型/泛型.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/PKCE 授权代码流演示.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/Keycloak 简介.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/Keycloak 服务搭建与启动.md",
@@ -200,13 +207,6 @@
     "Java/设计模式（Design Patterns）/创建型、结构型和行为型.md",
     "Java/设计模式（Design Patterns）/建造者模式（Builder Pattern）.md",
     "Java/设计模式（Design Patterns）",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/6.在网关中聚合 REST API.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/Composition API/1.2 Composition API 基础.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/Composition API/1.1 Options API 的缺点.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/4.使用 Keycloak 保护 API 网关.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/3.API 网关.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 2/4.API 网关.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 2/3.Service Discovery.md",
     "Pasted image 20250501162434.png",
     "Kafka",
     "新建文件夹",
