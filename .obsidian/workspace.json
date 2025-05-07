@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "500be5dd9f53bc12",
+        "id": "78728325fb699468",
         "type": "tabs",
         "children": [
           {
-            "id": "6a38348218367624",
+            "id": "034a2e47f7e1d56d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/HTTP 请求和响应/涉及概念.md",
+                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/使用 Grafana Stack 实现可观察性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "涉及概念"
+              "title": "使用 Grafana Stack 实现可观察性"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/HTTP 请求和响应/涉及概念.md",
+                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/使用 Grafana Stack 实现可观察性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "涉及概念 的大纲"
+              "title": "使用 Grafana Stack 实现可观察性 的大纲"
             }
           },
           {
@@ -178,8 +178,22 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "6a38348218367624",
+  "active": "034a2e47f7e1d56d",
   "lastOpenFiles": [
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/使用 Grafana Stack 实现可观察性.md",
+    "Java/设计模式（Design Patterns）/创建型、结构型和行为型.md",
+    "Java/设计模式（Design Patterns）/建造者模式（Builder Pattern）.md",
+    "Java/Spring/事务配置与事务注解.md",
+    "未命名",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/img.png",
+    "Docker/Docker 入门案例.md",
+    "Docker/Docker Compose.md",
+    "Java/Spring/Spring Cloud/学习规划.md",
+    "Java/Spring/Spring Cloud/开源项目.md",
+    "Java/Spring/Spring Cloud/介绍.md",
+    "Java/Spring/Spring Cloud/分布式和微服务.md",
+    "Java/Spring/Spring Cloud/阶段 1.md",
     "JavaScript/HTTP 请求和响应/HTTP 响应格式.md",
     "JavaScript/HTTP 请求和响应/HTTP 请求格式.md",
     "JavaScript/HTTP 请求和响应/涉及概念.md",
@@ -197,25 +211,12 @@
     "Database/SQL/SQL 语法.md",
     "计算机网络/计算机网络 - 传输层.md",
     "Database/SQL/MySQL/MySQL高性能优化规范建议.md",
-    "Database/Redis/Redis Tutorial for Beginners/3.0命令选项CommandOptions.md",
-    "Database/Redis/Redis Tutorial for Beginners/1.什么是 Redis.md",
-    "Database/Redis/Redis Tutorial for Beginners/3.1命令选项.md",
-    "Database/Redis/Redis Tutorial for Beginners/管道Pipeline.md",
-    "Database/Redis/Redis Tutorial for Beginners/堆栈.md",
-    "Database/Redis/Redis Tutorial for Beginners/7.Sorted Set有序集合.md",
-    "Database/Redis/Redis Tutorial for Beginners/6.Hash.md",
-    "Database/Redis/Redis Tutorial for Beginners/5.List列表.md",
-    "Database/Redis/Redis Tutorial for Beginners/4.Set集合.md",
-    "Database/Redis/Redis Tutorial for Beginners/2.基本命令BasicCommands.md",
-    "Database/Redis/string set list hash测试.md",
     "Database/Redis/Redis Tutorial for Beginners",
     "Database/Redis",
-    "Database/MongoDB/MongoDB tutorial for beginners/集合.md",
     "Database/MongoDB/MongoDB tutorial for beginners",
     "Database/MongoDB",
     "Database/SQL/MySQL/mysql中的索引类型",
     "Database/SQL/MySQL/03.01. 社区购库表设计",
-    "Database/SQL/MySQL",
     "Pasted image 20250501162434.png",
     "Pasted image 20250301210420.png",
     "屏幕截图 2024-07-13 155458.png",
@@ -225,7 +226,6 @@
     "d62a64bb6e6b45cda9cf176ca4da95b2_MD5.gif",
     "c23b4189dffe66f502cad87d27c0594b_MD5.gif",
     "55839f1272c45ed4de97bed7df2766d6_MD5.gif",
-    "8409d478d749a794b0108e1171917b8f_MD5.gif",
     "未命名 1.canvas",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"
