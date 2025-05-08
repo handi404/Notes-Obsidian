@@ -1,5 +1,14 @@
+# 主要
+## 基础
+git commit
+git branch
+git merge
+git rebase
+
+## 高级
 ### 在提交树上移动
-HEAD
+分离 HEAD
+
 通过指定提交记录哈希值的方式在 Git 中移动不太方便。在实际应用时，并没有像本程序中这么漂亮的可视化提交树供你参考，所以你就不得不用 git log 来查查看提交记录的哈希值。
 
 并且哈希值在真实的 Git 世界中也会更长（译者注：基于 SHA-1，共 40 位）。例如前一关的介绍中的提交记录的哈希值可能是 fed 2 da 64 c 0 efc 5293610 bdd 892 f 82 a 58 e 8 cbc 5 d 8。舌头都快打结了吧...
@@ -18,6 +27,7 @@ git reset
 用于远程 pushed
 git revert
 
+## 移动提交记录
 ### 整理提交记录
 git cherry-pick
 
@@ -25,4 +35,38 @@ git cherry-pick
 交互式 rebase 指的是使用带参数 `--interactive` 的 rebase 命令, 简写为 `-i`
 git rebase -i HEAD~n
 
+## 杂项
 ### 本地栈式提交
+只取一个提交记录
+### 提交的两个技巧
+
+### git tag
+
+### git describe
+
+## 高级话题
+
+### 多次 Rebase
+### 两个 parent 节点
+### 纠缠不清的分支
+
+
+# 远程
+## Push & Pull —— Git 远程仓库！
+Git Clone
+远程分支
+Git Fetch
+Git Pull
+模拟团队合作
+Git Push
+偏离的提交历史
+锁定的Main(Locked Main)
+## 关于 origin 和它的周边 —— Git 远程仓库高级操作
+推送主分支
+合并远程仓库
+远程追踪
+Git push 的参数
+Git fetch 的参数
+没有 source 的 source
+Git pull 的参数
+

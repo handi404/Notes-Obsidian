@@ -8,9 +8,7 @@
 
 **1. 查看现有远程仓库:**
 
-Bash
-
-```
+```bash
 git remote -v
 ```
 
@@ -18,9 +16,7 @@ git remote -v
 
 **2. 修改远程仓库 URL:**
 
-Bash
-
-```
+```bash
 git remote set-url origin <新的远程仓库 URL>
 ```
 
@@ -29,17 +25,13 @@ git remote set-url origin <新的远程仓库 URL>
 
 **示例:**
 
-Bash
-
-```
+```bash
 git remote set-url origin https://github.com/yourusername/new-repo.git
 ```
 
 ### 删除远程仓库
 
-Bash
-
-```
+```bash
 git remote rm origin
 ```
 
@@ -56,17 +48,13 @@ git remote rm origin
 
 1. **查看当前远程仓库:**
     
-    Bash
-    
-    ```
+    ```bash
     git remote -v
     ```
     
 2. **删除旧的远程仓库:**
     
-    Bash
-    
-    ```
+    ```bash
     git remote rm origin
     ```
     
