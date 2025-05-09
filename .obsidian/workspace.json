@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/主要/(3)移动提交记录/交互式的 rebase.md",
+                "file": "Git/主要/(5)高级话题/纠缠不清的分支.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "交互式的 rebase"
+              "title": "纠缠不清的分支"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/主要/(3)移动提交记录/交互式的 rebase.md",
+                "file": "Git/主要/(5)高级话题/纠缠不清的分支.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "交互式的 rebase 的大纲"
+              "title": "纠缠不清的分支 的大纲"
             }
           },
           {
@@ -194,11 +194,18 @@
   },
   "active": "034a2e47f7e1d56d",
   "lastOpenFiles": [
-    "Git/如何克隆一个远程的Git仓库，使得所有分支都能下载？.md",
+    "Git/主要/(5)高级话题/两个 parent 节点.md",
+    "Git/主要/(5)高级话题/纠缠不清的分支.md",
+    "Git/name.md",
+    "Git/主要/(5)高级话题/多次 Rebase.md",
+    "Git/主要/(4)杂项/git describe.md",
+    "Git/主要/(4)杂项/git tag.md",
+    "Git/主要/(4)杂项/本地栈式提交.md",
+    "Git/主要/(4)杂项/提交的两个技巧.md",
     "Git/主要/(3)移动提交记录/交互式的 rebase.md",
+    "Git/如何克隆一个远程的Git仓库，使得所有分支都能下载？.md",
     "Git/使用Git上传项目到GitHub（详细版.md",
     "Git/Git.md",
-    "Git/name.md",
     "Git/主要/(3)移动提交记录/整理提交记录.md",
     "Git/主要/(2)高级/撤销变更.md",
     "Git/主要/核心术语.md",
@@ -219,13 +226,6 @@
     "Git/Git 切换和删除远程仓库.md",
     "Git/git 重新配置远程仓库.md",
     "Git/git 推送代码到main分支.md",
-    "Git/Git基本使用（很详细）_git使用.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/使用 Grafana Stack 实现可观察性.md",
-    "VSCode/让VSCode更好用的设置前端开发角度.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
-    "Java/设计模式（Design Patterns）/创建型、结构型和行为型.md",
-    "Java/设计模式（Design Patterns）/建造者模式（Builder Pattern）.md",
-    "Java/Spring/事务配置与事务注解.md",
     "未命名",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/img.png",
     "Java/基础/IO流/IO流.pdf",
