@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2d019bf09047fce7",
+        "id": "8095f02acfeb372e",
         "type": "tabs",
         "children": [
           {
-            "id": "baeccb07b08b293e",
+            "id": "bc7389beeeaffe83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/CSS/Tailwind CSS/基础.md",
+                "file": "Git/远程/关于 origin 和它的周边 —— Git 远程仓库高级操作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "基础"
+              "title": "关于 origin 和它的周边 —— Git 远程仓库高级操作"
+            }
+          },
+          {
+            "id": "38ce57c28003a80b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/name.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "name"
             }
           }
         ],
@@ -128,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/CSS/Tailwind CSS/基础.md",
+                "file": "Git/远程/关于 origin 和它的周边 —— Git 远程仓库高级操作.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "基础 的大纲"
+              "title": "关于 origin 和它的周边 —— Git 远程仓库高级操作 的大纲"
             }
           },
           {
@@ -178,35 +192,35 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "baeccb07b08b293e",
+  "active": "bc7389beeeaffe83",
   "lastOpenFiles": [
+    "Git/远程/Git 远程仓库.md",
+    "Git/name.md",
+    "Git/主要/(5)高级话题/纠缠不清的分支.md",
+    "Git/主要/(5)高级话题/两个 parent 节点.md",
+    "Git/主要/(5)高级话题/多次 Rebase.md",
+    "Git/主要/(3)移动提交记录/整理提交记录.md",
+    "Git/主要/(4)杂项/git describe.md",
+    "Git/主要/(4)杂项/git tag.md",
+    "Git/主要/(4)杂项/提交的多个技巧.md",
+    "Git/主要/(4)杂项/本地栈式提交.md",
+    "Git/主要/(3)移动提交记录/交互式的 rebase.md",
+    "Git/主要/(2)高级/撤销变更.md",
+    "Git/主要/(2)高级/在提交树上移动.md",
+    "Git/主要/(2)高级/HEAD、分离 HEAD.md",
+    "Git/主要/(1)基础.md",
     "前端/CSS/Tailwind CSS/核心概念.md",
     "前端/CSS/Tailwind CSS/基础.md",
     "前端/CSS/Tailwind CSS/未命名.md",
     "TypeScript/基础/未命名.md",
     "前端/CSS/Tailwind CSS/未命名",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
-    "Git/主要/(3)移动提交记录/整理提交记录.md",
-    "Git/name.md",
-    "Git/主要/(1)基础.md",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/10.使用 Grafana Stack 实现可观察性.md",
     "Git/远程/关于 origin 和它的周边 —— Git 远程仓库高级操作.md",
-    "Git/远程/Git 远程仓库.md",
-    "Git/主要/(2)高级/在提交树上移动.md",
-    "Git/主要/(2)高级/撤销变更.md",
-    "Git/主要/(5)高级话题/纠缠不清的分支.md",
-    "Git/主要/(5)高级话题/两个 parent 节点.md",
-    "Git/主要/(5)高级话题/多次 Rebase.md",
-    "Git/主要/(4)杂项/git describe.md",
-    "Git/主要/(4)杂项/git tag.md",
-    "Git/主要/(4)杂项/本地栈式提交.md",
-    "Git/主要/(4)杂项/提交的两个技巧.md",
-    "Git/主要/(3)移动提交记录/交互式的 rebase.md",
     "Git/如何克隆一个远程的Git仓库，使得所有分支都能下载？.md",
     "Git/使用Git上传项目到GitHub（详细版.md",
     "Git/Git.md",
     "Git/主要/核心术语.md",
-    "Git/主要/(2)高级/HEAD、分离 HEAD.md",
     "Git/主要/(5)高级话题",
     "Git/主要/(4)杂项",
     "Git/主要/(3)移动提交记录",
