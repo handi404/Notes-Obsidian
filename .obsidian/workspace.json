@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
+                "file": "Java/Spring/Spring Boot/Validation/一种优雅的参数校验方案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9.Kafka"
+              "title": "一种优雅的参数校验方案"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
+                "file": "Java/Spring/Spring Boot/Validation/一种优雅的参数校验方案.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "9.Kafka 的大纲"
+              "title": "一种优雅的参数校验方案 的大纲"
             }
           },
           {
@@ -180,8 +180,12 @@
   },
   "active": "141789c3db7cad99",
   "lastOpenFiles": [
-    "Docker/Docker Compose.md",
+    "Java/Spring/Spring Boot/Validation/Validation.md",
+    "Java/Spring/Spring Boot/Validation",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
+    "Java/Spring/Spring Boot/Validation/一种优雅的参数校验方案.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/配置 HTTP 客户端属性.md",
+    "Docker/Docker Compose.md",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/Kafka 配置报错记录.md",
     "Java/基础/String/处理字符串的类.md",
     "Java/基础/String/格式化字符串.md",
@@ -207,16 +211,12 @@
     "Git/主要/(5)高级话题/两个 parent 节点.md",
     "Git/主要/(4)杂项/git describe.md",
     "Git/主要/(4)杂项/本地栈式提交.md",
-    "Git/主要/(3)移动提交记录/整理提交记录.md",
-    "Git/主要/(2)高级/撤销变更.md",
-    "Git/主要/(2)高级/在提交树上移动.md",
     "前端/CSS/Tailwind CSS/未命名",
     "Git/主要/(5)高级话题",
     "Git/主要/(4)杂项",
     "Git/主要/(3)移动提交记录",
     "Git/主要/(2)高级",
     "Git/远程",
-    "Git/主要",
     "Pasted image 20250501162434.png",
     "Pasted image 20250301210420.png",
     "屏幕截图 2024-07-13 155458.png",
