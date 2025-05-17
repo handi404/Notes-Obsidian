@@ -78,7 +78,7 @@
         git switch feature-C
         git rebase feature-B
         ```
-        这个过程需要从栈底到栈顶依次进行。
+        这个过程需要从栈底到栈顶依次进行，及 rebase 依赖于最近的那个分支。
 
     2.  **当栈中的某个分支（如 `feature-A`）自身发生修改（例如，通过 `commit --amend` 或 `rebase -i` 整理了 `feature-A` 的提交）时：**
         由于 `feature-A` 的提交历史被改写了，`feature-B` 和 `feature-C` 的基底就“失效”了。你需要将它们 Rebase 到新的 `feature-A` 上。

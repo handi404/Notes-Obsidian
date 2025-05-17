@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8095f02acfeb372e",
+        "id": "e9194d060ad155c5",
         "type": "tabs",
         "children": [
           {
-            "id": "bc7389beeeaffe83",
+            "id": "141789c3db7cad99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/远程/关于 origin 和它的周边 —— Git 远程仓库高级操作.md",
+                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "关于 origin 和它的周边 —— Git 远程仓库高级操作"
-            }
-          },
-          {
-            "id": "38ce57c28003a80b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/name.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "name"
+              "title": "9.Kafka"
             }
           }
         ],
@@ -142,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/远程/关于 origin 和它的周边 —— Git 远程仓库高级操作.md",
+                "file": "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "关于 origin 和它的周边 —— Git 远程仓库高级操作 的大纲"
+              "title": "9.Kafka 的大纲"
             }
           },
           {
@@ -192,45 +178,45 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "bc7389beeeaffe83",
+  "active": "141789c3db7cad99",
   "lastOpenFiles": [
-    "Git/远程/Git 远程仓库.md",
-    "Git/name.md",
-    "Git/主要/(5)高级话题/纠缠不清的分支.md",
-    "Git/主要/(5)高级话题/两个 parent 节点.md",
-    "Git/主要/(5)高级话题/多次 Rebase.md",
-    "Git/主要/(3)移动提交记录/整理提交记录.md",
-    "Git/主要/(4)杂项/git describe.md",
-    "Git/主要/(4)杂项/git tag.md",
+    "Docker/Docker Compose.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/Kafka 配置报错记录.md",
+    "Java/基础/String/处理字符串的类.md",
+    "Java/基础/String/格式化字符串.md",
+    "Java/基础/String",
+    "Java/基础/String/文本块（Text Blocks）.md",
+    "TypeScript/基础/未命名.md",
+    "Kotlin/Kotlin 基础/文本块（原始字符串）.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/img.png",
+    "Database/SQL/openGauss/PostgreSQL开发指南.pdf",
+    "Database/SQL/openGauss",
+    "Java/Java基础知识.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/8.使用 Angular 前端.md",
+    "Java/基础/Class/record.md",
+    "Docker/Docker 命令.md",
+    "Docker/Docker 入门案例.md",
+    "Kafka/Kafka基本原理.md",
+    "Java/foreach循环.md",
     "Git/主要/(4)杂项/提交的多个技巧.md",
-    "Git/主要/(4)杂项/本地栈式提交.md",
+    "Git/主要/分支命名规范.md",
+    "Git/主要/(1)基础.md",
+    "Git/主要/(5)高级话题/多次 Rebase.md",
     "Git/主要/(3)移动提交记录/交互式的 rebase.md",
+    "Git/主要/(5)高级话题/两个 parent 节点.md",
+    "Git/主要/(4)杂项/git describe.md",
+    "Git/主要/(4)杂项/本地栈式提交.md",
+    "Git/主要/(3)移动提交记录/整理提交记录.md",
     "Git/主要/(2)高级/撤销变更.md",
     "Git/主要/(2)高级/在提交树上移动.md",
-    "Git/主要/(2)高级/HEAD、分离 HEAD.md",
-    "Git/主要/(1)基础.md",
-    "前端/CSS/Tailwind CSS/核心概念.md",
-    "前端/CSS/Tailwind CSS/基础.md",
-    "前端/CSS/Tailwind CSS/未命名.md",
-    "TypeScript/基础/未命名.md",
     "前端/CSS/Tailwind CSS/未命名",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/10.使用 Grafana Stack 实现可观察性.md",
-    "Git/远程/关于 origin 和它的周边 —— Git 远程仓库高级操作.md",
-    "Git/如何克隆一个远程的Git仓库，使得所有分支都能下载？.md",
-    "Git/使用Git上传项目到GitHub（详细版.md",
-    "Git/Git.md",
-    "Git/主要/核心术语.md",
     "Git/主要/(5)高级话题",
     "Git/主要/(4)杂项",
     "Git/主要/(3)移动提交记录",
     "Git/主要/(2)高级",
     "Git/远程",
     "Git/主要",
-    "未命名",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/img.png",
-    "Java/基础/IO流/IO流.pdf",
-    "Java/基础/集合/集合2210.pdf",
     "Pasted image 20250501162434.png",
     "Pasted image 20250301210420.png",
     "屏幕截图 2024-07-13 155458.png",
