@@ -9,29 +9,36 @@ import KeycloakProvider from 'next-auth/providers/keycloak'
 import { NuxtAuthHandler } from '#auth'
 import { useRuntimeConfig } from '#imports'
 
+// refresh token
+/* 使用刷新令牌请求新的访问令牌
+ *
+ */
 async function refreshAccessToken(token: any) {
   try {
     const url = `${process.env.KEYCLOAK_ISSUER_URL}/protocol/openid-connect/token`
     const params = new URLSearchParams({
-      client_id:     process.env.KEYCLOAK_CLIENT_ID!,
+      client_id: process.env.KEYCLOAK_CLIENT_ID!,
       client_secret: process.env.KEYCLOAK_CLIENT_SECRET!,
-      grant_type:    'refresh_token',
+      grant_type: 'refresh_token',
       refresh_token: token.refreshToken
     })
-
+	// 向令牌端点发出请求
     const response = await fetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: params
     })
+    // 得到刷新的令牌
+    // console.log(`response: ${JSON.stringify(response)}`);
     const refreshedTokens = await response.json()
     if (!response.ok) throw refreshedTokens
 
     return {
       ...token,
-      accessToken:      refreshedTokens.access_token,
-      accessTokenExpires: Date.now() + refreshedTokens.expires_in * 1000,
-      refreshToken:     refreshedTokens.refresh_token ?? token.refreshToken
+      accessToken: refreshedTokens.access_token,
+      // Date 对象表示从 1970 年 1 月 1 日 00:00:00 UTC (Unix 纪元) 开始计算的一个特定时间点，单位是毫秒
+      accessTokenExpires: Date.now() + refreshedTokens.expires_in * 1000,  // expires_in is access_token 到期时间(单位：秒)
+      refreshToken: refreshedTokens.refresh_token ?? token.refreshToken
     }
   } catch (err) {
     console.error('🔄 RefreshAccessTokenError', err)
@@ -53,9 +60,9 @@ export default NuxtAuthHandler({
     // 只保留 KeycloakProvider
     // （如果你还配置了 GithubProvider，请移除，否则拿不到 Keycloak token）
     KeycloakProvider.default({
-      clientId:     process.env.KEYCLOAK_CLIENT_ID!,
+      clientId: process.env.KEYCLOAK_CLIENT_ID!,
       clientSecret: process.env.KEYCLOAK_CLIENT_SECRET!,
-      issuer:       process.env.KEYCLOAK_ISSUER_URL!
+      issuer: process.env.KEYCLOAK_ISSUER_URL!
     })
   ],
   callbacks: {
@@ -141,5 +148,4 @@ setInterval(() => {
     
 2. **客户端**：用 `useAuth().getSession()` 来拉取最新 session；结合 `session.updateAge`、定时器、或 `visibilitychange` 事件，可实现后台自动刷新，保证 `session.accessToken` 永远有效。 ([NuxtAuth](https://auth.sidebase.io/guide/application-side/session-access "Session Access and Management - by sidebase"))
     
-
 这样就能做到在前端自动、透明地更新 Keycloak 的 access token，无需用户二次登录。
