@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/refresh token.md",
+                "file": "TypeScript/处理异步操作的核心——Promise.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "refresh token"
+              "title": "处理异步操作的核心——Promise"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/refresh token.md",
+                "file": "TypeScript/处理异步操作的核心——Promise.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "refresh token 的大纲"
+              "title": "处理异步操作的核心——Promise 的大纲"
             }
           },
           {
@@ -194,8 +194,13 @@
   },
   "active": "171f52e1a888d8dd",
   "lastOpenFiles": [
-    "TypeScript/日期时间 (Date).md",
+    "TypeScript/Promise.md",
+    "TypeScript/处理异步操作的核心——Promise.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/NuxtAuth-GitHub.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/自定义 Session data.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/props -Typescript.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/refresh token.md",
+    "TypeScript/日期时间 (Date).md",
     "TypeScript/基础/未命名.md",
     "Java/Spring/Spring Boot/Keycloak OAuth 2/刷新令牌（refresh token）.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/插件 (Plugins).md",
@@ -203,10 +208,8 @@
     "TypeScript/原始类型及其对应的包装对象.md",
     "JavaScript/FrameworkAndLibrary/Pinia/基础.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt 3/基础.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/NuxtAuth-GitHub.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/Credentials .md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/Keycloak 联邦 GitHub.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/自定义 Session data.md",
     "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/NuxtAuthHandler.md",
     "Java/Spring/Spring Boot/Validation/一种优雅的参数校验方案.md",
     "Java/Spring/Spring Boot/Validation/Validation.md",
@@ -219,12 +222,9 @@
     "Java/基础/String/格式化字符串.md",
     "Java/基础/String",
     "Java/基础/String/文本块（Text Blocks）.md",
-    "Kotlin/Kotlin 基础/文本块（原始字符串）.md",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/img.png",
     "Database/SQL/openGauss/PostgreSQL开发指南.pdf",
     "Database/SQL/openGauss",
-    "Java/Java基础知识.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/8.使用 Angular 前端.md",
     "前端/CSS/Tailwind CSS/未命名",
     "Git/主要/(5)高级话题",
     "Git/主要/(4)杂项",
