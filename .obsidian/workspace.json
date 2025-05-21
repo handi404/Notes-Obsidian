@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e9194d060ad155c5",
+        "id": "b07638e71a187338",
         "type": "tabs",
         "children": [
           {
-            "id": "171f52e1a888d8dd",
+            "id": "942425530ebaafde",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Spring/Spring Boot/Lombok/Lombok.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lombok"
-            }
-          },
-          {
-            "id": "9d2231f0a6393edf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Spring/Spring AI/未命名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
+              "title": "新标签页"
             }
           }
         ],
@@ -142,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Boot/Lombok/Lombok.md",
+                "file": "Database/PostgreSQL/基本概念/备份与恢复.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Lombok 的大纲"
+              "title": "备份与恢复 的大纲"
             }
           },
           {
@@ -192,13 +174,23 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "171f52e1a888d8dd",
+  "active": "614fd6a5cf2994fd",
   "lastOpenFiles": [
-    "Java/Spring/Spring Boot/Lombok/Lombok 的安装与使用.md",
+    "Database/PostgreSQL/基本概念/备份与恢复.md",
+    "Database/PostgreSQL/基本概念/数据库 (Database) 和模式 (Schema).md",
+    "Database/PostgreSQL/基本概念/表空间 (Tablespace) 管理.md",
+    "Database/PostgreSQL/基本概念/管理数据表.md",
+    "Database/PostgreSQL/基本概念/用户和角色管理.md",
+    "Database/PostgreSQL/基本概念",
+    "TypeScript/基础/未命名.md",
+    "Database/PostgreSQL/openGauss/openGauss.md",
+    "Java/Spring/Spring MVC/ResponseEntity.md",
+    "Database/PostgreSQL/openGauss/openGauss下的操作指令.md",
+    "Database/PostgreSQL/openGauss",
     "Java/Spring/Spring Boot/Lombok/Lombok.md",
+    "Java/Spring/Spring Boot/Lombok/Lombok 的安装与使用.md",
     "Java/Spring/Spring MVC/研究.md",
     "Java/Spring/Spring MVC/详解.md",
-    "Java/Spring/Spring MVC/ResponseEntity.md",
     "Java/Spring/Spring MVC/缓存方案.md",
     "Java/Spring/Spring Boot/Validation/分组校验 (Validation Groups).md",
     "Java/Spring/Spring Boot/Validation/自定义校验 (Custom Validation).md",
@@ -213,14 +205,6 @@
     "Java/Spring/Spring Boot/CORS 配置.md",
     "Java/Spring/Spring Boot/Optional.md",
     "Java/Spring/Spring Boot/讨论传统的分层架构中较为重要的层.md",
-    "Java/Spring/Spring Boot/@Configuration and @Bean.md",
-    "TypeScript/基础/未命名.md",
-    "Java/Spring/Spring AI/OpenAI 与 Spring Boot 集成.md",
-    "Java/Spring/Spring AI/提供商.md",
-    "Java/Spring/Spring AI/未命名.md",
-    "Java/Spring/Spring Boot/未命名.md",
-    "Java/Spring/Spring AI/LangChain4j/使用 LangChain4J、Spring Boot 和 Astra DB 构建 AI PDF 聊天应用程序.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/服务间通信/RestClient.md",
     "Java/Spring/Spring AI/LangChain4j",
     "Java/Spring/Spring AI",
     "Java/Spring/Spring Boot/Validation",
@@ -229,8 +213,6 @@
     "Database/SQL/openGauss/PostgreSQL开发指南.pdf",
     "Database/SQL/openGauss",
     "前端/CSS/Tailwind CSS/未命名",
-    "Git/主要/(5)高级话题",
-    "Git/主要/(4)杂项",
     "Pasted image 20250501162434.png",
     "Pasted image 20250301210420.png",
     "屏幕截图 2024-07-13 155458.png",

@@ -1,4 +1,4 @@
-好的，我们来聊聊 **Lombok** 这个在 Java (尤其是 Spring Boot) 开发中非常流行和实用的库。
+**Lombok** 这个在 Java (尤其是 Spring Boot) 开发中非常流行和实用的库。
 
 ---
 
