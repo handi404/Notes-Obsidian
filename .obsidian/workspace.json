@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/枚举 (Enums).md",
+                "file": "Java/Spring/Spring Boot/Lombok/Lombok.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "枚举 (Enums)"
+              "title": "Lombok"
+            }
+          },
+          {
+            "id": "9d2231f0a6393edf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Spring/Spring AI/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
         ],
@@ -128,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/枚举 (Enums).md",
+                "file": "Java/Spring/Spring Boot/Lombok/Lombok.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "枚举 (Enums) 的大纲"
+              "title": "Lombok 的大纲"
             }
           },
           {
@@ -180,32 +194,35 @@
   },
   "active": "171f52e1a888d8dd",
   "lastOpenFiles": [
-    "TypeScript/日期时间 (Date).md",
-    "TypeScript/原始类型及其对应的包装对象.md",
-    "TypeScript/可选链操作符.md",
-    "TypeScript/处理异步操作的核心——Promise.md",
-    "TypeScript/解构（Destructuring）.md",
-    "TypeScript/8.声明文件 (.d.ts) 与 DefinitelyTyped.md",
-    "TypeScript/7.内置的工具类型 (Utility Types) 和操作符.md",
-    "TypeScript/6.装饰器 (Decorators).md",
-    "TypeScript/基础/3.Type Basics（类型基础）.md",
-    "TypeScript/未命名.md",
-    "TypeScript/基础/4.使用 tsconfig 改善工作流程.md",
-    "TypeScript/Generics（泛型）/泛型 (Generics).md",
+    "Java/Spring/Spring Boot/Lombok/Lombok 的安装与使用.md",
+    "Java/Spring/Spring Boot/Lombok/Lombok.md",
+    "Java/Spring/Spring MVC/研究.md",
+    "Java/Spring/Spring MVC/详解.md",
+    "Java/Spring/Spring MVC/ResponseEntity.md",
+    "Java/Spring/Spring MVC/缓存方案.md",
+    "Java/Spring/Spring Boot/Validation/分组校验 (Validation Groups).md",
+    "Java/Spring/Spring Boot/Validation/自定义校验 (Custom Validation).md",
+    "Java/Spring/Spring Boot/Validation/Validation.md",
+    "Java/Spring/Spring Boot/Spring Boot 3.x 新特性.md",
+    "Java/Spring/Spring Boot/Validation/一种优雅的参数校验方案.md",
+    "Java/Spring/Spring Boot/未命名",
+    "Java/Spring/Spring Boot/service/@Transactional.md",
+    "Java/Spring/Spring Boot/Lombok/Lombok介绍、使用、神奇操作、以及工作中遇到的一些坑.md",
+    "Java/Spring/Spring Boot/自动配置 (Auto-Configuration).md",
+    "Java/Spring/Spring Boot/四大注解.md",
+    "Java/Spring/Spring Boot/CORS 配置.md",
+    "Java/Spring/Spring Boot/Optional.md",
+    "Java/Spring/Spring Boot/讨论传统的分层架构中较为重要的层.md",
+    "Java/Spring/Spring Boot/@Configuration and @Bean.md",
     "TypeScript/基础/未命名.md",
-    "JavaScript/FrameworkAndLibrary/Vue/一些 Vue 实用且常用的开发工具库.md",
-    "TypeScript/枚举 (Enums).md",
-    "TypeScript/TypeScript 与 Vue.js 的集成.md",
-    "TypeScript/TypeScrip快速入门.md",
-    "TypeScript/基础/12.Type Guards（类型保护）.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/9.Kafka.md",
-    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/10.使用 Grafana Stack 实现可观察性.md",
-    "Java/Spring/Spring Boot/Stripe/Spring Boot 集成 Stripe.md",
-    "Java/Spring/Spring Boot/Stripe/基础.md",
-    "TypeScript/Promise.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/NuxtAuth-GitHub.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/sidebase-auth/自定义 Session data.md",
-    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/props -Typescript.md",
+    "Java/Spring/Spring AI/OpenAI 与 Spring Boot 集成.md",
+    "Java/Spring/Spring AI/提供商.md",
+    "Java/Spring/Spring AI/未命名.md",
+    "Java/Spring/Spring Boot/未命名.md",
+    "Java/Spring/Spring AI/LangChain4j/使用 LangChain4J、Spring Boot 和 Astra DB 构建 AI PDF 聊天应用程序.md",
+    "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/服务间通信/RestClient.md",
+    "Java/Spring/Spring AI/LangChain4j",
+    "Java/Spring/Spring AI",
     "Java/Spring/Spring Boot/Validation",
     "Java/基础/String",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/img.png",
@@ -214,9 +231,6 @@
     "前端/CSS/Tailwind CSS/未命名",
     "Git/主要/(5)高级话题",
     "Git/主要/(4)杂项",
-    "Git/主要/(3)移动提交记录",
-    "Git/主要/(2)高级",
-    "Git/远程",
     "Pasted image 20250501162434.png",
     "Pasted image 20250301210420.png",
     "屏幕截图 2024-07-13 155458.png",
