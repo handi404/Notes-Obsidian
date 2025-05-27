@@ -4,11 +4,11 @@ Spring AI 中的核心组件之一：`ChatClient`。
 
 ---
 
-好的，我们来对 `ChatClient` 进行一次全面而深入的详解，确保覆盖您提到的所有方面，并补充可能遗漏的细节。
+`ChatClient` 提供了 Fluent API 用于与 AI 模型进行通信。它支持同步和流式编程模型。
 
 ### `ChatClient` 详解
 
-`ChatClient` (位于 `org.springframework.ai.chat.client.ChatClient`) 是 Spring AI 中推荐的、用于与大语言模型进行聊天交互的高级客户端。它提供了一个流畅（fluent）的 API，简化了提示构建、选项配置、工具使用和响应处理。
+`ChatClient` (位于 `org.springframework.ai.chat.client.ChatClient`) 是 Spring AI 中推荐的、用于与大语言模型进行聊天交互的高级客户端。它提供了一个流畅（Fluent）的 API，简化了提示构建、选项配置、工具使用和响应处理。
 
 ---
 
