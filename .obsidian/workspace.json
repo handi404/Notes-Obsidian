@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring/Spring Boot/学习路径.md",
+                "file": "Java/Spring/Spring Boot/Security/基础/6.数据库身份验证.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "学习路径"
+              "title": "6.数据库身份验证"
             }
           },
           {
-            "id": "026ecdf5a0077ef3",
+            "id": "d0715cbac4fc94f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring/Spring AI/未命名.md",
+                "file": "Java/Spring/Spring Boot/Security/Spring Security 变得简单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "Spring Security 变得简单"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 394.5
   },
   "right": {
     "id": "35a05ec3fbe9c822",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Boot/学习路径.md",
+                "file": "Java/Spring/Spring Boot/Security/基础/6.数据库身份验证.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "学习路径 的大纲"
+              "title": "6.数据库身份验证 的大纲"
             }
           },
           {
@@ -192,44 +192,44 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "614fd6a5cf2994fd",
+  "active": "09799385fc87a0aa",
   "lastOpenFiles": [
-    "Java/Spring/Spring Boot/Data",
-    "Java/Spring/Spring Boot/Actuator/概述.md",
+    "Java/Spring/Spring Boot/Security/基础/1.入门和基于表单的身份验证.md",
+    "Java/Spring/Spring Boot/Security/基础/2.Basic Auth和编写SecurityFilterChain.md",
+    "Java/Spring/Spring Boot/Security/基础/3.内存身份验证.md",
+    "Java/Spring/Spring Boot/Security/基础/4.基于角色的授权.md",
+    "Java/Spring/Spring Boot/Security/基础/5.启用 H2 数据库.md",
+    "Java/Spring/Spring Boot/Security/基础/6.数据库身份验证.md",
+    "Java/Spring/Spring Boot/Security/Spring Security 变得简单.md",
+    "Java/Spring/Spring Boot/photos-clone.md",
+    "Java/Spring/Spring Boot/Security/基础/核心工作原理.md",
+    "Java/Spring/Spring Boot/Security/基础/核心术语及概念.md",
+    "TypeScript/空值合并操作符.md",
+    "TypeScript/基础/未命名.md",
+    "TypeScript/可选链操作符.md",
+    "TypeScript/解构（Destructuring）.md",
+    "Java/Spring/Spring AI/未命名.md",
+    "Java/Spring/Spring Boot/Security/概述.md",
+    "Java/Spring/Spring Boot/Security/基础",
+    "Java/Spring/Spring Boot/Security/Keycloak OAuth 2/OIDC.md",
+    "Java/Spring/Spring Boot/Security/Keycloak OAuth 2/Spring Boot 3 Keycloak OAuth 2.md",
     "Java/Spring/Spring Boot/Actuator/使用 Grafana Stack 实现可观察性.md",
+    "Java/Spring/Spring Boot/Actuator/概述.md",
+    "JavaScript/运行时环境/Nodejs/nrm.md",
+    "Java/Spring/Spring Boot/学习路径.md",
+    "Java/Spring/Spring Boot/Data",
     "Java/Spring/Spring Boot/Actuator",
     "Java/Spring/Spring Boot/@Configuration and @Bean.md",
     "Java/Spring/Spring AI/OpenAI 与 Spring Boot 集成.md",
     "Java/Spring/Spring Boot/ParameterizedTypeReference.md",
-    "Java/Spring/Spring Boot/Security/概述.md",
     "Java/Spring/Spring Boot/Jackson/Jackson.md",
     "Java/Spring/Spring Boot/Security",
-    "Java/Spring/Spring Boot/新特性/Spring Boot 3.x 新特性.md",
     "Java/Spring/Spring Boot/新特性",
-    "Java/Spring/Spring-rg1/spring-rg1.md",
-    "Java/Spring/Spring Boot/Dependency Injection 依赖注入.md",
-    "Java/Spring/Spring Boot/Optional.md",
-    "TypeScript/基础/未命名.md",
-    "Java/Spring/Spring AI/未命名.md",
-    "Java/设计模式（Design Patterns）/Fluent API.md",
-    "Java/Spring/Spring AI/关键抽象与组件/Chat Client API.md",
-    "Java/新特性/Java 8（LTS）/方法引用.md",
-    "Git/主要/(2)高级/撤销变更.md",
-    "Git/主要/(3)移动提交记录/整理提交记录.md",
-    "Git/修改 pushed commit message.md",
-    "Java/Spring/Spring AI/关键抽象与组件/Structured Output/Structured Output Converter (结构化输出转换器).md",
-    "Java/Spring/Spring AI/关键抽象与组件/Structured Output/结构化输出转换器 __ Spring AI 参考.md",
-    "Java/Spring/Spring AI/关键抽象与组件/未命名.md",
-    "Java/Spring/Spring AI/关键抽象与组件/未命名 1.md",
-    "Java/Spring/Spring AI/关键抽象与组件/ChatModel 到 ChatClient.md",
-    "Java/Spring/Spring AI/关键抽象与组件/Chat Model API.md",
     "Java/Spring/Spring AI/关键抽象与组件/Structured Output",
     "Java/基础/集合/集合2210.pdf",
     "Java/基础/集合/集合作业.pdf",
     "Java/基础/集合/集合二作业.pdf",
     "Java/Spring/Spring AI/关键抽象与组件",
-    "LLMs/Prompt",
-    "Database/PostgreSQL/基本概念",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/img.png",
     "Pasted image 20250501162434.png",
     "Pasted image 20250301210420.png",
