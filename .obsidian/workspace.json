@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring/Spring Boot/Security/JWT 注销.md",
+                "file": "Java/Spring/Spring Boot/Security/Refresh token.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JWT 注销"
+              "title": "Refresh token"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Boot/Security/JWT 注销.md",
+                "file": "Java/Spring/Spring Boot/Security/Refresh token.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "JWT 注销 的大纲"
+              "title": "Refresh token 的大纲"
             }
           },
           {
@@ -195,6 +195,14 @@
   "active": "09799385fc87a0aa",
   "lastOpenFiles": [
     "Java/Spring/Spring Boot/Security/未命名.md",
+    "Java/Spring/Spring Boot/Security/Refresh token.md",
+    "Java/Spring/Spring Boot/Jackson/ObjectMapper.md",
+    "Java/Spring/Spring Boot/Jackson/常用且核心的注解.md",
+    "Java/Spring/Spring Boot/Jackson/@JsonProperty.md",
+    "TypeScript/基础/未命名.md",
+    "Java/Spring/Spring Boot/Jackson/Jackson.md",
+    "Java/Spring/Spring Boot/Jackson/Jackson 框架使用教程.md",
+    "Java/Spring/Spring Boot/Jackson/Jackson 工具类.md",
     "Java/Spring/Spring Boot/Security/JWT 注销.md",
     "Java/Spring/Spring Boot/Data/Hibernate & JPA/关系映射和多表查询.md",
     "Java/Spring/Spring Boot/Data/Hibernate & JPA/实体类常用注解的分类和解析.md",
@@ -202,7 +210,6 @@
     "Java/Spring/Spring Boot/Data/Hibernate & JPA/方法命名约定.md",
     "Java/Spring/Spring Boot/Data/Hibernate & JPA/复杂的多表查询.md",
     "Java/Spring/Spring Boot/Data/Hibernate & JPA/Hibernate & JPA.md",
-    "TypeScript/基础/未命名.md",
     "Java/Spring/Spring Boot/Security/image/2025-06-08_10-36-14.png",
     "Java/Spring/Spring Boot/Security/image/2025-06-08_10-25-54.png",
     "Java/Spring/Spring Boot/Security/image/2025-06-08_10-09-10.png",
@@ -217,13 +224,6 @@
     "Java/Spring/Spring Boot/Security/Spring Security 变得简单.md",
     "Java/基础/String/处理字符串的类.md",
     "Java/基础/String/格式化字符串.md",
-    "Java/基础/String/文本块（Text Blocks）.md",
-    "Java/基础/Class/enum.md",
-    "Docker/Docker 命令.md",
-    "Java/Spring/Spring Boot/Security/基础/3.内存身份验证.md",
-    "Java/Spring/Spring Boot/Security/基础/1.入门和基于表单的身份验证.md",
-    "Java/Spring/Spring Boot/Security/基础/4.基于角色的授权.md",
-    "Java/Spring/Spring Boot/photos-clone.md",
     "Java/Spring/Spring Boot/Security/基础",
     "Java/Spring/Spring Boot/Data",
     "Java/Spring/Spring Boot/Actuator",
