@@ -105,7 +105,7 @@ Email.builder()
     ```
     这里的 `stream()`, `filter()`, `map()`, `sorted()` 都是中间操作，返回一个新的 Stream，而 `collect()` 是终止操作。
 
-2.  **`Optional` 类 (自 Java 8 起)：** 也体现了 Fluent API 的思想。[[Optional]]
+2.  **`Optional` 类 (自 Java 8 起)：** 也体现了 Fluent API 的思想。[[Java/Spring/Spring Boot/Optional]]
     ```java
     Optional.ofNullable(getUserById(1))
             .map(User::getName)
