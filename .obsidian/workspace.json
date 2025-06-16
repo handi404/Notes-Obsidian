@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring/Spring Boot/Security/Spring Security 的 JPA Auditing.md",
+                "file": "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/大纲.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spring Security 的 JPA Auditing"
+              "title": "大纲"
             }
           },
           {
-            "id": "248bb7acf7511154",
+            "id": "e63047292efe5162",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring/Spring Boot/Data/Hibernate & JPA/Auditing.md",
+                "file": "Java/Spring/Spring Boot/Data/MyBatis/mybatis-rg1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Auditing"
+              "title": "mybatis-rg1"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 347.5
   },
   "right": {
     "id": "35a05ec3fbe9c822",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Boot/Security/Spring Security 的 JPA Auditing.md",
+                "file": "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/大纲.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Spring Security 的 JPA Auditing 的大纲"
+              "title": "大纲 的大纲"
             }
           },
           {
@@ -194,46 +194,46 @@
   },
   "active": "09799385fc87a0aa",
   "lastOpenFiles": [
-    "Java/新特性/Java 8（LTS）/Optional.md",
-    "Java/基础/isEmpty() 和 == null.md",
-    "Java/Spring/Spring Boot/Optional.md",
-    "Java/Spring/Spring Boot/Security/Spring Security 的 JPA Auditing.md",
-    "TypeScript/基础/未命名.md",
-    "Java/Spring/Spring Boot/Data/Hibernate & JPA/实体类常用注解的分类和解析.md",
-    "Java/Spring/Spring Boot/Data/Hibernate & JPA/Auditing.md",
-    "Java/Spring/Spring Boot/Security/目录.md",
-    "Java/Spring/Spring Boot/Security/未命名 1.md",
-    "Java/Spring/Spring Boot/Security/Change password.md",
-    "Java/Spring/Spring Boot/Security/JWT 注销.md",
-    "Java/Spring/Spring Boot/Security/未命名.md",
-    "Java/Spring/Spring Boot/File Upload and Download/未命名.md",
-    "Java/Spring/Spring Boot/File Upload and Download",
-    "Java/Spring/Spring Boot/Security/Roles and Permissions.md",
-    "Java/Spring/Spring Boot/Security/Refresh token.md",
-    "Java/Spring/Spring Boot/Security/获得连接的用户.md",
-    "Java/Spring/Spring 表达式语言.md",
-    "Kotlin/Spring 框架/未命名.md",
-    "Java/基础/Class/enum.md",
-    "Java/Spring/Spring Boot/Lombok/Lombok.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/5.最佳实践与常见问题.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/大纲.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/4.进阶/4.7Bean Validation.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/4.进阶/Querydsl.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/4.进阶/4.6规格 (Specifications).md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/4.进阶/4.5审计 (Auditing).md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/4.进阶/4.4实体监听器 (@EntityListeners) 与回调方法.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/4.进阶/4.3二级缓存 (L2 Cache).md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/4.进阶/4.1事务管理 (与 Spring @Transactional 深度集成).md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/4.进阶/4.2乐观锁与悲观锁.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/4.进阶",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/3.核心功能/未命名.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/3.核心功能/3.5Criteria API.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/3.核心功能/3.4JPQL.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/3.核心功能/3.3实体管理器 (EntityManager).md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/3.核心功能/3.2实体映射 (Mappings).md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/3.核心功能/3.1Repository 接口.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/3.核心功能",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/2.快速集成 Spring Data JPA.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/1.核心概念与优势.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA",
+    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/MyBatis-Plus (MP).md",
+    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/5.进阶使用与技巧.md",
+    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/5.进阶",
+    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/4.代码生成器 (MyBatis-Plus Generator).md",
+    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/3.核心功能/性能分析和多租户相关插件.md",
+    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/3.核心功能/逻辑删除.md",
+    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/3.核心功能/分页、乐观锁插件.md",
+    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/3.核心功能/实体类注解.md",
+    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/3.核心功能/主键策略和自动填充字段.md",
+    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/3.核心功能",
+    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus",
+    "Java/Spring/Spring Boot/Data/MyBatis/进阶",
+    "Java/Spring/Spring Boot/Data/MyBatis/核心功能",
+    "Java/Spring/Spring Boot/Data/MyBatis/基础",
+    "Java/Spring/Spring Boot/Service/事务",
     "Java/Spring/Spring Boot/Security/image/2025-06-09_15-10-54.png",
-    "Java/Spring/Spring Boot/Jackson/ObjectMapper.md",
-    "Java/Spring/Spring Boot/Jackson/常用且核心的注解.md",
-    "Java/Spring/Spring Boot/Jackson/@JsonProperty.md",
-    "Java/Spring/Spring Boot/Jackson/Jackson.md",
-    "Java/Spring/Spring Boot/Jackson/Jackson 框架使用教程.md",
-    "Java/Spring/Spring Boot/Jackson/Jackson 工具类.md",
     "Java/Spring/Spring Boot/Security/image/2025-06-08_10-36-14.png",
     "Java/Spring/Spring Boot/Security/image/2025-06-08_10-25-54.png",
     "Java/Spring/Spring Boot/Security/image/2025-06-08_10-09-10.png",
-    "Java/Spring/Spring Boot/Security/image",
-    "Java/Spring/Spring Boot/Security/基础",
-    "Java/Spring/Spring Boot/Data",
-    "Java/Spring/Spring Boot/Actuator",
-    "Java/Spring/Spring Boot/Security",
-    "Java/Spring/Spring Boot/新特性",
-    "Java/Spring/Spring AI/关键抽象与组件/Structured Output",
-    "Java/基础/集合/集合2210.pdf",
-    "Java/基础/集合/集合作业.pdf",
     "Java/Spring/Spring Cloud/Spring Boot Microservices 项目教程/Spring Boot 3/img.png",
     "Pasted image 20250501162434.png",
     "Pasted image 20250301210420.png",

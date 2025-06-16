@@ -9,7 +9,7 @@ mybatis 核心配置文件组成格式
 	mybatis核心配置文件-mappers
 
 3
-mybatis增删改查&参数传递
+mybatis 增删改查&参数传递
 
 4
 mybatis缓存
@@ -28,11 +28,12 @@ mybatis使用UUID作为主键添加数据
 动态 SQL
 - if 标签
 - where 标签
-- choose-when 标签
+- choose/when/otherwise 标签
 - set 标签
 - trim 标签
 - foreach 标签批量添加
 - foreach 标签批量删除
+- bind 标签
 
 8
 注解开发
