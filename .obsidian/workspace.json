@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/SQL/MySQL/一条sql语句在mysql中如何执行的.md",
+                "file": "Java/Spring/Spring Boot/File Upload and Download/分段下载加速功能.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "一条sql语句在mysql中如何执行的"
+              "title": "分段下载加速功能"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/SQL/MySQL/一条sql语句在mysql中如何执行的.md",
+                "file": "Java/Spring/Spring Boot/File Upload and Download/分段下载加速功能.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "一条sql语句在mysql中如何执行的 的大纲"
+              "title": "分段下载加速功能 的大纲"
             }
           },
           {
@@ -178,15 +178,22 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "e63047292efe5162",
+  "active": "614fd6a5cf2994fd",
   "lastOpenFiles": [
-    "Database/SQL/MySQL/MySQL.md",
+    "Java/Spring/Spring Boot/File Upload and Download/未命名.md",
+    "Java/Spring/Spring Boot/File Upload and Download/分段下载加速功能.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/分页、条件分页以及排序.md",
+    "TypeScript/基础/未命名.md",
+    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/3.核心功能/3.1Repository 接口.md",
     "Database/SQL/DQL (SELECT 语句) 的书写顺序与逻辑执行顺序.md",
+    "Java/基础/Javadoc.md",
+    "Database/SQL/MySQL/全面规划.md",
+    "Database/SQL/MySQL/一条sql语句在mysql中如何执行的.md",
+    "Database/SQL/MySQL/MySQL.md",
     "Database/SQL/SQL 练习.md",
     "Database/SQL/MySQL/基础/DDL, DML, DQL.md",
     "Database/SQL/MySQL/基础/核心概念.md",
     "Database/SQL/MySQL/进阶/视图 (Views).md",
-    "Database/SQL/MySQL/全面规划.md",
     "Database/SQL/MySQL/进阶/事务和锁.md",
     "Database/SQL/MySQL/进阶/索引.md",
     "Database/SQL/MySQL/进阶/高级 SQL 查询.md",
@@ -199,15 +206,8 @@
     "Database/SQL/MySQL/04.01.存储过程.md",
     "Database/SQL/MySQL/01.03.安装MySQL8.0.33数据.md",
     "Database/SQL/MySQL/02.02.作业，SQL语句练习.md",
-    "Database/SQL/MySQL/一条sql语句在mysql中如何执行的.md",
     "Database/SQL/MySQL/mysql中的索引类型/聚族索引.md",
     "Database/SQL/MySQL/03.01. 社区购库表设计/建立视图.md",
-    "Database/SQL/MySQL/truncate和delete的区别.md",
-    "Database/SQL/MySQL/MySQL高性能优化规范建议.md",
-    "Database/SQL/MySQL/limit用法.md",
-    "TypeScript/基础/未命名.md",
-    "Database/SQL/SQL 中，DATE 类型的数据.md",
-    "Database/SQL/SQL 语法.md",
     "Message Queue",
     "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/4.进阶",
     "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/3.核心功能",
