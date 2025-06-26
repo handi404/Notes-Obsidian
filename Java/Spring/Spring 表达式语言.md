@@ -108,18 +108,18 @@ SpEL的表达式通常被包裹在 `#{ expressionString }` 中。
 
 7.  **Programmatic Usage (编程式使用)**：
     *   虽然不常见于日常应用开发，但你可以通过 `ExpressionParser` 和 `EvaluationContext` 来在 Java 代码中直接解析和执行 SpEL 表达式。
-    *   ```java
-    *   ExpressionParser parser = new SpelExpressionParser();
-    *   Expression exp = parser.parseExpression("'Hello World'.concat('!')");
-    *   String message = (String) exp.getValue(); // "Hello World!"
-    *
-    *   StandardEvaluationContext context = new StandardEvaluationContext();
-    *   MyClass myObject = new MyClass();
-    *   myObject.setProperty("example");
-    *   context.setVariable("myVar", myObject);
-    *   context.setRootObject(anotherObject); // 设置根对象
-    *   String value = parser.parseExpression("#myVar .property").getValue(context, String.class);
-    *   ```
+       ```java
+       ExpressionParser parser = new SpelExpressionParser();
+       Expression exp = parser.parseExpression("'Hello World'.concat('!')");
+       String message = (String) exp.getValue(); // "Hello World!"
+    
+       StandardEvaluationContext context = new StandardEvaluationContext();
+       MyClass myObject = new MyClass();
+       myObject.setProperty("example");
+       context.setVariable("myVar", myObject);
+       context.setRootObject(anotherObject); // 设置根对象
+       String value = parser.parseExpression("#myVar .property").getValue(context, String.class);
+    ```
 
 **最新进展与注意事项**
 

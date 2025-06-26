@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "08b687d3d12bfbb0",
+        "id": "1389cfbb54d05c18",
         "type": "tabs",
         "children": [
           {
-            "id": "1467f1618edcaa61",
+            "id": "3c87a75fbe895447",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "新标签页"
             }
           }
         ],
@@ -128,13 +124,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -178,10 +173,29 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "1467f1618edcaa61",
+  "active": "3c87a75fbe895447",
   "lastOpenFiles": [
-    "JavaScript (ES6) code snippets.md",
+    "GitHub/个人博客/Hexo/fluid主题美化.md",
+    "Docker/Docker 入门案例.md",
+    "GitHub/个人博客/Hexo/不见头像、标签.md",
+    "Java/Spring/Spring Boot/Data/Redis/Spring Boot using Redis.md",
+    "GitHub/个人博客/Hexo",
+    "Java/Spring/Spring 表达式语言.md",
+    "Java/Spring/Spring Boot/Data/Redis/Spring Boot using Redis - 副本.md",
+    "JavaScript/HTTP 请求和响应/HTTP 请求格式.md",
+    "Java/基础/数据结构",
+    "Java/基础/线程",
+    "Docker/Docker 命令.md",
+    "Docker/将 Docker 镜像发布到 DockerHub.md",
+    "Docker/卷（Volumes）和绑定挂载（Bind Mounts）.md",
+    "Docker/volumes.md",
+    "Docker/Docker Layers（镜像层）.md",
     "README.md",
+    "GitHub/使用GitHub托管静态网页.md",
+    "GitHub/个人博客/Hexo/GitHub Pages + Hexo.pdf",
+    "GitHub/个人博客/Hexo/GitHub Pages + Hexo.md",
+    "GitHub/个人博客",
+    "JavaScript (ES6) code snippets.md",
     "Java/Spring/Spring Boot/File Upload and Download/核心接口、类.md",
     "Java/Spring/Spring Boot/Data/Hibernate & JPA/逻辑删除（Soft Delete）.md",
     "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/3.核心功能/逻辑删除.md",
@@ -193,29 +207,10 @@
     "Java/工具类/核心、第三方.md",
     "Java/工具类",
     "Database/SQL/MySQL/cont(⁎)_count(1)_count(id)_count(字段)的区别.md",
-    "Java/Spring/Spring Boot/File Upload and Download/规划.md",
-    "Java/Spring/Spring Boot/File Upload and Download/分段下载加速功能.md",
-    "Java/Spring/Spring Boot/File Upload and Download/理论基础.md",
-    "TypeScript/基础/未命名.md",
-    "Java/Spring/Spring Boot/Data/Hibernate & JPA/分页、条件分页以及排序.md",
-    "Database/SQL/DQL (SELECT 语句) 的书写顺序与逻辑执行顺序.md",
-    "Java/基础/Javadoc.md",
-    "Database/SQL/MySQL/全面规划.md",
-    "Database/SQL/MySQL/一条sql语句在mysql中如何执行的.md",
-    "Database/SQL/MySQL/MySQL.md",
-    "Database/SQL/SQL 练习.md",
-    "Database/SQL/MySQL/基础/DDL, DML, DQL.md",
-    "Database/SQL/MySQL/基础/核心概念.md",
-    "Database/SQL/MySQL/进阶/视图 (Views).md",
     "Database/SQL/MySQL/进阶",
     "Database/SQL/MySQL/基础",
     "Message Queue",
     "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/4.进阶",
-    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA/3.核心功能",
-    "Java/Spring/Spring Boot/Data/Hibernate & JPA/JPA",
-    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/5.进阶",
-    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus/3.核心功能",
-    "Java/Spring/Spring Boot/Data/MyBatis/MyBatis-Plus",
     "Java/Spring/Spring Boot/Security/image/2025-06-09_15-10-54.png",
     "Java/Spring/Spring Boot/Security/image/2025-06-08_10-36-14.png",
     "Java/Spring/Spring Boot/Security/image/2025-06-08_10-25-54.png",
