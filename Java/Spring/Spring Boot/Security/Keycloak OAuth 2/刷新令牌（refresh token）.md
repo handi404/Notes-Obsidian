@@ -1,4 +1,13 @@
-
+---
+categories:
+- [Java,Framework,Spring Boot,Security,Keycloak]
+title: 刷新令牌（refresh token）
+date: 2025-06-14
+sticky: 60
+index_img: img/java/keycloak.png
+tags:
+- keycloak
+---
 ## 刷新令牌
 授权类型或授权流程中，我们可以观察到的共同点是，当我们从授权服务器请求令牌时，服务器将使用 access_token 和 refresh_token 进行响应。访问令牌通常是短暂的，会在一定时间后过期。在一定时间限制之后，我们需要要求授权服务器向我们发送新的访问令牌，而无需要求用户再次登录。刷新令牌将帮助我们生成新的访问令牌。简而言之刷新令牌允许应用程序从授权服务器请求新的访问令牌，而无需要求用户再次登录。
 

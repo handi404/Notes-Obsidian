@@ -1,3 +1,11 @@
+---
+categories:
+- [Java,Framework,Spring AI]
+title: OpenAI 与 Spring Boot 集成
+date: 2025-5-13
+index_img: img/java/spring.png
+sticky: 70
+---
 🔥 将 get 到什么：
 ✅ 如何生成和配置你的 OpenAI API key(密钥)
 ✅ 如何使用 Spring AI 构建对话聊天界面
@@ -24,6 +32,7 @@
 ```
 sk-proj-XA 5 pW-ooUH_iDP 9 C 5 F-PilybZdKJQe 09 akNWCyVXNvebSDHL 15 jR 07 UnXc 8 FAdKFA 4 YYgSHAz-T 3 BlbkFJw 5 OjILdCMkvctUyL 1 idtq 7 d_C 9 zJcR 0 jxyUYXqjCJ 5 ICBx 2 UA 3 z 8 rNkcOdmRG 7 BDQK_6 Qgz 7 sA
 ```
+注：此 key 我已删除。
 稍后将在我们的 spring 项目中使用这个 key。
 
 ### Spring AI 文档

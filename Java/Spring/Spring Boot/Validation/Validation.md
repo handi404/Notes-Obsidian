@@ -95,8 +95,8 @@ public class UserRegistrationDto {
 
 *   `@Null`: 被注释的元素必须为 `null`。
 *   `@NotNull`: 被注释的元素必须不为 `null`。
-*   `@NotBlank`: 被注释的字符串必须非 `null` 且必须包含至少一个非空白字符。
 *   `@NotEmpty`: 被注释的元素（如字符串、集合、Map 或数组）必须不为 `null` 且不能为空。
+*   `@NotBlank`: 被注释的字符串必须非 `null` 且必须包含至少一个非空白字符。
 *   `@Size(min=, max=)`: 被注释的元素的大小必须在指定的范围内 (适用于字符串、集合、Map、数组)。
 *   `@Min(value)`: 被注释的元素必须是一个数字，其值必须大于等于指定的最小值。
 *   `@Max(value)`: 被注释的元素必须是一个数字，其值必须小于等于指定的最大值。

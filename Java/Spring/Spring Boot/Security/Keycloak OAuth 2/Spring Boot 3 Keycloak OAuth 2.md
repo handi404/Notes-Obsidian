@@ -1,3 +1,13 @@
+---
+categories:
+- [Java,Framework,Spring Boot,Security,Keycloak]
+title: Spring Boot 3 Keycloak OAuth 2
+date: 2025-06-14
+sticky: 70
+index_img: img/java/keycloak.png
+tags:
+- keycloak
+---
 ### 简介
 - 讨论什么是 OAuth 2 以及如何使用 Spring Security 在 Spring Boot 应用程序中实现 OAuth 2 功能。
 - 我们还将研究如何实现或通过不同类型的应用程序的模式，例如使用 spring MVC 开发的服务器端渲染应用程序，使用 angular 等框架开发的单页应用程序。

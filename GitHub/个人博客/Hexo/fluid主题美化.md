@@ -524,3 +524,61 @@ color:
   +board_color: "#ffffff80"
   +board_color_dark: "#00000080"
 ```
+
+
+## 副标题打字机
+内容需要变化，也可以通过外链获取变化的内容
+```yaml
+#---------------------------
+# 首页
+# Home Page
+#---------------------------
+index:
+  # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
+  # Path of Banner image, can be a relative path or an absolute path, the same on other pages
+  banner_img: /img/index.jpg
+
+  # 头图高度，屏幕百分比
+  # Height ratio of banner image
+  # Available: 0 - 100
+  banner_img_height: 100
+
+  # 头图黑色蒙版的不透明度，available: 0 - 1.0，1 是完全不透明
+  # Opacity of the banner mask, 1.0 is completely opaque
+  # Available: 0 - 1.0
+  banner_mask_alpha: 0.3
+
+  # 首页副标题的独立设置
+  # Independent config of home page subtitle
+  slogan:
+    enable: true
+
+    # 为空则按 hexo config.subtitle 显示
+    # If empty, text based on `subtitle` in hexo config
+    # 主页正中间的文字
+    text: "繁星的蓝 个人博客"
+
+    # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
+    # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
+    api:
+      enable: true
+      text: "Cornpoppies, are you still burning, in the rain ..."		# 副标题内容 
+      # 通过api接口获取内容，如果请求失败则按 text 字段显示
+      # 请求地址
+      # Request url
+      url: "https://v1.hitokoto.cn/" # API 地址，必须返回的是一个 JSON 格式
+      # https://api.xygeng.cn/one
+
+      # 请求方法
+      # Request method
+      # Available: GET | POST | PUT
+      method: "GET"
+
+      # 请求头
+      # Request headers
+      headers: {}
+
+      # 从请求结果获取字符串的取值字段，最终必须是一个字符串，例如返回结果为 {"data": {"author": "fluid", "content": "An elegant theme"}}, 则取值字段为 ['data', 'content']；如果返回是列表则自动选择第一项
+      # The value field of the string obtained from the response. For example, the response content is {"data": {"author": "fluid", "content": "An elegant theme"}}, the expected `keys: ['data','content']`; if the return is a list, the first item is automatically selected
+      keys: ["hitokoto"]
+```
