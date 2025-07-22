@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "26f9187650c2db3b",
+        "id": "892d99551200a212",
         "type": "tabs",
         "children": [
           {
-            "id": "1196693fc0646d7f",
+            "id": "96c239c0134e5e9c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Spring/Spring Boot/Book Social Network/项目开始.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "项目开始"
-            }
-          },
-          {
-            "id": "158c6721837b9406",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Spring/Spring Boot/Book Social Network/未命名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
+              "title": "新标签页"
             }
           }
         ],
@@ -142,13 +124,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Boot/Book Social Network/项目开始.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "项目开始 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -192,51 +173,51 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "1196693fc0646d7f",
+  "active": "96c239c0134e5e9c",
   "lastOpenFiles": [
-    "Java/Spring/Spring Boot/Book Social Network/异常处理.md",
-    "Java/Spring/Spring Boot/Book Social Network/安全与身份验证.md",
-    "Java/Spring/Spring Boot/Book Social Network/未命名.md",
-    "Java/Spring/Spring Boot/自定义运行时异常.md",
-    "Java/Spring/Spring Boot/Jackson/常用且核心的注解.md",
-    "Java/Spring/Spring Boot/Book Social Network/项目开始.md",
-    "Java/Spring/Spring Boot/Book Social Network/业务需求设计.md",
-    "Java/Spring/Spring Boot/Book Social Network/配置项目.md",
-    "Java/Spring/Spring Boot/Book Social Network/介绍.md",
-    "Java/Spring/Spring Boot/Book Social Network/关于应用程序.md",
-    "Java/Spring/Spring Boot/Spring 依赖注入的道与术——从接口注入到多实现管理.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/动态插槽名.md",
+    "TypeScript/Vue/高级特性与性能优化/服务端渲染 (SSR) 和静态站点生成 (SSG).md",
+    "TypeScript/Vue/高级特性与性能优化/自定义指令与插件.md",
+    "TypeScript/Vue/高级特性与性能优化/渲染机制与性能优化.md",
+    "TypeScript/Vue/高级特性与性能优化/TypeScript 深度应用.md",
+    "JavaScript/FrameworkAndLibrary/Pinia/基础.md",
+    "TypeScript/Vue/学习路线图.md",
+    "TypeScript/Vue/基础/应用实例与组件基础.md",
+    "TypeScript/Vue/基础/响应式核心：ref 与 reactive.md",
+    "TypeScript/Vue/基础/条件与列表渲染.md",
+    "TypeScript/Vue/基础/生命周期钩子.md",
+    "TypeScript/Vue/基础/计算属性与侦听器.md",
+    "TypeScript/Vue/进阶与生态/路由管理：Vue Router 4.md",
+    "TypeScript/Vue/进阶与生态/状态管理：Pinia.md",
+    "TypeScript/Vue/高级特性与性能优化",
+    "TypeScript/Vue/进阶与生态/逻辑复用：Composables (组合式函数).md",
+    "TypeScript/Vue/进阶与生态/高级组件技巧.md",
+    "TypeScript/Vue/进阶与生态",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue Router/Vue Router 4 (for Vue 3).md",
     "TypeScript/基础/未命名.md",
-    "Java/Spring/Spring Boot/@Configuration and @Bean.md",
-    "Java/Spring/Spring Boot/Book Social Network/Mai 功能所有可配置属性.md",
-    "Java/Spring/Spring Boot/Validation/Validation.md",
-    "Java/Spring/Spring Boot/Java Mail Sender/未命名.md",
-    "Java/Spring/Spring Boot/Java Mail Sender/学习规划.md",
+    "TypeScript/Vue/基础/组件通信.md",
+    "TypeScript/6.装饰器 (Decorators).md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/props -Typescript.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/Composition API/1.5 Refs vs Reactive.md",
+    "JavaScript/FrameworkAndLibrary/Vue/Vue 3/Composition API/1.7 watch & watchEffect.md",
+    "TypeScript/Vue/基础/环境搭建与工程化.md",
+    "TypeScript/Vue/基础",
+    "TypeScript/Vue",
+    "JavaScript/FrameworkAndLibrary/Vue/学习规划.md",
+    "JavaScript/FrameworkAndLibrary/Nuxt/Pinia/状态管理.md",
+    "JavaScript/FrameworkAndLibrary/Axios",
+    "JavaScript/FrameworkAndLibrary/OpenApi",
+    "IDEA/IDEA做HTTP接口测试.pdf",
+    "Java/Spring/Spring Boot/OpenAPI",
+    "Java/Spring/Spring Boot/Exception",
     "Java/Spring/Spring Boot/Java Mail Sender",
-    "Java/Spring/Spring Boot/Security/JWT/jjwt.md",
-    "Java/Spring/Spring Boot/Security/JWT/JSON Web Token.md",
-    "Java/Spring/Spring Boot/Security/Spring Boot 3 + Spring Security 6 - 使用 JWT Token 保护 API.md",
-    "JavaScript/FrameworkAndLibrary/Nuxt/Nuxt Auth/JSON Web Tokens.md",
-    "Java/Spring/Spring Boot/Security/JWT",
     "Java/Spring/Spring Boot/Book Social Network/img/2025-07-01_15-58-04.png",
-    "Java/Spring/Spring Boot/Data/Hibernate & JPA/实体类常用注解的分类和解析.md",
-    "Java/Spring/Spring Boot/Data/Hibernate & JPA/关系映射和多表查询.md",
     "Java/Spring/Spring Boot/Book Social Network/img/DM_20250629153632_001.png",
     "Java/Spring/Spring Boot/Book Social Network/img/security diagram.png",
-    "Java/Spring/Spring Boot/多配置文件（Profile）机制.md",
-    "Docker/Docker Compose.md",
     "Java/Spring/Spring Boot/Book Social Network/img/Class diagram.png",
     "Java/Spring/Spring Boot/Book Social Network/img/Backend pipeline.png",
-    "Java/Spring/Spring Boot/Book Social Network/img",
-    "Java/Spring/Spring Boot/File Upload and Download/单文件上传与下载.md",
-    "Java/Spring/Spring Boot/Book Social Network",
-    "Java/算法",
-    "Java/算法/练习",
-    "Java/基础/线程/Java 并发.pdf",
-    "Java/基础/IO流/Java IO.pdf",
-    "Java/基础/IO流/IO流.pdf",
     "Java/Java 编译与运行环境/img/jvm_memory_structure.svg",
     "Java/Java 编译与运行环境/img/JVM.drawio.png",
-    "Java/Java 编译与运行环境/img",
     "Java/Spring/Spring Boot/Security/image/2025-06-09_15-10-54.png",
     "Java/Spring/Spring Boot/Security/image/2025-06-08_10-36-14.png",
     "Java/Spring/Spring Boot/Security/image/2025-06-08_10-25-54.png",

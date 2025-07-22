@@ -1,0 +1,1 @@
+https://www.npmjs.com/package/@openapitools/openapi-generator-cli

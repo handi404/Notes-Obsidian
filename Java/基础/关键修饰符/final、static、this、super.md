@@ -1,346 +1,321 @@
-<!-- MarkdownTOC -->
+这四个关键字是 Java 的基石，理解它们的本质与区别，是写出高质量代码的第一步。
 
-- [final,static,this,super 关键字总结](#finalstaticthissuper-关键字总结)
-  - [final 关键字](#final-关键字)
-  - [static 关键字](#static-关键字)
-  - [this 关键字](#this-关键字)
-  - [super 关键字](#super-关键字)
-  - [参考](#参考)
-- [static 关键字详解](#static-关键字详解)
-  - [static 关键字主要有以下四种使用场景](#static-关键字主要有以下四种使用场景)
-    - [修饰成员变量和成员方法\(常用\)](#修饰成员变量和成员方法常用)
-    - [静态代码块](#静态代码块)
-    - [静态内部类](#静态内部类)
-    - [静态导包](#静态导包)
-  - [补充内容](#补充内容)
-    - [静态方法与非静态方法](#静态方法与非静态方法)
-    - [static{}静态代码块与{}非静态代码块\(构造代码块\)](#static静态代码块与非静态代码块构造代码块)
-    - [参考](#参考-1)
+---
 
-<!-- /MarkdownTOC -->
+### 总结概览
 
-# final,static,this,super 关键字总结
+在深入之前，先用一句话概括它们的核心身份：
 
-## final 关键字
+*   `final`：**“终结者”**。用来修饰你**不希望被改变**的东西。
+*   `static`：**“团队资产”**。属于类本身，而非某个具体对象，所有对象共享。
+*   `this`：**“我”**。指向当前对象自身的引用。
+*   `super`：**“我的父辈”**。指向当前对象的直接父类部分的引用。
 
-**final关键字主要用在三个地方：变量、方法、类。**
+接下来，我们逐一拆解。
 
-1. **对于一个final变量，如果是基本数据类型的变量，则其数值一旦在初始化之后便不能更改；如果是引用类型的变量，则在对其初始化之后便不能再让其指向另一个对象。**
+---
 
-2. **当用final修饰一个类时，表明这个类不能被继承。final类中的所有成员方法都会被隐式地指定为final方法。**
+### 一、 `final`：最终、不可变
 
-3. 使用final方法的原因有两个。第一个原因是把方法锁定，以防任何继承类修改它的含义；第二个原因是效率。在早期的Java实现版本中，会将final方法转为内嵌调用。但是如果方法过于庞大，可能看不到内嵌调用带来的任何性能提升（现在的Java版本已经不需要使用final方法进行这些优化了）。类中所有的private方法都隐式地指定为final。
+`final` 关键字的核心思想是**“一次赋值，终身不变”**。它提供了不变性的保证，是编写安全、可预测代码的重要工具。
 
-## static 关键字
+#### 1. 核心概念 (What)
 
-**static 关键字主要有以下四种使用场景：**
+`final` 意味着“最终的”。一旦被它修饰，就不能再被修改或继承。
 
-1. **修饰成员变量和成员方法:** 被 static 修饰的成员属于类，不属于单个这个类的某个对象，被类中所有对象共享，可以并且建议通过类名调用。被static 声明的成员变量属于静态成员变量，静态变量 存放在 Java 内存区域的方法区。调用格式：`类名.静态变量名`    `类名.静态方法名()`
-2. **静态代码块:** 静态代码块定义在类中方法外, 静态代码块在非静态代码块之前执行(静态代码块—>非静态代码块—>构造方法)。 该类不管创建多少对象，静态代码块只执行一次.
-3. **静态内部类（static修饰类的话只能修饰内部类）：** 静态内部类与非静态内部类之间存在一个最大的区别: 非静态内部类在编译完成之后会隐含地保存着一个引用，该引用是指向创建它的外围类，但是静态内部类却没有。没有这个引用就意味着：1. 它的创建是不需要依赖外围类的创建。2. 它不能使用任何外围类的非static成员变量和方法。
-4. **静态导包(用来导入类中的静态资源，1.5之后的新特性):** 格式为：`import static` 这两个关键字连用可以指定导入某个类中的指定静态资源，并且不需要使用类名调用类中静态成员，可以直接使用类中静态成员变量和成员方法。
+#### 2. 设计初衷 (Why)
 
-## this 关键字
+*   **安全性 (Safety):** 防止核心类或方法被意外修改，保证程序的稳定。例如，`String` 类就是 `final` 的，任何人都不能继承它来破坏其“不可变”的特性。
+*   **不变性 (Immutability):** 创建不可变对象，这在并发编程中至关重要，因为不可变对象天生就是线程安全的。
+*   **清晰性 (Clarity):** 向其他开发者表明，这个变量、方法或类是设计为不被改变的。
 
-this关键字用于引用类的当前实例。 例如：
+#### 3. 现代用法 (How)
 
-```java
-class Manager {
-    Employees[] employees;
-     
-    void manageEmployees() {
-        int totalEmp = this.employees.length;
-        System.out.println("Total employees: " + totalEmp);
-        this.report();
-    }
-     
-    void report() { }
-}
-```
+`final` 可以修饰类、方法和变量，每种都有其特定含义。
 
-在上面的示例中，this关键字用于两个地方：
+**a) 修饰类：`public final class MyFinalClass { ... }`**
 
-- this.employees.length：访问类Manager的当前实例的变量。
-- this.report（）：调用类Manager的当前实例的方法。
+*   **含义：** 这个类不能被任何其他类继承。
+*   **示例：** `java.lang.String`, `java.lang.Integer` 等包装类。
+*   **现代视角：** 在 Java 17+ 中，如果你想更精细地控制继承（比如，只允许某些指定的类继承），应该优先考虑使用 **`sealed` (密封类)**。`final` 是“一刀切”禁止所有继承，而 `sealed` 则是“白名单”式的有限继承。
 
-此关键字是可选的，这意味着如果上面的示例在不使用此关键字的情况下表现相同。 但是，使用此关键字可能会使代码更易读或易懂。
+**b) 修饰方法：`public final void myFinalMethod() { ... }`**
 
+*   **含义：** 这个方法不能被子类重写 (Override)。
+*   **示例：** 当你希望一个模板方法的核心流程不被子类篡改时。
+*   **注意：** `private` 方法是隐式 `final` 的，因为子类根本访问不到，自然也谈不上重写。
 
+**c) 修饰变量：这是最常见、最重要的用法**
 
-## super 关键字
+*   **修饰成员变量 (Instance Field):**
+    *   **含义：** 该变量必须在对象构建时被初始化，且之后不能再被修改。初始化时机有三个：
+        1.  声明时：`private final String name = "default";`
+        2.  构造器中：`public User(String name) { this.name = name; }`
+        3.  实例初始化块中：`{ this.id = generateId(); }`
+    *   **应用：** 这是构建**不可变对象**的基础。
 
-super关键字用于从子类访问父类的变量和方法。 例如：
+    ```java
+    // 现代Java中，推荐使用Record来快速创建不可变类
+    // 下面的Record等价于一个拥有final字段和getter的final类
+    public record User(String name, int age) {}
+    ```
 
-```java
-public class Super {
-    protected int number;
-     
-    protected showNumber() {
-        System.out.println("number = " + number);
-    }
-}
- 
-public class Sub extends Super {
-    void bar() {
-        super.number = 10;
-        super.showNumber();
-    }
-}
-```
+*   **修饰局部变量:**
+    *   **含义：** 该变量只能被赋值一次。
+    *   **示例：** `final double PI = 3.14;`
+    *   **关键应用 (Lambda 表达式):** 在 Lambda 表达式或匿名内部类中，如果要访问外部的局部变量，该变量必须是 `final` 或**事实上的 `final`** (Effectively Final)。
+        *   **事实上的 `final`：** 指一个变量虽然没有被 `final` 修饰，但在初始化后从未被修改过。编译器会自动把它当做 `final` 对待。
 
-在上面的例子中，Sub 类访问父类成员变量 number 并调用其其父类 Super 的 `showNumber（）` 方法。
-
-**使用 this 和 super 要注意的问题：**
-
-- 在构造器中使用 `super（）` 调用父类中的其他构造方法时，该语句必须处于构造器的首行，否则编译器会报错。另外，this 调用本类中的其他构造方法时，也要放在首行。
-- this、super不能用在static方法中。
-
-**简单解释一下：**
-
-被 static 修饰的成员属于类，不属于单个这个类的某个对象，被类中所有对象共享。而 this 代表对本类对象的引用，指向本类对象；而 super 代表对父类对象的引用，指向父类对象；所以， **this和super是属于对象范畴的东西，而静态方法是属于类范畴的东西**。
-
-## 参考
-
-- https://www.codejava.net/java-core/the-java-language/java-keywords
-- https://blog.csdn.net/u013393958/article/details/79881037
-
-# static 关键字详解
-
-## static 关键字主要有以下四种使用场景
-
-1. 修饰成员变量和成员方法
-2. 静态代码块
-3. 修饰类(只能修饰内部类)
-4. 静态导包(用来导入类中的静态资源，1.5之后的新特性)
-
-### 修饰成员变量和成员方法(常用)
-
-被 static 修饰的成员属于类，不属于单个这个类的某个对象，被类中所有对象共享，可以并且建议通过类名调用。被static 声明的成员变量属于静态成员变量，静态变量 存放在 Java 内存区域的方法区。
-
-方法区与 Java 堆一样，是各个线程共享的内存区域，它用于存储已被虚拟机加载的类信息、常量、静态变量、即时编译器编译后的代码等数据。虽然Java虚拟机规范把方法区描述为堆的一个逻辑部分，但是它却有一个别名叫做 Non-Heap（非堆），目的应该是与 Java 堆区分开来。
-
- HotSpot 虚拟机中方法区也常被称为 “永久代”，本质上两者并不等价。仅仅是因为 HotSpot 虚拟机设计团队用永久代来实现方法区而已，这样 HotSpot 虚拟机的垃圾收集器就可以像管理 Java 堆一样管理这部分内存了。但是这并不是一个好主意，因为这样更容易遇到内存溢出问题。
-
-
-
-调用格式：
-
-- 类名.静态变量名
-- 类名.静态方法名()
-
-如果变量或者方法被 private 则代表该属性或者该方法只能在类的内部被访问而不能在类的外部被访问。
-
-测试方法：
-
-```java
-public class StaticBean {
-
-    String name;
-    静态变量
-    static int age;
-
-    public StaticBean(String name) {
-        this.name = name;
-    }
-    静态方法
-    static void SayHello() {
-        System.out.println(Hello i am java);
-    }
-    @Override
-    public String toString() {
-        return StaticBean{ +
-                name=' + name + ''' + age + age +
-                '}';
-    }
-}
-```
-
-```java
-public class StaticDemo {
-
-    public static void main(String[] args) {
-        StaticBean staticBean = new StaticBean(1);
-        StaticBean staticBean2 = new StaticBean(2);
-        StaticBean staticBean3 = new StaticBean(3);
-        StaticBean staticBean4 = new StaticBean(4);
-        StaticBean.age = 33;
-        StaticBean{name='1'age33} StaticBean{name='2'age33} StaticBean{name='3'age33} StaticBean{name='4'age33}
-        System.out.println(staticBean+ +staticBean2+ +staticBean3+ +staticBean4);
-        StaticBean.SayHello();Hello i am java
-    }
-
-}
-```
-
-
-### 静态代码块
-
-静态代码块定义在类中方法外, 静态代码块在非静态代码块之前执行(静态代码块—非静态代码块—构造方法)。 该类不管创建多少对象，静态代码块只执行一次.
-
-静态代码块的格式是 
-
-```
-static {    
-语句体;   
-}
-```
-
-
-一个类中的静态代码块可以有多个，位置可以随便放，它不在任何的方法体内，JVM加载类时会执行这些静态的代码块，如果静态代码块有多个，JVM将按照它们在类中出现的先后顺序依次执行它们，每个代码块只会被执行一次。
-
-![](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-14/88531075.jpg)
-
-静态代码块对于定义在它之后的静态变量，可以赋值，但是不能访问.
-
-
-### 静态内部类
-
-静态内部类与非静态内部类之间存在一个最大的区别，我们知道非静态内部类在编译完成之后会隐含地保存着一个引用，该引用是指向创建它的外围类，但是静态内部类却没有。没有这个引用就意味着：
-
-1.  它的创建是不需要依赖外围类的创建。
-2.  它不能使用任何外围类的非static成员变量和方法。
-
-
-Example（静态内部类实现单例模式）
-
-```java
-public class Singleton {
-    
-    声明为 private 避免调用默认构造方法创建对象
-    private Singleton() {
-    }
-    
-    声明为 private 表明静态内部该类只能在该 Singleton 类中被访问
-    private static class SingletonHolder {
-        private static final Singleton INSTANCE = new Singleton();
-    }
-
-    public static Singleton getUniqueInstance() {
-        return SingletonHolder.INSTANCE;
-    }
-}
-```
-
-当 Singleton 类加载时，静态内部类 SingletonHolder 没有被加载进内存。只有当调用 `getUniqueInstance() `方法从而触发 `SingletonHolder.INSTANCE` 时 SingletonHolder 才会被加载，此时初始化 INSTANCE 实例，并且 JVM 能确保 INSTANCE 只被实例化一次。
-
-这种方式不仅具有延迟初始化的好处，而且由 JVM 提供了对线程安全的支持。
-
-### 静态导包
-
-格式为：import static 
-
-这两个关键字连用可以指定导入某个类中的指定静态资源，并且不需要使用类名调用类中静态成员，可以直接使用类中静态成员变量和成员方法
-
-```java
-
-
-  Math. --- 将Math中的所有静态资源导入，这时候可以直接使用里面的静态方法，而不用通过类名进行调用
-  如果只想导入单一某个静态方法，只需要将换成对应的方法名即可
- 
-import static java.lang.Math.;
-
-  换成import static java.lang.Math.max;具有一样的效果
- 
-public class Demo {
-  public static void main(String[] args) {
- 
-    int max = max(1,2);
-    System.out.println(max);
-  }
-}
-
-```
-
-
-##  补充内容
-
-### 静态方法与非静态方法
-
-静态方法属于类本身，非静态方法属于从该类生成的每个对象。 如果您的方法执行的操作不依赖于其类的各个变量和方法，请将其设置为静态（这将使程序的占用空间更小）。 否则，它应该是非静态的。
-
-Example
-
-```java
-class Foo {
-    int i;
-    public Foo(int i) { 
-       this.i = i;
-    }
-
-    public static String method1() {
-       return An example string that doesn't depend on i (an instance variable);
-       
-    }
-
-    public int method2() {
-       return this.i + 1;  Depends on i
-    }
-
-}
-```
-你可以像这样调用静态方法：`Foo.method1（）`。 如果您尝试使用这种方法调用 method2 将失败。 但这样可行：`Foo bar = new Foo（1）;bar.method2（）;`
-
-总结：
-
-- 在外部调用静态方法时，可以使用”类名.方法名”的方式，也可以使用”对象名.方法名”的方式。而实例方法只有后面这种方式。也就是说，调用静态方法可以无需创建对象。 
-- 静态方法在访问本类的成员时，只允许访问静态成员（即静态成员变量和静态方法），而不允许访问实例成员变量和实例方法；实例方法则无此限制 
-
-### static{}静态代码块与{}非静态代码块(构造代码块)
-
-相同点： 都是在JVM加载类时且在构造方法执行之前执行，在类中都可以定义多个，定义多个时按定义的顺序执行，一般在代码块中对一些static变量进行赋值。 
-
-不同点： 静态代码块在非静态代码块之前执行(静态代码块—非静态代码块—构造方法)。静态代码块只在第一次new执行一次，之后不再执行，而非静态代码块在每new一次就执行一次。 非静态代码块可在普通方法中定义(不过作用不大)；而静态代码块不行。 
-
-一般情况下,如果有些代码比如一些项目最常用的变量或对象必须在项目启动的时候就执行的时候,需要使用静态代码块,这种代码是主动执行的。如果我们想要设计不需要创建对象就可以调用类中的方法，例如：Arrays类，Character类，String类等，就需要使用静态方法, 两者的区别是 静态代码块是自动执行的而静态方法是被调用的时候才执行的. 
-
-Example
-
-```java
-public class Test {
-    public Test() {
-        System.out.print(默认构造方法！--);
-    }
-
-     非静态代码块
-    {
-        System.out.print(非静态代码块！--);
-    }
-     静态代码块
-    static {
-        System.out.print(静态代码块！--);
-    }
-
-    public static void test() {
-        System.out.print(静态方法中的内容! --);
-        {
-            System.out.print(静态方法中的代码块！--);
+        ```java
+        void processItems(List<String> items) {
+            String prefix = "Item: "; // 这是事实上的 final
+            // prefix = "New: "; // 如果加上这行，下面Lambda会编译失败
+            items.forEach(item -> System.out.println(prefix + item)); // OK
         }
+        ```
 
+*   **修饰方法参数:**
+    *   **含义：** 在方法体内，不能重新给这个参数赋值。
+    *   **示例：** `void printUser(final User user) { /* user = new User(); // 编译错误 */ }`
+    *   **价值：** 主要用于防止在复杂的长方法中意外修改参数引用，提升代码可读性和健壮性。
+
+#### 4. 扩展与应用
+
+*   **`final` 与性能：** 过去有种说法是 `final` 方法可以被内联优化。在现代 JVM 中，JIT (即时编译器) 足够智能，会自动进行内联等优化，`final` 对性能的影响微乎其微。**使用 `final` 的首要原因应该是设计和安全，而非性能。**
+*   **`final` 与不可变性：** 注意，`final` 修饰引用类型变量，只是保证**引用本身**不被改变，但引用指向的**对象内容**是否可变，取决于该对象的类。
+    ```java
+    final List<String> list = new ArrayList<>();
+    // list = new LinkedList<>(); // 错误：不能改变引用
+    list.add("Hello");           // 正确：可以修改list对象内部的状态
+    ```
+    要实现真正的不可变集合，应使用 `List.of()` (Java 9+)。
+
+---
+
+### 二、 `static`：类级别、共享
+
+`static` 关键字的核心思想是 **“独立于对象，属于类”**。
+
+#### 1. 核心概念 (What)
+
+被 `static` 修饰的成员（变量或方法）不属于任何一个独立的对象实例，而是属于整个类。它在内存中只有一份，被所有对象共享。
+
+#### 2. 设计初衷 (Why)
+
+*   **共享数据：** 在所有对象实例间共享一个变量，如计数器、常量池。
+*   **工具方法：** 提供一些无需创建对象就能使用的功能方法，如 `Math.random()`。
+
+#### 3. 现代用法 (How)
+
+**a) 静态变量 (Static Field):**
+
+*   **含义：** 类的所有实例共享这一个变量。
+*   **生命周期：** 在类被加载到 JVM 时初始化，直到程序结束才被销毁。
+*   **最佳实践：** `static` 变量最好与 `final` 结合使用，定义为**类常量**。可变的 `static` 变量（全局状态）会增加代码的复杂性和耦合度，是并发问题的根源，应极力避免。
+
+    ```java
+    public class Constants {
+        // 绝佳实践: 定义一个不会改变的共享常量
+        public static final String DEFAULT_GREETING = "Hello, World!";
+        
+        // 危险实践: 可变的全局状态，应避免
+        public static int mutableCounter = 0; 
     }
-    public static void main(String[] args) {
+    ```
 
-        Test test = new Test();   
-        Test.test();静态代码块！--静态方法中的内容! --静态方法中的代码块！--
+**b) 静态方法 (Static Method):**
+
+*   **含义：** 可以直接通过 `类名.方法名()` 调用，无需创建对象。
+*   **限制：** 静态方法内部**不能使用 `this` 或 `super`**，也**不能直接访问非静态**的成员变量和方法，因为它不与任何特定对象绑定。
+*   **应用：**
+    *   **工具类：** `java.util.Collections`, `java.lang.Math`。
+    *   **工厂方法：** 一种替代构造器的对象创建方式，更具表达力。
+
+    ```java
+    // 工厂方法示例
+    public class User {
+        // ...
+        public static User createGuest() {
+            return new User("Guest", 0);
+        }
     }
-```
+    // 使用
+    User guest = User.createGuest();
+    ```
 
-当执行 `Test.test();` 时输出：
+**c) 静态代码块 (Static Initializer Block):**
 
-```
-静态代码块！--静态方法中的内容! --静态方法中的代码块！--
-```
+*   **含义：** `static { ... }`，在类首次加载时执行一次，用于复杂的静态变量初始化。
+*   **示例：**
+    ```java
+    class Config {
+        private static final Properties props = new Properties();
+        static {
+            try {
+                // 从文件中加载配置，只执行一次
+                props.load(new FileInputStream("config.properties"));
+            } catch (IOException e) {
+                // 处理异常
+            }
+        }
+    }
+    ```
 
-当执行 `Test test = new Test();` 时输出：
+**d) 静态内部类 (Static Nested Class):**
 
-```
-静态代码块！--非静态代码块！--默认构造方法！--
-```
+*   **含义：** 一个被 `static` 修饰的内部类。它不持有外部类实例的引用，可以独立存在。
+*   **与非静态内部类的区别：**
+    *   **静态内部类：** `new OuterClass.StaticNestedClass()`
+    *   **非静态内部类：** `new OuterClass().new InnerClass()` (需要外部类实例)
+*   **应用：**
+    *   **构建器 (Builder Pattern):** `User.Builder` 是一个典型的静态内部类。
+    *   **逻辑分组：** 将只与外部类相关的辅助类组织在一起，如 `Map.Entry`。
 
+#### 4. 扩展与应用
 
-非静态代码块与构造函数的区别是： 非静态代码块是给所有对象进行统一初始化，而构造函数是给对应的对象初始化，因为构造函数是可以多个的，运行哪个构造函数就会建立什么样的对象，但无论建立哪个对象，都会先执行相同的构造代码块。也就是说，构造代码块中定义的是不同对象共性的初始化内容。 
+*   **`static import`：**
+    *   `import static java.lang.Math.PI;`
+    *   `import static java.util.stream.Collectors.*;`
+    *   可以直接使用 `PI` 和 `toList()`，而无需写 `Math.PI` 或 `Collectors.toList()`。这在大量使用某个类的静态成员时能让代码更简洁，尤其是在使用 Stream API 或断言库（如 AssertJ）时。
+*   **单例模式 (Singleton):** `static` 是实现单例模式的基础，但传统的懒汉/饿汉模式已不推荐。现代Java中实现单例的最佳方式是使用 **`enum`**。
+    ```java
+    public enum Singleton {
+        INSTANCE; // JVM保证INSTANCE只被实例化一次，且线程安全
+        
+        public void doSomething() { ... }
+    }
+    ```
 
-### 参考
+---
 
-- httpsblog.csdn.netchen13579867831articledetails78995480
-- httpwww.cnblogs.comchenssyp3388487.html
-- httpwww.cnblogs.comQian123p5713440.html
+### 三、 `this`：我，当前对象
+
+#### 1. 核心概念 (What)
+
+`this` 是一个关键字，也是一个引用，它指向**方法或构造器被调用时**的那个对象实例。
+
+#### 2. 设计初衷 (Why)
+
+*   **消除歧义：** 当成员变量和局部变量（或方法参数）同名时，用 `this` 来明确指定“我要的是成员变量”。
+*   **自我引用：** 让对象能够将自身的引用传递给其他方法。
+*   **构造器重用：** 在一个构造器中调用另一个构造器，避免代码重复。
+
+#### 3. 现代用法 (How)
+
+**a) 调用成员变量：`this.fieldName`**
+
+*   这是最常见的用法，尤其是在构造器和 Setter 方法中。
+    ```java
+    public class Person {
+        private String name;
+        public Person(String name) {
+            this.name = name; // this.name是成员变量，name是参数
+        }
+    }
+    ```
+
+**b) 调用成员方法：`this.methodName()`**
+
+*   通常 `this` 是可以省略的，`methodName()` 和 `this.methodName()` 效果一样。
+*   但在某些特殊场景下必须使用，比如在 Lambda 表达式中需要明确引用外部类的方法时。
+
+**c) 调用构造器：`this(...)`**
+
+*   **规则：** `this(...)` 必须是构造器中的**第一行代码**。
+*   **作用：** 实现构造器之间的“委托”或“链式调用”。
+
+    ```java
+    public class Rectangle {
+        private int width, height;
+
+        public Rectangle(int width, int height) {
+            this.width = width;
+            this.height = height;
+        }
+        
+        // 创建一个正方形，通过 this() 调用上面的构造器
+        public Rectangle(int side) {
+            this(side, side); // 必须是第一行
+        }
+    }
+    ```
+
+#### 4. 扩展与应用
+
+*   **Builder 模式中的流式API：** 通过在每个设置方法中返回 `this`，可以实现链式调用。
+    ```java
+    public class CarBuilder {
+        private String color;
+        public CarBuilder withColor(String color) {
+            this.color = color;
+            return this; // 返回当前 builder 对象
+        }
+    }
+    // new CarBuilder().withColor("Red").withWheels(4).build();
+    ```
+*   **`this` 在 Lambda 中：** Lambda 表达式没有自己的 `this` 上下文。Lambda 中的 `this` 指的是**其外层类的实例**。这与匿名内部类不同，匿名内部类的 `this` 指向的是匿名类自身。
+
+---
+
+### 四、 `super`：我的父类
+
+#### 1. 核心概念 (What)
+
+`super` 关键字用于从子类中访问其**直接父类**的成员（方法、变量）和构造器。
+
+#### 2. 设计初衷 (Why)
+
+*   **重用父类逻辑：** 当子类重写了父类的方法，但又想在重写的方法中执行父类的原始逻辑时。
+*   **初始化父类：** 子类对象在创建时，必须先初始化其父类部分。`super()` 就是用来完成这个任务的。
+
+#### 3. 现代用法 (How)
+
+**a) 调用父类构造器：`super(...)`**
+
+*   **规则：**
+    1.  `super(...)` 必须是子类构造器中的**第一行代码**。
+    2.  `this(...)` 和 `super(...)` 不能同时存在。
+    3.  如果子类构造器没有显式调用 `super(...)` 或 `this(...)`，编译器会自动插入一个无参的 `super()` 调用。如果父类没有无参构造器，则会编译失败。
+*   **示例：**
+    ```java
+    class Vehicle {
+        Vehicle(int wheels) { /* ... */ }
+    }
+
+    class Car extends Vehicle {
+        Car() {
+            super(4); // 必须显式调用父类的有参构造器
+        }
+    }
+    ```
+
+**b) 调用父类方法：`super.methodName()`**
+
+*   **作用：** 在子类中调用被重写的父类版本的方法。
+    ```java
+    class Animal {
+        void makeSound() {
+            System.out.println("Some sound");
+        }
+    }
+
+    class Dog extends Animal {
+        @Override
+        void makeSound() {
+            super.makeSound(); // 先执行父类的逻辑
+            System.out.println("Woof woof"); // 再添加子类的逻辑
+        }
+    }
+    ```
+
+**c) 调用父类成员变量：`super.fieldName`**
+
+*   **作用：** 当子类和父类有同名变量（称为“字段隐藏”或“遮蔽”）时，用 `super` 来访问父类的变量。
+*   **强烈不推荐：** 字段隐藏是糟糕的设计，它会造成极大的困惑。父类的字段应该设为 `private`，通过 `protected` 或 `public` 的 getter/setter 方法来访问，从而避免这种情况。
+
+#### 4. 扩展与应用
+
+*   **抽象类与 `super`：** 在继承抽象类时，`super` 的使用非常频繁，无论是调用构造器还是调用抽象类中已实现的非抽象方法。
+*   **`super` 与泛型：** 在泛型中，`super` 也用于下界通配符 `<? super T>`，表示这个类型参数必须是 `T` 或 `T` 的父类。这与关键字 `super` 的“父类”概念一脉相承。
+
+---
