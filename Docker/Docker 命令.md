@@ -6,7 +6,7 @@
 
 这些命令直接通过 `docker` 可执行文件来操作 Docker 引擎。
 
-**1. 镜像管理 (Image Management)**
+#### **1. 镜像管理 (Image Management)**
 
 *   `docker build [OPTIONS] PATH | URL | -`
     *   **作用:** 从 Dockerfile 构建镜像。
@@ -39,7 +39,7 @@
         *   `-a, --all`: 删除所有未被任何容器使用的镜像 (不仅仅是悬空的)。
         *   `-f, --force`: 无需确认直接删除。
 
-**2. 容器生命周期管理 (Container Lifecycle)**
+#### **2. 容器生命周期管理 (Container Lifecycle)**
 
 *   `docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`
     *   **作用:** 基于指定镜像创建一个**新**容器并**启动**它。这是最核心、选项最多的命令之一。
@@ -81,7 +81,7 @@
     *   **常用选项:**
         *   `-f, --force`: 无需确认直接删除。
 
-**3. 容器交互与检查 (Container Interaction & Inspection)**
+#### **3. 容器交互与检查 (Container Interaction & Inspection)**
 
 *   `docker exec [OPTIONS] <container_id_or_name> <command>`
     *   **作用:** 在**正在运行**的容器内部执行命令。
@@ -99,7 +99,7 @@
 *   `docker cp <container>:<src_path> <host_dest_path>` 或 `docker cp <host_src_path> <container>:<dest_path>`
     *   **作用:** 在主机和容器之间复制文件/目录。
 
-**4. 网络管理 (Network Management)**
+#### **4. 网络管理 (Network Management)**
 
 *   `docker network ls`
     *   **作用:** 列出 Docker 网络。
@@ -121,7 +121,7 @@
     *   **常用选项:**
         *   `-f, --force`: 无需确认直接删除。
 
-**5. 数据卷管理 (Volume Management)**
+#### **5. 数据卷管理 (Volume Management)**
 
 *   `docker volume ls`
     *   **作用:** 列出 Docker 数据卷 (主要是命名卷)。
@@ -138,7 +138,7 @@
     *   **常用选项:**
         *   `-f, --force`: 无需确认直接删除。
 
-**6. 系统管理与清理 (System Management & Cleanup)**
+#### **6. 系统管理与清理 (System Management & Cleanup)**
 
 *   `docker info`
     *   **作用:** 显示 Docker 系统范围的信息 (版本、存储驱动、镜像/容器数量等)。

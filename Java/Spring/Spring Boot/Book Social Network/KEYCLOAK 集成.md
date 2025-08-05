@@ -738,16 +738,16 @@ Required actions 意味着用户在创建个人资料后需要执行的操作。
 你只是在本地或 Dev 环境中尝试或测试一些东西，并且你想将这些更改复制到另一个环境。
 例如，本地使用 Keycloak，然后你决定好的，这就是我想要的配置，我现在想要复制或将这个配置从一个环境带到另一个环境。
 
-docker ps
-docker exec -it `[keycloak 的 id]` /bin/sh
-pwd
+`docker ps`
+`docker exec -it [keycloak 的 id] /bin/sh`
 ls -l 找到 opt，keycloak 位于 opt 中。
+`cd opt`
 ls -l
-cd keycloak
+`cd keycloak`
 ls -l
-cd bin/
+`cd bin/`
 ls -l
-./kc.sh export --file book-social-network --realm book-social-network
+`./kc.sh export --file book-social-network --realm book-social-network`
 将 book-social-network 领域配置导出到 book-social-network 文件夹中。
 ls -l 可看到 book-social-network
 接下来复制到本机。
