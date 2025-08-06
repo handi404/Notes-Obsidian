@@ -750,5 +750,6 @@ ls -l
 `./kc.sh export --file book-social-network --realm book-social-network`
 将 book-social-network 领域配置导出到 book-social-network 文件夹中。
 ls -l 可看到 book-social-network
-接下来复制到本机。
-docker cp `[keycloak 的 id]`:opt/keycloak/bin/book-social-network ./keycloak/realm
+
+接下来复制到本机: 
+`docker cp [keycloak 的 id]:opt/keycloak/bin/book-social-network ./keycloak/realm`
