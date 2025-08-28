@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "892d99551200a212",
+        "id": "b0e0cc4e14f6035c",
         "type": "tabs",
         "children": [
           {
-            "id": "96c239c0134e5e9c",
+            "id": "26babe5cd9b64238",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript、TypeScript/TypeScript/Vue/双向数据绑定：defineModel.md",
+                "file": "JavaScript、TypeScript/JavaScript/ES2025年新增特性/JS 将原生支持“模式匹配”.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "双向数据绑定：defineModel"
-            }
-          },
-          {
-            "id": "d469323425c722fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Spring/Spring Boot/Book Social Network/未命名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
+              "title": "JS 将原生支持“模式匹配”"
             }
           }
         ],
@@ -142,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript、TypeScript/TypeScript/Vue/双向数据绑定：defineModel.md",
+                "file": "JavaScript、TypeScript/JavaScript/ES2025年新增特性/JS 将原生支持“模式匹配”.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "双向数据绑定：defineModel 的大纲"
+              "title": "JS 将原生支持“模式匹配” 的大纲"
             }
           },
           {
@@ -192,36 +178,45 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "96c239c0134e5e9c",
+  "active": "26babe5cd9b64238",
   "lastOpenFiles": [
-    "JavaScript、TypeScript/TypeScript/Vue/双向数据绑定：props + emit.md",
-    "JavaScript、TypeScript/TypeScript/Vue/学习路线图.md",
-    "JavaScript、TypeScript/TypeScript/Vue/双向数据绑定：defineModel.md",
-    "JavaScript、TypeScript/TypeScript/基础/未命名.md",
-    "Git/主要/核心术语.md",
-    "Git/主要/分支命名规范.md",
-    "Git/主要/(1)基础.md",
-    "Git/git 重新配置远程仓库.md",
-    "Git/name.md",
-    "Git/gitignore 匹配规则.md",
-    "Git/代码状态回退.md",
-    "Git/主要/(2)高级/HEAD、分离 HEAD.md",
-    "Git/主要/(2)高级/在提交树上移动.md",
-    "Java/Spring/Spring Boot/Book Social Network/CI CD 管道和部署.md",
-    "Git/主要/(5)高级话题/多次 Rebase.md",
-    "Git/主要/(3)移动提交记录/整理提交记录.md",
-    "Git/主要/(4)杂项/git tag.md",
-    "Git/主要/(5)高级话题/纠缠不清的分支.md",
-    "Git/主要/(3)移动提交记录/交互式的 rebase.md",
-    "Git/主要/(4)杂项/本地栈式提交.md",
-    "Java/Spring/Spring Boot/Book Social Network/前端.md",
-    "Java/Spring/Spring Boot/Book Social Network/实现不同的功能.md",
-    "Java/Spring/Spring Boot/OpenAPI/OpenAPI 的配置使用.md",
-    "Java/Spring/Spring Boot/Book Social Network/未命名.md",
-    "Git/主要/(2)高级/撤销变更.md",
-    "Java/Spring/Spring Boot/Book Social Network/项目开始.md",
+    "JavaScript、TypeScript/TypeScript/Promise.md",
+    "JavaScript、TypeScript/JavaScript/Arrays && 集合/map，filter，reduce方法.md",
+    "JavaScript、TypeScript/JavaScript/测试与调试/术语.md",
+    "JavaScript、TypeScript/JavaScript/错误处理/基础到高级的错误处理机制.md",
+    "JavaScript、TypeScript/JavaScript/File Upload and Download/前端文件上传：从简单到高级.md",
+    "JavaScript、TypeScript/JavaScript/错误处理/术语.md",
+    "JavaScript、TypeScript/JavaScript/Arrays && 集合/Set 和 Map集合.md",
+    "JavaScript、TypeScript/JavaScript/Arrays && 集合/SORTING 排序.md",
+    "JavaScript、TypeScript/JavaScript/ES2025年新增特性/术语.md",
+    "JavaScript、TypeScript/JavaScript/Promise 与异步/async 函数的返回值到底是什么.md",
+    "JavaScript、TypeScript/JavaScript/Promise 与异步/Promise 对象的静态方法.md",
+    "JavaScript、TypeScript/JavaScript/Promise 与异步/术语.md",
+    "JavaScript、TypeScript/JavaScript/Promise 与异步/Promise 和 async_await.md",
+    "JavaScript、TypeScript/JavaScript/Promise 与异步/同步异步/异步 JavaScript 代码.md",
+    "JavaScript、TypeScript/JavaScript/Promise 与同异步/同步异步/Async异步_Await等待.md",
+    "JavaScript、TypeScript/JavaScript/Promise 与同异步/同步异步/Promise.md",
+    "JavaScript、TypeScript/JavaScript/Promise 与异步/同步异步/Callback Hell.md",
+    "JavaScript、TypeScript/JavaScript/Promise 与异步/同步异步/callback.md",
+    "JavaScript、TypeScript/JavaScript/ES6+ 新特性/术语.md",
+    "JavaScript、TypeScript/JavaScript/ES6+ 新特性/扩展运算符.md",
+    "JavaScript、TypeScript/JavaScript/ES6+ 新特性/ES5 时代的产物：那些应该被淘汰的 JavaScript 老写法.md",
+    "JavaScript、TypeScript/JavaScript/ES6+ 新特性/ES6 模块.md",
+    "JavaScript、TypeScript/JavaScript/ES6+ 新特性/模块与导入/模块化开发.md",
+    "JavaScript、TypeScript/JavaScript/ES6+ 新特性/模块与导入/禁止使用 export default.md",
+    "JavaScript、TypeScript/JavaScript/ES6+ 新特性/模块与导入/导入和导出合并.md",
+    "JavaScript、TypeScript/JavaScript/100多个JavaScript术语（附示例）.md",
+    "JavaScript、TypeScript/JavaScript/File Upload and Download",
+    "JavaScript、TypeScript/TypeScript/高级类型",
+    "JavaScript、TypeScript/TypeScript/新建文件夹",
+    "JavaScript、TypeScript/JavaScript/ES6+ 新特性/模块与导入",
+    "JavaScript、TypeScript/JavaScript/错误处理",
+    "JavaScript、TypeScript/JavaScript/ES2025年新增特性",
+    "JavaScript、TypeScript/JavaScript/测试与调试",
+    "JavaScript、TypeScript/JavaScript/性能与优化",
+    "JavaScript、TypeScript/JavaScript/浏览器 API",
+    "JavaScript、TypeScript/JavaScript/Promise 与异步",
     "Java/Spring/Spring Boot/Book Social Network/img/keycloak.png",
-    "Linux/The Linux Command Line 中文版-10150838.pdf",
     "Java/Spring/Spring Boot/Book Social Network/img/keycloak/identity-providers.png",
     "Java/Spring/Spring Boot/Book Social Network/img/keycloak/user-disable.png",
     "Java/Spring/Spring Boot/Book Social Network/img/keycloak/required-actions.png",
@@ -231,15 +226,6 @@
     "Java/Spring/Spring Boot/Book Social Network/img/keycloak/create-role.png",
     "Java/Spring/Spring Boot/Book Social Network/img/keycloak/localization-2.png",
     "Java/Spring/Spring Boot/Book Social Network/img/keycloak/realm-settings-general.png",
-    "Java/Spring/Spring Boot/Book Social Network/img/keycloak",
-    "DevOps",
-    "JavaScript、TypeScript/FrameworkAndLibrary/Vue/Auth",
-    "JavaScript、TypeScript/FrameworkAndLibrary/Pinia/learn",
-    "JavaScript、TypeScript/TypeScript/Vue/高级特性与性能优化",
-    "JavaScript、TypeScript/TypeScript/Vue/进阶与生态",
-    "JavaScript、TypeScript/TypeScript/Vue/基础",
-    "JavaScript、TypeScript/TypeScript/Vue",
-    "JavaScript、TypeScript/FrameworkAndLibrary/Axios",
     "未命名 1.canvas",
     "未命名.canvas",
     "Mysql/03.01. 社区购库表设计/未命名.canvas"

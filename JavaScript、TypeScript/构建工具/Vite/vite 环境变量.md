@@ -46,7 +46,7 @@
 
 #### 2\. 环境变量文件内容定义
 
-.env.development文件定义如下，.env.production可以参照.env.development定义。
+.env.development 文件定义如下，.env.production可以参照.env.development定义。
 
 ```javascript
 # //开发.env.development
