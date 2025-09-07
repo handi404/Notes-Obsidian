@@ -1,6 +1,6 @@
 在 JavaScript 的 ES 模块系统中， `export default` 曾被许多开发者视为一种优雅的语法，它允许一个模块导出一个“默认”的主要功能或值。我们都写过这样的代码：
 
-```
+```js
 // MyComponent.js
 export default function MyComponent() {
   // ...
@@ -18,13 +18,17 @@ import MyAwesomeComponent from './MyComponent.js'; // 导入时可以任意命�
 
 `export default` 的最大问题在于它允许导入时随意命名。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/btsCOHx9LAO8zDmJicD3ticfB95X5NiclKWINFiaqcnTxjuo4o8icn63A2n0vjbXEvic6qK0Cm4tnjOVbJ0zP21hpiaqA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+```js
+import MyComponent from "./MyComponent.js"; // A 导入时
+import MyComp from "./MyComponent.js"; // B 导入时
+import Component from "./MyComponent.js"; // C 导入时
+```
 
 在一个大型项目中，同一个组件或函数在不同文件里有了五花八门的名字。
 
 相比之下，具名导出从根本上解决了这个问题。
 
-```
+```js
 import { MyComponent } from './MyComponent.js'; // 名字是固定的
 import { MyComponent as MyAwesomeComponent } from './MyComponent.js'; // 可以重命名，但是是有意为之，而非无意之举
 ```
@@ -43,14 +47,14 @@ Tree-shaking是现代前端打包工具用来移除未被使用代码以减小�
 
 使用具名导出，这项工作非常简单：
 
-```
+```js
 export * from './Button';
 export * from './Card';
 ```
 
 但如果 `Button`, `Card` 等模块使用的是 `export default` ，事情就变得非常麻烦：
 
-```
+```js
 export { default as Button } from './Button';
 export { default as Card } from './Card';
 ```

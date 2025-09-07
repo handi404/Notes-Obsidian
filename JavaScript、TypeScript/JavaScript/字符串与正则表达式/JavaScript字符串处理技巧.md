@@ -2,7 +2,7 @@
 
 ## 1\. 模板字符串替代字符串拼接
 
-```
+```js
 // 传统方式
 const greeting = 'Hello, ' + user.name + '! You have ' + user.notifications + ' notifications.';
 
@@ -14,7 +14,7 @@ const greeting = \`Hello, ${user.name}! You have ${user.notifications} notificat
 
 ## 2\. 解构赋值提取字符串
 
-```
+```js
 // 传统方式
 const firstChar = str.charAt(0);
 const lastChar = str.charAt(str.length - 1);
@@ -28,7 +28,7 @@ const lastChar = str.slice(-1);
 
 ## 3\. 使用String.prototype.includes代替indexOf
 
-```
+```js
 // 传统方式
 if (str.indexOf('JavaScript') !== -1) {
   // 字符串包含"JavaScript"
@@ -44,43 +44,117 @@ if (str.includes('JavaScript')) {
 
 ## 4\. 使用String.prototype.startsWith和endsWith
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/btsCOHx9LAMjyJbia1lg7bekeIAvVkZccLlHpPoGto67JPxiceNmcYHptazCqJazertrFicbCUdFkEWnJDRZnx9bw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+```js
+// 传统方式
+if (str.indexOf('https://') === 0) {
+  // 字符串以"https://"开头
+}
+if (str.indexOf('.js') === str.length - 3) {
+  // 字符串以".js"结尾
+}
+
+// 使用 startsWith 和 endWith
+if (str.startsWith('https://')) {
+  // 字符串以"https://"开头
+}
+if (str.endWith('.js')) {
+  // 字符串以".js"结尾
+}
+```
 
 这些方法使代码更加语义化，减少了错误的可能性。
 
 ## 5\. 字符串填充与对齐
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/btsCOHx9LAMjyJbia1lg7bekeIAvVkZccF7y00RvzWdicJ1Na4eedHZOiaPmic2PGkN9aV4SqlEptz6ySIfZxgOAzQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+```js
+// 传统方式
+function padNumber(num, length) {
+  let str = num.toString();
+  while (str.length < length) {
+    str = "0" + str;
+  }
+  return str;
+}
+
+// 使用 padStart/padEnd
+const padNumber = (num, length) => num.toString().padStart(length, '0');
+```
 
 `padStart` 和 `padEnd` 方法可以轻松实现字符串填充，适用于格式化数字、创建表格等场景。
 
 ## 6\. 使用replace与正则表达式
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/btsCOHx9LAMjyJbia1lg7bekeIAvVkZccfv3jBPZXxFlKGMuViakBDVPUdPVdvldiaJntHkuArGeOvKicficLqcDqFw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+```js
+// 传统方式
+function slugify(title) {
+  let slug = title.toLowerCase();
+  slug = slug.replace(/\s+/g, '-');
+  slug = slug.replace(/[^\w\-]+/g, '');
+  return slug;
+}
+
+//链式调用
+const slugify = titile => title.toLowerCase()
+  .replace(/\s+/g, '-')
+  .replace(/[^\w\-]+/g, '');
+```
 
 链式调用配合正则表达式，可以将多步处理合并为一个流畅的操作。
 
 ## 7\. 使用String.prototype.trim系列方法
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/btsCOHx9LAMjyJbia1lg7bekeIAvVkZcc3IvmRcWF11xR7bFPDP08Jribs8mxZeuILomPibhpaEGLic5MQu1694rpQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+```js
+// 传统方式
+let cleaned = str;
+while (cleaned.charAt(0) === ' ') {
+  cleaned = cleaned.substring(1);
+}
+while (cleaned.chartAt(cleaned.length - 1) === ' ') {
+  cleaned = cleaned.substring(0, cleaned.length - 1);
+}
+
+// 使用 trim
+const cleaned = str.trim();
+// 或者只去除开头或结尾
+const cleaned = str.trimStart(); // 去除开头空格
+const cleaned = str.trimEnd();   // 去除结尾空格
+```
 
 `trim` 系列方法提供了简洁的空白字符处理方式。
 
 ## 8\. 使用String.prototype.repeat
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/btsCOHx9LAMjyJbia1lg7bekeIAvVkZcc3m00WrR5H0hwul5PZMNBhb9mSQukbMvS3HibDDTqdj2fxpntSKk0Miag/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+```js
+// 传统方式
+function repeatString(str, times) {
+  let result = '';
+  for (let i = 0; i < times; i++) {
+    result += str;
+  }
+  return result;
+}
+
+// 使用repeat
+const repeatString = (str, times) => str.repeat(times);
+```
 
 `repeat` 方法可以轻松创建重复的字符串，适用于缩进、分隔符等场景。
 
 ## 9\. 使用可选链操作符处理嵌套对象属性
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/btsCOHx9LAMjyJbia1lg7bekeIAvVkZccmwCibjH9BZhgCMxwJy1ZAh6Bc35wAvVXjpTjnFWm1UxgibNbggVUbZYw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+```js
+// 传统方式
+const cityName = user && user.address && user.address.city ? user.adderss.city : 'Unknown';
+
+// 使用可选链
+const cityName = user?.address?.city || 'Unknown';
+```
 
 可选链操作符让深层属性访问变得安全且简洁。
 
 ## 10\. 使用字符串插值替代条件拼接
 
-```
+```js
 // 传统方式
 let message = 'You have ' + count + ' item';
 if (count !== 1) {
