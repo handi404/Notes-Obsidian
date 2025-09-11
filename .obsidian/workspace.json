@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/新特性/Java 8 ~ Java 24 (术语).md",
+                "file": "Java/Spring/Spring Cloud/服务发现与远程调用和配置管理/服务发现的方式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java 8 ~ Java 24 (术语)"
+              "title": "服务发现的方式"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/新特性/Java 8 ~ Java 24 (术语).md",
+                "file": "Java/Spring/Spring Cloud/服务发现与远程调用和配置管理/服务发现的方式.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Java 8 ~ Java 24 (术语) 的大纲"
+              "title": "服务发现的方式 的大纲"
             }
           },
           {
@@ -180,6 +180,11 @@
   },
   "active": "26babe5cd9b64238",
   "lastOpenFiles": [
+    "Java/Spring/Spring Cloud/服务发现与远程调用和配置管理/Dubbo 远程调用.md",
+    "Java/Spring/Spring Cloud/服务发现与远程调用和配置管理/Nacos 配置管理.md",
+    "Java/Spring/Spring Cloud/服务发现与远程调用和配置管理/远程调用的类型.md",
+    "Java/Spring/Spring Cloud/服务发现与远程调用和配置管理/HTTP 远程调用.md",
+    "Java/Spring/Spring Cloud/服务发现与远程调用和配置管理/服务发现的方式.md",
     "JavaScript、TypeScript/TypeScript/基础/未命名.md",
     "Java/新特性/Java 8 ~ Java 24 (术语).md",
     "Java/新特性/Java 22/未命名模式和变量 (正式版).md",
@@ -201,11 +206,6 @@
     "Java/基础/NotNull、NotEmpty、NotBlank的区别.md",
     "Java/基础/isEmpty() 和 == null.md",
     "Java/新特性/Java 11 (LTS)/标准化 HTTP Client API.md",
-    "Java/新特性/Java 10/局部变量类型推断（var）.md",
-    "Java/新特性/Java 9/私有接口方法 (Private Interface Methods).md",
-    "Java/新特性/Java 9/Java 9（Non-LTS）.md",
-    "Java/新特性/Java 9/Stream API 增强.md",
-    "Java/新特性/Java 8 (LTS)/Stream API/所有核心操作方法.md",
     "Java/新特性/Java 24",
     "Java/新特性/Java 23",
     "Java/新特性/Java 22",

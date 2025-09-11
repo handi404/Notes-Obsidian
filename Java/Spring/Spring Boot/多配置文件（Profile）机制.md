@@ -96,7 +96,7 @@ Spring Boot 需要知道你想用哪个 "特价菜单"。激活 Profile 的方�
     # Linux/macOS
     export SPRING_PROFILES_ACTIVE=prod
     java -jar my-app.jar
-
+    
     # Windows
     set SPRING_PROFILES_ACTIVE=prod
     java -jar my-app.jar
@@ -267,3 +267,215 @@ spec:
 ```
 
 总结一下，Spring Boot 的 Profile 机制是一个强大且设计精良的特性，它是实现“一次构建，到处运行”理念的关键一环，完美支撑了从本地开发到复杂云原生环境的平滑过渡。
+
+
+
+# bootstrap
+
+## 🚨 错误信息含义：
+
+> **No spring.config.import property has been defined**
+
+Spring Boot 2.4 开始，**不再默认加载 `bootstrap.yml`**，而是推荐使用 `spring.config.import` 来显式导入配置中心、Vault、Consul 等外部配置源。
+
+你虽然在 `bootstrap.yml` 中配置了 Nacos Config，但因为没有声明 `spring.config.import`，Spring Boot 不会自动加载它，所以报错。
+
+---
+
+## ✅ 解决方案（任选其一）
+
+---
+
+### ✅ 方案一：【推荐】使用 `spring.config.import` 导入 Nacos 配置（符合新规范）
+
+#### 修改 `application.yml` 或 `application.properties`：
+
+```yaml
+# application.yml
+spring:
+  application:
+    name: nacos-restful-consumer
+  config:
+    import: optional:nacos:${spring.application.name}.yaml  # ⬅️ 关键配置
+```
+
+> ⚠️ 注意：`spring.config.import` **必须写在 `application.yml` 中**，不能只写在 `bootstrap.yml`。
+
+#### 保留 `bootstrap.yml` 中的 Nacos Config 配置：
+
+```yaml
+# bootstrap.yml
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        group: DEFAULT_GROUP
+```
+
+> ✅ 这样配置后，Spring Boot 会通过 `spring.config.import` 主动加载 Nacos 配置中心中 `${spring.application.name}.yaml` 的配置文件。
+
+---
+
+### ✅ 方案二：强制启用 `bootstrap.yml`（兼容旧项目）
+
+如果你不想改代码结构，想继续使用 `bootstrap.yml`，可以：
+
+#### 1. 添加依赖（你可能已经有了）：
+
+```xml
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-bootstrap</artifactId>
+</dependency>
+```
+
+#### 2. 在 `application.yml` 中启用 bootstrap：
+
+```yaml
+spring:
+  cloud:
+    bootstrap:
+      enabled: true
+```
+
+> ⚠️ 注意：Spring Cloud 2020.0.0+ 默认禁用 bootstrap，必须手动启用。
+
+---
+
+### ✅ 方案三：关闭 import-check（不推荐，仅用于临时跳过）
+
+在 `application.yml` 中添加：
+
+```yaml
+spring:
+  cloud:
+    nacos:
+      config:
+        import-check:
+          enabled: false
+```
+
+> ❗ 这只是关闭检查，不会真正加载 Nacos 配置，除非你同时配置了 `spring.config.import` 或启用了 bootstrap。
+
+---
+
+## 📌 推荐做法（现代 Spring Boot 项目）
+
+### ✅ 最佳实践配置结构：
+
+#### `application.yml`
+
+```yaml
+spring:
+  application:
+    name: nacos-restful-consumer
+  config:
+    import: optional:nacos:${spring.application.name}.yaml
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+```
+
+#### `bootstrap.yml`（可选，如需更早加载或加密配置）
+
+```yaml
+# 如果你使用了 spring-cloud-starter-bootstrap，则保留
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        group: DEFAULT_GROUP
+```
+
+> ✅ 这样既符合新规范，又能正常加载 Nacos 配置中心的配置。
+
+---
+
+## 📂 Nacos 配置中心文件命名规则
+
+你的配置：
+
+```yaml
+file-extension: yaml
+```
+
+意味着你应该在 Nacos 控制台创建一个 Data ID 为：
+
+```
+nacos-restful-consumer.yaml
+```
+
+Group 为：
+
+```
+DEFAULT_GROUP
+```
+
+否则即使配置正确，也读不到配置内容。
+
+---
+
+## 🔄 总结
+
+| 方案                                    | 是否推荐     | 说明                          |
+| --------------------------------------- | ------------ | ----------------------------- |
+| ✅ 使用 `spring.config.import`           | ✔️ 强烈推荐   | Spring Boot 2.4+ 官方推荐方式 |
+| ✅ 启用 `spring-cloud-starter-bootstrap` | ⚠️ 旧项目兼容 | 适合不想重构的老项目          |
+| ❌ 关闭 import-check                     | ✖️ 不推荐     | 仅隐藏错误，不解决问题        |
+
+---
+
+## ✅ 最终推荐修改
+
+### 1. 确保依赖：
+
+```xml
+<dependency>
+    <groupId>com.alibaba.cloud</groupId>
+    <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+</dependency>
+```
+
+### 2. `application.yml`：
+
+```yaml
+spring:
+  application:
+    name: nacos-restful-consumer
+  config:
+    import: optional:nacos:${spring.application.name}.yaml
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+```
+
+### 3. `bootstrap.yml`（可选，非必需）：
+
+```yaml
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        group: DEFAULT_GROUP
+```
+
+### 4. Nacos 控制台创建配置：
+
+- Data ID: `nacos-restful-consumer.yaml`
+- Group: `DEFAULT_GROUP`
+- 配置格式: YAML
+
+---
+
+✅ 修改后重启项目，错误将消失，且能正常从 Nacos 配置中心加载配置。
+
+如仍有问题，欢迎贴出完整配置或错误日志继续排查！
