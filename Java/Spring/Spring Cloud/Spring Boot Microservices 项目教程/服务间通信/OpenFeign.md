@@ -12,13 +12,13 @@
 ---
 
 ## OpenFeign vs Spring RestClient
-| 特性               | OpenFeign                          | Spring RestClient (声明式)          |
-|--------------------|------------------------------------|-----------------------------------|
-| **依赖**           | 需引入 `spring-cloud-starter-openfeign` | 内置于 Spring 6+ / Spring Boot 3+ |
-| **服务发现**       | 集成 Spring Cloud 服务发现（如 Eureka） | 需手动配置或结合 Spring Cloud    |
-| **负载均衡**       | 默认支持（通过 Ribbon/LoadBalancer） | 需手动集成 LoadBalancer          |
-| **注解风格**       | 使用 Feign 原生注解（如 `@RequestLine`） | 使用 Spring 的 `@*Exchange` 注解  |
-| **适用场景**       | 微服务架构（尤其 Spring Cloud 项目） | 轻量级 HTTP 调用                 |
+| 特性       | OpenFeign                            | Spring RestClient (声明式)        |
+| -------- | ------------------------------------ | ------------------------------ |
+| **依赖**   | 需引入 `spring-cloud-starter-openfeign` | 内置于 Spring 6+ / Spring Boot 3+ |
+| **服务发现** | 集成 Spring Cloud 服务发现（如 Eureka）       | 需手动配置或结合 Spring Cloud          |
+| **负载均衡** | 默认支持（通过 Ribbon/LoadBalancer）         | 需手动集成 LoadBalancer             |
+| **注解风格** | 使用 Feign 原生注解（如 `@RequestLine`）      | 使用 Spring 的 `@*Exchange` 注解    |
+| **适用场景** | 微服务架构（尤其 Spring Cloud 项目）            | 轻量级 HTTP 调用                    |
 
 ---
 

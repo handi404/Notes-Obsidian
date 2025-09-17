@@ -204,7 +204,6 @@ spring.jpa.hibernate.ddl-auto=update
 	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-data-redis</artifactId>
-
  	</dependency>
  	<dependency>  
  	    <groupId>org.springframework.boot</groupId>  

@@ -130,6 +130,32 @@ https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/quick-start/starter/
 
 > **版本选择提示：** Dubbo 3.x 系列支持 Spring Boot 3.x。您可以访问 [Dubbo 官方 GitHub Releases](https://github.com/apache/dubbo/releases) 页面，选择一个稳定且与您 Spring Boot 版本兼容的 `3.x` 版本。`3.3.1` 是一个较新的稳定版本。
 
+#### 注：spring-core 问题
+**Spring Boot BOM 必须添加到 dependencyManagement 中，并且 Spring Boot BOM 在前，Dubbo BOM 在后 —— Dubbo BOM 的 `spring-core:5.3.39` 可以被 Spring Boot 的 `6.1.11` 覆盖**
+
+在 Maven 中，当多个 `<dependencyManagement>` 中的 BOM 引入了同一个 artifact（如 `spring-core`）时：
+> ✅ **后声明的 BOM 会覆盖先声明的版本。**
+
+如果不这么做，而是使用：
+```xml
+<parent>-->  
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.2.5</version>
+    <relativePath/>
+</parent>
+```
+或者 Spring Boot BOM 不在前，那么项目启动将会报错：
+`Exception in thread "main" java.lang.NoSuchMethodError: 'org.springframework.core.io.support.SpringFactoriesLoader org.springframework.core.io.support.SpringFactoriesLoader.forDefaultResourceLocation(java.lang.ClassLoader)'`
+原因：
+**Spring Boot 和 Spring Framework 的版本不兼容**，具体是：
+> `SpringFactoriesLoader.forDefaultResourceLocation(ClassLoader)` 这个方法在你当前使用的 `spring-core` 版本中 **不存在**，但某个依赖（很可能是 Spring Boot）在尝试调用它。
+
+这个方法 `forDefaultResourceLocation` 是 **Spring Framework 6.1+** 引入的。  
+而很多 Spring Boot 3.x 版本（尤其是早期版本）依赖的是 Spring Framework 6.0 或 6.1。
+
+但如果你的项目中 **引入了低版本的 `spring-core`（比如 5.x）**，就会出现这个“方法不存在”的错误 —— 因为 Spring Boot 期望的是新方法，但实际加载的是旧版本的类。
+
 #### **子模块添加 Dubbo Starter 依赖。**
 
 ```xml
@@ -161,15 +187,15 @@ https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/quick-start/starter/
 
 ### 版本
 
-| Dubbo 分支                                                   | 最新版本 | JDK       | Spring Boot                                                  | 组件版本                                                     | 详细说明                                                     |      |      |
-| :----------------------------------------------------------- | :------- | :-------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :--- | :--- |
-| 3.3.x (当前文档)                                             | 3.3.0    | 8, 17, 21 | [2.x、3.x](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/config/spring/spring-boot/#dubbo-spring-boot-starter) | [详情](https://github.com/apache/dubbo/blob/dubbo-3.3.0/dubbo-dependencies-bom/pom.xml#L91) | - [版本变更记录](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/version/3.2-to-3.3-compatibility-guide/)  - **生产可用（推荐，长期维护）！** 最新Triple协议升级，内置Metrics、Tracing、GraalVM支持等 |      |      |
-| [3.2.x](https://dubbo-202409.staged.apache.org/zh-cn/overview/mannual/java-sdk/) | 3.2.10   | 8, 17     | [2.x、3.x](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/config/spring/spring-boot/#dubbo-spring-boot-starter) | [详情](https://github.com/apache/dubbo/blob/dubbo-3.2.10/dubbo-dependencies-bom/pom.xml#L91) | - [版本变更记录](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/version/3.1-to-3.2-compatibility-guide/)  - 生产可用（长期维护）！ |      |      |
-| [3.1.x](https://dubbo-202409.staged.apache.org/zh-cn/overview/mannual/java-sdk/) | 3.1.11   | 8, 17     | [2.x、3.x](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/config/spring/spring-boot/#dubbo-spring-boot-starter) | [详情](https://github.com/apache/dubbo/blob/dubbo-3.1.11/dubbo-dependencies-bom/pom.xml#L91) | - [版本变更记录](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/version/3.0-to-3.1-compatibility-guide/)  - 仅修复安全漏洞！ |      |      |
-| [3.0.x](https://dubbo-202409.staged.apache.org/zh-cn/docs/)  | 3.0.15   | 8         | [2.x](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/config/spring/spring-boot/#dubbo-spring-boot-starter) | [详情](https://github.com/apache/dubbo/blob/dubbo-3.0.15/dubbo-dependencies-bom/pom.xml#L91) | - [版本变更记录](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/version/2.x-to-3.x-compatibility-guide/)  - 停止维护！ |      |      |
-| [2.7.x](https://dubbo-202409.staged.apache.org/zh-cn/docsv2.7/) | 2.7.23   | 8         | [2.x](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/config/spring/spring-boot/#dubbo-spring-boot-starter) | [详情](https://raw.githubusercontent.com/apache/dubbo/dubbo-2.7.23/dubbo-dependencies-bom/pom.xml) | - [了解如何升级到Dubbo3](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/migration/)  - 停止维护！ |      |      |
-| 2.6.x                                                        | 2.6.20   | 6, 7      | -                                                            | _                                                            | - [了解如何升级到Dubbo3](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/migration/)  - 停止维护！ |      |      |
-| 2.5.x                                                        | 2.5.10   | 6, 7      | -                                                            | -                                                            | - [了解如何升级到Dubbo3](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/migration/)  - 停止维护！ |      |      |
+| Dubbo 分支                                                                         | 最新版本   | JDK       | Spring Boot                                                                                                                                  | 组件版本                                                                                             | 详细说明                                                                                                                                                                                                                        |     |     |
+| :------------------------------------------------------------------------------- | :----- | :-------- | :------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-- | :-- |
+| 3.3.x (当前文档)                                                                     | 3.3.0  | 8, 17, 21 | [2.x、3.x](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/config/spring/spring-boot/#dubbo-spring-boot-starter) | [详情](https://github.com/apache/dubbo/blob/dubbo-3.3.0/dubbo-dependencies-bom/pom.xml#L91)        | - [版本变更记录](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/version/3.2-to-3.3-compatibility-guide/)  - **生产可用（推荐，长期维护）！** 最新Triple协议升级，内置Metrics、Tracing、GraalVM支持等 |     |     |
+| [3.2.x](https://dubbo-202409.staged.apache.org/zh-cn/overview/mannual/java-sdk/) | 3.2.10 | 8, 17     | [2.x、3.x](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/config/spring/spring-boot/#dubbo-spring-boot-starter) | [详情](https://github.com/apache/dubbo/blob/dubbo-3.2.10/dubbo-dependencies-bom/pom.xml#L91)       | - [版本变更记录](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/version/3.1-to-3.2-compatibility-guide/)  - 生产可用（长期维护）！                                                  |     |     |
+| [3.1.x](https://dubbo-202409.staged.apache.org/zh-cn/overview/mannual/java-sdk/) | 3.1.11 | 8, 17     | [2.x、3.x](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/config/spring/spring-boot/#dubbo-spring-boot-starter) | [详情](https://github.com/apache/dubbo/blob/dubbo-3.1.11/dubbo-dependencies-bom/pom.xml#L91)       | - [版本变更记录](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/version/3.0-to-3.1-compatibility-guide/)  - 仅修复安全漏洞！                                                     |     |     |
+| [3.0.x](https://dubbo-202409.staged.apache.org/zh-cn/docs/)                      | 3.0.15 | 8         | [2.x](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/config/spring/spring-boot/#dubbo-spring-boot-starter)     | [详情](https://github.com/apache/dubbo/blob/dubbo-3.0.15/dubbo-dependencies-bom/pom.xml#L91)       | - [版本变更记录](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/version/2.x-to-3.x-compatibility-guide/)  - 停止维护！                                                        |     |     |
+| [2.7.x](https://dubbo-202409.staged.apache.org/zh-cn/docsv2.7/)                  | 2.7.23 | 8         | [2.x](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/config/spring/spring-boot/#dubbo-spring-boot-starter)     | [详情](https://raw.githubusercontent.com/apache/dubbo/dubbo-2.7.23/dubbo-dependencies-bom/pom.xml) | - [了解如何升级到Dubbo3](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/migration/)  - 停止维护！                                                                              |     |     |
+| 2.6.x                                                                            | 2.6.20 | 6, 7      | -                                                                                                                                            | _                                                                                                | - [了解如何升级到Dubbo3](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/migration/)  - 停止维护！                                                                              |     |     |
+| 2.5.x                                                                            | 2.5.10 | 6, 7      | -                                                                                                                                            | -                                                                                                | - [了解如何升级到Dubbo3](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/upgrades-and-compatibility/migration/)  - 停止维护！                                                                              |     |     |
 
 ## 配置
 
